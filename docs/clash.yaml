@@ -2,7 +2,7 @@ mixed-port: 7890
 allow-lan: true
 mode: rule
 log-level: info
-generated-at: '2026-06-22T14:08:05.027225+00:00'
+generated-at: '2026-06-22T14:21:09.366614+00:00'
 proxies:
 - name: tg频道:@freenodedaily
   server: 63.180.254.10
