@@ -7,21 +7,11 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-06-22T14:56:35.252607+00:00'
+generated-at: '2026-06-22T22:16:59.235925+00:00'
 proxies:
 - name: 美國_1
   type: vmess
   server: 82.198.246.37
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 美國節點_1
-  type: vmess
-  server: 82.198.246.250
   port: 180
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   alterId: 0
@@ -38,13 +28,21 @@ proxies:
   tls: true
   skip-cert-verify: true
   udp: true
-- name: 美國節點_2
+- name: 美國節點丨yoyapai.com
+  type: ss
+  server: tinkered-pennies-puppies.freesocks.work
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: hbGrpfvNrJsUmKmPbR3iY2
+  skip-cert-verify: true
+  udp: true
+- name: 美國節點_1
   type: vmess
-  server: 82.198.246.214
+  server: 82.198.246.250
   port: 180
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   alterId: 0
-  cipher: aes-128-gcm
+  cipher: auto
   tls: false
   skip-cert-verify: true
   udp: true
@@ -58,9 +56,9 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 美國
+- name: 美國節點_2
   type: vmess
-  server: 82.198.246.37
+  server: 82.198.246.214
   port: 180
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   alterId: 0
@@ -68,21 +66,13 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 美國節點丨yoyapai.com
-  type: ss
-  server: tinkered-pennies-puppies.freesocks.work
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: hbGrpfvNrJsUmKmPbR3iY2
-  skip-cert-verify: true
-  udp: true
-- name: 美國節點_12
+- name: 美國
   type: vmess
-  server: 23.141.204.132
-  port: 29633
-  uuid: 0685a0bf-2413-45d2-dc00-c0281387c247
+  server: 82.198.246.37
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   alterId: 0
-  cipher: auto
+  cipher: aes-128-gcm
   tls: false
   skip-cert-verify: true
   udp: true
@@ -97,6 +87,16 @@ proxies:
     path: /
     headers:
       Host: max-gb1.global.ssl.fastly.net
+  skip-cert-verify: true
+  udp: true
+- name: 美國節點_12
+  type: vmess
+  server: 23.141.204.132
+  port: 29633
+  uuid: 0685a0bf-2413-45d2-dc00-c0281387c247
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: true
   udp: true
 - name: 美國丨yoyapai.com_2
@@ -123,6 +123,14 @@ proxies:
     headers:
       Host: mitivpn.de.ssl.global.fastly.net.mitivpn.site
   udp: true
+- name: 荷蘭丨yoyapai.com_7
+  type: ss
+  server: 82.38.31.7
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  skip-cert-verify: true
+  udp: true
 - name: 土耳其丨yoyapai.com_7
   type: vless
   server: 156.146.52.117
@@ -132,14 +140,6 @@ proxies:
   tls: true
   skip-cert-verify: true
   udp: true
-- name: 荷蘭丨yoyapai.com_7
-  type: ss
-  server: 82.38.31.7
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  skip-cert-verify: true
-  udp: true
 - name: 土耳其丨yoyapai.com_8
   type: vless
   server: 169.150.215.77
@@ -147,20 +147,6 @@ proxies:
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
   servername: ams1.fromblancwithlove.com
   tls: true
-  skip-cert-verify: true
-  udp: true
-- name: 巴西聖保羅丨yoyapai.com_1
-  type: vless
-  server: 191.44.118.101
-  port: 443
-  uuid: deecd21a-a24f-444d-b92a-2c8e41a6b05b
-  servername: www.microsoft.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 69_I9Wm_vP5wQUbiQhdejWS9yLlNYLFjcnF59G-0GAU
-    short-id: 31e36d0ac3355472
   skip-cert-verify: true
   udp: true
 - name: 荷蘭丨yoyapai.com_1
@@ -180,16 +166,6 @@ proxies:
   servername: ams1.fromblancwithlove.com
   tls: true
   skip-cert-verify: true
-  udp: true
-- name: 德國法蘭克福丨yoyapai.com
-  type: hysteria2
-  server: 80.66.81.78
-  port: 9443
-  password: rs2mR3g9bZiMloftx6lZQ59Um1Ld
-  sni: tunel1.washing.help
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: oMgvuBy5Lj5kYM57sGsnjpjNcSEQ
   udp: true
 - name: 澳大利亞丨yoyapai.com_3
   type: vless
@@ -218,6 +194,16 @@ proxies:
   tls: true
   skip-cert-verify: true
   udp: true
+- name: 德國法蘭克福丨yoyapai.com
+  type: hysteria2
+  server: 80.66.81.78
+  port: 9443
+  password: rs2mR3g9bZiMloftx6lZQ59Um1Ld
+  sni: tunel1.washing.help
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: oMgvuBy5Lj5kYM57sGsnjpjNcSEQ
+  udp: true
 - name: 捷克丨yoyapai.com_1
   type: vless
   server: 87.249.139.235
@@ -236,18 +222,18 @@ proxies:
   tls: true
   skip-cert-verify: true
   udp: true
-- name: 捷克丨yoyapai.com_3
+- name: 瑞典節點丨yoyapai.com
   type: vless
-  server: 95.173.199.116
+  server: 45.159.12.10
   port: 8443
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
   servername: ams1.fromblancwithlove.com
   tls: true
   skip-cert-verify: true
   udp: true
-- name: 瑞典節點丨yoyapai.com
+- name: 捷克丨yoyapai.com_3
   type: vless
-  server: 45.159.12.10
+  server: 95.173.199.116
   port: 8443
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
   servername: ams1.fromblancwithlove.com
@@ -273,16 +259,17 @@ proxies:
   skip-cert-verify: true
   udp: true
 - name: 🇳🇱 荷兰 | NLD
-  server: 185.229.191.157
+  server: 185.229.191.12
   port: 8443
   type: vless
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
   tls: true
   servername: ams1.fromblancwithlove.com
+  client-fingerprint: chrome
   network: tcp
   udp: true
 - name: 🇷🇴 罗马尼亚 | ROU 2
-  server: 95.173.199.104
+  server: 95.173.199.116
   port: 8443
   type: vless
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
@@ -310,7 +297,7 @@ proxies:
   skip-cert-verify: true
   udp: true
 - name: 🇷🇴 罗马尼亚 | ROU 5
-  server: 95.173.199.106
+  server: 95.173.199.87
   port: 8443
   type: vless
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
@@ -318,6 +305,21 @@ proxies:
   servername: ams1.fromblancwithlove.com
   client-fingerprint: chrome
   network: tcp
+  udp: true
+- name: 俄羅斯
+  type: vmess
+  server: renderer-stream-1-411.mirra.now
+  port: 443
+  uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /api/v1/gpu-stream/socket
+    headers:
+      Host: renderer-stream-1-411.mirra.now
   udp: true
 - name: 🇺🇦 乌克兰 | UKR
   server: 143.244.45.55
@@ -356,15 +358,6 @@ proxies:
   tls: true
   skip-cert-verify: true
   udp: true
-- name: 土耳其丨yoyapai.com_12
-  type: vless
-  server: 87.249.139.244
-  port: 8443
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  servername: ams1.fromblancwithlove.com
-  tls: true
-  skip-cert-verify: true
-  udp: true
 - name: 瑞典丨yoyapai.com
   type: vless
   server: 79.127.249.221
@@ -373,6 +366,15 @@ proxies:
   servername: ams1.fromblancwithlove.com
   tls: true
   client-fingerprint: chrome
+  skip-cert-verify: true
+  udp: true
+- name: 土耳其丨yoyapai.com_12
+  type: vless
+  server: 87.249.139.244
+  port: 8443
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+  servername: ams1.fromblancwithlove.com
+  tls: true
   skip-cert-verify: true
   udp: true
 - name: 捷克丨yoyapai.com_2
@@ -422,18 +424,8 @@ proxies:
   client-fingerprint: chrome
   skip-cert-verify: true
   udp: true
-- name: 英國節點
-  type: vmess
-  server: 82.198.246.214
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
 - name: 🇹🇷 土耳其 | TUR
-  server: 87.249.139.233
+  server: 87.249.139.247
   port: 8443
   type: vless
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
@@ -442,8 +434,19 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
+- name: 🇩🇰 丹麦 | DNK
+  server: assets.trorays.com
+  port: 443
+  type: vless
+  uuid: b69a71ef-51dc-48c6-b3df-4c3533062606
+  tls: true
+  flow: xtls-rprx-vision
+  servername: assets.trorays.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
 - name: 🇷🇴 罗马尼亚 | ROU 3
-  server: 95.173.199.86
+  server: 95.173.199.104
   port: 8443
   type: vless
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
@@ -474,6 +477,15 @@ proxies:
       Host: s5.868001.xyz
   skip-cert-verify: true
   udp: true
+- name: 德國丨yoyapai.com_3
+  type: vless
+  server: 95.133.245.213
+  port: 8443
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+  servername: cdn9-33.vk-cdnvideo.com
+  tls: true
+  skip-cert-verify: true
+  udp: true
 - name: 瑞典丨yoyapai.com_3
   type: vless
   server: 45.159.12.191
@@ -484,13 +496,14 @@ proxies:
   client-fingerprint: chrome
   skip-cert-verify: true
   udp: true
-- name: 德國丨yoyapai.com_3
-  type: vless
-  server: 95.133.245.213
-  port: 8443
-  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
-  servername: cdn9-33.vk-cdnvideo.com
-  tls: true
+- name: 英國節點
+  type: vmess
+  server: 82.198.246.214
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: true
   udp: true
 - name: 荷蘭丨yoyapai.com_5
@@ -504,12 +517,13 @@ proxies:
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
   udp: true
 - name: 🇷🇴 罗马尼亚 | ROU
-  server: 95.173.199.116
+  server: 95.173.199.106
   port: 8443
   type: vless
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
   tls: true
   servername: ams1.fromblancwithlove.com
+  client-fingerprint: chrome
   network: tcp
   udp: true
 - name: 捷克丨yoyapai.com_11
@@ -531,18 +545,17 @@ proxies:
   client-fingerprint: chrome
   skip-cert-verify: true
   udp: true
+- name: 台湾省台北市丨yoyapai.com
+  type: ss
+  server: r3mrcg001286ek2.cybervena.com
+  port: 50099
+  cipher: chacha20-ietf-poly1305
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  skip-cert-verify: true
+  udp: true
 - name: 羅馬尼亞節點丨yoyapai.com
   type: vless
   server: 95.173.199.104
-  port: 8443
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  servername: ams1.fromblancwithlove.com
-  tls: true
-  skip-cert-verify: true
-  udp: true
-- name: 羅馬尼亞丨yoyapai.com_1
-  type: vless
-  server: 95.173.199.85
   port: 8443
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
   servername: ams1.fromblancwithlove.com
@@ -558,9 +571,27 @@ proxies:
   tls: true
   skip-cert-verify: true
   udp: true
+- name: 羅馬尼亞丨yoyapai.com_1
+  type: vless
+  server: 95.173.199.85
+  port: 8443
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+  servername: ams1.fromblancwithlove.com
+  tls: true
+  skip-cert-verify: true
+  udp: true
 - name: 荷蘭節點丨yoyapai.com_3
   type: vless
   server: 185.229.191.96
+  port: 8443
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+  servername: ams1.fromblancwithlove.com
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: 荷蘭丨yoyapai.com
+  type: vless
+  server: 185.229.191.14
   port: 8443
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
   servername: ams1.fromblancwithlove.com
@@ -580,15 +611,6 @@ proxies:
 - name: 捷克丨yoyapai.com_5
   type: vless
   server: 95.173.199.82
-  port: 8443
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  servername: ams1.fromblancwithlove.com
-  tls: true
-  skip-cert-verify: true
-  udp: true
-- name: 荷蘭丨yoyapai.com
-  type: vless
-  server: 185.229.191.14
   port: 8443
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
   servername: ams1.fromblancwithlove.com
@@ -645,6 +667,16 @@ proxies:
   client-fingerprint: chrome
   skip-cert-verify: true
   udp: true
+- name: 🇳🇱 荷兰 | NLD 2
+  server: 185.229.191.13
+  port: 8443
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+  tls: true
+  servername: ams1.fromblancwithlove.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
 - name: 羅馬尼亞丨yoyapai.com_2
   type: vless
   server: 95.173.199.86
@@ -663,16 +695,6 @@ proxies:
   tls: true
   client-fingerprint: chrome
   skip-cert-verify: true
-  udp: true
-- name: 🇳🇱 荷兰 | NLD 2
-  server: 185.229.191.13
-  port: 8443
-  type: vless
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  tls: true
-  servername: ams1.fromblancwithlove.com
-  client-fingerprint: chrome
-  network: tcp
   udp: true
 - name: 烏克蘭丨yoyapai.com
   type: vless
@@ -739,6 +761,15 @@ proxies:
   tls: true
   skip-cert-verify: true
   udp: true
+- name: 土耳其丨yoyapai.com_9
+  type: vless
+  server: 87.249.139.232
+  port: 8443
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+  servername: ams1.fromblancwithlove.com
+  tls: true
+  skip-cert-verify: true
+  udp: true
 - name: 🇩🇪 德国 | DEU
   server: 5.83.129.90
   port: 54177
@@ -752,15 +783,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-  udp: true
-- name: 土耳其丨yoyapai.com_9
-  type: vless
-  server: 87.249.139.232
-  port: 8443
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  servername: ams1.fromblancwithlove.com
-  tls: true
-  skip-cert-verify: true
   udp: true
 - name: 瑞典節點丨yoyapai.com_5
   type: vless
@@ -782,13 +804,12 @@ proxies:
   skip-cert-verify: true
   udp: true
 - name: 🇳🇱 荷兰 | NLD 3
-  server: 185.229.191.12
+  server: 185.229.191.157
   port: 8443
   type: vless
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
   tls: true
   servername: ams1.fromblancwithlove.com
-  client-fingerprint: chrome
   network: tcp
   udp: true
 - name: 🇺🇦 乌克兰 | UKR 2
@@ -802,7 +823,17 @@ proxies:
   network: tcp
   udp: true
 - name: 🇹🇷 土耳其 | TUR 2
-  server: 87.249.139.247
+  server: 87.249.139.233
+  port: 8443
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+  tls: true
+  servername: ams1.fromblancwithlove.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇬🇧 英国 | GBR
+  server: 152.233.28.201
   port: 8443
   type: vless
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
@@ -820,16 +851,6 @@ proxies:
   tls: true
   skip-cert-verify: true
   udp: true
-- name: 🇬🇧 英国 | GBR
-  server: 152.233.28.201
-  port: 8443
-  type: vless
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-  tls: true
-  servername: ams1.fromblancwithlove.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
 - name: 瑞典節點丨yoyapai.com_1
   type: vless
   server: 45.159.12.14
@@ -840,13 +861,12 @@ proxies:
   skip-cert-verify: true
   udp: true
 - name: 🇷🇴 罗马尼亚 | ROU 4
-  server: 95.173.199.87
+  server: 95.173.199.86
   port: 8443
   type: vless
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
   tls: true
   servername: ams1.fromblancwithlove.com
-  client-fingerprint: chrome
   network: tcp
   udp: true
 - name: 捷克丨yoyapai.com
@@ -892,30 +912,29 @@ proxy-groups:
   type: url-test
   proxies:
   - 美國_1
-  - 美國節點_1
   - 美國南卡羅來納州丨yoyapai.com
-  - 美國節點_2
-  - 美國節點_8
-  - 美國
   - 美國節點丨yoyapai.com
-  - 美國節點_12
+  - 美國節點_1
+  - 美國節點_8
+  - 美國節點_2
+  - 美國
   - 美國丨yoyapai.com_14
+  - 美國節點_12
   - 美國丨yoyapai.com_2
   - 巴西聖保羅丨yoyapai.com_2
-  - 土耳其丨yoyapai.com_7
   - 荷蘭丨yoyapai.com_7
+  - 土耳其丨yoyapai.com_7
   - 土耳其丨yoyapai.com_8
-  - 巴西聖保羅丨yoyapai.com_1
   - 荷蘭丨yoyapai.com_1
   - 瑞典節點丨yoyapai.com_3
-  - 德國法蘭克福丨yoyapai.com
   - 澳大利亞丨yoyapai.com_3
   - 捷克丨yoyapai.com_6
   - 德國丨yoyapai.com_4
+  - 德國法蘭克福丨yoyapai.com
   - 捷克丨yoyapai.com_1
   - 荷蘭節點丨yoyapai.com_9
-  - 捷克丨yoyapai.com_3
   - 瑞典節點丨yoyapai.com
+  - 捷克丨yoyapai.com_3
   - 荷蘭節點丨yoyapai.com_1
   - 荷蘭節點丨yoyapai.com
   - 🇳🇱 荷兰 | NLD
@@ -923,58 +942,61 @@ proxy-groups:
   - 🇷🇴 罗马尼亚 | ROU 6
   - 瑞典丨yoyapai.com_5
   - 🇷🇴 罗马尼亚 | ROU 5
+  - 俄羅斯
   - 🇺🇦 乌克兰 | UKR
   - 荷蘭節點丨yoyapai.com_6
   - 澳大利亞丨yoyapai.com_1
   - 荷蘭節點丨yoyapai.com_5
-  - 土耳其丨yoyapai.com_12
   - 瑞典丨yoyapai.com
+  - 土耳其丨yoyapai.com_12
   - 捷克丨yoyapai.com_2
   - 捷克丨yoyapai.com_7
   - 🇹🇷 土耳其 | TUR 3
   - 羅馬尼亞丨yoyapai.com_7
   - 荷蘭丨yoyapai.com_3
-  - 英國節點
   - 🇹🇷 土耳其 | TUR
+  - 🇩🇰 丹麦 | DNK
   - 🇷🇴 罗马尼亚 | ROU 3
   - 羅馬尼亞節點丨yoyapai.com_1
   - 韓國丨yoyapai.com_1
-  - 瑞典丨yoyapai.com_3
   - 德國丨yoyapai.com_3
+  - 瑞典丨yoyapai.com_3
+  - 英國節點
   - 荷蘭丨yoyapai.com_5
   - 🇷🇴 罗马尼亚 | ROU
   - 捷克丨yoyapai.com_11
   - 瑞典節點丨yoyapai.com_6
+  - 台湾省台北市丨yoyapai.com
   - 羅馬尼亞節點丨yoyapai.com
-  - 羅馬尼亞丨yoyapai.com_1
   - 荷蘭丨yoyapai.com_2
+  - 羅馬尼亞丨yoyapai.com_1
   - 荷蘭節點丨yoyapai.com_3
+  - 荷蘭丨yoyapai.com
   - 🇸🇪 瑞典 | SWE
   - 捷克丨yoyapai.com_5
-  - 荷蘭丨yoyapai.com
   - 🇬🇧 英国 | GBR 2
   - 荷蘭節點丨yoyapai.com_10
   - 瑞典節點丨yoyapai.com_2
   - 俄羅斯丨yoyapai.com_4
   - 羅馬尼亞丨yoyapai.com
+  - 🇳🇱 荷兰 | NLD 2
   - 羅馬尼亞丨yoyapai.com_2
   - 克羅地亞丨yoyapai.com
-  - 🇳🇱 荷兰 | NLD 2
   - 烏克蘭丨yoyapai.com
   - 羅馬尼亞丨yoyapai.com_10
   - 羅馬尼亞丨yoyapai.com_5
   - 烏克蘭節點丨yoyapai.com
   - 法國節點
   - 瑞典丨yoyapai.com_4
-  - 🇩🇪 德国 | DEU
   - 土耳其丨yoyapai.com_9
+  - 🇩🇪 德国 | DEU
   - 瑞典節點丨yoyapai.com_5
   - 羅馬尼亞丨yoyapai.com_6
   - 🇳🇱 荷兰 | NLD 3
   - 🇺🇦 乌克兰 | UKR 2
   - 🇹🇷 土耳其 | TUR 2
-  - 澳大利亞丨yoyapai.com_2
   - 🇬🇧 英国 | GBR
+  - 澳大利亞丨yoyapai.com_2
   - 瑞典節點丨yoyapai.com_1
   - 🇷🇴 罗马尼亚 | ROU 4
   - 捷克丨yoyapai.com
@@ -987,9 +1009,9 @@ proxy-groups:
   type: url-test
   proxies:
   - 美國_1
-  - 美國節點_1
   - 美國南卡羅來納州丨yoyapai.com
-  - 美國節點_2
+  - 美國節點丨yoyapai.com
+  - 美國節點_1
   - 美國節點_8
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -997,9 +1019,9 @@ proxy-groups:
   type: url-test
   proxies:
   - 美國_1
-  - 美國節點_1
   - 美國南卡羅來納州丨yoyapai.com
-  - 美國節點_2
+  - 美國節點丨yoyapai.com
+  - 美國節點_1
   - 美國節點_8
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -1007,14 +1029,14 @@ proxy-groups:
   type: url-test
   proxies:
   - 美國_1
-  - 美國節點_1
   - 美國南卡羅來納州丨yoyapai.com
-  - 美國節點_2
-  - 美國節點_8
-  - 美國
   - 美國節點丨yoyapai.com
-  - 美國節點_12
+  - 美國節點_1
+  - 美國節點_8
+  - 美國節點_2
+  - 美國
   - 美國丨yoyapai.com_14
+  - 美國節點_12
   - 美國丨yoyapai.com_2
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -1022,23 +1044,23 @@ proxy-groups:
   type: url-test
   proxies:
   - 巴西聖保羅丨yoyapai.com_2
-  - 美國節點_12
-  - 美國_1
-  - 美國
-  - 美國節點_1
-  - 英國節點
-  - 美國節點_2
-  - 美國節點_8
   - 美國節點丨yoyapai.com
+  - 美國節點_8
+  - 美國
+  - 美國_1
+  - 美國節點_2
+  - 英國節點
+  - 美國節點_1
   - 荷蘭丨yoyapai.com_7
+  - 🇬🇧 英国 | GBR 2
+  - 🇬🇧 英国 | GBR
+  - 荷蘭節點丨yoyapai.com_3
+  - 荷蘭節點丨yoyapai.com_1
+  - 荷蘭節點丨yoyapai.com_5
   - 荷蘭節點丨yoyapai.com_10
   - 荷蘭節點丨yoyapai.com_9
-  - 荷蘭節點丨yoyapai.com_5
-  - 克羅地亞丨yoyapai.com
-  - 荷蘭節點丨yoyapai.com_1
-  - 🇳🇱 荷兰 | NLD
-  - 荷蘭節點丨yoyapai.com_3
-  - 美國丨yoyapai.com_14
+  - 🇳🇱 荷兰 | NLD 3
+  - 荷蘭丨yoyapai.com_2
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
