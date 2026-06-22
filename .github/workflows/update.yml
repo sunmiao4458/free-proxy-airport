@@ -45,3 +45,49 @@ jobs:
             git commit -m "Update Clash subscription"
             git push
           fi
+
+      - name: Validate Clash Verge subscription
+        run: |
+          cmp --silent output/clash.yaml docs/clash.yaml
+          test -s docs/clash.yaml
+          python - <<'PY'
+          from pathlib import Path
+          import yaml
+
+          data = yaml.safe_load(Path("docs/clash.yaml").read_text(encoding="utf-8"))
+          if not isinstance(data, dict):
+              raise SystemExit("docs/clash.yaml is not a YAML mapping")
+
+          for key in ("proxies", "proxy-groups", "rules"):
+              if not data.get(key):
+                  raise SystemExit(f"missing or empty required key: {key}")
+
+          groups = data["proxy-groups"]
+          auto = next((group for group in groups if isinstance(group, dict) and group.get("name") == "AUTO"), None)
+          if not auto:
+              raise SystemExit("missing AUTO proxy group")
+          if auto.get("type") != "url-test":
+              raise SystemExit("AUTO proxy group must use url-test")
+          if not auto.get("proxies"):
+              raise SystemExit("AUTO proxy group has no proxies")
+
+          rules = data["rules"]
+          for rule in ("GEOIP,CN,DIRECT", "MATCH,AUTO"):
+              if rule not in rules:
+                  raise SystemExit(f"missing rule: {rule}")
+          PY
+          python -m http.server 8080 --directory docs >/tmp/free-proxy-airport-pages.log 2>&1 &
+          server_pid=$!
+          trap 'kill "$server_pid"' EXIT
+          for attempt in 1 2 3 4 5; do
+            http_code="$(curl --silent --show-error --location --output /tmp/docs-clash.yaml --write-out "%{http_code}" http://127.0.0.1:8080/clash.yaml || true)"
+            if [ "$http_code" = "200" ]; then
+              break
+            fi
+            sleep 1
+          done
+          if [ "${http_code:-}" != "200" ]; then
+            echo "Expected HTTP 200 from docs/clash.yaml, got ${http_code:-none}"
+            exit 1
+          fi
+          test -s /tmp/docs-clash.yaml
