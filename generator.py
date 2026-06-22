@@ -4,7 +4,7 @@ import base64
 import os
 import re
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from typing import Any
 from urllib.parse import urljoin
 
@@ -27,7 +27,7 @@ DISCOVERY_SOURCES = [
     {
         "name": "openRunner clash-freenode",
         "index_url": "https://free.datiya.com/",
-        "post_pattern": r'href="([^"]+/post/\d{8}/?)"',
+        "post_pattern": r"""href=["']?([^"'\s>]+/post/\d{8}/?)""",
         "yaml_pattern": r"https://free\.datiya\.com/uploads/\d{8}-clash\.yaml",
         "limit": 5,
     },
@@ -83,11 +83,21 @@ def discover_urls(source: dict[str, Any]) -> list[str]:
     if post_pattern:
         post_urls = re.findall(post_pattern, index_text)
         post_urls = [urljoin(index_url, url) for url in unique_ordered(post_urls)]
+        for post_url in post_urls:
+            match = re.search(r"/post/(\d{8})/?", post_url)
+            if match and "free.datiya.com" in index_url:
+                texts.append(f"https://free.datiya.com/uploads/{match.group(1)}-clash.yaml")
         for post_url in post_urls[: source.get("limit", 5)]:
             try:
                 texts.append(fetch_text(post_url))
             except Exception as exc:
                 print(f"[WARN] {source['name']}: post failed {post_url}: {exc}")
+
+    if "free.datiya.com" in index_url:
+        today = datetime.now(timezone.utc).date()
+        for offset in range(0, 7):
+            day = today - timedelta(days=offset)
+            texts.append(f"https://free.datiya.com/uploads/{day:%Y%m%d}-clash.yaml")
 
     urls: list[str] = []
     yaml_pattern = source["yaml_pattern"]
@@ -113,7 +123,8 @@ def load_yaml_document(text: str) -> Any:
     text = maybe_base64_decode(text)
     try:
         return yaml.safe_load(text)
-    except yaml.YAMLError:
+    except yaml.YAMLError as exc:
+        print(f"[WARN] YAML document parse failed: {exc}")
         return None
 
 
@@ -126,6 +137,9 @@ def extract_proxies(text: str) -> list[dict[str, Any]]:
     else:
         proxies = []
 
+    if not proxies:
+        proxies = extract_proxy_block(text)
+
     clean: list[dict[str, Any]] = []
     for proxy in proxies:
         if not isinstance(proxy, dict):
@@ -134,6 +148,32 @@ def extract_proxies(text: str) -> list[dict[str, Any]]:
             continue
         clean.append(dict(proxy))
     return clean
+
+
+def extract_proxy_block(text: str) -> list[Any]:
+    lines = maybe_base64_decode(text).splitlines()
+    start: int | None = None
+    for index, line in enumerate(lines):
+        if re.match(r"^proxies\s*:\s*$", line):
+            start = index
+            break
+    if start is None:
+        return []
+
+    block: list[str] = []
+    for line in lines[start + 1 :]:
+        if line and not line.startswith((" ", "\t", "-")) and re.match(r"^[A-Za-z0-9_-]+\s*:", line):
+            break
+        block.append(line)
+
+    try:
+        parsed = yaml.safe_load("proxies:\n" + "\n".join(block))
+    except yaml.YAMLError as exc:
+        print(f"[WARN] proxy block parse failed: {exc}")
+        return []
+    if isinstance(parsed, dict) and isinstance(parsed.get("proxies"), list):
+        return parsed["proxies"]
+    return []
 
 
 def collect_proxies() -> list[dict[str, Any]]:
