@@ -1,4 +1,4 @@
-name: AI Self-Healing Proxy v4
+name: AI Self-Healing Proxy v7
 
 on:
   schedule:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: ai-self-healing-proxy-v4
+  group: ai-self-healing-proxy-v7
   cancel-in-progress: false
 
 jobs:
@@ -62,17 +62,38 @@ jobs:
               if not data.get(key):
                   raise SystemExit(f"missing or empty required key: {key}")
 
-          groups = data["proxy-groups"]
-          auto = next((group for group in groups if isinstance(group, dict) and group.get("name") == "AUTO"), None)
-          if not auto:
-              raise SystemExit("missing AUTO proxy group")
-          if auto.get("type") != "url-test":
-              raise SystemExit("AUTO proxy group must use url-test")
-          if not auto.get("proxies"):
-              raise SystemExit("AUTO proxy group has no proxies")
+          groups = {
+              group.get("name"): group
+              for group in data["proxy-groups"]
+              if isinstance(group, dict)
+          }
+          required_groups = {
+              "AUTO-FAST": "url-test",
+              "HK-POOL": "url-test",
+              "JP-POOL": "url-test",
+              "US-POOL": "url-test",
+              "AI-POOL": "url-test",
+              "FALLBACK": "fallback",
+              "PROXY": "select",
+          }
+          for name, group_type in required_groups.items():
+              group = groups.get(name)
+              if not group:
+                  raise SystemExit(f"missing proxy group: {name}")
+              if group.get("type") != group_type:
+                  raise SystemExit(f"{name} must use {group_type}")
+              if not group.get("proxies"):
+                  raise SystemExit(f"{name} has no proxies")
 
           rules = data["rules"]
-          for rule in ("GEOIP,CN,DIRECT", "MATCH,AUTO"):
+          for rule in (
+              "DOMAIN-SUFFIX,openai.com,AI-POOL",
+              "DOMAIN-SUFFIX,chatgpt.com,AI-POOL",
+              "DOMAIN-SUFFIX,claude.ai,AI-POOL",
+              "DOMAIN-SUFFIX,anthropic.com,AI-POOL",
+              "GEOIP,CN,DIRECT",
+              "MATCH,PROXY",
+          ):
               if rule not in rules:
                   raise SystemExit(f"missing rule: {rule}")
           PY
