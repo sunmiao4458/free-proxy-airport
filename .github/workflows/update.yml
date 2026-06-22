@@ -28,13 +28,17 @@ jobs:
         run: python -m pip install --upgrade requests pyyaml
 
       - name: Generate Clash subscription
-        run: python generator.py
+        run: |
+          python generator.py
+          mkdir -p docs
+          cp output/clash.yaml docs/clash.yaml
+          touch docs/.nojekyll
 
       - name: Commit output
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add output/clash.yaml
+          git add output/clash.yaml docs/clash.yaml docs/.nojekyll
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
