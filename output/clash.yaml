@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-06-23T22:47:47.339965+00:00'
+generated-at: '2026-06-24T10:35:41.605410+00:00'
 proxies:
 - name: 美國_1
   type: vmess
@@ -29,16 +29,6 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 美國節點_2
-  type: vmess
-  server: 82.198.246.214
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: aes-128-gcm
-  tls: false
-  skip-cert-verify: true
-  udp: true
 - name: 美國節點_8
   type: vmess
   server: 82.198.246.97
@@ -47,6 +37,14 @@ proxies:
   alterId: 0
   cipher: auto
   tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 美國節點丨yoyapai.com
+  type: ss
+  server: tinkered-pennies-puppies.freesocks.work
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: hbGrpfvNrJsUmKmPbR3iY2
   skip-cert-verify: true
   udp: true
 - name: 美國
@@ -59,33 +57,14 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 美國節點丨yoyapai.com
-  type: ss
-  server: tinkered-pennies-puppies.freesocks.work
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: hbGrpfvNrJsUmKmPbR3iY2
-  skip-cert-verify: true
-  udp: true
-- name: 美國丨yoyapai.com_14
-  type: vless
-  server: 199.232.197.131
-  port: 80
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: max-gb1.global.ssl.fastly.net
-  skip-cert-verify: true
-  udp: true
-- name: 美國節點丨yoyapai.com_5
-  type: ss
-  server: chengbai02.ascwt179.com
-  port: 13223
+- name: 美國節點_2
+  type: vmess
+  server: 82.198.246.214
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
   cipher: aes-128-gcm
-  password: JVrsLLN1tkN8oXZO
+  tls: false
   skip-cert-verify: true
   udp: true
 - name: 荷蘭丨yoyapai.com_7
@@ -97,7 +76,7 @@ proxies:
   skip-cert-verify: true
   udp: true
 - name: 🇩🇪 德国 | DEU 2
-  server: 151.101.194.219
+  server: 151.101.109.223
   port: 80
   type: vless
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
@@ -142,33 +121,16 @@ proxies:
   sni: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
   udp: true
-- name: 俄羅斯
-  type: vmess
-  server: renderer-stream-1-411.mirra.now
-  port: 443
-  uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: renderer-stream-1-411.mirra.now
-  udp: true
-- name: 英國節點
-  type: vmess
-  server: 82.198.246.214
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: 土耳其丨yoyapai.com_6
+  type: ss
+  server: 103.130.147.40
+  port: 1122
+  cipher: aes-256-gcm
+  password: wc/eqRPrYjnxfAJ2JKnio7cG2Ko9K9DiMwzonRjU3LI=
   skip-cert-verify: true
   udp: true
-- name: 🇩🇪 德国 | DEU 5
-  server: 151.101.130.219
+- name: 🇩🇪 德国 | DEU 3
+  server: 199.232.197.131
   port: 80
   type: vless
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
@@ -179,6 +141,29 @@ proxies:
     path: /
     headers:
       Host: max-gb1.global.ssl.fastly.net
+  udp: true
+- name: 🇩🇪 德国 | DEU 5
+  server: 151.101.38.151
+  port: 80
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  tls: false
+  servername: max-gb1.global.ssl.fastly.net
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+  udp: true
+- name: 英國節點
+  type: vmess
+  server: 82.198.246.214
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
   udp: true
 - name: 韓國丨yoyapai.com_1
   type: vless
@@ -194,17 +179,7 @@ proxies:
       Host: s5.868001.xyz
   skip-cert-verify: true
   udp: true
-- name: 荷蘭丨yoyapai.com_5
-  type: hysteria2
-  server: hy2.aspidnet.xyz
-  port: 443
-  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
-  sni: hy2.aspidnet.xyz
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-  udp: true
-- name: 🇩🇪 德国 | DEU 4
+- name: 🇩🇪 德国 | DEU 6
   server: speedtest.net
   port: 80
   type: vless
@@ -216,6 +191,30 @@ proxies:
     path: /
     headers:
       Host: max-gb1.global.ssl.fastly.net
+  udp: true
+- name: 荷蘭丨yoyapai.com_5
+  type: hysteria2
+  server: hy2.aspidnet.xyz
+  port: 443
+  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+  sni: hy2.aspidnet.xyz
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
+  udp: true
+- name: 🇩🇪 德国 | DEU 4
+  server: 5.83.129.90
+  port: 54177
+  type: hysteria
+  auth_str: dongtaiwang.com
+  auth-str: dongtaiwang.com
+  up: 500
+  down: 1000
+  protocol: udp
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
   udp: true
 - name: 俄羅斯丨yoyapai.com_4
   type: vless
@@ -243,23 +242,8 @@ proxies:
     short-id: 478dc6
   skip-cert-verify: true
   udp: true
-- name: 法國節點
-  type: vmess
-  server: 69.84.182.49
-  port: 80
-  uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-  udp: true
 - name: 🇩🇪 德国 | DEU
-  server: 151.101.109.223
+  server: 151.101.130.219
   port: 80
   type: vless
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
@@ -277,26 +261,25 @@ proxy-groups:
   proxies:
   - 美國_1
   - 美國節點_1
-  - 美國節點_2
   - 美國節點_8
-  - 美國
   - 美國節點丨yoyapai.com
-  - 美國丨yoyapai.com_14
-  - 美國節點丨yoyapai.com_5
+  - 美國
+  - 美國節點_2
   - 荷蘭丨yoyapai.com_7
   - 🇩🇪 德国 | DEU 2
   - 巴西聖保羅丨yoyapai.com_2
   - 德國法蘭克福丨yoyapai.com
   - 中國臺灣丨yoyapai.com
-  - 俄羅斯
-  - 英國節點
+  - 土耳其丨yoyapai.com_6
+  - 🇩🇪 德国 | DEU 3
   - 🇩🇪 德国 | DEU 5
+  - 英國節點
   - 韓國丨yoyapai.com_1
+  - 🇩🇪 德国 | DEU 6
   - 荷蘭丨yoyapai.com_5
   - 🇩🇪 德国 | DEU 4
   - 俄羅斯丨yoyapai.com_4
   - 烏克蘭節點丨yoyapai.com
-  - 法國節點
   - 🇩🇪 德国 | DEU
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -305,8 +288,8 @@ proxy-groups:
   proxies:
   - 美國_1
   - 美國節點_1
-  - 美國節點_2
   - 美國節點_8
+  - 美國節點丨yoyapai.com
   - 美國
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -315,8 +298,8 @@ proxy-groups:
   proxies:
   - 美國_1
   - 美國節點_1
-  - 美國節點_2
   - 美國節點_8
+  - 美國節點丨yoyapai.com
   - 美國
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -325,21 +308,19 @@ proxy-groups:
   proxies:
   - 美國_1
   - 美國節點_1
-  - 美國節點_2
   - 美國節點_8
-  - 美國
   - 美國節點丨yoyapai.com
-  - 美國丨yoyapai.com_14
-  - 美國節點丨yoyapai.com_5
+  - 美國
+  - 美國節點_2
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: AI-POOL
   type: url-test
   proxies:
-  - 美國節點_2
-  - 美國節點_8
+  - 巴西聖保羅丨yoyapai.com_2
   - 美國
-  - 英國節點
+  - 美國節點_8
+  - 美國節點_1
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
