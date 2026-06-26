@@ -7,8 +7,16 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-06-25T23:04:25.043264+00:00'
+generated-at: '2026-06-26T10:39:54.124741+00:00'
 proxies:
+- name: 香港丨yoyapai.com
+  type: trojan
+  server: au-4.tr202605.com
+  port: 443
+  password: 65fQmPHHbPcBCfvSHt
+  skip-cert-verify: true
+  tls: true
+  udp: true
 - name: 美國_1
   type: vmess
   server: 82.198.246.37
@@ -29,17 +37,6 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸 美国 | USA 3
-  server: 134.195.101.127
-  port: 2377
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 817aa69.default.nintendo.com:112719
-  udp: true
 - name: 美國節點丨yoyapai.com
   type: ss
   server: tinkered-pennies-puppies.freesocks.work
@@ -47,17 +44,6 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: hbGrpfvNrJsUmKmPbR3iY2
   skip-cert-verify: true
-  udp: true
-- name: 🇺🇸 美国 | USA 4
-  server: 134.195.101.117
-  port: 2377
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 817aa69.default.nintendo.com:112719
   udp: true
 - name: 美國節點_8
   type: vmess
@@ -69,17 +55,6 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸 美国 | USA
-  server: 134.195.101.118
-  port: 2377
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 817aa69.default.nintendo.com:112719
-  udp: true
 - name: 美國
   type: vmess
   server: 82.198.246.37
@@ -89,17 +64,6 @@ proxies:
   cipher: aes-128-gcm
   tls: false
   skip-cert-verify: true
-  udp: true
-- name: 🇺🇸 美国 | USA 2
-  server: 134.195.101.115
-  port: 2377
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: 817aa69.default.nintendo.com:112719
   udp: true
 - name: 巴西聖保羅丨yoyapai.com_2
   type: trojan
@@ -152,32 +116,6 @@ proxies:
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
   udp: true
-- name: 俄羅斯丨yoyapai.com_4
-  type: vless
-  server: 90.156.254.164
-  port: 19562
-  uuid: 5b96be74-656d-4bb7-85c2-d2d8a3b7c2f3
-  servername: yahoo.com
-  tls: true
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: T66pm2f_PN4Hya_A_5K0X1HQb717SUCODyoUO7Gk3Ws
-    short-id: 9e
-  skip-cert-verify: true
-  udp: true
-- name: 烏克蘭節點丨yoyapai.com
-  type: vless
-  server: 178.215.238.148
-  port: 8443
-  uuid: 21c1132b-068c-46fb-880e-3268f6a30e7f
-  servername: eh.vk.com
-  tls: true
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: Crjd0I6hcasRXZcfNf7cs-YtJLpQ8u-t1CbwHIDAciU
-    short-id: 478dc6
-  skip-cert-verify: true
-  udp: true
 - name: 法國節點
   type: vmess
   server: 69.84.182.49
@@ -192,6 +130,19 @@ proxies:
     path: /
     headers:
       Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
+  udp: true
+- name: 烏克蘭節點丨yoyapai.com
+  type: vless
+  server: 178.215.238.148
+  port: 8443
+  uuid: 21c1132b-068c-46fb-880e-3268f6a30e7f
+  servername: eh.vk.com
+  tls: true
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: Crjd0I6hcasRXZcfNf7cs-YtJLpQ8u-t1CbwHIDAciU
+    short-id: 478dc6
+  skip-cert-verify: true
   udp: true
 - name: 🇩🇪 德国 | DEU
   server: 5.83.129.90
@@ -211,44 +162,36 @@ proxy-groups:
 - name: AUTO-FAST
   type: url-test
   proxies:
+  - 香港丨yoyapai.com
   - 美國_1
   - 美國節點_1
-  - 🇺🇸 美国 | USA 3
   - 美國節點丨yoyapai.com
-  - 🇺🇸 美国 | USA 4
   - 美國節點_8
-  - 🇺🇸 美国 | USA
   - 美國
-  - 🇺🇸 美国 | USA 2
   - 巴西聖保羅丨yoyapai.com_2
   - 荷蘭丨yoyapai.com_7
   - 德國法蘭克福丨yoyapai.com
   - 中國臺灣丨yoyapai.com
   - 荷蘭丨yoyapai.com_5
-  - 俄羅斯丨yoyapai.com_4
-  - 烏克蘭節點丨yoyapai.com
   - 法國節點
+  - 烏克蘭節點丨yoyapai.com
   - 🇩🇪 德国 | DEU
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: HK-POOL
   type: url-test
   proxies:
-  - 美國_1
-  - 美國節點_1
-  - 🇺🇸 美国 | USA 3
-  - 美國節點丨yoyapai.com
-  - 🇺🇸 美国 | USA 4
+  - 香港丨yoyapai.com
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: JP-POOL
   type: url-test
   proxies:
+  - 香港丨yoyapai.com
   - 美國_1
   - 美國節點_1
-  - 🇺🇸 美国 | USA 3
   - 美國節點丨yoyapai.com
-  - 🇺🇸 美国 | USA 4
+  - 美國節點_8
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: US-POOL
@@ -256,13 +199,9 @@ proxy-groups:
   proxies:
   - 美國_1
   - 美國節點_1
-  - 🇺🇸 美国 | USA 3
   - 美國節點丨yoyapai.com
-  - 🇺🇸 美国 | USA 4
   - 美國節點_8
-  - 🇺🇸 美国 | USA
   - 美國
-  - 🇺🇸 美国 | USA 2
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: AI-POOL
