@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-06-27T12:56:39.817595+00:00'
+generated-at: '2026-06-27T16:48:21.056008+00:00'
 proxies:
 - name: 美國_1
   type: vmess
@@ -17,6 +17,14 @@ proxies:
   alterId: 0
   cipher: auto
   tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 美國節點丨yoyapai.com
+  type: ss
+  server: tinkered-pennies-puppies.freesocks.work
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: hbGrpfvNrJsUmKmPbR3iY2
   skip-cert-verify: true
   udp: true
 - name: 美國節點_1
@@ -37,14 +45,6 @@ proxies:
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 美國節點丨yoyapai.com
-  type: ss
-  server: tinkered-pennies-puppies.freesocks.work
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: hbGrpfvNrJsUmKmPbR3iY2
   skip-cert-verify: true
   udp: true
 - name: 美國
@@ -108,14 +108,6 @@ proxies:
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
   udp: true
-- name: 台湾省台北市丨yoyapai.com
-  type: ss
-  server: r3mrcg001286ek2.cybervena.com
-  port: 50099
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  skip-cert-verify: true
-  udp: true
 - name: 烏克蘭節點丨yoyapai.com
   type: vless
   server: 178.215.238.148
@@ -149,16 +141,15 @@ proxy-groups:
   type: url-test
   proxies:
   - 美國_1
+  - 美國節點丨yoyapai.com
   - 美國節點_1
   - 美國節點_8
-  - 美國節點丨yoyapai.com
   - 美國
   - 巴西聖保羅丨yoyapai.com_2
   - 荷蘭丨yoyapai.com_7
   - 德國法蘭克福丨yoyapai.com
   - 中國臺灣丨yoyapai.com
   - 荷蘭丨yoyapai.com_5
-  - 台湾省台北市丨yoyapai.com
   - 烏克蘭節點丨yoyapai.com
   - 法國節點
   url: http://www.gstatic.com/generate_204
@@ -167,9 +158,9 @@ proxy-groups:
   type: url-test
   proxies:
   - 美國_1
+  - 美國節點丨yoyapai.com
   - 美國節點_1
   - 美國節點_8
-  - 美國節點丨yoyapai.com
   - 美國
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -177,9 +168,9 @@ proxy-groups:
   type: url-test
   proxies:
   - 美國_1
+  - 美國節點丨yoyapai.com
   - 美國節點_1
   - 美國節點_8
-  - 美國節點丨yoyapai.com
   - 美國
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -187,9 +178,9 @@ proxy-groups:
   type: url-test
   proxies:
   - 美國_1
+  - 美國節點丨yoyapai.com
   - 美國節點_1
   - 美國節點_8
-  - 美國節點丨yoyapai.com
   - 美國
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -197,7 +188,7 @@ proxy-groups:
   type: url-test
   proxies:
   - 巴西聖保羅丨yoyapai.com_2
-  - 美國_1
+  - 美國節點丨yoyapai.com
   - 美國節點_1
   url: http://www.gstatic.com/generate_204
   interval: 120
