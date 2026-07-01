@@ -7,9 +7,9 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-06-30T22:04:34.526775+00:00'
+generated-at: '2026-07-01T10:58:43.477987+00:00'
 proxies:
-- name: 🇸🇬 新加坡 | SGP
+- name: 🇸🇬 新加坡 | SGP 2
   server: support.zoom.us
   port: 443
   type: vless
@@ -23,20 +23,6 @@ proxies:
     headers:
       Host: support.zoom.us.yxls.eu.cc
   udp: true
-- name: 🇸🇬 新加坡 | SGP 2
-  server: support.zoom.us
-  port: 443
-  type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  tls: true
-  servername: support.zoom.us.yxls.eu.cc
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-  udp: true
 - name: 美國_1
   type: vmess
   server: 82.198.246.37
@@ -47,6 +33,18 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
+- name: 🇺🇸 美国 | USA 4
+  server: 104.16.106.213
+  port: 8880
+  type: vless
+  uuid: e43ca713-a646-4406-a4d5-1e7bad20e7da
+  tls: false
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: autumn-snow-735a.175-9d9.workers.dev
+  udp: true
 - name: 美國節點_1
   type: vmess
   server: 82.198.246.250
@@ -56,6 +54,18 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
+  udp: true
+- name: 🇺🇸 美国 | USA
+  server: 162.159.48.193
+  port: 8880
+  type: vless
+  uuid: 905d0e1f-4067-4a30-9c05-c64352faea62
+  tls: false
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: divine-mode-93ad.46-54e.workers.dev
   udp: true
 - name: 美國節點_8
   type: vmess
@@ -217,6 +227,21 @@ proxies:
     short-id: 2715592069f36fe7
   skip-cert-verify: true
   udp: true
+- name: 巴西聖保羅丨yoyapai.com
+  type: trojan
+  server: 188.114.97.6
+  port: 443
+  password: mitivpn
+  sni: 2.1.mitivpn.dee.srfsl.gleobal.fastl3y.n3et.mitivpn.site
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  tls: true
+  ws-opts:
+    path: https://chatgpt.com
+    headers:
+      Host: mitivpn.de.ssl.global.fastly.net.mitivpn.site
+  udp: true
 - name: 🇭🇺HU匈牙利丨yoyapai.com_5
   type: vless
   server: 212.11.29.129
@@ -246,20 +271,6 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   udp: true
-- name: 🇱🇹LT立陶宛丨yoyapai.com_2
-  type: vless
-  server: 45.194.10.181
-  port: 8443
-  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
-  servername: storage.yandex.net
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
-    short-id: 2cfb5a0ae8ab0cb0
-  skip-cert-verify: true
-  udp: true
 - name: 🇷🇺 俄罗斯 | RUS
   server: 78.159.250.32
   port: 1111
@@ -272,34 +283,6 @@ proxies:
   servername: api-maps.yandex.ru
   client-fingerprint: firefox
   network: tcp
-  udp: true
-- name: 🇱🇹LT立陶宛丨yoyapai.com
-  type: vless
-  server: 45.194.10.64
-  port: 8443
-  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
-  servername: storage.yandex.net
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
-    short-id: 2cfb5a0ae8ab0cb0
-  skip-cert-verify: true
-  udp: true
-- name: 🇱🇹LT立陶宛丨yoyapai.com_4
-  type: vless
-  server: 45.194.10.54
-  port: 8443
-  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
-  servername: storage.yandex.net
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
-    short-id: 2cfb5a0ae8ab0cb0
-  skip-cert-verify: true
   udp: true
 - name: 🇭🇺HU匈牙利丨yoyapai.com_10
   type: vless
@@ -315,36 +298,32 @@ proxies:
     short-id: 2715592069f36fe7
   skip-cert-verify: true
   udp: true
-- name: 巴西聖保羅丨yoyapai.com
-  type: trojan
-  server: 188.114.97.6
-  port: 443
-  password: mitivpn
-  sni: 2.1.mitivpn.dee.srfsl.gleobal.fastl3y.n3et.mitivpn.site
-  alpn:
-  - http/1.1
-  skip-cert-verify: true
-  tls: true
+- name: 丹麥
+  type: vless
+  server: 185.162.229.50
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: false
   ws-opts:
-    path: https://chatgpt.com
+    path: /
     headers:
-      Host: mitivpn.de.ssl.global.fastly.net.mitivpn.site
-  udp: true
-- name: 台湾省台北市丨yoyapai.com
-  type: ss
-  server: r3mrcg001286ek2.cybervena.com
-  port: 50099
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+      Host: vms.lifetime61.workers.dev
   skip-cert-verify: true
   udp: true
-- name: 荷蘭丨yoyapai.com_2
-  type: ss
-  server: 82.38.31.7
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  skip-cert-verify: true
+- name: GOOGLE 01
+  server: support.zoom.us
+  port: 443
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  tls: true
+  servername: support.zoom.us.yxls.eu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
   udp: true
 - name: 🇭🇺HU匈牙利丨yoyapai.com
   type: vless
@@ -358,6 +337,14 @@ proxies:
   reality-opts:
     public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
     short-id: 2715592069f36fe7
+  skip-cert-verify: true
+  udp: true
+- name: 荷蘭丨yoyapai.com_2
+  type: ss
+  server: 82.38.31.7
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
   skip-cert-verify: true
   udp: true
 - name: 荷蘭丨yoyapai.com
@@ -397,33 +384,6 @@ proxies:
     short-id: 9e
   skip-cert-verify: true
   udp: true
-- name: 🇱🇹LT立陶宛丨yoyapai.com_3
-  type: vless
-  server: 45.194.10.157
-  port: 8443
-  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
-  servername: storage.yandex.net
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
-    short-id: 2cfb5a0ae8ab0cb0
-  skip-cert-verify: true
-  udp: true
-- name: 烏克蘭節點丨yoyapai.com
-  type: vless
-  server: 178.215.238.148
-  port: 8443
-  uuid: 21c1132b-068c-46fb-880e-3268f6a30e7f
-  servername: eh.vk.com
-  tls: true
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: Crjd0I6hcasRXZcfNf7cs-YtJLpQ8u-t1CbwHIDAciU
-    short-id: 478dc6
-  skip-cert-verify: true
-  udp: true
 - name: 法國節點
   type: vmess
   server: 69.84.182.49
@@ -439,32 +399,17 @@ proxies:
     headers:
       Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
   udp: true
-- name: 🇱🇹LT立陶宛丨yoyapai.com_6
+- name: 烏克蘭節點丨yoyapai.com
   type: vless
-  server: 45.194.10.238
+  server: 178.215.238.148
   port: 8443
-  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
-  servername: storage.yandex.net
+  uuid: 21c1132b-068c-46fb-880e-3268f6a30e7f
+  servername: eh.vk.com
   tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   reality-opts:
-    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
-    short-id: 2cfb5a0ae8ab0cb0
-  skip-cert-verify: true
-  udp: true
-- name: 🇱🇹LT立陶宛丨yoyapai.com_1
-  type: vless
-  server: 45.194.10.156
-  port: 8443
-  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
-  servername: storage.yandex.net
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
-    short-id: 2cfb5a0ae8ab0cb0
+    public-key: Crjd0I6hcasRXZcfNf7cs-YtJLpQ8u-t1CbwHIDAciU
+    short-id: 478dc6
   skip-cert-verify: true
   udp: true
 - name: 🇭🇺HU匈牙利丨yoyapai.com_8
@@ -510,28 +455,15 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   udp: true
-- name: 🇱🇹LT立陶宛丨yoyapai.com_5
-  type: vless
-  server: 45.194.10.147
-  port: 8443
-  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
-  servername: storage.yandex.net
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
-    short-id: 2cfb5a0ae8ab0cb0
-  skip-cert-verify: true
-  udp: true
 proxy-groups:
 - name: AUTO-FAST
   type: url-test
   proxies:
-  - 🇸🇬 新加坡 | SGP
   - 🇸🇬 新加坡 | SGP 2
   - 美國_1
+  - 🇺🇸 美国 | USA 4
   - 美國節點_1
+  - 🇺🇸 美国 | USA
   - 美國節點_8
   - 美國
   - 🇺🇸US美國丨yoyapai.com
@@ -545,56 +477,52 @@ proxy-groups:
   - 🇭🇺HU匈牙利丨yoyapai.com_1
   - FR法國丨yoyapai.com
   - 🇭🇺HU匈牙利丨yoyapai.com_2
+  - 巴西聖保羅丨yoyapai.com
   - 🇭🇺HU匈牙利丨yoyapai.com_5
   - FR法國丨yoyapai.com_3
-  - 🇱🇹LT立陶宛丨yoyapai.com_2
   - 🇷🇺 俄罗斯 | RUS
-  - 🇱🇹LT立陶宛丨yoyapai.com
-  - 🇱🇹LT立陶宛丨yoyapai.com_4
   - 🇭🇺HU匈牙利丨yoyapai.com_10
-  - 巴西聖保羅丨yoyapai.com
-  - 台湾省台北市丨yoyapai.com
-  - 荷蘭丨yoyapai.com_2
+  - 丹麥
+  - GOOGLE 01
   - 🇭🇺HU匈牙利丨yoyapai.com
+  - 荷蘭丨yoyapai.com_2
   - 荷蘭丨yoyapai.com
   - 🇭🇺HU匈牙利丨yoyapai.com_4
   - 俄羅斯丨yoyapai.com_4
-  - 🇱🇹LT立陶宛丨yoyapai.com_3
-  - 烏克蘭節點丨yoyapai.com
   - 法國節點
-  - 🇱🇹LT立陶宛丨yoyapai.com_6
-  - 🇱🇹LT立陶宛丨yoyapai.com_1
+  - 烏克蘭節點丨yoyapai.com
   - 🇭🇺HU匈牙利丨yoyapai.com_8
   - 🇭🇺HU匈牙利丨yoyapai.com_6
   - FR法國丨yoyapai.com_2
-  - 🇱🇹LT立陶宛丨yoyapai.com_5
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: HK-POOL
   type: url-test
   proxies:
-  - 🇸🇬 新加坡 | SGP
   - 🇸🇬 新加坡 | SGP 2
   - 美國_1
+  - 🇺🇸 美国 | USA 4
   - 美國節點_1
-  - 美國節點_8
+  - 🇺🇸 美国 | USA
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: JP-POOL
   type: url-test
   proxies:
-  - 🇸🇬 新加坡 | SGP
   - 🇸🇬 新加坡 | SGP 2
   - 美國_1
+  - 🇺🇸 美国 | USA 4
   - 美國節點_1
-  - 美國節點_8
+  - 🇺🇸 美国 | USA
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: US-POOL
   type: url-test
   proxies:
   - 美國_1
+  - 🇺🇸 美国 | USA 4
   - 美國節點_1
+  - 🇺🇸 美国 | USA
   - 美國節點_8
   - 美國
   - 🇺🇸US美國丨yoyapai.com
@@ -606,13 +534,12 @@ proxy-groups:
   type: url-test
   proxies:
   - 巴西聖保羅丨yoyapai.com
-  - 美國節點_8
-  - 美國
-  - 美國節點_1
-  - 美國_1
+  - 🇺🇸 美国 | USA
   - 🇺🇸US美國丨yoyapai.com
-  - 🇸🇬 新加坡 | SGP
-  - 🇸🇬 新加坡 | SGP 2
+  - 🇺🇸 美国 | USA 4
+  - 丹麥
+  - 美國_1
+  - 美國節點_8
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
