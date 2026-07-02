@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-07-02T17:03:27.931629+00:00'
+generated-at: '2026-07-02T20:47:56.455155+00:00'
 proxies:
 - name: 🇸🇬 新加坡 | SGP
   server: support.zoom.us
@@ -180,6 +180,20 @@ proxies:
     short-id: 2715592069f36fe7
   skip-cert-verify: true
   udp: true
+- name: 🇭🇺HU匈牙利丨yoyapai.com_2
+  type: vless
+  server: 45.198.87.50
+  port: 8443
+  uuid: 7896c501-248f-4068-bc2f-363c91ba5122
+  servername: storage.yandex.net
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: 2715592069f36fe7
+  skip-cert-verify: true
+  udp: true
 - name: FR法國丨yoyapai.com
   type: vless
   server: yx.cloudflare.182682.xyz
@@ -193,20 +207,6 @@ proxies:
     path: /
     headers:
       Host: t1s1.rittbo.kdns.fr
-  skip-cert-verify: true
-  udp: true
-- name: 🇭🇺HU匈牙利丨yoyapai.com_2
-  type: vless
-  server: 45.198.87.50
-  port: 8443
-  uuid: 7896c501-248f-4068-bc2f-363c91ba5122
-  servername: storage.yandex.net
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
-    short-id: 2715592069f36fe7
   skip-cert-verify: true
   udp: true
 - name: 🇭🇺HU匈牙利丨yoyapai.com_5
@@ -253,6 +253,20 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   udp: true
+- name: 🇱🇹LT立陶宛丨yoyapai.com_2
+  type: vless
+  server: 45.194.10.181
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  servername: storage.yandex.net
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  skip-cert-verify: true
+  udp: true
 - name: 🇷🇺 俄罗斯 | RUS
   server: 78.159.250.32
   port: 1111
@@ -265,6 +279,20 @@ proxies:
   servername: api-maps.yandex.ru
   client-fingerprint: firefox
   network: tcp
+  udp: true
+- name: 🇱🇹LT立陶宛丨yoyapai.com
+  type: vless
+  server: 45.194.10.64
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  servername: storage.yandex.net
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  skip-cert-verify: true
   udp: true
 - name: 🇭🇺HU匈牙利丨yoyapai.com_10
   type: vless
@@ -280,20 +308,26 @@ proxies:
     short-id: 2715592069f36fe7
   skip-cert-verify: true
   udp: true
+- name: 🇱🇹LT立陶宛丨yoyapai.com_4
+  type: vless
+  server: 45.194.10.54
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  servername: storage.yandex.net
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  skip-cert-verify: true
+  udp: true
 - name: 台湾省台北市丨yoyapai.com
   type: ss
   server: r3mrcg001286ek2.cybervena.com
   port: 50099
   cipher: chacha20-ietf-poly1305
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  skip-cert-verify: true
-  udp: true
-- name: 荷蘭丨yoyapai.com_2
-  type: ss
-  server: 82.38.31.7
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
   skip-cert-verify: true
   udp: true
 - name: 🇭🇺HU匈牙利丨yoyapai.com
@@ -308,6 +342,14 @@ proxies:
   reality-opts:
     public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
     short-id: 2715592069f36fe7
+  skip-cert-verify: true
+  udp: true
+- name: 荷蘭丨yoyapai.com_2
+  type: ss
+  server: 82.38.31.7
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
   skip-cert-verify: true
   udp: true
 - name: 荷蘭丨yoyapai.com
@@ -334,17 +376,18 @@ proxies:
     short-id: 2715592069f36fe7
   skip-cert-verify: true
   udp: true
-- name: 烏克蘭節點丨yoyapai.com
+- name: 🇱🇹LT立陶宛丨yoyapai.com_3
   type: vless
-  server: 178.215.238.148
+  server: 45.194.10.157
   port: 8443
-  uuid: 21c1132b-068c-46fb-880e-3268f6a30e7f
-  servername: eh.vk.com
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  servername: storage.yandex.net
   tls: true
-  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
   reality-opts:
-    public-key: Crjd0I6hcasRXZcfNf7cs-YtJLpQ8u-t1CbwHIDAciU
-    short-id: 478dc6
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
   skip-cert-verify: true
   udp: true
 - name: 法國節點
@@ -361,6 +404,47 @@ proxies:
     path: /
     headers:
       Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
+  udp: true
+- name: 烏克蘭節點丨yoyapai.com
+  type: vless
+  server: 178.215.238.148
+  port: 8443
+  uuid: 21c1132b-068c-46fb-880e-3268f6a30e7f
+  servername: eh.vk.com
+  tls: true
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: Crjd0I6hcasRXZcfNf7cs-YtJLpQ8u-t1CbwHIDAciU
+    short-id: 478dc6
+  skip-cert-verify: true
+  udp: true
+- name: 🇱🇹LT立陶宛丨yoyapai.com_6
+  type: vless
+  server: 45.194.10.238
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  servername: storage.yandex.net
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  skip-cert-verify: true
+  udp: true
+- name: 🇱🇹LT立陶宛丨yoyapai.com_1
+  type: vless
+  server: 45.194.10.156
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  servername: storage.yandex.net
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  skip-cert-verify: true
   udp: true
 - name: 🇭🇺HU匈牙利丨yoyapai.com_8
   type: vless
@@ -405,6 +489,20 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   udp: true
+- name: 🇱🇹LT立陶宛丨yoyapai.com_5
+  type: vless
+  server: 45.194.10.147
+  port: 8443
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+  servername: storage.yandex.net
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  skip-cert-verify: true
+  udp: true
 proxy-groups:
 - name: AUTO-FAST
   type: url-test
@@ -423,23 +521,30 @@ proxy-groups:
   - 德國法蘭克福丨yoyapai.com
   - 🇭🇺HU匈牙利丨yoyapai.com_7
   - 🇭🇺HU匈牙利丨yoyapai.com_1
-  - FR法國丨yoyapai.com
   - 🇭🇺HU匈牙利丨yoyapai.com_2
+  - FR法國丨yoyapai.com
   - 🇭🇺HU匈牙利丨yoyapai.com_5
   - 巴西聖保羅丨yoyapai.com
   - FR法國丨yoyapai.com_3
+  - 🇱🇹LT立陶宛丨yoyapai.com_2
   - 🇷🇺 俄罗斯 | RUS
+  - 🇱🇹LT立陶宛丨yoyapai.com
   - 🇭🇺HU匈牙利丨yoyapai.com_10
+  - 🇱🇹LT立陶宛丨yoyapai.com_4
   - 台湾省台北市丨yoyapai.com
-  - 荷蘭丨yoyapai.com_2
   - 🇭🇺HU匈牙利丨yoyapai.com
+  - 荷蘭丨yoyapai.com_2
   - 荷蘭丨yoyapai.com
   - 🇭🇺HU匈牙利丨yoyapai.com_4
-  - 烏克蘭節點丨yoyapai.com
+  - 🇱🇹LT立陶宛丨yoyapai.com_3
   - 法國節點
+  - 烏克蘭節點丨yoyapai.com
+  - 🇱🇹LT立陶宛丨yoyapai.com_6
+  - 🇱🇹LT立陶宛丨yoyapai.com_1
   - 🇭🇺HU匈牙利丨yoyapai.com_8
   - 🇭🇺HU匈牙利丨yoyapai.com_6
   - FR法國丨yoyapai.com_2
+  - 🇱🇹LT立陶宛丨yoyapai.com_5
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: HK-POOL
@@ -478,11 +583,12 @@ proxy-groups:
   type: url-test
   proxies:
   - 巴西聖保羅丨yoyapai.com
-  - 🇸🇬 新加坡 | SGP 2
-  - 🇸🇬 新加坡 | SGP
+  - 🇺🇸US美國丨yoyapai.com
+  - 美國節點丨yoyapai.com_3
   - 美國節點_1
-  - 美國節點_8
+  - 美國
   - 美國_1
+  - 美國節點_8
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
