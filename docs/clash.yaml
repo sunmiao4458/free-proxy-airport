@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-07-12T19:57:36.388524+00:00'
+generated-at: '2026-07-12T22:33:42.217060+00:00'
 proxies:
 - name: 🇸🇬 新加坡 | SGP 13
   server: 152.42.191.178
@@ -221,13 +221,6 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇺🇸 美国 | USA 8
-  server: 3.135.183.203
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
 - name: 🇺🇸 美国 | USA 9
   server: vn2.yuntong.click
   port: 443
@@ -239,24 +232,12 @@ proxies:
   obfs: salamander
   obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
   udp: true
-- name: 🇺🇸 美国 | USA 6
-  server: tinkered-pennies-puppies.freesocks.work
+- name: 🇺🇸 美国 | USA 8
+  server: 3.135.183.203
   port: 443
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: hbGrpfvNrJsUmKmPbR3iY2
-  udp: true
-- name: 🇺🇸 美国 | USA 5
-  server: upwork.com
-  port: 8880
-  type: vless
-  uuid: 52fb52b1-82de-4c6f-b7d3-599ce5d57f1c
-  tls: false
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: damp-disk-1ae9.138-c4c.workers.dev
+  cipher: aes-256-cfb
+  password: amazonskr05
   udp: true
 - name: 🇺🇸 美国 | USA 7
   server: 154.64.236.234
@@ -270,6 +251,13 @@ proxies:
     path: /pyip=ProxyIP.CMLiussss.net
     headers:
       Host: zdy.vavava.kdns.fr
+  udp: true
+- name: 🇺🇸 美国 | USA 6
+  server: tinkered-pennies-puppies.freesocks.work
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: hbGrpfvNrJsUmKmPbR3iY2
   udp: true
 - name: 🇺🇸 美国 | USA 4
   server: tinkered-pennies-puppies.freesocks.work
@@ -327,15 +315,6 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: gaM3vd5zfR1ay1v7hfn4X6
   udp: true
-- name: 🇩🇪 德国 | DEU 2
-  server: v33.hdacd.com
-  port: 30833
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  udp: true
 - name: 🇬🇧 英国 | GBR 4
   server: sh02.auragg.org
   port: 443
@@ -345,16 +324,19 @@ proxies:
   sni: sh02.auragg.org
   skip-cert-verify: false
   udp: true
-- name: 🇰🇷 韩国 | KOR 2
-  server: dev.aoliuqu.press
-  port: 16335
-  type: trojan
-  password: c68526b9-f9e1-49a3-9711-e57d5c717563
-  sni: dev.aoliuqu.press
-  skip-cert-verify: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: zhs
+- name: 🇷🇺 俄罗斯 | RUS 2
+  server: media-ru2-sel2.lbdnetwork.com
+  port: 443
+  type: vless
+  uuid: 04b3ed78-61b5-42bb-9143-eeb70e64b5aa
+  tls: true
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: n1uGKWu7avfpa33tzCB2BnZa0R5SkP49zK5_Md6f2mQ
+  servername: 5post-gate.x5.ru
+  client-fingerprint: qq
+  network: tcp
   udp: true
 - name: 🇳🇱 荷兰 | NLD
   server: run.gigicalla.ir
@@ -386,18 +368,17 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇧🇬 保加利亚 | BGR
-  server: 178.239.117.172
-  port: 443
+- name: 🇩🇪 德国 | DEU 3
+  server: speedtest.net
+  port: 80
   type: vless
-  uuid: 8ce3af34-308f-456c-93a6-e6dff9f03d77
-  tls: true
-  servername: zdy.vavava.kdns.fr
+  uuid: cb5d5d72-4df6-41fe-a6bc-580346aeff8f
+  tls: false
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: zdy.vavava.kdns.fr
+      Host: vvvv7iq.global.ssl.fastly.net
   udp: true
 - name: 🇷🇴 罗马尼亚 | ROU
   server: 85.120.228.208
@@ -421,6 +402,21 @@ proxies:
     headers:
       Host: pan21.global.ssl.fastly.net
   udp: true
+- name: 🇲🇺 毛里求斯 | MUS
+  server: cfd10.466688.xyz
+  port: 443
+  type: vless
+  uuid: 4feb7818-dc02-46cd-b985-abf3fdd0cdc5
+  tls: true
+  packet-encoding: xudp
+  servername: edge-4cb23bf6.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@https://t.me/QiangLieTuiJian
+    headers:
+      Host: edge-4cb23bf6.pages.dev
+  udp: true
 - name: 🇸🇪 瑞典 | SWE
   server: aestheticperforator.ru
   port: 8443
@@ -439,21 +435,6 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: gazf7r9a0d4hc5nz
-  udp: true
-- name: 🇲🇺 毛里求斯 | MUS
-  server: cfd10.466688.xyz
-  port: 443
-  type: vless
-  uuid: 4feb7818-dc02-46cd-b985-abf3fdd0cdc5
-  tls: true
-  packet-encoding: xudp
-  servername: edge-4cb23bf6.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@https://t.me/QiangLieTuiJian
-    headers:
-      Host: edge-4cb23bf6.pages.dev
   udp: true
 - name: 🇩🇪 德国 | DEU
   server: 5.83.129.90
@@ -488,29 +469,27 @@ proxy-groups:
   - 🇯🇵 日本 | JPN
   - 🇸🇬 新加坡 | SGP 4
   - 🇺🇸 美国 | USA 11
-  - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 9
-  - 🇺🇸 美国 | USA 6
-  - 🇺🇸 美国 | USA 5
+  - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 7
+  - 🇺🇸 美国 | USA 6
   - 🇺🇸 美国 | USA 4
   - 🇺🇸 美国 | USA 3
   - 🇺🇸 美国 | USA
   - 🇺🇸 美国 | USA 10
   - 🇺🇸 美国 | USA 12
   - 🇺🇸 美国 | USA 2
-  - 🇩🇪 德国 | DEU 2
   - 🇬🇧 英国 | GBR 4
-  - 🇰🇷 韩国 | KOR 2
+  - 🇷🇺 俄罗斯 | RUS 2
   - 🇳🇱 荷兰 | NLD
   - 🇹🇼 🇨🇳 台湾 | TWN
   - 🇷🇺 俄罗斯 | RUS
-  - 🇧🇬 保加利亚 | BGR
+  - 🇩🇪 德国 | DEU 3
   - 🇷🇴 罗马尼亚 | ROU
   - 🇫🇮 芬兰 | FIN 2
+  - 🇲🇺 毛里求斯 | MUS
   - 🇸🇪 瑞典 | SWE
   - 🇫🇮 芬兰 | FIN
-  - 🇲🇺 毛里求斯 | MUS
   - 🇩🇪 德国 | DEU
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -537,11 +516,10 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇺🇸 美国 | USA 11
-  - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 9
-  - 🇺🇸 美国 | USA 6
-  - 🇺🇸 美国 | USA 5
+  - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 7
+  - 🇺🇸 美国 | USA 6
   - 🇺🇸 美国 | USA 4
   - 🇺🇸 美国 | USA 3
   - 🇺🇸 美国 | USA
@@ -553,13 +531,13 @@ proxy-groups:
 - name: AI-POOL
   type: url-test
   proxies:
-  - 🇺🇸 美国 | USA 5
+  - 🇺🇸 美国 | USA 7
   - 🇸🇬 新加坡 | SGP 10
-  - 🇸🇬 新加坡 | SGP 11
-  - 🇺🇸 美国 | USA 12
-  - 🇺🇸 美国 | USA 8
-  - 🇺🇸 美国 | USA
-  - 🇺🇸 美国 | USA 6
+  - 🇺🇸 美国 | USA 10
+  - 🇸🇬 新加坡 | SGP
+  - 🇸🇬 新加坡 | SGP 3
+  - 🇸🇬 新加坡 | SGP 2
+  - 🇲🇺 毛里求斯 | MUS
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
