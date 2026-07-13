@@ -7,63 +7,9 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-07-13T10:42:47.947816+00:00'
+generated-at: '2026-07-13T18:12:19.854256+00:00'
 proxies:
 - name: 🇸🇬 新加坡 | SGP 7
-  server: 172.66.200.130
-  port: 8880
-  type: vless
-  uuid: 20d0a81f-da70-44dc-b9bf-5a5ddab644db
-  tls: false
-  servername: crimson-lab-6cab.402-311.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: crimson-lab-6cab.402-311.workers.dev
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 5
-  server: 152.42.191.178
-  port: 8443
-  type: trojan
-  password: cortex-trojan-2026
-  sni: www.bing.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws-cortex
-    headers:
-      Host: www.bing.com
-  udp: true
-- name: 🇸🇬 新加坡 | SGP
-  server: aw-sg.vndmall.pro
-  port: 8888
-  type: ss
-  cipher: aes-256-gcm
-  password: a338A9
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 6
-  server: 54.255.102.19
-  port: 443
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/WangCai2🇨🇳
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 日本 | JPN
-  server: www.visa.com.sg
-  port: 8880
-  type: vless
-  uuid: 4af06e6a-63ae-43c1-83c0-f8f613aef263
-  tls: false
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-    headers:
-      Host: withered-sea-c187.445-608.workers.dev
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 4
   server: 162.159.24.39
   port: 443
   type: vless
@@ -78,67 +24,113 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
   udp: true
-- name: 🇺🇸 美国 | USA 11
-  server: tinkered-pennies-puppies.freesocks.work
+- name: 🇭🇰 香港 | HKG
+  server: 23.227.38.178
   port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: hbGrpfvNrJsUmKmPbR3iY2
+  type: trojan
+  password: 13d29042-ab82-4195-9cd4-2bafc518e201
+  sni: q6clkp794liy3y90.hktimecsgo.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /images
+    headers:
+      Host: q6clkp794liy3y90.hktimecsgo.xyz
   udp: true
-- name: 🇺🇸 美国 | USA 9
+- name: 🇸🇬 新加坡 | SGP 6
+  server: 54.255.102.19
+  port: 443
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸 美国 | USA 6
+  server: vn2.yuntong.click
+  port: 443
+  type: hysteria2
+  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
+  auth: f7cb07a0-e6f9-4d22-a60e-c61854450c89
+  sni: vn2.yuntong.click
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
+  udp: true
+- name: 🇺🇸 美国 | USA 10
+  server: 104.17.21.137
+  port: 8880
+  type: vless
+  uuid: 30e4c878-15ca-4f53-ab32-04c60ecd3f31
+  tls: false
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: blue-rice-7142.30-346.workers.dev
+  udp: true
+- name: 🇺🇸 美国 | USA 13
   server: tinkered-pennies-puppies.freesocks.work
   port: 443
   type: ss
   cipher: chacha20-ietf-poly1305
   password: gaM3vd5zfR1ay1v7hfn4X6
   udp: true
-- name: 🇺🇸 美国 | USA 8
-  server: ansooye.up.railway.app
-  port: 443
-  type: vless
-  uuid: 3d8f310d-a600-b473-1beb-8b308caea637
-  tls: true
-  servername: ansooye.up.railway.app
-  network: ws
-  ws-opts:
-    path: /ws/3d8f310d-a600-b473-1beb-8b308caea637
-    headers:
-      Host: ansooye.up.railway.app
-  udp: true
-- name: 🇺🇸 美国 | USA 16
+- name: 🇺🇸 美国 | USA 12
   server: tinkered-pennies-puppies.freesocks.work
   port: 443
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: ebEfGowZtV1BEFXZOtgAXi
-  udp: true
-- name: 🇺🇸 美国 | USA 10
-  server: 140.235.168.9
-  port: 993
-  type: vless
-  uuid: 526d2855-c7d1-ecf3-e4f8-5a75f77d5bb3
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: oE7ZEghzkaOUiw1q3PqBtpllP1NlPHLY8ydJRuICtko
-  servername: speed.cloudflare.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: 🇺🇸 美国 | USA 19
-  server: x4g-production-0a45.up.railway.app
-  port: 443
-  type: vless
-  uuid: 778220c8-646a-b3d2-3d41-be2fe98e9e23
-  tls: true
-  servername: x4g-production-0a45.up.railway.app
-  network: ws
-  ws-opts:
-    path: /ws/778220c8-646a-b3d2-3d41-be2fe98e9e23
-    headers:
-      Host: x4g-production-0a45.up.railway.app
+  password: hbGrpfvNrJsUmKmPbR3iY2
   udp: true
 - name: 🇩🇪 德国 | DEU 2
+  server: cd3.postshup.ir
+  port: 8880
+  type: vless
+  uuid: 973b0f5b-602b-4ab5-8411-ac7879b0e9d3
+  tls: false
+  packet-encoding: xudp
+  network: ws
+  ws-opts:
+    path: /?ed
+    headers:
+      Host: nnnnnnnn.postshup.ir
+    v2ray-http-upgrade: true
+  udp: true
+- name: 🇰🇷 韩国 | KOR 2
+  server: deepl.com
+  port: 8880
+  type: vless
+  uuid: b1b99d33-8df1-4c74-b140-28941b43a4d2
+  tls: false
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+    headers:
+      Host: nameless-poetry-cc33.268-910.workers.dev
+  udp: true
+- name: 🇬🇧 英国 | GBR 4
+  server: 82.38.31.190
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇷🇺 俄罗斯 | RUS 3
+  server: 195.133.23.45
+  port: 60129
+  type: ss
+  cipher: aes-256-gcm
+  password: fbaf33bcffe53cf9
+  udp: true
+- name: 🇷🇺 俄罗斯 | RUS
+  server: 195.133.23.27
+  port: 20129
+  type: ss
+  cipher: aes-256-gcm
+  password: 1a87017d0bf57f34
+  udp: true
+- name: 🇩🇪 德国 | DEU 3
   server: 5.83.129.153
   port: 20088
   type: hysteria
@@ -152,92 +144,39 @@ proxies:
   alpn:
   - h3
   udp: true
-- name: 🇩🇪 德国 | DEU 7
-  server: 91.99.173.29
-  port: 12767
+- name: 🇩🇪 德国 | DEU 6
+  server: forallpanel.srtongston.ir
+  port: 8880
   type: vless
-  uuid: 7ff3f986-f72c-4ebd-9eaa-bba121399cd2
+  uuid: 973b0f5b-602b-4ab5-8411-ac7879b0e9d3
   tls: false
   packet-encoding: xudp
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - biscotti.yektanet.com
-  udp: true
-- name: 🇷🇺 俄罗斯 | RUS 2
-  server: 185.22.154.254
-  port: 20126
-  type: ss
-  cipher: aes-256-gcm
-  password: 32c0ea6e823341a2
-  udp: true
-- name: 🇷🇺 俄罗斯 | RUS
-  server: 195.133.23.27
-  port: 20129
-  type: ss
-  cipher: aes-256-gcm
-  password: 1a87017d0bf57f34
-  udp: true
-- name: 🇪🇪 爱沙尼亚 | EST
-  server: ee1.netfix.app
-  port: 443
-  type: vless
-  uuid: c7884880-5209-439d-b9c2-9d2f9fd34767
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: QkyfzOO-5dbWbKQje2nTwhJiF4fQpz38EQ50t-eVmAs
-    short-id: 36cc564e
-  servername: hahaee1.xixihaha.it.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: 🇹🇷 土耳其 | TUR
-  server: 198.202.211.1
-  port: 443
-  type: vless
-  uuid: 9f6ef4c9-22b0-4897-ba8e-836bc931ba93
-  tls: true
-  servername: sinavm.soft10.ir
-  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /GOrbEh----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM
+    path: /?ed
     headers:
-      Host: sinavm.soft10.ir
+      Host: aaaaaaaaaaab.postshup.ir
+    v2ray-http-upgrade: true
   udp: true
-- name: 🇫🇮 芬兰 | FIN 4
-  server: 64.188.76.21
-  port: 443
-  type: vless
-  uuid: a34b5e88-cf0d-4c01-8199-2d1002d3c787
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: HKpd1sbrhBds8SJSL0d22MAq_QyTR6EP6y5b5DYol3U
-  servername: www.wikihow.com
-  client-fingerprint: chrome
-  network: tcp
+- name: 🇷🇴 罗马尼亚 | ROU
+  server: 85.120.228.208
+  port: 47257
+  type: hysteria2
+  password: 35415e5e-3666-4454-8c45-903af0fcddf4
+  auth: 35415e5e-3666-4454-8c45-903af0fcddf4
+  sni: www.bing.com
+  skip-cert-verify: true
   udp: true
-- name: 🇩🇪 德国 | DEU 5
-  server: 114.129.43.130
-  port: 443
-  type: vless
-  uuid: 3ea0a12e-162e-45b8-b03b-c490d6105091
-  tls: true
-  servername: wa1.mhrnet.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: wa1.mhrnet.com
+- name: 🇸🇪 瑞典 | SWE
+  server: aestheticperforator.ru
+  port: 8443
+  type: hysteria2
+  password: 48139d20-931e-4e2b-83f5-8ea97d226c18
+  auth: 48139d20-931e-4e2b-83f5-8ea97d226c18
+  sni: aestheticperforator.ru
+  skip-cert-verify: false
   udp: true
-- name: 🇩🇪 德国 | DEU 6
+- name: 🇩🇪 德国 | DEU 4
   server: 1.tls.fastly.veraspeed.ir
   port: 443
   type: vless
@@ -250,144 +189,84 @@ proxies:
     headers:
       Host: pan1.global.ssl.fastly.net
   udp: true
-- name: 🇰🇷 韩国 | KOR
-  server: deepl.com
-  port: 8880
-  type: vless
-  uuid: b1b99d33-8df1-4c74-b140-28941b43a4d2
-  tls: false
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: nameless-poetry-cc33.268-910.workers.dev
-  udp: true
-- name: 🇫🇮 芬兰 | FIN
-  server: 1.tls.fastly.veraspeed.ir
+- name: 🇩🇪 德国 | DEU
+  server: germany1.banovano.space
   port: 443
   type: vless
-  uuid: 891710f4-45f3-41b1-99a6-6f1510f83c10
+  uuid: f568dd52-9557-4efd-8439-a89dd1d14b2c
   tls: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
-    headers:
-      Host: pan21.global.ssl.fastly.net
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: vs39cITZN6jMHKslRMmvkwXupHXUbyKNX1MQsWRWKlg
+    short-id: 3f40efc7
+  servername: www.nvidia.com
+  client-fingerprint: edge
+  network: tcp
   udp: true
-- name: 🇫🇮 芬兰 | FIN 2
-  server: 199.232.22.39
-  port: 443
-  type: vless
-  uuid: 891710f4-45f3-41b1-99a6-6f1510f83c10
-  tls: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
-    headers:
-      Host: pan21.global.ssl.fastly.net
-  udp: true
-- name: 🇸🇪 瑞典 | SWE
-  server: aestheticperforator.ru
-  port: 8443
+- name: 🇬🇧 英国 | GBR
+  server: 45.154.205.25
+  port: 55000
   type: hysteria2
-  password: 48139d20-931e-4e2b-83f5-8ea97d226c18
-  auth: 48139d20-931e-4e2b-83f5-8ea97d226c18
-  sni: aestheticperforator.ru
-  skip-cert-verify: false
-  udp: true
-- name: 🇩🇪 德国 | DEU 4
-  server: 5.83.129.90
-  port: 54177
-  type: hysteria
-  auth_str: dongtaiwang.com
-  auth-str: dongtaiwang.com
-  up: 500
-  down: 1000
-  protocol: udp
-  sni: apple.com
+  password: 88f839f2-c3c0-487d-aac3-f8c089d2369d
+  auth: 88f839f2-c3c0-487d-aac3-f8c089d2369d
   skip-cert-verify: true
-  alpn:
-  - h3
-  udp: true
-- name: 🇮🇷 伊朗 | IRN 2
-  server: fast88.screw.page
-  port: 443
-  type: hysteria2
-  password: c0aa0cee-e855-4bcc-9afc-46241cb17990
-  auth: c0aa0cee-e855-4bcc-9afc-46241cb17990
-  sni: fast88.screw.page
-  skip-cert-verify: false
   udp: true
 proxy-groups:
 - name: AUTO-FAST
   type: url-test
   proxies:
   - 🇸🇬 新加坡 | SGP 7
-  - 🇸🇬 新加坡 | SGP 5
-  - 🇸🇬 新加坡 | SGP
+  - 🇭🇰 香港 | HKG
   - 🇸🇬 新加坡 | SGP 6
-  - 🇯🇵 日本 | JPN
-  - 🇸🇬 新加坡 | SGP 4
-  - 🇺🇸 美国 | USA 11
-  - 🇺🇸 美国 | USA 9
-  - 🇺🇸 美国 | USA 8
-  - 🇺🇸 美国 | USA 16
+  - 🇺🇸 美国 | USA 6
   - 🇺🇸 美国 | USA 10
-  - 🇺🇸 美国 | USA 19
+  - 🇺🇸 美国 | USA 13
+  - 🇺🇸 美国 | USA 12
   - 🇩🇪 德国 | DEU 2
-  - 🇩🇪 德国 | DEU 7
-  - 🇷🇺 俄罗斯 | RUS 2
+  - 🇰🇷 韩国 | KOR 2
+  - 🇬🇧 英国 | GBR 4
+  - 🇷🇺 俄罗斯 | RUS 3
   - 🇷🇺 俄罗斯 | RUS
-  - 🇪🇪 爱沙尼亚 | EST
-  - 🇹🇷 土耳其 | TUR
-  - 🇫🇮 芬兰 | FIN 4
-  - 🇩🇪 德国 | DEU 5
+  - 🇩🇪 德国 | DEU 3
   - 🇩🇪 德国 | DEU 6
-  - 🇰🇷 韩国 | KOR
-  - 🇫🇮 芬兰 | FIN
-  - 🇫🇮 芬兰 | FIN 2
+  - 🇷🇴 罗马尼亚 | ROU
   - 🇸🇪 瑞典 | SWE
   - 🇩🇪 德国 | DEU 4
-  - 🇮🇷 伊朗 | IRN 2
+  - 🇩🇪 德国 | DEU
+  - 🇬🇧 英国 | GBR
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: HK-POOL
   type: url-test
   proxies:
-  - 🇸🇬 新加坡 | SGP 7
-  - 🇸🇬 新加坡 | SGP 5
-  - 🇸🇬 新加坡 | SGP
-  - 🇸🇬 新加坡 | SGP 6
-  - 🇯🇵 日本 | JPN
+  - 🇭🇰 香港 | HKG
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: JP-POOL
   type: url-test
   proxies:
-  - 🇯🇵 日本 | JPN
+  - 🇸🇬 新加坡 | SGP 7
+  - 🇭🇰 香港 | HKG
+  - 🇸🇬 新加坡 | SGP 6
+  - 🇺🇸 美国 | USA 6
+  - 🇺🇸 美国 | USA 10
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: US-POOL
   type: url-test
   proxies:
-  - 🇺🇸 美国 | USA 11
-  - 🇺🇸 美国 | USA 9
-  - 🇺🇸 美国 | USA 8
-  - 🇺🇸 美国 | USA 16
+  - 🇺🇸 美国 | USA 6
   - 🇺🇸 美国 | USA 10
-  - 🇺🇸 美国 | USA 19
+  - 🇺🇸 美国 | USA 13
+  - 🇺🇸 美国 | USA 12
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: AI-POOL
   type: url-test
   proxies:
   - 🇸🇬 新加坡 | SGP 7
-  - 🇸🇬 新加坡 | SGP 4
-  - 🇰🇷 韩国 | KOR
-  - 🇯🇵 日本 | JPN
   - 🇺🇸 美国 | USA 10
+  - 🇰🇷 韩国 | KOR 2
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
