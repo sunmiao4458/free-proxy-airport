@@ -7,31 +7,31 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-07-13T21:36:22.924103+00:00'
+generated-at: '2026-07-14T06:23:26.299543+00:00'
 proxies:
-- name: 🇯🇵 日本 | JPN 3
-  server: 103.53.80.224
-  port: 52080
-  type: vmess
-  uuid: 023416ac-45c5-4826-9033-1aa678c3f203
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /QQqun-737805443
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 3
-  server: sahanwickramasinghevip.shop
-  port: 443
+- name: 🇸🇬 新加坡 | SGP
+  server: support.zoom.us
+  port: 80
   type: vless
-  uuid: 55d61055-1a7f-4bc5-aca2-4ee78c738b60
-  tls: true
-  servername: sahanwickramasinghevip.shop
-  client-fingerprint: chrome
-  network: tcp
+  uuid: e7b178da-65e8-45ad-8550-de40eb0a7835
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sahanwickramasinghevip.shop
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 2
+  server: upwork.com
+  port: 8880
+  type: vless
+  uuid: 05e7abc2-46e1-4a23-9cdc-173ce17eb0d4
+  tls: false
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: round-term-947c.41-332.workers.dev
   udp: true
 - name: 🇭🇰 香港 | HKG
   server: 23.227.38.178
@@ -46,42 +46,17 @@ proxies:
     headers:
       Host: q6clkp794liy3y90.hktimecsgo.xyz
   udp: true
-- name: 🇸🇬 新加坡 | SGP 2
-  server: 54.255.102.19
-  port: 443
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: https://t.me/WangCai2🇨🇳
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸 美国 | USA 11
-  server: xsj004-10.facai2024.com
-  port: 443
-  type: vmess
-  uuid: 1f1aa362-2576-4989-8fdb-7cf1c2c96490
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: xsj004-10.facai2024.com
-  network: ws
-  ws-opts:
-    path: /1f1aa362-25
-    headers:
-      Host: xsj004-10.facai2024.com
-  udp: true
 - name: 🇺🇸 美国 | USA 9
-  server: 107.161.82.89
-  port: 59284
-  type: vmess
-  uuid: bd16ed8f-a5bd-47ea-a69a-651fc70e92ac
-  alterId: 0
-  cipher: auto
+  server: www.zsu.gov.ua
+  port: 8880
+  type: vless
+  uuid: 30e4c878-15ca-4f53-ab32-04c60ecd3f31
   tls: false
   network: ws
   ws-opts:
-    path: /arki
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: blue-rice-7142.30-346.workers.dev
   udp: true
 - name: 🇺🇸 美国 | USA 8
   server: tinkered-pennies-puppies.freesocks.work
@@ -91,6 +66,37 @@ proxies:
   password: gaM3vd5zfR1ay1v7hfn4X6
   udp: true
 - name: 🇺🇸 美国 | USA 3
+  server: 104.17.21.137
+  port: 8880
+  type: vless
+  uuid: 30e4c878-15ca-4f53-ab32-04c60ecd3f31
+  tls: false
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: blue-rice-7142.30-346.workers.dev
+  udp: true
+- name: 🇺🇸 美国 | USA 4
+  server: tinkered-pennies-puppies.freesocks.work
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: hbGrpfvNrJsUmKmPbR3iY2
+  udp: true
+- name: 🇺🇸 美国 | USA 5
+  server: 128.242.109.20
+  port: 17432
+  type: vmess
+  uuid: 6cc4a312-2d18-4694-b92d-0af1c039e697
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /arki
+  udp: true
+- name: 🇺🇸 美国 | USA 10
   server: b32-14.cmj0502.cn
   port: 45979
   type: vmess
@@ -104,72 +110,7 @@ proxies:
     headers:
       Host: b32-14.cmj0502.cn
   udp: true
-- name: 🇺🇸 美国 | USA
-  server: vn2.yuntong.click
-  port: 443
-  type: hysteria2
-  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
-  auth: f7cb07a0-e6f9-4d22-a60e-c61854450c89
-  sni: vn2.yuntong.click
-  skip-cert-verify: false
-  obfs: salamander
-  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
-  udp: true
-- name: 🇺🇸 美国 | USA 10
-  server: 18.191.67.47
-  port: 443
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: vpn-us-003.fastervpn.world
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸 美国 | USA 13
-  server: 128.242.109.20
-  port: 17432
-  type: vmess
-  uuid: 6cc4a312-2d18-4694-b92d-0af1c039e697
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /arki
-  udp: true
-- name: 🇺🇸 美国 | USA 17
-  server: 107.161.82.89
-  port: 27489
-  type: vmess
-  uuid: 1f111c76-69ce-4fa9-a55c-1ae21cd1ab2a
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /arki
-  udp: true
-- name: 🇺🇸 美国 | USA 15
-  server: b32-16.cmj0502.cn
-  port: 45979
-  type: vmess
-  uuid: 23bdf6df-c482-46d0-c0f4-5a98d534ea11
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /test
-    headers:
-      Host: b32-16.cmj0502.cn
-  udp: true
-- name: 🇺🇸 美国 | USA 18
-  server: tinkered-pennies-puppies.freesocks.work
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: hbGrpfvNrJsUmKmPbR3iY2
-  udp: true
-- name: 🇺🇸 美国 | USA 12
+- name: 🇺🇸 美国 | USA 2
   server: tinkered-pennies-puppies.freesocks.work
   port: 443
   type: ss
@@ -177,98 +118,6 @@ proxies:
   password: ebEfGowZtV1BEFXZOtgAXi
   udp: true
 - name: 🇩🇪 德国 | DEU 2
-  server: forallpanel.srtongston.ir
-  port: 8880
-  type: vless
-  uuid: 973b0f5b-602b-4ab5-8411-ac7879b0e9d3
-  tls: false
-  packet-encoding: xudp
-  network: ws
-  ws-opts:
-    path: /?ed
-    headers:
-      Host: aaaaaaaaaaab.postshup.ir
-    v2ray-http-upgrade: true
-  udp: true
-- name: 🇷🇺 俄罗斯 | RUS 2
-  server: 195.133.23.27
-  port: 20129
-  type: ss
-  cipher: aes-256-gcm
-  password: 1a87017d0bf57f34
-  udp: true
-- name: 🇷🇺 俄罗斯 | RUS 3
-  server: 195.133.23.45
-  port: 60129
-  type: ss
-  cipher: aes-256-gcm
-  password: fbaf33bcffe53cf9
-  udp: true
-- name: 🇲🇾 马来西亚 | MYS 2
-  server: 47.250.217.108
-  port: 27256
-  type: vmess
-  uuid: 51238cb2-71f1-4b7a-f18f-761f56e01cdd
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-  udp: true
-- name: 🇩🇪 德国 | DEU 3
-  server: 5.83.129.90
-  port: 54177
-  type: hysteria
-  auth_str: dongtaiwang.com
-  auth-str: dongtaiwang.com
-  up: 500
-  down: 1000
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  udp: true
-- name: 🇩🇪 德国 | DEU 5
-  server: cd3.postshup.ir
-  port: 8880
-  type: vless
-  uuid: 973b0f5b-602b-4ab5-8411-ac7879b0e9d3
-  tls: false
-  packet-encoding: xudp
-  network: ws
-  ws-opts:
-    path: /?ed
-    headers:
-      Host: nnnnnnnn.postshup.ir
-    v2ray-http-upgrade: true
-  udp: true
-- name: 🇸🇪 瑞典 | SWE
-  server: aestheticperforator.ru
-  port: 8443
-  type: hysteria2
-  password: 48139d20-931e-4e2b-83f5-8ea97d226c18
-  auth: 48139d20-931e-4e2b-83f5-8ea97d226c18
-  sni: aestheticperforator.ru
-  skip-cert-verify: false
-  udp: true
-- name: 🇫🇮 芬兰 | FIN
-  server: 199.232.22.39
-  port: 443
-  type: vless
-  uuid: 891710f4-45f3-41b1-99a6-6f1510f83c10
-  tls: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
-    headers:
-      Host: pan21.global.ssl.fastly.net
-  udp: true
-- name: 🇩🇪 德国 | DEU 4
   server: 5.83.129.153
   port: 20088
   type: hysteria
@@ -282,57 +131,135 @@ proxies:
   alpn:
   - h3
   udp: true
-- name: 🇲🇾 马来西亚 | MYS
-  server: 47.250.217.108
-  port: 25031
-  type: vmess
-  uuid: 626a25dc-97e3-4d39-98cb-93b78d4f83c7
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: 🇮🇷 伊朗 | IRN
+  server: fast88.screw.page
+  port: 443
+  type: hysteria2
+  password: c0aa0cee-e855-4bcc-9afc-46241cb17990
+  auth: c0aa0cee-e855-4bcc-9afc-46241cb17990
+  sni: fast88.screw.page
+  skip-cert-verify: false
+  udp: true
+- name: 🇩🇪 德国 | DEU 7
+  server: 5.83.129.90
+  port: 54177
+  type: hysteria
+  auth_str: dongtaiwang.com
+  auth-str: dongtaiwang.com
+  up: 500
+  down: 1000
+  protocol: udp
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  udp: true
+- name: 🇷🇺 俄罗斯 | RUS 2
+  server: 195.133.23.45
+  port: 60129
+  type: ss
+  cipher: aes-256-gcm
+  password: fbaf33bcffe53cf9
+  udp: true
+- name: 🇷🇺 俄罗斯 | RUS 3
+  server: 195.133.23.27
+  port: 20129
+  type: ss
+  cipher: aes-256-gcm
+  password: 1a87017d0bf57f34
+  udp: true
+- name: 🇩🇪 德国 | DEU 3
+  server: betty.ns.cloudflare.com
+  port: 443
+  type: vless
+  uuid: 72d1797c-cef8-410a-b8fd-db9104dc3cb0
+  tls: true
+  servername: amooaliii.net
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /
+    path: /jdhfyws
+    headers:
+      Host: amooaliii.net
   udp: true
-- name: 🇬🇧 英国 | GBR 3
-  server: 45.154.205.25
-  port: 55000
-  type: hysteria2
-  password: 88f839f2-c3c0-487d-aac3-f8c089d2369d
-  auth: 88f839f2-c3c0-487d-aac3-f8c089d2369d
-  sni: www.bing.com
-  skip-cert-verify: true
+- name: 🇧🇬 保加利亚 | BGR
+  server: stariver.vip
+  port: 443
+  type: vless
+  uuid: 2a331283-75b2-4f48-b237-319bb53e2606
+  tls: true
+  servername: stariver.vip
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: gonegrpc
+  udp: true
+- name: 🇩🇪 德国 | DEU 6
+  server: forallpanel.srtongston.ir
+  port: 8880
+  type: vless
+  uuid: 973b0f5b-602b-4ab5-8411-ac7879b0e9d3
+  tls: false
+  packet-encoding: xudp
+  network: ws
+  ws-opts:
+    path: /?ed
+    headers:
+      Host: aaaaaaaaaaab.postshup.ir
+    v2ray-http-upgrade: true
+  udp: true
+- name: 🇫🇮 芬兰 | FIN 2
+  server: 199.232.22.39
+  port: 443
+  type: vless
+  uuid: 891710f4-45f3-41b1-99a6-6f1510f83c10
+  tls: true
+  servername: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
+    headers:
+      Host: pan21.global.ssl.fastly.net
+  udp: true
+- name: 🇩🇪 德国 | DEU
+  server: cd3.postshup.ir
+  port: 8880
+  type: vless
+  uuid: 973b0f5b-602b-4ab5-8411-ac7879b0e9d3
+  tls: false
+  packet-encoding: xudp
+  network: ws
+  ws-opts:
+    path: /?ed
+    headers:
+      Host: nnnnnnnn.postshup.ir
+    v2ray-http-upgrade: true
   udp: true
 proxy-groups:
 - name: AUTO-FAST
   type: url-test
   proxies:
-  - 🇯🇵 日本 | JPN 3
-  - 🇸🇬 新加坡 | SGP 3
-  - 🇭🇰 香港 | HKG
+  - 🇸🇬 新加坡 | SGP
   - 🇸🇬 新加坡 | SGP 2
-  - 🇺🇸 美国 | USA 11
+  - 🇭🇰 香港 | HKG
   - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 3
-  - 🇺🇸 美国 | USA
+  - 🇺🇸 美国 | USA 4
+  - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA 10
-  - 🇺🇸 美国 | USA 13
-  - 🇺🇸 美国 | USA 17
-  - 🇺🇸 美国 | USA 15
-  - 🇺🇸 美国 | USA 18
-  - 🇺🇸 美国 | USA 12
+  - 🇺🇸 美国 | USA 2
   - 🇩🇪 德国 | DEU 2
+  - 🇮🇷 伊朗 | IRN
+  - 🇩🇪 德国 | DEU 7
   - 🇷🇺 俄罗斯 | RUS 2
   - 🇷🇺 俄罗斯 | RUS 3
-  - 🇲🇾 马来西亚 | MYS 2
   - 🇩🇪 德国 | DEU 3
-  - 🇩🇪 德国 | DEU 5
-  - 🇸🇪 瑞典 | SWE
-  - 🇫🇮 芬兰 | FIN
-  - 🇩🇪 德国 | DEU 4
-  - 🇲🇾 马来西亚 | MYS
-  - 🇬🇧 英国 | GBR 3
+  - 🇧🇬 保加利亚 | BGR
+  - 🇩🇪 德国 | DEU 6
+  - 🇫🇮 芬兰 | FIN 2
+  - 🇩🇪 德国 | DEU
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: HK-POOL
@@ -344,33 +271,32 @@ proxy-groups:
 - name: JP-POOL
   type: url-test
   proxies:
-  - 🇯🇵 日本 | JPN 3
+  - 🇸🇬 新加坡 | SGP
+  - 🇸🇬 新加坡 | SGP 2
+  - 🇭🇰 香港 | HKG
+  - 🇺🇸 美国 | USA 9
+  - 🇺🇸 美国 | USA 8
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: US-POOL
   type: url-test
   proxies:
-  - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 3
-  - 🇺🇸 美国 | USA
+  - 🇺🇸 美国 | USA 4
+  - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA 10
-  - 🇺🇸 美国 | USA 13
-  - 🇺🇸 美国 | USA 17
-  - 🇺🇸 美国 | USA 15
-  - 🇺🇸 美国 | USA 18
-  - 🇺🇸 美国 | USA 12
+  - 🇺🇸 美国 | USA 2
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: AI-POOL
   type: url-test
   proxies:
-  - 🇺🇸 美国 | USA 18
-  - 🇺🇸 美国 | USA 12
-  - 🇺🇸 美国 | USA 17
+  - 🇺🇸 美国 | USA 3
+  - 🇸🇬 新加坡 | SGP 2
+  - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 9
-  - 🇺🇸 美国 | USA 13
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
