@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-07-14T20:43:08.697788+00:00'
+generated-at: '2026-07-14T23:38:31.069382+00:00'
 proxies:
 - name: 🇭🇰 香港 | HKG 2
   server: 202.146.222.29
@@ -79,15 +79,6 @@ proxies:
   alpn:
   - h3
   udp: true
-- name: 🇮🇷 伊朗 | IRN
-  server: fast88.screw.page
-  port: 443
-  type: hysteria2
-  password: c0aa0cee-e855-4bcc-9afc-46241cb17990
-  auth: c0aa0cee-e855-4bcc-9afc-46241cb17990
-  sni: fast88.screw.page
-  skip-cert-verify: false
-  udp: true
 - name: 🇩🇪 德国 | DEU 3
   server: 5.83.129.153
   port: 20088
@@ -151,7 +142,6 @@ proxy-groups:
   - 🇺🇸 美国 | USA
   - 🇺🇸 美国 | USA 2
   - 🇩🇪 德国 | DEU 2
-  - 🇮🇷 伊朗 | IRN
   - 🇩🇪 德国 | DEU 3
   - 🇦🇺 澳大利亚 | AUS
   - 🇫🇮 芬兰 | FIN
@@ -187,8 +177,8 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇺🇸 美国 | USA 4
-  - 🇺🇸 美国 | USA
   - 🇺🇸 美国 | USA 2
+  - 🇺🇸 美国 | USA
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
