@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-07-14T23:38:31.069382+00:00'
+generated-at: '2026-07-15T07:30:43.205014+00:00'
 proxies:
 - name: 🇭🇰 香港 | HKG 2
   server: 202.146.222.29
@@ -18,23 +18,63 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   skip-cert-verify: true
   udp: true
+- name: 🇯🇵 日本 | JPN 2
+  server: 45.76.202.45
+  port: 4010
+  type: vmess
+  uuid: 071a8a71-c656-4fb6-a908-4e42eb72243d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /liksuzcp
+  udp: true
 - name: 🇸🇬 新加坡 | SGP
+  server: 13.214.178.3
+  port: 443
+  type: vmess
+  uuid: 714d82c3-184d-457b-bbb3-d8ad3861e5ef
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vmess
+  udp: true
+- name: 🇭🇰 香港 | HKG
+  server: 23.227.38.178
+  port: 443
+  type: trojan
+  password: 13d29042-ab82-4195-9cd4-2bafc518e201
+  sni: q6clkp794liy3y90.hktimecsgo.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /images
+    headers:
+      Host: q6clkp794liy3y90.hktimecsgo.xyz
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 2
   server: support.zoom.us
   port: 80
   type: vless
   uuid: e7b178da-65e8-45ad-8550-de40eb0a7835
   tls: false
+  servername: sahanwickramasinghevip.shop
   network: ws
   ws-opts:
     path: /
     headers:
       Host: sahanwickramasinghevip.shop
   udp: true
-- name: 🇭🇰 香港 | HKG
-  server: 45.158.23.138
-  port: 27272
+- name: 🇯🇵 日本 | JPN
+  server: 103.53.80.224
+  port: 52080
   type: vmess
-  uuid: 1c7c0c72-6bc1-4e51-ada8-0e5570bb4780
+  uuid: 023416ac-45c5-4826-9033-1aa678c3f203
   alterId: 0
   cipher: auto
   tls: false
@@ -42,44 +82,96 @@ proxies:
   http-opts:
     method: GET
     path:
-    - /
+    - /QQqun-737805443
   udp: true
-- name: 🇺🇸 美国 | USA 4
-  server: tinkered-pennies-puppies.freesocks.work
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: gaM3vd5zfR1ay1v7hfn4X6
-  udp: true
-- name: 🇺🇸 美国 | USA
+- name: 🇺🇸 美国 | USA 11
   server: tinkered-pennies-puppies.freesocks.work
   port: 443
   type: ss
   cipher: chacha20-ietf-poly1305
   password: hbGrpfvNrJsUmKmPbR3iY2
   udp: true
-- name: 🇺🇸 美国 | USA 2
-  server: 18.190.176.112
+- name: 🇺🇸 美国 | USA 9
+  server: tinkered-pennies-puppies.freesocks.work
   port: 443
   type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
+  cipher: chacha20-ietf-poly1305
+  password: gaM3vd5zfR1ay1v7hfn4X6
+  udp: true
+- name: 🇺🇸 美国 | USA 6
+  server: 176.122.174.175
+  port: 8443
+  type: vmess
+  uuid: aa6bc79c-7535-4491-aede-655110ced2e3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: 176.122.174.175
+  network: ws
+  ws-opts:
+    path: /vmess
+  udp: true
+- name: 🇺🇸 美国 | USA 5
+  server: 43.173.98.184
+  port: 8388
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 3t21e/P6fxeSULmI2S4f0mJ3q3b2TiQO
+  udp: true
+- name: 🇺🇸 美国 | USA
+  server: 209.54.107.157
+  port: 443
+  type: vmess
+  uuid: c4d1c2f9-30ac-4446-8f26-f6e230ea07b3
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: 209.54.107.157
+  network: ws
+  ws-opts:
+    path: /vmess
+  udp: true
+- name: 🇺🇸 美国 | USA 13
+  server: 45.205.31.175
+  port: 10086
+  type: vmess
+  uuid: 33f38758-81d2-43b0-a74a-2d7c70ea27c8
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸 美国 | USA 10
+  server: loveourlive.com
+  port: 443
+  type: vmess
+  uuid: 183AFF7A-001B-4C5E-A754-FE1506BF33A2
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: loveourlive.com
+  udp: true
+- name: 🇺🇸 美国 | USA 12
+  server: 45.205.31.175
+  port: 8444
+  type: vmess
+  uuid: f1fb546a-eaaf-4c10-98f1-871b48931077
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /warp
   udp: true
 - name: 🇩🇪 德国 | DEU 2
-  server: 5.83.129.90
-  port: 54177
-  type: hysteria
-  auth_str: dongtaiwang.com
-  auth-str: dongtaiwang.com
-  up: 500
-  down: 1000
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  udp: true
-- name: 🇩🇪 德国 | DEU 3
   server: 5.83.129.153
   port: 20088
   type: hysteria
@@ -93,42 +185,69 @@ proxies:
   alpn:
   - h3
   udp: true
-- name: 🇦🇺 澳大利亚 | AUS
-  server: ip4.vpean2.qzz.io
+- name: 🇰🇷 韩国 | KOR 2
+  server: aware-lionfish.rooster465.autos
   port: 443
   type: trojan
-  password: rYuChHcwQZskq9E0zdoR
-  sni: vpn5.rnmcnm.com
-  network: ws
-  ws-opts:
-    path: /ws-79dffb8106db
-    headers:
-      Host: vpn5.rnmcnm.com
+  password: CF68213490
+  sni: aware-lionfish.rooster465.autos
   udp: true
-- name: 🇫🇮 芬兰 | FIN
-  server: 167.82.77.173
+- name: 🇮🇷 伊朗 | IRN
+  server: fast88.screw.page
   port: 443
+  type: hysteria2
+  password: c0aa0cee-e855-4bcc-9afc-46241cb17990
+  auth: c0aa0cee-e855-4bcc-9afc-46241cb17990
+  sni: fast88.screw.page
+  skip-cert-verify: false
+  udp: true
+- name: 🇩🇪 德国 | DEU 3
+  server: 63.179.29.71
+  port: 22224
   type: vless
-  uuid: 891710f4-45f3-41b1-99a6-6f1510f83c10
-  tls: true
-  packet-encoding: xudp
-  servername: ssl.fastly.com
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  tls: false
+  network: tcp
+  udp: true
+- name: 🇩🇪 德国 | DEU 4
+  server: 5.83.129.90
+  port: 54177
+  type: hysteria
+  auth_str: dongtaiwang.com
+  auth-str: dongtaiwang.com
+  up: 500
+  down: 1000
+  protocol: udp
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  udp: true
+- name: 🇰🇷 韩国 | KOR
+  server: diverse-thrush.rooster465.autos
+  port: 443
+  type: trojan
+  password: CF68213490
+  sni: diverse-thrush.rooster465.autos
+  udp: true
+- name: 🇫🇷 法国 | FRA
+  server: 185.18.250.252
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.gossipglove.com
   network: ws
   ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
+    path: /assignment
     headers:
-      Host: pan21.global.ssl.fastly.net
+      Host: www.gossipglove.com
   udp: true
 - name: 🇩🇪 德国 | DEU
-  server: 185.68.184.186
-  port: 443
+  server: 63.179.29.71
+  port: 22222
   type: vless
-  uuid: 7bdb9235-68bd-418f-912e-4cc590f50c35
-  tls: true
-  reality-opts:
-    public-key: zdUruFsb8e_EEIqEMyykFbpNaOZCk_RDRaYInsgD9y0
-    short-id: 0a076a46
-  client-fingerprint: chrome
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  tls: false
   network: tcp
   udp: true
 proxy-groups:
@@ -136,15 +255,26 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇭🇰 香港 | HKG 2
+  - 🇯🇵 日本 | JPN 2
   - 🇸🇬 新加坡 | SGP
   - 🇭🇰 香港 | HKG
-  - 🇺🇸 美国 | USA 4
+  - 🇸🇬 新加坡 | SGP 2
+  - 🇯🇵 日本 | JPN
+  - 🇺🇸 美国 | USA 11
+  - 🇺🇸 美国 | USA 9
+  - 🇺🇸 美国 | USA 6
+  - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA
-  - 🇺🇸 美国 | USA 2
+  - 🇺🇸 美国 | USA 13
+  - 🇺🇸 美国 | USA 10
+  - 🇺🇸 美国 | USA 12
   - 🇩🇪 德国 | DEU 2
+  - 🇰🇷 韩国 | KOR 2
+  - 🇮🇷 伊朗 | IRN
   - 🇩🇪 德国 | DEU 3
-  - 🇦🇺 澳大利亚 | AUS
-  - 🇫🇮 芬兰 | FIN
+  - 🇩🇪 德国 | DEU 4
+  - 🇰🇷 韩国 | KOR
+  - 🇫🇷 法国 | FRA
   - 🇩🇪 德国 | DEU
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -158,27 +288,30 @@ proxy-groups:
 - name: JP-POOL
   type: url-test
   proxies:
-  - 🇭🇰 香港 | HKG 2
-  - 🇸🇬 新加坡 | SGP
-  - 🇭🇰 香港 | HKG
-  - 🇺🇸 美国 | USA 4
-  - 🇺🇸 美国 | USA
+  - 🇯🇵 日本 | JPN 2
+  - 🇯🇵 日本 | JPN
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: US-POOL
   type: url-test
   proxies:
-  - 🇺🇸 美国 | USA 4
+  - 🇺🇸 美国 | USA 11
+  - 🇺🇸 美国 | USA 9
+  - 🇺🇸 美国 | USA 6
+  - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA
-  - 🇺🇸 美国 | USA 2
+  - 🇺🇸 美国 | USA 13
+  - 🇺🇸 美国 | USA 10
+  - 🇺🇸 美国 | USA 12
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: AI-POOL
   type: url-test
   proxies:
-  - 🇺🇸 美国 | USA 4
-  - 🇺🇸 美国 | USA 2
   - 🇺🇸 美国 | USA
+  - 🇺🇸 美国 | USA 13
+  - 🇺🇸 美国 | USA 5
+  - 🇺🇸 美国 | USA 12
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
