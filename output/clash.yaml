@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-07-15T20:39:22.130867+00:00'
+generated-at: '2026-07-16T00:13:12.944712+00:00'
 proxies:
 - name: 🇯🇵 日本 | JPN 5
   server: present-ram.rooster465.autos
@@ -16,12 +16,12 @@ proxies:
   password: CF68213490
   sni: present-ram.rooster465.autos
   skip-cert-verify: true
-- name: 🇭🇰 香港 | HKG 4
-  server: hk.mjhy2.com
-  port: 1443
-  type: hysteria2
-  password: 81392bb3-4873-4cf3-8e9b-ef557961446a
-  auth: 81392bb3-4873-4cf3-8e9b-ef557961446a
+- name: 🇯🇵 日本 | JPN 12
+  server: evolving-mollusk.rooster465.autos
+  port: 443
+  type: trojan
+  password: CF68213490
+  sni: evolving-mollusk.rooster465.autos
   skip-cert-verify: true
 - name: 🇯🇵 日本 | JPN 10
   server: free-hare.rooster465.autos
@@ -75,6 +75,18 @@ proxies:
   password: CF68213490
   sni: immune-mullet.rooster465.autos
   skip-cert-verify: true
+- name: 🇯🇵 日本 | JPN 6
+  server: download.yunzhongzhuan.com
+  port: 8880
+  type: vless
+  uuid: efc13f4d-141c-444c-8fbc-ffbcf2be4252
+  tls: false
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+    headers:
+      Host: bitter-morning-b4e3.283.workers.dev
+  udp: true
 - name: 🇸🇬 新加坡 | SGP 7
   server: immense-eagle.rooster465.autos
   port: 443
@@ -186,6 +198,20 @@ proxies:
     path: /@NebulaVPNx
     headers:
       Host: t1s1.rittbo.kdns.fr
+  udp: true
+- name: 🇺🇸 美国 | USA 5
+  server: 173.245.58.75
+  port: 443
+  type: vless
+  uuid: b2f6aa3a-2550-4a1c-b2c0-1c94b1207217
+  tls: true
+  servername: terazhediii.info
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /hdgrbws
+    headers:
+      Host: terazhediii.info
   udp: true
 - name: 🇺🇸 美国 | USA 10
   server: upwork.com
@@ -371,21 +397,19 @@ proxies:
   client-fingerprint: randomized
   network: tcp
   udp: true
-- name: 🇨🇭 瑞士 | CHE
-  server: 45.59.117.169
-  port: 443
+- name: 🇸🇪 瑞典 | SWE
+  server: 185.231.101.85
+  port: 8443
   type: vless
-  uuid: d2e3768f-cb23-4cfc-a884-dbd6813cb70b
+  uuid: ecad47b0-249e-000c-adff-e3c8f02b1897
   tls: true
+  flow: xtls-rprx-vision
   reality-opts:
-    public-key: Uwj82vGl-jAhU3VflWnTy7rISYi03slggjS32Zx8pkk
-    short-id: 6ba85179e30d4fc2
-  servername: www.blick.ch
+    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
+    short-id: 43dcff53849b81e6
+  servername: se.quattro-tech.ru
   client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: wlgrpc
+  network: tcp
   udp: true
 - name: 🇰🇿 哈萨克斯坦 | KAZ
   server: kz4.helper-internet.com
@@ -409,21 +433,6 @@ proxies:
   auth: 4aeedead-1354-45a4-935d-8bba5e7f82b5
   sni: addons.mozilla.org
   skip-cert-verify: true
-- name: 🇵🇱 波兰 | POL 4
-  server: more-trout.rooster465.autos
-  port: 443
-  type: trojan
-  password: KV63147582
-  sni: more-trout.rooster465.autos
-  skip-cert-verify: true
-- name: 🇰🇷 韩国 | KOR
-  server: q.baoge.me
-  port: 2328
-  type: hysteria2
-  password: e3a5bb40be52de65
-  auth: e3a5bb40be52de65
-  sni: apps.apple.com
-  skip-cert-verify: true
 - name: 🇫🇷 法国 | FRA
   server: 62.210.24.143
   port: 33888
@@ -439,6 +448,21 @@ proxies:
   request-timeout: 0
   udp-relay-mode: native
   congestion-controller: cubic
+- name: 🇵🇱 波兰 | POL 4
+  server: more-trout.rooster465.autos
+  port: 443
+  type: trojan
+  password: KV63147582
+  sni: more-trout.rooster465.autos
+  skip-cert-verify: true
+- name: 🇰🇷 韩国 | KOR
+  server: q.baoge.me
+  port: 2328
+  type: hysteria2
+  password: e3a5bb40be52de65
+  auth: e3a5bb40be52de65
+  sni: apps.apple.com
+  skip-cert-verify: true
 - name: 🇳🇱 荷兰 | NLD 2
   server: 195.63.137.251
   port: 8090
@@ -550,7 +574,7 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇯🇵 日本 | JPN 5
-  - 🇭🇰 香港 | HKG 4
+  - 🇯🇵 日本 | JPN 12
   - 🇯🇵 日本 | JPN 10
   - 🇯🇵 日本 | JPN 11
   - 🇸🇬 新加坡 | SGP 5
@@ -558,6 +582,7 @@ proxy-groups:
   - 🇯🇵 日本 | JPN 9
   - 🇯🇵 日本 | JPN 7
   - 🇯🇵 日本 | JPN 2
+  - 🇯🇵 日本 | JPN 6
   - 🇸🇬 新加坡 | SGP 7
   - 🇸🇬 新加坡 | SGP 3
   - 🇯🇵 日本 | JPN 4
@@ -571,6 +596,7 @@ proxy-groups:
   - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA
+  - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA 10
   - 🇺🇸 美国 | USA 2
   - 🇳🇱 荷兰 | NLD 7
@@ -585,12 +611,12 @@ proxy-groups:
   - 🇩🇪 德国 | DEU 3
   - 🇩🇪 德国 | DEU 6
   - 🇩🇪 德国 | DEU 8
-  - 🇨🇭 瑞士 | CHE
+  - 🇸🇪 瑞典 | SWE
   - 🇰🇿 哈萨克斯坦 | KAZ
   - 🇳🇱 荷兰 | NLD 6
+  - 🇫🇷 法国 | FRA
   - 🇵🇱 波兰 | POL 4
   - 🇰🇷 韩国 | KOR
-  - 🇫🇷 法国 | FRA
   - 🇳🇱 荷兰 | NLD 2
   - 🇩🇪 德国 | DEU
   - 🇳🇱 荷兰 | NLD 3
@@ -604,7 +630,6 @@ proxy-groups:
 - name: HK-POOL
   type: url-test
   proxies:
-  - 🇭🇰 香港 | HKG 4
   - 🇭🇰 香港 | HKG 3
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -612,11 +637,13 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇯🇵 日本 | JPN 5
+  - 🇯🇵 日本 | JPN 12
   - 🇯🇵 日本 | JPN 10
   - 🇯🇵 日本 | JPN 11
   - 🇯🇵 日本 | JPN 9
   - 🇯🇵 日本 | JPN 7
   - 🇯🇵 日本 | JPN 2
+  - 🇯🇵 日本 | JPN 6
   - 🇯🇵 日本 | JPN 4
   - 🇯🇵 日本 | JPN
   url: http://www.gstatic.com/generate_204
@@ -627,6 +654,7 @@ proxy-groups:
   - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA
+  - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA 10
   - 🇺🇸 美国 | USA 2
   url: http://www.gstatic.com/generate_204
@@ -638,12 +666,12 @@ proxy-groups:
   - 🇺🇸 美国 | USA 10
   - 🇨🇦 加拿大 | CAN
   - 🇳🇱 荷兰 | NLD 3
+  - 🇩🇪 德国 | DEU 6
+  - 🇫🇷 法国 | FRA
   - 🇺🇸 美国 | USA 2
   - 🇳🇱 荷兰 | NLD 6
-  - 🇩🇪 德国 | DEU 6
-  - 🇩🇪 德国 | DEU
+  - 🇳🇱 荷兰 | NLD 4
   - 🇺🇸 美国 | USA 11
-  - 🇬🇪 GE_46
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
