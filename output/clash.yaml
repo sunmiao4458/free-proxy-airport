@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-07-17T20:16:51.417349+00:00'
+generated-at: '2026-07-17T23:33:07.448728+00:00'
 proxies:
 - name: 🇯🇵 日本 | JPN 25
   server: bursting-racer.rooster465.autos
@@ -16,6 +16,26 @@ proxies:
   password: NQ26071394
   sni: bursting-racer.rooster465.autos
   skip-cert-verify: true
+- name: 🇯🇵 日本 | JPN 16
+  server: innocent-mullet.rooster465.autos
+  port: 443
+  type: trojan
+  password: NQ26071394
+  sni: innocent-mullet.rooster465.autos
+  skip-cert-verify: true
+- name: 🇯🇵 日本 | JPN 22
+  server: 162.159.38.2
+  port: 8443
+  type: vless
+  uuid: 7612dd26-d0ce-4fe0-be7c-d093bb8645da
+  tls: true
+  servername: cf11.evan00.dpdns.org
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /proxyip=ProxyIP.US.cmliussss.net
+    headers:
+      Host: cf11.evan00.dpdns.org
 - name: 🇸🇬 新加坡 | SGP 13
   server: 8.35.211.81
   port: 2096
@@ -43,26 +63,6 @@ proxies:
     path: /proxyip=ProxyIP.US.cmliussss.net
     headers:
       Host: cf11.evan00.dpdns.org
-- name: 🇯🇵 日本 | JPN 22
-  server: 162.159.38.2
-  port: 8443
-  type: vless
-  uuid: 7612dd26-d0ce-4fe0-be7c-d093bb8645da
-  tls: true
-  servername: cf11.evan00.dpdns.org
-  client-fingerprint: random
-  network: ws
-  ws-opts:
-    path: /proxyip=ProxyIP.US.cmliussss.net
-    headers:
-      Host: cf11.evan00.dpdns.org
-- name: 🇯🇵 日本 | JPN 16
-  server: innocent-mullet.rooster465.autos
-  port: 443
-  type: trojan
-  password: NQ26071394
-  sni: innocent-mullet.rooster465.autos
-  skip-cert-verify: true
 - name: 🇸🇬 新加坡 | SGP 10
   server: 188.164.248.190
   port: 2096
@@ -91,6 +91,13 @@ proxies:
   password: NQ26071394
   sni: helped-jennet.rooster465.autos
   skip-cert-verify: true
+- name: 🇯🇵 日本 | JPN 23
+  server: stunning-mastodon.rooster465.autos
+  port: 443
+  type: trojan
+  password: NQ26071394
+  sni: stunning-mastodon.rooster465.autos
+  skip-cert-verify: true
 - name: 🇯🇵 日本 | JPN 11
   server: immune-grackle.rooster465.autos
   port: 443
@@ -112,19 +119,19 @@ proxies:
   password: NQ26071394
   sni: saving-drake.rooster465.autos
   skip-cert-verify: true
-- name: 🇯🇵 日本 | JPN 9
-  server: firm-krill.rooster465.autos
-  port: 443
-  type: trojan
-  password: NQ26071394
-  sni: firm-krill.rooster465.autos
-  skip-cert-verify: true
 - name: 🇯🇵 日本 | JPN 8
   server: hot-tapir.rooster465.autos
   port: 443
   type: trojan
   password: NQ26071394
   sni: hot-tapir.rooster465.autos
+  skip-cert-verify: true
+- name: 🇯🇵 日本 | JPN 9
+  server: firm-krill.rooster465.autos
+  port: 443
+  type: trojan
+  password: NQ26071394
+  sni: firm-krill.rooster465.autos
   skip-cert-verify: true
 - name: 🇯🇵 日本 | JPN 7
   server: beloved-crow.rooster465.autos
@@ -133,19 +140,19 @@ proxies:
   password: NQ26071394
   sni: beloved-crow.rooster465.autos
   skip-cert-verify: true
-- name: 🇯🇵 日本 | JPN 17
-  server: magical-prawn.rooster465.autos
-  port: 443
-  type: trojan
-  password: NQ26071394
-  sni: magical-prawn.rooster465.autos
-  skip-cert-verify: true
 - name: 🇯🇵 日本 | JPN 2
   server: harmless-pegasus.rooster465.autos
   port: 443
   type: trojan
   password: NQ26071394
   sni: harmless-pegasus.rooster465.autos
+  skip-cert-verify: true
+- name: 🇯🇵 日本 | JPN 17
+  server: magical-prawn.rooster465.autos
+  port: 443
+  type: trojan
+  password: NQ26071394
+  sni: magical-prawn.rooster465.autos
   skip-cert-verify: true
 - name: 🇯🇵 日本 | JPN 6
   server: elegant-marten.rooster465.autos
@@ -168,31 +175,6 @@ proxies:
   password: NQ26071394
   sni: worthy-labrador.rooster465.autos
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 | SGP
-  server: 104.18.34.245
-  port: 8880
-  type: vless
-  uuid: 0b01d4d8-656d-4d55-8ad5-ed2a362788b5
-  tls: false
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: square-tree-3dbf.285.workers.dev
-  udp: true
-- name: 🇯🇵 日本 | JPN 4
-  server: 172.64.229.1
-  port: 443
-  type: vless
-  uuid: 7612dd26-d0ce-4fe0-be7c-d093bb8645da
-  tls: true
-  servername: cf11.evan00.dpdns.org
-  client-fingerprint: random
-  network: ws
-  ws-opts:
-    path: /proxyip=ProxyIP.US.cmliussss.net
-    headers:
-      Host: cf11.evan00.dpdns.org
 - name: 🇯🇵 日本 | JPN 14
   server: infinite-killdeer.rooster465.autos
   port: 443
@@ -214,20 +196,19 @@ proxies:
   password: NQ26071394
   sni: legible-ram.rooster465.autos
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 | SGP 8
-  server: 104.18.33.139
-  port: 2053
+- name: 🇯🇵 日本 | JPN 4
+  server: 172.64.229.1
+  port: 443
   type: vless
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  uuid: 7612dd26-d0ce-4fe0-be7c-d093bb8645da
   tls: true
-  servername: vp40.cc.cd
-  client-fingerprint: firefox
+  servername: cf11.evan00.dpdns.org
+  client-fingerprint: random
   network: ws
   ws-opts:
-    path: /
+    path: /proxyip=ProxyIP.US.cmliussss.net
     headers:
-      Host: vp40.cc.cd
-  udp: true
+      Host: cf11.evan00.dpdns.org
 - name: 🇸🇬 新加坡 | SGP 3
   server: pet-ghost.rooster465.autos
   port: 443
@@ -242,6 +223,20 @@ proxies:
   password: NQ26071394
   sni: tidy-gelding.rooster465.autos
   skip-cert-verify: true
+- name: 🇸🇬 新加坡 | SGP 8
+  server: 104.18.33.139
+  port: 2053
+  type: vless
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  tls: true
+  servername: vp40.cc.cd
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vp40.cc.cd
+  udp: true
 - name: 🇸🇬 新加坡 | SGP 6
   server: 188.164.248.122
   port: 443
@@ -254,6 +249,13 @@ proxies:
     path: /in-pdr
     headers:
       Host: space.byu.id.yxls.eu.cc
+- name: 🇸🇬 新加坡 | SGP 14
+  server: organic-locust.rooster465.autos
+  port: 443
+  type: trojan
+  password: NQ26071394
+  sni: organic-locust.rooster465.autos
+  skip-cert-verify: true
 - name: 🇸🇬 新加坡 | SGP 15
   server: 8.39.125.201
   port: 2087
@@ -268,13 +270,6 @@ proxies:
     headers:
       Host: vp8.cc.cd
   udp: true
-- name: 🇸🇬 新加坡 | SGP 14
-  server: organic-locust.rooster465.autos
-  port: 443
-  type: trojan
-  password: NQ26071394
-  sni: organic-locust.rooster465.autos
-  skip-cert-verify: true
 - name: 🇸🇬 新加坡 | SGP 2
   server: emerging-baboon.rooster465.autos
   port: 443
@@ -303,20 +298,6 @@ proxies:
   password: NQ26071394
   sni: grateful-crawdad.rooster465.autos
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 | SGP 16
-  server: 8.39.125.45
-  port: 443
-  type: vless
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  tls: true
-  servername: vp37.cc.cd
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vp37.cc.cd
-  udp: true
 - name: 🇯🇵 日本 | JPN 24
   server: equal-labrador.rooster465.autos
   port: 443
@@ -331,6 +312,20 @@ proxies:
   password: NQ26071394
   sni: alert-titmouse.rooster465.autos
   skip-cert-verify: true
+- name: 🇸🇬 新加坡 | SGP 16
+  server: 8.39.125.45
+  port: 443
+  type: vless
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  tls: true
+  servername: vp37.cc.cd
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vp37.cc.cd
+  udp: true
 - name: 🇸🇬 新加坡 | SGP 12
   server: square-gnat.rooster465.autos
   port: 443
@@ -351,20 +346,6 @@ proxies:
     path: /vlws
     headers:
       Host: vnp.noaguo.xyz
-  udp: true
-- name: 🇺🇸 美国 | USA 21
-  server: jyvlryz.cvewfjg.shop
-  port: 443
-  type: vless
-  uuid: 4e0f4e59-3613-4f0c-b824-7348413d20e6
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: UE8hUjH1WYwemxIriq5lvtFCnHTdLF817okXr-u7MGs
-    short-id: 250b5976473a
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  network: tcp
   udp: true
 - name: 🇺🇸 美国 | USA 20
   server: better-silkworm.rooster465.autos
@@ -387,6 +368,20 @@ proxies:
     headers:
       Host: vp40.cc.cd
   udp: true
+- name: 🇺🇸 美国 | USA 21
+  server: jyvlryz.cvewfjg.shop
+  port: 443
+  type: vless
+  uuid: 4e0f4e59-3613-4f0c-b824-7348413d20e6
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: UE8hUjH1WYwemxIriq5lvtFCnHTdLF817okXr-u7MGs
+    short-id: 250b5976473a
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
 - name: 🇺🇸 美国 | USA 16
   server: sharing-porpoise.rooster465.autos
   port: 443
@@ -407,6 +402,21 @@ proxies:
     path: /
     headers:
       Host: vp33.cc.cd
+- name: 🇺🇸 美国 | USA 7
+  server: v2.573150.xyz
+  port: 56944
+  type: vless
+  uuid: 1871462c-6e0f-40c6-92a0-eddba81403a2
+  tls: true
+  alpn:
+  - http/1.1
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
 - name: 🇺🇸 美国 | USA 4
   server: us2.denverpresents.top
   port: 443
@@ -443,19 +453,6 @@ proxies:
     headers:
       Host: vp15.cc.cd
   udp: true
-- name: 🇺🇸 美国 | USA 19
-  server: 154.17.4.244
-  port: 443
-  type: vless
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  tls: true
-  servername: s5gydl.936.us.ci
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-    headers:
-      Host: s5gydl.936.us.ci
 - name: 🇺🇸 美国 | USA 10
   server: kzbkjum.cvewfjg.shop
   port: 443
@@ -470,6 +467,26 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
+- name: 🇺🇸 美国 | USA 19
+  server: 154.17.4.244
+  port: 443
+  type: vless
+  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  tls: true
+  servername: s5gydl.936.us.ci
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+    headers:
+      Host: s5gydl.936.us.ci
+- name: 🇺🇸 美国 | USA 13
+  server: alert-monster.rooster465.autos
+  port: 443
+  type: trojan
+  password: CF68213490
+  sni: alert-monster.rooster465.autos
+  skip-cert-verify: true
 - name: 🇺🇸 美国 | USA 17
   server: 8.39.125.122
   port: 2083
@@ -484,13 +501,6 @@ proxies:
     headers:
       Host: vp6.cc.cd
   udp: true
-- name: 🇺🇸 美国 | USA 13
-  server: alert-monster.rooster465.autos
-  port: 443
-  type: trojan
-  password: CF68213490
-  sni: alert-monster.rooster465.autos
-  skip-cert-verify: true
 - name: 🇺🇸 美国 | USA 15
   server: cfd6.466688.xyz
   port: 443
@@ -533,6 +543,13 @@ proxies:
     headers:
       Host: edge-4cb23bf6.pages.dev
   udp: true
+- name: 🏴‍☠️ 未知地区 | Unknown
+  server: thorough-falcon.rooster465.autos
+  port: 443
+  type: trojan
+  password: NQ26071394
+  sni: thorough-falcon.rooster465.autos
+  skip-cert-verify: true
 - name: 🇳🇱 荷兰 | NLD 7
   server: green.iranidrive.ir
   port: 2092
@@ -553,13 +570,6 @@ proxies:
       Host:
       - www.yahoo.com
   udp: true
-- name: 🏴‍☠️ 未知地区 | Unknown
-  server: thorough-falcon.rooster465.autos
-  port: 443
-  type: trojan
-  password: NQ26071394
-  sni: thorough-falcon.rooster465.autos
-  skip-cert-verify: true
 - name: 🇰🇷 韩国 | KOR 6
   server: devoted-heron.rooster465.autos
   port: 443
@@ -598,6 +608,19 @@ proxies:
   password: NQ26071394
   sni: guided-pelican.rooster465.autos
   skip-cert-verify: true
+- name: 🇩🇪 德国 | DEU 7
+  server: corelink.su
+  port: 443
+  type: vless
+  uuid: 153560b0-1a33-4b44-b059-ca5b22e55c19
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: b0y3fVgL8jKbO3cNmh_qCoZWoWRsY6BYc6VDJFkNe2I
+    short-id: b7fc0f11dda97edb
+  servername: corelink.su
+  client-fingerprint: chrome
+  network: tcp
 - name: 🇰🇷 韩国 | KOR 4
   server: polished-shrew.rooster465.autos
   port: 443
@@ -628,13 +651,6 @@ proxies:
   password: NQ26071394
   sni: warm-bass.rooster465.autos
   skip-cert-verify: true
-- name: 🏴‍☠️ 未知地区 | Unknown 4
-  server: working-tomcat.rooster465.autos
-  port: 443
-  type: trojan
-  password: NQ26071394
-  sni: working-tomcat.rooster465.autos
-  skip-cert-verify: true
 - name: 🇳🇱 荷兰 | NLD
   server: 89.105.204.107
   port: 443
@@ -651,6 +667,13 @@ proxies:
   client-fingerprint: qq
   network: tcp
   udp: true
+- name: 🏴‍☠️ 未知地区 | Unknown 4
+  server: working-tomcat.rooster465.autos
+  port: 443
+  type: trojan
+  password: NQ26071394
+  sni: working-tomcat.rooster465.autos
+  skip-cert-verify: true
 - name: 🇰🇷 韩国 | KOR 10
   server: normal-bull.rooster465.autos
   port: 443
@@ -664,13 +687,6 @@ proxies:
   type: trojan
   password: NQ26071394
   sni: neat-octopus.rooster465.autos
-  skip-cert-verify: true
-- name: 🇰🇷 韩国 | KOR 9
-  server: genuine-cougar.rooster465.autos
-  port: 443
-  type: trojan
-  password: NQ26071394
-  sni: genuine-cougar.rooster465.autos
   skip-cert-verify: true
 - name: 🇳🇱 荷兰 | NLD 14
   server: nl.themesh.site
@@ -686,6 +702,13 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
+- name: 🇰🇷 韩国 | KOR 9
+  server: genuine-cougar.rooster465.autos
+  port: 443
+  type: trojan
+  password: NQ26071394
+  sni: genuine-cougar.rooster465.autos
+  skip-cert-verify: true
 - name: 🇺🇦 乌克兰 | UKR
   server: 144.31.218.79
   port: 10443
@@ -721,20 +744,6 @@ proxies:
   password: NQ26071394
   sni: accurate-cat.rooster465.autos
   skip-cert-verify: true
-- name: 🇳🇱 荷兰 | NLD 17
-  server: 185.209.15.91
-  port: 443
-  type: vless
-  uuid: 8f0560ec-ba22-4431-a6a7-318dc59d5233
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: tSxNp48AuTUzqggANCWsR6v7bqlguCoVWk_YOUs36Ug
-    short-id: 5e3ab3ab228625
-  servername: gedolam-vawset.ru
-  client-fingerprint: firefox
-  network: tcp
-  udp: true
 - name: 🇳🇱 荷兰 | NLD 15
   server: api.oneokgames.com
   port: 443
@@ -751,20 +760,6 @@ proxies:
     grpc-mode: gun
     grpc-service-name: push.v2.FeedService
   udp: true
-- name: 🇩🇪 德国 | DEU 6
-  server: 5.83.129.90
-  port: 54177
-  type: hysteria
-  auth_str: dongtaiwang.com
-  auth-str: dongtaiwang.com
-  up: 500
-  down: 1000
-  protocol: udp
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  udp: true
 - name: 🇵🇱 波兰 | POL
   server: 31.56.188.87
   port: 443
@@ -778,6 +773,20 @@ proxies:
   servername: site.rumedia-cdn.com
   client-fingerprint: chrome
   network: tcp
+  udp: true
+- name: 🇩🇪 德国 | DEU 6
+  server: 5.83.129.90
+  port: 54177
+  type: hysteria
+  auth_str: dongtaiwang.com
+  auth-str: dongtaiwang.com
+  up: 500
+  down: 1000
+  protocol: udp
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
   udp: true
 - name: 🇩🇪 德国 | DEU 8
   server: 91.107.159.216
@@ -795,19 +804,6 @@ proxies:
   sni: kind-unicorn.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: 🇩🇪 德国 | DEU 4
-  server: 104.26.10.200
-  port: 2053
-  type: vless
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  tls: true
-  servername: vp37.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vp37.cc.cd
 - name: 🇳🇱 荷兰 | NLD 11
   server: eu.oneokgames.com
   port: 443
@@ -840,15 +836,19 @@ proxies:
     grpc-mode: gun
     grpc-service-name: api.v1.StreamService
   udp: true
-- name: 🏴‍☠️ 未知地区 | Unknown 7
-  server: c722s801.portablesubmarines.com
-  port: 16025
-  type: vmess
-  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
+- name: 🇩🇪 德国 | DEU 4
+  server: 104.26.10.200
+  port: 2053
+  type: vless
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  tls: true
+  servername: vp37.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vp37.cc.cd
 - name: 🇰🇿 哈萨克斯坦 | KAZ
   server: kz.vrsvpn.com
   port: 443
@@ -862,6 +862,15 @@ proxies:
   servername: web.max.ru
   client-fingerprint: ios
   network: tcp
+- name: 🏴‍☠️ 未知地区 | Unknown 7
+  server: c722s801.portablesubmarines.com
+  port: 16025
+  type: vmess
+  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
 - name: 🇳🇱 荷兰 | NLD 6
   server: dl.onetimeok.com
   port: 443
@@ -950,6 +959,16 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 🇵🇱 波兰 | POL 3
+  server: 128.204.223.94
+  port: 9815
+  type: vless
+  uuid: 37a0bd7c-8b9f-4693-8916-bd1e2da0a817
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+  udp: true
 - name: 🏴‍☠️ 未知地区 | Unknown 2
   server: evident-ant.rooster465.autos
   port: 443
@@ -973,13 +992,6 @@ proxies:
     grpc-mode: gun
     grpc-service-name: edge.v2.RelayService
   udp: true
-- name: 🇰🇷 韩国 | KOR 7
-  server: musical-mouse.rooster465.autos
-  port: 443
-  type: trojan
-  password: NQ26071394
-  sni: musical-mouse.rooster465.autos
-  skip-cert-verify: true
 - name: 🇪🇸 西班牙 | ESP
   server: isp04.myxasecure.space
   port: 443
@@ -994,112 +1006,102 @@ proxies:
   client-fingerprint: qq
   network: tcp
   udp: true
-- name: 🇩🇪 德国 | DEU 10
-  server: 104.21.6.201
+- name: 🇰🇷 韩国 | KOR 7
+  server: musical-mouse.rooster465.autos
   port: 443
-  type: vless
-  uuid: 01839038-ddc0-484f-957a-879b6e6e2116
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  - h3
-  servername: speedtestgoogleyahoobingyandexgmailappleaol.xbx24.ir
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /mehdi
-    headers:
-      Host: speedtestgoogleyahoobingyandexgmailappleaol.xbx24.ir
-  udp: true
+  type: trojan
+  password: NQ26071394
+  sni: musical-mouse.rooster465.autos
+  skip-cert-verify: true
 proxy-groups:
 - name: AUTO-FAST
   type: url-test
   proxies:
   - 🇯🇵 日本 | JPN 25
+  - 🇯🇵 日本 | JPN 16
+  - 🇯🇵 日本 | JPN 22
   - 🇸🇬 新加坡 | SGP 13
   - 🇯🇵 日本 | JPN 5
-  - 🇯🇵 日本 | JPN 22
-  - 🇯🇵 日本 | JPN 16
   - 🇸🇬 新加坡 | SGP 10
   - 🇯🇵 日本 | JPN 12
   - 🇯🇵 日本 | JPN 10
+  - 🇯🇵 日本 | JPN 23
   - 🇯🇵 日本 | JPN 11
   - 🇸🇬 新加坡 | SGP 11
   - 🇯🇵 日本 | JPN 20
-  - 🇯🇵 日本 | JPN 9
   - 🇯🇵 日本 | JPN 8
+  - 🇯🇵 日本 | JPN 9
   - 🇯🇵 日本 | JPN 7
-  - 🇯🇵 日本 | JPN 17
   - 🇯🇵 日本 | JPN 2
+  - 🇯🇵 日本 | JPN 17
   - 🇯🇵 日本 | JPN 6
   - 🇯🇵 日本 | JPN 3
   - 🇯🇵 日本 | JPN 21
-  - 🇸🇬 新加坡 | SGP
-  - 🇯🇵 日本 | JPN 4
   - 🇯🇵 日本 | JPN 14
   - 🇯🇵 日本 | JPN 13
   - 🇯🇵 日本 | JPN 15
-  - 🇸🇬 新加坡 | SGP 8
+  - 🇯🇵 日本 | JPN 4
   - 🇸🇬 新加坡 | SGP 3
   - 🇯🇵 日本 | JPN 19
+  - 🇸🇬 新加坡 | SGP 8
   - 🇸🇬 新加坡 | SGP 6
-  - 🇸🇬 新加坡 | SGP 15
   - 🇸🇬 新加坡 | SGP 14
+  - 🇸🇬 新加坡 | SGP 15
   - 🇸🇬 新加坡 | SGP 2
   - 🇸🇬 新加坡 | SGP 9
   - 🇯🇵 日本 | JPN
   - 🇯🇵 日本 | JPN 18
-  - 🇸🇬 新加坡 | SGP 16
   - 🇯🇵 日本 | JPN 24
   - 🇸🇬 新加坡 | SGP 4
+  - 🇸🇬 新加坡 | SGP 16
   - 🇸🇬 新加坡 | SGP 12
   - 🇺🇸 美国 | USA 11
-  - 🇺🇸 美国 | USA 21
   - 🇺🇸 美国 | USA 20
   - 🇺🇸 美国 | USA 8
+  - 🇺🇸 美国 | USA 21
   - 🇺🇸 美国 | USA 16
   - 🇺🇸 美国 | USA 3
+  - 🇺🇸 美国 | USA 7
   - 🇺🇸 美国 | USA 4
   - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA
-  - 🇺🇸 美国 | USA 19
   - 🇺🇸 美国 | USA 10
-  - 🇺🇸 美国 | USA 17
+  - 🇺🇸 美国 | USA 19
   - 🇺🇸 美国 | USA 13
+  - 🇺🇸 美国 | USA 17
   - 🇺🇸 美国 | USA 15
   - 🇺🇸 美国 | USA 14
   - 🇺🇸 美国 | USA 12
-  - 🇳🇱 荷兰 | NLD 7
   - 🏴‍☠️ 未知地区 | Unknown
+  - 🇳🇱 荷兰 | NLD 7
   - 🇰🇷 韩国 | KOR 6
   - 🇩🇪 德国 | DEU 2
   - 🇳🇱 荷兰 | NLD 8
   - 🇰🇷 韩国 | KOR 2
+  - 🇩🇪 德国 | DEU 7
   - 🇰🇷 韩国 | KOR 4
   - 🇳🇱 荷兰 | NLD 16
   - 🏴‍☠️ 未知地区 | Unknown 5
-  - 🏴‍☠️ 未知地区 | Unknown 4
   - 🇳🇱 荷兰 | NLD
+  - 🏴‍☠️ 未知地区 | Unknown 4
   - 🇰🇷 韩国 | KOR 10
   - 🇰🇷 韩国 | KOR 3
-  - 🇰🇷 韩国 | KOR 9
   - 🇳🇱 荷兰 | NLD 14
+  - 🇰🇷 韩国 | KOR 9
   - 🇺🇦 乌克兰 | UKR
   - 🏴‍☠️ 未知地区 | Unknown 6
   - 🇰🇷 韩国 | KOR 8
   - 🇰🇷 韩国 | KOR 5
-  - 🇳🇱 荷兰 | NLD 17
   - 🇳🇱 荷兰 | NLD 15
-  - 🇩🇪 德国 | DEU 6
   - 🇵🇱 波兰 | POL
+  - 🇩🇪 德国 | DEU 6
   - 🇩🇪 德国 | DEU 8
   - 🇵🇱 波兰 | POL 2
-  - 🇩🇪 德国 | DEU 4
   - 🇳🇱 荷兰 | NLD 11
   - 🇩🇪 德国 | DEU 13
-  - 🏴‍☠️ 未知地区 | Unknown 7
+  - 🇩🇪 德国 | DEU 4
   - 🇰🇿 哈萨克斯坦 | KAZ
+  - 🏴‍☠️ 未知地区 | Unknown 7
   - 🇳🇱 荷兰 | NLD 6
   - 🇰🇷 韩国 | KOR
   - 🇳🇱 荷兰 | NLD 12
@@ -1107,46 +1109,47 @@ proxy-groups:
   - 🇲🇽 墨西哥 | MEX
   - 🇳🇱 荷兰 | NLD 9
   - 🇬🇧 英国 | GBR
+  - 🇵🇱 波兰 | POL 3
   - 🏴‍☠️ 未知地区 | Unknown 2
   - 🇳🇱 荷兰 | NLD 5
-  - 🇰🇷 韩国 | KOR 7
   - 🇪🇸 西班牙 | ESP
-  - 🇩🇪 德国 | DEU 10
+  - 🇰🇷 韩国 | KOR 7
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: HK-POOL
   type: url-test
   proxies:
   - 🇯🇵 日本 | JPN 25
+  - 🇯🇵 日本 | JPN 16
+  - 🇯🇵 日本 | JPN 22
   - 🇸🇬 新加坡 | SGP 13
   - 🇯🇵 日本 | JPN 5
-  - 🇯🇵 日本 | JPN 22
-  - 🇯🇵 日本 | JPN 16
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: JP-POOL
   type: url-test
   proxies:
   - 🇯🇵 日本 | JPN 25
-  - 🇯🇵 日本 | JPN 5
-  - 🇯🇵 日本 | JPN 22
   - 🇯🇵 日本 | JPN 16
+  - 🇯🇵 日本 | JPN 22
+  - 🇯🇵 日本 | JPN 5
   - 🇯🇵 日本 | JPN 12
   - 🇯🇵 日本 | JPN 10
+  - 🇯🇵 日本 | JPN 23
   - 🇯🇵 日本 | JPN 11
   - 🇯🇵 日本 | JPN 20
-  - 🇯🇵 日本 | JPN 9
   - 🇯🇵 日本 | JPN 8
+  - 🇯🇵 日本 | JPN 9
   - 🇯🇵 日本 | JPN 7
-  - 🇯🇵 日本 | JPN 17
   - 🇯🇵 日本 | JPN 2
+  - 🇯🇵 日本 | JPN 17
   - 🇯🇵 日本 | JPN 6
   - 🇯🇵 日本 | JPN 3
   - 🇯🇵 日本 | JPN 21
-  - 🇯🇵 日本 | JPN 4
   - 🇯🇵 日本 | JPN 14
   - 🇯🇵 日本 | JPN 13
   - 🇯🇵 日本 | JPN 15
+  - 🇯🇵 日本 | JPN 4
   - 🇯🇵 日本 | JPN 19
   - 🇯🇵 日本 | JPN
   - 🇯🇵 日本 | JPN 18
@@ -1157,18 +1160,19 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇺🇸 美国 | USA 11
-  - 🇺🇸 美国 | USA 21
   - 🇺🇸 美国 | USA 20
   - 🇺🇸 美国 | USA 8
+  - 🇺🇸 美国 | USA 21
   - 🇺🇸 美国 | USA 16
   - 🇺🇸 美国 | USA 3
+  - 🇺🇸 美国 | USA 7
   - 🇺🇸 美国 | USA 4
   - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA
-  - 🇺🇸 美国 | USA 19
   - 🇺🇸 美国 | USA 10
-  - 🇺🇸 美国 | USA 17
+  - 🇺🇸 美国 | USA 19
   - 🇺🇸 美国 | USA 13
+  - 🇺🇸 美国 | USA 17
   - 🇺🇸 美国 | USA 15
   - 🇺🇸 美国 | USA 14
   - 🇺🇸 美国 | USA 12
@@ -1177,25 +1181,25 @@ proxy-groups:
 - name: AI-POOL
   type: url-test
   proxies:
-  - 🇸🇬 新加坡 | SGP 15
-  - 🇸🇬 新加坡 | SGP
-  - 🇺🇸 美国 | USA 15
   - 🇯🇵 日本 | JPN 4
-  - 🇺🇸 美国 | USA 21
-  - 🇸🇬 新加坡 | SGP 8
-  - 🇸🇬 新加坡 | SGP 16
-  - 🇺🇸 美国 | USA 17
   - 🇯🇵 日本 | JPN 5
-  - 🇸🇬 新加坡 | SGP 10
-  - 🇸🇬 新加坡 | SGP 13
   - 🇺🇸 美国 | USA
-  - 🇺🇸 美国 | USA 8
-  - 🇺🇸 美国 | USA 19
-  - 🇺🇸 美国 | USA 3
   - 🇯🇵 日本 | JPN 22
-  - 🇺🇸 美国 | USA 20
+  - 🇺🇸 美国 | USA 8
   - 🇩🇪 德国 | DEU 4
   - 🏴‍☠️ 未知地区 | Unknown 7
+  - 🇸🇬 新加坡 | SGP 6
+  - 🇸🇬 新加坡 | SGP 16
+  - 🇺🇸 美国 | USA 15
+  - 🇸🇬 新加坡 | SGP 13
+  - 🇺🇸 美国 | USA 3
+  - 🇸🇬 新加坡 | SGP 15
+  - 🇸🇬 新加坡 | SGP 10
+  - 🇺🇸 美国 | USA 21
+  - 🇺🇸 美国 | USA 17
+  - 🇺🇸 美国 | USA 10
+  - 🇺🇸 美国 | USA 20
+  - 🇺🇸 美国 | USA 16
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
