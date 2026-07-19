@@ -7,218 +7,522 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-07-18T21:10:46.830482+00:00'
+generated-at: '2026-07-19T06:49:22.138181+00:00'
 proxies:
-- name: 🇯🇵 日本 | JPN 16
-  server: 172.64.52.107
+- name: 🇭🇰 香港 | HKG 2
+  server: 104.129.166.20
   port: 443
   type: vless
-  uuid: 07c87117-8472-41f6-bea8-ddcb012b9b41
+  uuid: 7612dd26-d0ce-4fe0-be7c-d093bb8645da
   tls: true
-  servername: edge-267487d0.pages.dev
+  servername: cf11.evan00.dpdns.org
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /?ed=2048fp=chrome
+    path: Telegram🇨🇳 @WangCai2
     headers:
-      Host: edge-267487d0.pages.dev
-- name: 🇸🇬 新加坡 | SGP 21
-  server: sharing-filly.rooster465.autos
-  port: 443
-  type: trojan
-  password: JA96378052
-  sni: sharing-filly.rooster465.autos
-  skip-cert-verify: true
-  udp: true
+      Host: cf11.evan00.dpdns.org
 - name: 🇸🇬 新加坡 | SGP 13
-  server: absolute-teal.rooster465.autos
+  server: master-possum.rooster465.autos
   port: 443
   type: trojan
   password: HW85960347
-  sni: absolute-teal.rooster465.autos
+  sni: master-possum.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: 🇯🇵 日本 | JPN 22
-  server: fleet-pony.rooster465.autos
-  port: 443
-  type: trojan
-  password: HW85960347
-  sni: fleet-pony.rooster465.autos
+- name: 🇭🇰 香港 | HKG 6
+  server: ifd6ci.yydzx.xyz
+  port: 27102
+  type: tuic
+  password: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
+  uuid: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
+  sni: ifd6ci.yydzx.xyz
   skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 日本 | JPN 12
-  server: legible-chipmunk.rooster465.autos
-  port: 443
-  type: trojan
-  password: PD07395842
-  sni: legible-chipmunk.rooster465.autos
-  skip-cert-verify: true
-  udp: true
+  alpn:
+  - h3
+  disable-sni: false
+  reduce-rtt: false
+  request-timeout: 0
+  congestion-controller: bbr
 - name: 🇸🇬 新加坡 | SGP 10
-  server: enough-lamb.rooster465.autos
-  port: 443
-  type: trojan
-  password: JA96378052
-  sni: enough-lamb.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 20
-  server: 152.42.212.65
-  port: 443
+  server: 104.18.34.245
+  port: 8880
   type: vless
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  tls: true
-  servername: s5gydl.936.us.ci
-  client-fingerprint: chrome
+  uuid: f3d7ebbc-03a1-40f9-a911-ae8628d3927a
+  tls: false
   network: ws
   ws-opts:
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+    path: /pyip=ProxyIP.KR.CMLiussss.net
     headers:
-      Host: s5gydl.936.us.ci
+      Host: dawn-waterfall-6052.360-001.workers.dev
+  udp: true
+- name: 🇭🇰 香港 | HKG 4
+  server: v9.hdacd.com
+  port: 30809
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 11
+  server: codecanyon.net
+  port: 8880
+  type: vless
+  uuid: 78b73cc4-8c3c-40ce-bb74-d5dcd3277c67
+  tls: false
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+    headers:
+      Host: white-hill-f907.23-b68.workers.dev
   udp: true
 - name: 🇸🇬 新加坡 | SGP 5
-  server: 8.39.125.122
+  server: 188.164.248.77
   port: 2083
   type: vless
   uuid: 663cf772-829c-4bc6-893d-b7d021d42f5b
   tls: true
-  servername: vp6.cc.cd
+  servername: vp7.cc.cd
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vp7.cc.cd
+  udp: true
+- name: 🇭🇰 香港 | HKG 3
+  server: wx5y44.yydzx.xyz
+  port: 27102
+  type: tuic
+  password: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
+  uuid: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
+  sni: wx5y44.yydzx.xyz
+  skip-cert-verify: true
+  alpn:
+  - h3
+  disable-sni: false
+  reduce-rtt: false
+  request-timeout: 0
+  congestion-controller: bbr
+- name: 🇯🇵 日本 | JPN 20
+  server: v6.hdacd.com
+  port: 30806
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 | SGP 7
+  server: 8.39.125.201
+  port: 2087
+  type: vless
+  uuid: 663cf772-829c-4bc6-893d-b7d021d42f5b
+  tls: true
+  servername: vp8.cc.cd
   client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: vp6.cc.cd
-  udp: true
-- name: 🇯🇵 日本 | JPN 10
-  server: cunning-grub.rooster465.autos
-  port: 443
-  type: trojan
-  password: HW85960347
-  sni: cunning-grub.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 日本 | JPN 23
-  server: harmless-gobbler.rooster465.autos
-  port: 443
-  type: trojan
-  password: HW85960347
-  sni: harmless-gobbler.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 11
-  server: national-dingo.rooster465.autos
-  port: 443
-  type: trojan
-  password: PD07395842
-  sni: national-dingo.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 日本 | JPN 20
-  server: ruling-toucan.rooster465.autos
-  port: 443
-  type: trojan
-  password: JA96378052
-  sni: ruling-toucan.rooster465.autos
-  skip-cert-verify: true
-- name: 🇯🇵 日本 | JPN 8
-  server: advanced-ox.rooster465.autos
-  port: 443
-  type: trojan
-  password: HW85960347
-  sni: advanced-ox.rooster465.autos
-  skip-cert-verify: true
+      Host: vp8.cc.cd
   udp: true
 - name: 🇯🇵 日本 | JPN 9
-  server: certain-kit.rooster465.autos
+  server: soskeynets.yunzhongzhuan.com
+  port: 8880
+  type: vless
+  uuid: 23187ddc-16a5-432d-bf4e-dd42a7ae39f7
+  tls: false
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+    headers:
+      Host: steep-thunder-97fa.108-d10.workers.dev
+  udp: true
+- name: 🇯🇵 日本 | JPN 2
+  server: 103.53.80.24
+  port: 443
+  type: vless
+  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  tls: true
+  servername: s5gydl.936.us.ci
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+    headers:
+      Host: s5gydl.936.us.ci
+  udp: true
+- name: 🇭🇰 香港 | HKG 5
+  server: z-hk.h.w.466688.xyz
+  port: 443
+  type: vless
+  uuid: 904183f1-0495-478b-b11f-1fe12e84ad8b
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: j0mfhbzohqV1W_PaNeYyKEVuaiK1-A9k2AQJQK7ZDzQ
+    short-id: 4aeab483de4dd53a
+  servername: www.apple.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇯🇵 日本 | JPN 14
+  server: l3e6xb.yydzx.xyz
+  port: 27104
+  type: tuic
+  password: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
+  uuid: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
+  sni: l3e6xb.yydzx.xyz
+  skip-cert-verify: true
+  alpn:
+  - h3
+  disable-sni: false
+  reduce-rtt: false
+  request-timeout: 0
+  congestion-controller: bbr
+- name: 🇸🇬 新加坡 | SGP 3
+  server: precious-stag.rooster465.autos
   port: 443
   type: trojan
   password: JA96378052
-  sni: certain-kit.rooster465.autos
-  skip-cert-verify: true
-- name: 🇯🇵 日本 | JPN 7
-  server: 139.162.123.230
-  port: 443
-  type: vless
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  tls: true
-  servername: s5gydl.936.us.ci
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-    headers:
-      Host: s5gydl.936.us.ci
-  udp: true
-- name: 🇯🇵 日本 | JPN 2
-  server: 57.181.33.93
-  port: 64900
-  type: hysteria2
-  password: 2n8QPNzHhWI0bDnv
-  auth: 2n8QPNzHhWI0bDnv
-  sni: bing.com
-  skip-cert-verify: true
-- name: 🇯🇵 日本 | JPN 17
-  server: normal-dory.rooster465.autos
-  port: 443
-  type: trojan
-  password: HW85960347
-  sni: normal-dory.rooster465.autos
-  skip-cert-verify: true
-- name: 🇸🇬 新加坡 | SGP 7
-  server: happy-porpoise.rooster465.autos
-  port: 443
-  type: trojan
-  password: HW85960347
-  sni: happy-porpoise.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 日本 | JPN 6
-  server: 172.104.81.253
-  port: 443
-  type: vless
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  tls: true
-  servername: s5gydl.936.us.ci
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-    headers:
-      Host: s5gydl.936.us.ci
-  udp: true
-- name: 🇯🇵 日本 | JPN 3
-  server: together-mayfly.rooster465.autos
-  port: 443
-  type: trojan
-  password: HW85960347
-  sni: together-mayfly.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 日本 | JPN 21
-  server: deep-ringtail.rooster465.autos
-  port: 443
-  type: trojan
-  password: HW85960347
-  sni: deep-ringtail.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 日本 | JPN 14
-  server: proper-mouse.rooster465.autos
-  port: 443
-  type: trojan
-  password: HW85960347
-  sni: proper-mouse.rooster465.autos
-  skip-cert-verify: true
-- name: 🇯🇵 日本 | JPN 13
-  server: united-grouse.rooster465.autos
-  port: 443
-  type: trojan
-  password: HW85960347
-  sni: united-grouse.rooster465.autos
+  sni: precious-stag.rooster465.autos
   skip-cert-verify: true
   udp: true
 - name: 🇸🇬 新加坡 | SGP
+  server: lfvps.top
+  port: 443
+  type: vless
+  uuid: ea535933-6fe2-45ae-b737-5b2d47e04bb4
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: SUfGUYeyXhvcomjjiVWlkEK1wSL6Q0wCRNVAzrxaI3Q
+    short-id: 62a71a3bc82af165
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 8
+  server: leading-eel.rooster465.autos
+  port: 443
+  type: trojan
+  password: HW85960347
+  sni: leading-eel.rooster465.autos
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 | SGP 6
+  server: many-cricket.rooster465.autos
+  port: 443
+  type: trojan
+  password: HW85960347
+  sni: many-cricket.rooster465.autos
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 | SGP 14
+  server: 162.159.21.178
+  port: 8880
+  type: vless
+  uuid: 4f54572a-b852-4da3-8823-0ddccc60b5d8
+  tls: false
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: icy-snowflake-1f56.147-1ea.workers.dev
+  udp: true
+- name: 🇭🇰HK香港丨yoyapai.com_1
+  type: vless
+  server: 91.193.58.13
+  port: 80
+  uuid: f2d55510-fa3c-4e3b-adfc-2d96fa399c19
+  network: ws
+  tls: false
+  ws-opts:
+    path: /pyip=Telegram🇨🇳+@WangCai2
+    headers:
+      Host: plain-darkness-90ea.259.workers.dev
+  skip-cert-verify: true
+  udp: true
+- name: 🇭🇰HK香港丨yoyapai.com
+  type: vless
+  server: 91.110.209.77
+  port: 443
+  uuid: 4feb7818-dc02-46cd-b985-abf3fdd0cdc5
+  network: ws
+  servername: edge-4cb23bf6.pages.dev
+  tls: true
+  ws-opts:
+    path: Telegram🇨🇳+@WangCai2
+    headers:
+      Host: edge-4cb23bf6.pages.dev
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 2
+  server: exciting-cattle.rooster465.autos
+  port: 443
+  type: trojan
+  password: HW85960347
+  sni: exciting-cattle.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 15
+  server: 43.160.246.223
+  port: 8443
+  type: vless
+  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  tls: true
+  servername: s5gydl.936.us.ci
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+    headers:
+      Host: s5gydl.936.us.ci
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 9
+  server: lucky-urchin.rooster465.autos
+  port: 443
+  type: trojan
+  password: HW85960347
+  sni: lucky-urchin.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 日本 | JPN 18
+  server: 13.192.232.42
+  port: 23247
+  type: hysteria2
+  password: ND5rGly4ook8qje8
+  auth: ND5rGly4ook8qje8
+  sni: bing.com
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 | SGP 4
+  server: 188.164.248.122
+  port: 443
+  type: trojan
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  sni: space.byu.id.yxls.eu.cc
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /in-pdr
+    headers:
+      Host: space.byu.id.yxls.eu.cc
+- name: 🇸🇬 新加坡 | SGP 17
+  server: tops-puma.rooster465.autos
+  port: 443
+  type: trojan
+  password: HW85960347
+  sni: tops-puma.rooster465.autos
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 | SGP 12
+  server: j7hb3e.yydzx.xyz
+  port: 27103
+  type: tuic
+  password: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
+  uuid: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
+  sni: j7hb3e.yydzx.xyz
+  skip-cert-verify: true
+  alpn:
+  - h3
+  disable-sni: false
+  reduce-rtt: false
+  request-timeout: 0
+  congestion-controller: bbr
+- name: 🇸🇬 新加坡 | SGP 16
+  server: boss-sailfish.rooster465.autos
+  port: 443
+  type: trojan
+  password: HW85960347
+  sni: boss-sailfish.rooster465.autos
+  skip-cert-verify: true
+- name: 🇺🇸 美国 | USA 30
+  server: us02.tunnely.ru
+  port: 443
+  type: vless
+  uuid: 31649657-6c78-4c2c-b25b-5cd574b082b5
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: pPGE5Uacj1AGAB_WLOXB_UUnVBOmuJGH0vTSfmRBKzM
+    short-id: 2e40144ddc07e8e1
+  servername: us02.tunnely.ru
+  client-fingerprint: firefox
+  network: tcp
+- name: 🇺🇸 美国 | USA 11
+  server: codecanyon.net
+  port: 8880
+  type: vless
+  uuid: f3d7ebbc-03a1-40f9-a911-ae8628d3927a
+  tls: false
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+    headers:
+      Host: dawn-waterfall-6052.360-001.workers.dev
+  udp: true
+- name: 🇺🇸 美国 | USA 26
+  server: 162.159.39.220
+  port: 2096
+  type: vless
+  uuid: 663cf772-829c-4bc6-893d-b7d021d42f5b
+  tls: true
+  servername: vp4.cc.cd
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vp4.cc.cd
+  udp: true
+- name: 🇺🇸 美国 | USA 9
+  server: 173.245.58.153
+  port: 2053
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  tls: true
+  servername: t1s1.rittbo.kdns.fr
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  udp: true
+- name: 美國丨yoyapai.com_18
+  type: trojan
+  server: 167.82.101.251
+  port: 443
+  password: Mitivpn
+  sni: ssl.fastly.com
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  tls: true
+  ws-opts:
+    path: /de
+    headers:
+      Host: 3-mitivpn.global.ssl.fastly.net
+  udp: true
+- name: 🇺🇸 美国 | USA 20
+  server: ad-010.vector2llqn.info
+  port: 8443
+  type: vless
+  uuid: 9047efd2-5aa4-4c9c-a58f-a5791b06c79e
+  tls: true
+  servername: ad-010.vector2llqn.info
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ad-010.vector2llqn.info
+  udp: true
+- name: 🇺🇸 美国 | USA 8
+  server: 172.64.144.82
+  port: 443
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  tls: true
+  servername: t1s1.rittbo.kdns.fr
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  udp: true
+- name: 🇺🇸 美国 | USA 33
+  server: 198.41.223.216
+  port: 8443
+  type: vless
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  tls: true
+  servername: vp15.cc.cd
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vp15.cc.cd
+  udp: true
+- name: 🇺🇸 美国 | USA 21
+  server: 173.245.58.75
+  port: 443
+  type: vless
+  uuid: 073d1d50-8478-47bf-a828-7a1b381931d5
+  tls: true
+  servername: octopusss.net
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /odiyfws
+    headers:
+      Host: octopusss.net
+  udp: true
+- name: 🇺🇸 美国 | USA 16
+  server: 91.193.59.169
+  port: 80
+  type: vless
+  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  tls: false
+  network: ws
+  ws-opts:
+    path: Telegram🇨🇳 @WangCai2
+    headers:
+      Host: s5gydl.936.us.ci
+  udp: true
+- name: 🇺🇸 美国 | USA 31
+  server: wondrous-dogfish.rooster465.autos
+  port: 443
+  type: trojan
+  password: KV63147582
+  sni: wondrous-dogfish.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸 美国 | USA 24
+  server: 162.159.91.211
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+  udp: true
+- name: 🇺🇸 美国 | USA 34
+  server: 69.84.182.20
+  port: 443
+  type: vless
+  uuid: 7612dd26-d0ce-4fe0-be7c-d093bb8645da
+  tls: true
+  servername: cf11.evan00.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2
+    headers:
+      Host: cf11.evan00.dpdns.org
+  udp: true
+- name: 美國丨yoyapai.com
+  type: vless
+  server: 198.41.223.238
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸 美国 | USA 3
   server: 162.159.21.178
   port: 8880
   type: vless
@@ -230,315 +534,37 @@ proxies:
     headers:
       Host: fragrant-credit-c4cf.148-e68.workers.dev
   udp: true
-- name: 🇯🇵 日本 | JPN 15
-  server: frank-turtle.rooster465.autos
-  port: 443
-  type: trojan
-  password: PD07395842
-  sni: frank-turtle.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 18
-  server: optimum-tuna.rooster465.autos
-  port: 443
-  type: trojan
-  password: HW85960347
-  sni: optimum-tuna.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 3
-  server: curious-llama.rooster465.autos
-  port: 443
-  type: trojan
-  password: HW85960347
-  sni: curious-llama.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 日本 | JPN 19
-  server: proven-stud.rooster465.autos
-  port: 443
-  type: trojan
-  password: JA96378052
-  sni: proven-stud.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 8
-  server: aware-coyote.rooster465.autos
-  port: 443
-  type: trojan
-  password: JA96378052
-  sni: aware-coyote.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 6
-  server: upward-puma.rooster465.autos
-  port: 443
-  type: trojan
-  password: JA96378052
-  sni: upward-puma.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 19
-  server: dominant-jaguar.rooster465.autos
-  port: 443
-  type: trojan
-  password: JA96378052
-  sni: dominant-jaguar.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 14
-  server: aware-coyote.rooster465.autos
-  port: 443
-  type: trojan
-  password: HW85960347
-  sni: aware-coyote.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 2
-  server: aware-corgi.rooster465.autos
-  port: 443
-  type: trojan
-  password: JA96378052
-  sni: aware-corgi.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 15
-  server: 43.245.198.157
-  port: 21719
+- name: US美國丨yoyapai.com
   type: vless
-  uuid: 6ff24708-1b2a-47dc-bc2b-d498ea00e3e1
-  tls: false
-  network: tcp
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 9
-  server: settling-grouper.rooster465.autos
+  server: cf.090227.xyz
   port: 443
-  type: trojan
-  password: HW85960347
-  sni: settling-grouper.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 日本 | JPN
-  server: stable-racer.rooster465.autos
-  port: 443
-  type: trojan
-  password: JA96378052
-  sni: stable-racer.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 日本 | JPN 18
-  server: key-pony.rooster465.autos
-  port: 443
-  type: trojan
-  password: PD07395842
-  sni: key-pony.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 日本 | JPN 24
-  server: cf7.466688.xyz
-  port: 2053
-  type: vless
-  uuid: 68081c3e-77c2-4d22-81d5-cccedb7ca37b
-  tls: true
-  servername: maoyibai.ccwu.cc
-  client-fingerprint: chrome
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  client-fingerprint: chrome
   ws-opts:
     path: /
     headers:
-      Host: maoyibai.ccwu.cc
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 4
-  server: 91.192.81.154
-  port: 2053
-  type: vless
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  tls: true
-  servername: s5gydl.936.us.ci
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-    headers:
-      Host: s5gydl.936.us.ci
-- name: 🇸🇬 新加坡 | SGP 12
-  server: 188.164.248.82
-  port: 2083
-  type: vless
-  uuid: 663cf772-829c-4bc6-893d-b7d021d42f5b
-  tls: true
-  servername: vp9.cc.cd
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vp9.cc.cd
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 17
-  server: tolerant-fowl.rooster465.autos
-  port: 443
-  type: trojan
-  password: JA96378052
-  sni: tolerant-fowl.rooster465.autos
+      Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   udp: true
-- name: 🇸🇬 新加坡 | SGP 16
-  server: relaxed-unicorn.rooster465.autos
-  port: 443
-  type: trojan
-  password: JA96378052
-  sni: relaxed-unicorn.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸 美国 | USA 8
-  server: 64.186.225.82
-  port: 8443
-  type: vless
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  tls: true
-  servername: s5gydl.936.us.ci
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-    headers:
-      Host: s5gydl.936.us.ci
-- name: 🇺🇸 美国 | USA 6
-  server: 104.202.107.113
-  port: 8443
-  type: vless
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  tls: true
-  servername: s5gydl.936.us.ci
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-    headers:
-      Host: s5gydl.936.us.ci
 - name: 🇺🇸 美国 | USA 7
-  server: 154.9.239.44
-  port: 443
-  type: vless
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  tls: true
-  servername: s5gydl.936.us.ci
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-    headers:
-      Host: s5gydl.936.us.ci
-  udp: true
-- name: 🇺🇸 美国 | USA 3
-  server: 64.186.225.82
-  port: 2087
-  type: vless
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  tls: true
-  servername: s5gydl.936.us.ci
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-    headers:
-      Host: s5gydl.936.us.ci
-  udp: true
-- name: 🇺🇸 美国 | USA 4
-  server: absolute-bobcat.rooster465.autos
-  port: 443
-  type: trojan
-  password: JA96378052
-  sni: absolute-bobcat.rooster465.autos
+  server: oqpww6.yydzx.xyz
+  port: 27101
+  type: tuic
+  password: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
+  uuid: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
+  sni: oqpww6.yydzx.xyz
   skip-cert-verify: true
-  udp: true
+  alpn:
+  - h3
+  disable-sni: false
+  reduce-rtt: false
+  request-timeout: 0
+  congestion-controller: bbr
 - name: 🇺🇸 美国 | USA 5
-  server: 64.186.234.50
-  port: 443
-  type: vless
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  tls: true
-  servername: s5gydl.936.us.ci
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-    headers:
-      Host: s5gydl.936.us.ci
-  udp: true
-- name: 🇺🇸 美国 | USA
-  server: legal-glider.rooster465.autos
-  port: 443
-  type: trojan
-  password: SX95078263
-  sni: legal-glider.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸 美国 | USA 10
-  server: 64.186.225.82
-  port: 2053
-  type: vless
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  tls: true
-  servername: s5gydl.936.us.ci
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-    headers:
-      Host: s5gydl.936.us.ci
-  udp: true
-- name: 🇺🇸 美国 | USA 13
-  server: t2.feiyue706.com
-  port: 46783
-  type: vless
-  uuid: 154ac9d9-eab5-3672-b832-81016ba68d55
-  tls: true
-  servername: t2.feiyue706.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: ljfxz
-  udp: true
-- name: 🇺🇸 美国 | USA 15
-  server: 199.232.249.110
-  port: 443
-  type: vless
-  uuid: cbcf2255-6d66-4039-b7d6-c10d6ffc99e7
-  tls: true
-  servername: ssl.fastly.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
-    headers:
-      Host: pan1.global.ssl.fastly.net
-  udp: true
-- name: 🇺🇸 美国 | USA 14
-  server: 154.36.128.61
-  port: 1001
-  type: vmess
-  uuid: 9ae252b6-ec0a-431a-b5da-38f2ece84683
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /x
-- name: 🇺🇸 美国 | USA 2
-  server: firm-squid.rooster465.autos
-  port: 443
-  type: trojan
-  password: HW85960347
-  sni: firm-squid.rooster465.autos
-  skip-cert-verify: true
-- name: 🇬🇧 英国 | GBR 4
-  server: 91.193.59.224
+  server: 102.177.176.20
   port: 443
   type: vless
   uuid: 7612dd26-d0ce-4fe0-be7c-d093bb8645da
@@ -551,12 +577,305 @@ proxies:
     headers:
       Host: cf11.evan00.dpdns.org
   udp: true
-- name: 🏴‍☠️ 未知地区 | Unknown
-  server: feasible-guppy.rooster465.autos
+- name: 美國節點丨yoyapai.com
+  type: ss
+  server: tinkered-pennies-puppies.freesocks.work
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: hbGrpfvNrJsUmKmPbR3iY2
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸US美國丨yoyapai.com_1
+  type: vless
+  server: 162.159.45.201
+  port: 2083
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸 美国 | USA 29
+  server: 162.159.152.48
+  port: 443
+  type: vless
+  uuid: c416332e-2bde-4806-ac02-8f021c6e8f68
+  tls: true
+  servername: bbc.zjxc.de5.net
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /?proxyip=proxyip.oracle.fxxk.dedyn.io
+    headers:
+      Host: bbc.zjxc.de5.net
+  udp: true
+- name: 🇺🇸 美国 | USA
+  server: 91.193.59.191
+  port: 80
+  type: vless
+  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  tls: false
+  network: ws
+  ws-opts:
+    path: Telegram🇨🇳 @WangCai2
+    headers:
+      Host: s5gydl.936.us.ci
+  udp: true
+- name: 美國丨yoyapai.com_14
+  type: vless
+  server: 172.67.223.190
+  port: 2086
+  uuid: e6bad6ca-ab7c-4bdd-b07e-5c8ec407decd
+  network: ws
+  tls: false
+  ws-opts:
+    path: /eyJqdW5rIjoidGpkTkY2VHk0bE1pV3AiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=
+    headers:
+      Host: cool-hill-7fe5.thenewata.workers.dev
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸 美国 | USA 10
+  server: usa.plus-hit.ru
+  port: 443
+  type: vless
+  uuid: de0683f5-ad03-40c4-90f2-59feec9003b9
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: N4UtYAhibzkb0n_U2Qmqze5-lZMQqDozqg7OCqvufGA
+    short-id: 94c2ae0f7b6d3e15
+  servername: usa.plus-hit.ru
+  client-fingerprint: qq
+  network: tcp
+  udp: true
+- name: 🇺🇸 美国 | USA 19
+  server: cs3iiova.cf.3666888.xyz
+  port: 2086
+  type: vless
+  uuid: 4a805850-a2c4-42b3-898a-798f0c19c609
+  tls: false
+  network: ws
+  ws-opts:
+    path: /sub
+    headers:
+      Host: od1kl638.xn--nxa.nyc.mn
+  udp: true
+- name: 🇺🇸 美国 | USA 17
+  server: 91.193.59.209
+  port: 80
+  type: vless
+  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  tls: false
+  network: ws
+  ws-opts:
+    path: Telegram🇨🇳 @WangCai2
+    headers:
+      Host: s5gydl.936.us.ci
+  udp: true
+- name: 🇺🇸 美国 | USA 13
+  server: betty.ns.cloudflare.com
+  port: 443
+  type: vless
+  uuid: 073d1d50-8478-47bf-a828-7a1b381931d5
+  tls: true
+  servername: octopusss.net
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /odiyfws
+    headers:
+      Host: octopusss.net
+  udp: true
+- name: 美國節點
+  type: vmess
+  server: 82.198.246.97
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸 美国 | USA 15
+  server: 91.193.59.220
+  port: 80
+  type: vless
+  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  tls: false
+  network: ws
+  ws-opts:
+    path: Telegram🇨🇳 @WangCai2
+    headers:
+      Host: s5gydl.936.us.ci
+  udp: true
+- name: 🇺🇸US美國丨yoyapai.com
+  type: vless
+  server: 108.162.198.43
+  port: 8443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸 美国 | USA 32
+  server: 69.63.206.96
+  port: 8443
+  type: vless
+  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  tls: true
+  servername: s5gydl.936.us.ci
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+    headers:
+      Host: s5gydl.936.us.ci
+- name: 美国+亚利桑那州斯科茨代尔市丨yoyapai.com
+  type: vless
+  server: 72.167.230.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime51.workers.dev
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸US美國丨yoyapai.com_2
+  type: vless
+  server: 162.159.10.87
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸US美國丨yoyapai.com_4
+  type: vless
+  server: 162.159.44.180
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸 美国 | USA 23
+  server: pretty-clam.rooster465.autos
   port: 443
   type: trojan
   password: HW85960347
-  sni: feasible-guppy.rooster465.autos
+  sni: pretty-clam.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸 美国 | USA 28
+  server: 162.159.3.141
+  port: 443
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  tls: true
+  servername: t1s1.rittbo.kdns.fr
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  udp: true
+- name: CA加拿大丨yoyapai.com_13
+  type: vless
+  server: 104.16.148.8
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
+  udp: true
+- name: CA加拿大丨yoyapai.com_9
+  type: vless
+  server: 172.64.40.49
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
+  udp: true
+- name: CA加拿大丨yoyapai.com_14
+  type: vless
+  server: 172.64.35.206
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
+  udp: true
+- name: 🇬🇧 英国 | GBR 4
+  server: 91.193.59.105
+  port: 443
+  type: vless
+  uuid: 7612dd26-d0ce-4fe0-be7c-d093bb8645da
+  tls: true
+  servername: cf11.evan00.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: Telegram🇨🇳 @WangCai2
+    headers:
+      Host: cf11.evan00.dpdns.org
+  udp: true
+- name: 俄羅斯丨yoyapai.com
+  type: vless
+  server: 90.156.254.164
+  port: 19562
+  uuid: 5b96be74-656d-4bb7-85c2-d2d8a3b7c2f3
+  servername: yahoo.com
+  tls: true
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: T66pm2f_PN4Hya_A_5K0X1HQb717SUCODyoUO7Gk3Ws
+    short-id: 9e
   skip-cert-verify: true
   udp: true
 - name: 🇬🇧 英国 | GBR 6
@@ -574,115 +893,176 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: grpc-yandex
-- name: 🇰🇷 韩国 | KOR 2
-  server: kind-grizzly.rooster465.autos
-  port: 443
-  type: trojan
-  password: PD07395842
-  sni: kind-grizzly.rooster465.autos
+- name: 德國法蘭克福丨yoyapai.com
+  type: hysteria2
+  server: 80.66.81.78
+  port: 9443
+  password: rs2mR3g9bZiMloftx6lZQ59Um1Ld
+  sni: tunel1.washing.help
   skip-cert-verify: true
+  obfs: salamander
+  obfs-password: oMgvuBy5Lj5kYM57sGsnjpjNcSEQ
+  udp: true
+- name: 英國丨yoyapai.com_1
+  type: vless
+  server: 77.75.199.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime59.workers.dev
+  skip-cert-verify: true
+  udp: true
+- name: CA加拿大丨yoyapai.com_8
+  type: vless
+  server: 162.159.46.226
+  port: 8443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
+  udp: true
+- name: 🇩🇪 德国 | DEU 7
+  server: 31.76.21.111
+  port: 52610
+  type: vless
+  uuid: e9f67e27-f269-4dd8-8cb7-2281fa2fede5
+  tls: true
+  encryption: mlkem768x25519plus.native.0rtt.81v4M2zT2d7WOF84cR0ruUfDKkCNlH-aAGYPoR6yGlU
+  reality-opts:
+    public-key: Nd1Efm_-pq3EJNcQU5WOU7d2lSgjtc5JFxLFQjQP-nA
+    short-id: 7bf016de036a78
+  servername: okko.tv
+  client-fingerprint: edge
+  network: tcp
   udp: true
 - name: 🇩🇪 德国 | DEU 16
-  server: 51.91.100.159
-  port: 2053
-  type: vless
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  tls: true
-  servername: s5gydl.936.us.ci
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-    headers:
-      Host: s5gydl.936.us.ci
-- name: 🇩🇪 德国 | DEU 7
-  server: 152.228.134.239
+  server: 45.157.234.46
   port: 443
   type: vless
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  uuid: 3b1eabd2-7796-4e60-a6e2-0bca82cbc64e
   tls: true
-  servername: s5gydl.936.us.ci
-  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: D6XeTEyHUrcUWHuo5uNjBY3fQXhthHLLXdufndJlCGo
+    short-id: fcc34c19a6bbe4bb
+  servername: free6.anotherboring.top
+  client-fingerprint: firefox
+  network: tcp
+  udp: true
+- name: 中國臺灣丨yoyapai.com
+  type: hysteria2
+  server: vpn-tw-002.fastervpn.world
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: vpn-tw-002.fastervpn.world
+  skip-cert-verify: true
+  udp: true
+- name: CA加拿大丨yoyapai.com_20
+  type: vless
+  server: 162.159.21.206
+  port: 2083
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  client-fingerprint: chrome
   ws-opts:
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+    path: /
     headers:
-      Host: s5gydl.936.us.ci
-  udp: true
-- name: 🇰🇷 韩国 | KOR 4
-  server: excited-ghoul.rooster465.autos
-  port: 443
-  type: trojan
-  password: PD07395842
-  sni: excited-ghoul.rooster465.autos
+      Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   udp: true
-- name: 🏴‍☠️ 未知地区 | Unknown 5
-  server: moral-cow.rooster465.autos
+- name: FR法國丨yoyapai.com
+  type: vless
+  server: yx.cloudflare.182682.xyz
   port: 443
-  type: trojan
-  password: JA96378052
-  sni: moral-cow.rooster465.autos
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   udp: true
-- name: 🇳🇱 荷兰 | NLD
-  server: 82.38.31.48
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🏴‍☠️ 未知地区 | Unknown 4
-  server: informed-alpaca.rooster465.autos
+- name: CA加拿大丨yoyapai.com_18
+  type: vless
+  server: 162.159.1.170
   port: 443
-  type: trojan
-  password: HW85960347
-  sni: informed-alpaca.rooster465.autos
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
+  udp: true
+- name: FR法國丨yoyapai.com_3
+  type: vless
+  server: cf.130519.xyz
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   udp: true
 - name: 🇸🇪 瑞典 | SWE 2
-  server: virgin.ggsw01.auragg.org
+  server: 109.120.188.54
   port: 443
   type: vless
-  uuid: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
+  uuid: 4401809f-4d60-4df7-ab14-da48955c2cb3
   tls: true
+  flow: xtls-rprx-vision
   reality-opts:
-    public-key: TGJxKbPG8ds2NwK6uhgQURUfVJ01BcRh3Eaoy3dtdGA
-    short-id: a3d8f1e9b2c7d4e6
-  servername: cloudflare.com
+    public-key: 4woJiVyGtLro6qRQdUcM2EJDHI3CLOeeE-knmSHk8lE
+    short-id: 1ca44564cda56661
+  servername: ads.x5.ru
+  client-fingerprint: firefox
+  network: tcp
+  udp: true
+- name: CA加拿大丨yoyapai.com_15
+  type: vless
+  server: 162.159.41.198
+  port: 8443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
   client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: auragrpc
-- name: 🏴‍☠️ 未知地区 | Unknown 6
-  server: trusting-moccasin.rooster465.autos
-  port: 443
-  type: trojan
-  password: JA96378052
-  sni: trusting-moccasin.rooster465.autos
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   udp: true
-- name: 🇹🇼 🇨🇳 台湾 | TWN
-  server: 220.135.92.105
-  port: 2087
-  type: vless
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  tls: true
-  servername: s5gydl.936.us.ci
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-    headers:
-      Host: s5gydl.936.us.ci
 - name: 🇹🇼 🇨🇳 台湾 | TWN 3
-  server: hr2g0t.yydzx.xyz
+  server: g4u45m.yydzx.xyz
   port: 27105
   type: tuic
   password: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
   uuid: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
-  sni: hr2g0t.yydzx.xyz
+  sni: g4u45m.yydzx.xyz
   skip-cert-verify: true
   alpn:
   - h3
@@ -691,94 +1071,200 @@ proxies:
   request-timeout: 0
   congestion-controller: bbr
 - name: 🇷🇺 俄罗斯 | RUS
-  server: 87.228.122.108
-  port: 4100
+  server: 78.159.250.214
+  port: 443
   type: vless
-  uuid: 155e8dd4-a559-407a-9ea8-13a5e829f066
-  tls: false
-  network: ws
-  ws-opts:
-    path: /v1
+  uuid: eb78e1f0-d921-4ca9-a889-261fcc5a0547
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: drY21DHNOr6ezJLA2B10mzTExeJ9-gVBfTBNLwVBtWI
+  servername: qq.utiltools.ru
+  client-fingerprint: chrome
+  network: tcp
   udp: true
 - name: 🇩🇪 德国 | DEU 3
-  server: 152.228.135.5
+  server: 1.tls.fastly.veraspeed.ir
   port: 443
   type: vless
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  uuid: cbcf2255-6d66-4039-b7d6-c10d6ffc99e7
   tls: true
-  servername: s5gydl.936.us.ci
+  servername: ssl.fastly.com
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
     headers:
-      Host: s5gydl.936.us.ci
-- name: 🇰🇷 韩国 | KOR 5
-  server: light-sheepdog.rooster465.autos
-  port: 443
-  type: trojan
-  password: PD07395842
-  sni: light-sheepdog.rooster465.autos
+      Host: pan1.global.ssl.fastly.net
+  udp: true
+- name: 英國
+  type: vmess
+  server: 82.198.246.37
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: true
   udp: true
-- name: 🇩🇪 德国 | DEU 19
-  server: service.vipdatanetwork.com
-  port: 24504
+- name: 歐盟丨yoyapai.com_2
   type: vless
-  uuid: 55349a9f-03b4-46ff-a08b-f6b5f40bb9d5
+  server: 45.85.118.50
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
   tls: false
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
-  encryption: mlkem768x25519plus.native.0rtt.sA1qB8b6IwkNTwEubO-TQ53GEyjpAgNchOnSww07e1I
-  client-fingerprint: chrome
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
+  ws-opts:
+    path: /
     headers:
-      Host:
-      - www.icloud.com
+      Host: vms.lifetime55.workers.dev
+  skip-cert-verify: true
   udp: true
-- name: 🇩🇪 德国 | DEU 5
-  server: 51.91.102.36
-  port: 8443
+- name: CA加拿大丨yoyapai.com_19
   type: vless
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  server: 162.159.42.182
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
   tls: true
-  servername: s5gydl.936.us.ci
   client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
+  udp: true
+- name: 斯洛文尼亞丨yoyapai.com
+  type: vless
+  server: 92.53.189.40
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime19.workers.dev
+  skip-cert-verify: true
+  udp: true
+- name: 🇩🇪 德国 | DEU 20
+  server: 199.232.29.204
+  port: 443
+  type: vless
+  uuid: cbcf2255-6d66-4039-b7d6-c10d6ffc99e7
+  tls: true
+  servername: ssl.fastly.com
+  client-fingerprint: firefox
   network: ws
   ws-opts:
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
     headers:
-      Host: s5gydl.936.us.ci
+      Host: pan1.global.ssl.fastly.net
   udp: true
-- name: 🇩🇪 德国 | DEU 17
-  server: 63.177.252.44
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
+- name: CA加拿大丨yoyapai.com_1
+  type: vless
+  server: 162.159.4.221
+  port: 8443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
+  udp: true
 - name: 🇩🇪 德国 | DEU 15
-  server: 152.228.135.96
-  port: 8443
-  type: vless
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  tls: true
-  servername: s5gydl.936.us.ci
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-    headers:
-      Host: s5gydl.936.us.ci
-- name: 🇮🇪 爱尔兰 | IRL
-  server: endless-crappie.rooster465.autos
+  server: 5.83.129.90
+  port: 54177
+  type: hysteria
+  auth_str: dongtaiwang.com
+  auth-str: dongtaiwang.com
+  up: 500
+  down: 1000
+  protocol: udp
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  udp: true
+- name: 🇳🇱_NL荷蘭丨yoyapai.com
+  type: ss
+  server: 82.38.31.35
   port: 443
-  type: trojan
-  password: PD07395842
-  sni: endless-crappie.rooster465.autos
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  skip-cert-verify: true
+  udp: true
+- name: CA加拿大丨yoyapai.com_7
+  type: vless
+  server: 162.159.36.166
+  port: 8443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
+  udp: true
+- name: 英國節點
+  type: vmess
+  server: 82.198.246.250
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 歐盟丨yoyapai.com
+  type: vless
+  server: 45.80.110.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime51.workers.dev
+  skip-cert-verify: true
+  udp: true
+- name: CA加拿大丨yoyapai.com_12
+  type: vless
+  server: 172.64.41.202
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
+  udp: true
+- name: CA加拿大丨yoyapai.com_5
+  type: vless
+  server: 172.64.145.186
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   udp: true
 - name: 🇵🇱 波兰 | POL
@@ -790,160 +1276,168 @@ proxies:
   sni: grape-power-pl.ddnsguru.com
   skip-cert-verify: true
 - name: 🇩🇪 德国 | DEU 6
-  server: 51.91.100.56
-  port: 2053
+  server: digitalocean.com
+  port: 2086
   type: vless
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  tls: true
-  servername: s5gydl.936.us.ci
-  client-fingerprint: chrome
+  uuid: b08f7f87-fda7-4674-8e40-82fdcc09672a
+  tls: false
   network: ws
   ws-opts:
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+    path: /Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12---Join---@Arshiavpn12
     headers:
-      Host: s5gydl.936.us.ci
+      Host: arshia.lezzatArshia.ir
+    v2ray-http-upgrade: true
   udp: true
-- name: 🇩🇪 德国 | DEU 8
-  server: 89.167.16.234
-  port: 8526
+- name: CA加拿大丨yoyapai.com_16
   type: vless
-  uuid: 9d6104a5-fc6d-4fe6-95b7-80d8f699e09d
-  tls: true
-  reality-opts:
-    public-key: -zNDEqKkScKvMWB7spEper78GE_u-nR4jDHZ3DpOoxM
-    short-id: 62ad184af31fc8cf
-  servername: www.yahoo.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: 🇩🇪 德国 | DEU 11
-  server: golden-fox.rooster465.autos
+  server: 162.159.32.239
   port: 443
-  type: trojan
-  password: PD07395842
-  sni: golden-fox.rooster465.autos
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   udp: true
-- name: 🇹🇼 🇨🇳 台湾 | TWN 2
-  server: t1.feiyue706.com
-  port: 36784
+- name: 🇩🇪 德国 | DEU 8
+  server: gr1.fifapes.monster
+  port: 8882
   type: vless
-  uuid: 154ac9d9-eab5-3672-b832-81016ba68d55
-  tls: true
-  servername: t1.feiyue706.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: ljfxz
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+  tls: false
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - /?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
   udp: true
-- name: 🇮🇹 意大利 | ITA
-  server: hudrososov.blog
+- name: 🇩🇪 德国 | DEU 11
+  server: fi.plus-hit.ru
   port: 443
   type: vless
-  uuid: dbb84eca-ee83-4ea7-9db0-064803d4b469
+  uuid: de0683f5-ad03-40c4-90f2-59feec9003b9
   tls: true
   flow: xtls-rprx-vision
   reality-opts:
-    public-key: yuKSmrb2MumCllTTmBJiuNTQcGxEaNhqmZVR8dVjLwI
-    short-id: d1c2b3a4
-  client-fingerprint: chrome
+    public-key: ayJjf8TJwT_INFKDDHk9uv3zyoERmbG2gECNX1fwFxo
+    short-id: 94c2ae0f7b6d3e15
+  servername: fi.plus-hit.ru
+  client-fingerprint: random
   network: tcp
   udp: true
-- name: 🇵🇭 菲律宾 | PHL
-  server: t1.feiyue706.com
-  port: 36798
+- name: 🇫🇷 法国 | FRA 3
+  server: 62.210.24.143
+  port: 33888
+  type: tuic
+  password: dongtaiwang.com
+  uuid: 9adb384a-0f16-4501-a8f3-b6b2556fce87
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  disable-sni: false
+  reduce-rtt: false
+  request-timeout: 0
+  udp-relay-mode: native
+  congestion-controller: cubic
+- name: CA加拿大丨yoyapai.com_17
   type: vless
-  uuid: 154ac9d9-eab5-3672-b832-81016ba68d55
+  server: 172.64.146.229
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
   tls: true
-  servername: t1.feiyue706.com
   client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: ljfxz
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
   udp: true
-- name: 🇩🇪 德国 | DEU 14
-  server: 54.93.186.149
+- name: 荷蘭丨yoyapai.com
+  type: hysteria2
+  server: hy2.aspidnet.xyz
+  port: 443
+  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+  sni: hy2.aspidnet.xyz
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
+  udp: true
+- name: 巴西聖保羅丨yoyapai.com
+  type: trojan
+  server: 188.114.97.6
+  port: 443
+  password: mitivpn
+  sni: 2.1.mitivpn.dee.srfsl.gleobal.fastl3y.n3et.mitivpn.site
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  tls: true
+  ws-opts:
+    path: https://chatgpt.com
+    headers:
+      Host: mitivpn.de.ssl.global.fastly.net.mitivpn.site
+  udp: true
+- name: 🇸🇪 瑞典 | SWE
+  server: meow-warsaw.nethcloud.top
+  port: 8443
+  type: vless
+  uuid: a34b5e88-cf0d-4c01-8199-2d1002d3c787
+  tls: true
+  reality-opts:
+    public-key: p9ISfhV0uZpKSgrK_8R6Mm4A01tWdzpKMlFR2TIj81s
+  servername: wikihow.com
+  client-fingerprint: firefox
+  network: xhttp
+  xhttp-opts:
+    path: /
+    host: wikihow.com
+  udp: true
+- name: 🇬🇧 英国 | GBR 2
+  server: 52.56.188.204
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇩🇪 德国 | DEU 4
-  server: 152.228.135.72
-  port: 2053
+- name: CA加拿大丨yoyapai.com_4
   type: vless
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  server: 172.64.145.2
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
   tls: true
-  servername: s5gydl.936.us.ci
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
+  udp: true
+- name: 🇩🇪 德国 | DEU 4
+  server: 199.232.249.110
+  port: 443
+  type: vless
+  uuid: cbcf2255-6d66-4039-b7d6-c10d6ffc99e7
+  tls: true
+  servername: ssl.fastly.com
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
     headers:
-      Host: s5gydl.936.us.ci
-  udp: true
-- name: 🇬🇧 英国 | GBR 2
-  server: stats.oneoker.com
-  port: 443
-  type: vless
-  uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3
-  tls: true
-  reality-opts:
-    public-key: uYXyM2Nwmqw3bSDSV95XmpbOaAYBmBTh619Vl8lFJRs
-    short-id: 60cde13ab21686e9
-  servername: stats.oneoker.com
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: api.v1.StreamService
-  udp: true
-- name: 🏴‍☠️ 未知地区 | Unknown 3
-  server: pleasing-monkfish.rooster465.autos
-  port: 443
-  type: trojan
-  password: JA96378052
-  sni: pleasing-monkfish.rooster465.autos
-  skip-cert-verify: true
+      Host: pan1.global.ssl.fastly.net
   udp: true
 - name: 🇫🇷 法国 | FRA 4
-  server: pretty-quail.rooster465.autos
-  port: 443
-  type: trojan
-  password: PD07395842
-  sni: pretty-quail.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇲🇾 马来西亚 | MYS
-  server: t1.feiyue706.com
-  port: 36791
-  type: vless
-  uuid: 154ac9d9-eab5-3672-b832-81016ba68d55
-  tls: true
-  servername: t1.feiyue706.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: ljfxz
-  udp: true
-- name: 🇰🇷 韩国 | KOR
-  server: proud-horse.rooster465.autos
-  port: 443
-  type: trojan
-  password: PD07395842
-  sni: proud-horse.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🏴‍☠️ 未知地区 | Unknown 7
-  server: enough-basilisk.rooster465.autos
-  port: 443
-  type: trojan
-  password: PD07395842
-  sni: enough-basilisk.rooster465.autos
-  skip-cert-verify: true
-- name: 🇫🇷 法国 | FRA
   server: 62.210.24.143
   port: 32202
   type: vless
@@ -959,57 +1453,22 @@ proxies:
     path: /G3EEoH63
     host: www.amazon.com
   udp: true
-- name: 🇳🇱 荷兰 | NLD 2
-  server: present-warthog.rooster465.autos
-  port: 443
-  type: trojan
-  password: PD07395842
-  sni: present-warthog.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇹🇭 泰国 | THA
-  server: t1.feiyue706.com
-  port: 36792
+- name: 🇳🇱 荷兰 | NLD 6
+  server: 188.164.248.140
+  port: 2083
   type: vless
-  uuid: 154ac9d9-eab5-3672-b832-81016ba68d55
+  uuid: 663cf772-829c-4bc6-893d-b7d021d42f5b
   tls: true
-  servername: t1.feiyue706.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: ljfxz
-  udp: true
-- name: 🇲🇴 澳门 | MAC
-  server: m7mj83.yydzx.xyz
-  port: 27113
-  type: tuic
-  password: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
-  uuid: 1ae7c1a7-53a4-49d3-87ef-597634834c6c
-  sni: m7mj83.yydzx.xyz
-  skip-cert-verify: true
-  alpn:
-  - h3
-  disable-sni: false
-  reduce-rtt: false
-  request-timeout: 0
-  congestion-controller: bbr
-- name: 🇩🇪 德国 | DEU 9
-  server: 152.228.134.213
-  port: 2053
-  type: vless
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  tls: true
-  servername: s5gydl.936.us.ci
-  client-fingerprint: chrome
+  servername: vp3.cc.cd
+  client-fingerprint: firefox
   network: ws
   ws-opts:
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+    path: /
     headers:
-      Host: s5gydl.936.us.ci
+      Host: vp3.cc.cd
   udp: true
-- name: 🇩🇪 德国 | DEU
-  server: 51.91.103.130
+- name: 🇰🇷 韩国 | KOR
+  server: 43.133.232.228
   port: 8443
   type: vless
   uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
@@ -1021,44 +1480,120 @@ proxies:
     path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
     headers:
       Host: s5gydl.936.us.ci
-  udp: true
-- name: 🇵🇭 菲律宾 | PHL 2
-  server: t1.feiyue706.com
-  port: 36799
+- name: 🇳🇱 荷兰 | NLD 2
+  server: 188.164.248.123
+  port: 8443
   type: vless
-  uuid: 154ac9d9-eab5-3672-b832-81016ba68d55
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
   tls: true
-  servername: t1.feiyue706.com
+  servername: vp21.cc.cd
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vp21.cc.cd
+  udp: true
+- name: 🇫🇷 法国 | FRA
+  server: 212.183.88.136
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+  udp: true
+- name: 🇩🇪 德国 | DEU
+  server: ff2.yuntong.click
+  port: 443
+  type: hysteria2
+  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
+  auth: f7cb07a0-e6f9-4d22-a60e-c61854450c89
+  sni: ff2.yuntong.click
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
+  udp: true
+- name: CA加拿大丨yoyapai.com_10
+  type: vless
+  server: 162.159.13.196
+  port: 8443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
   client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: ljfxz
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
+  udp: true
+- name: CA加拿大丨yoyapai.com_23
+  type: vless
+  server: 172.64.151.158
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
   udp: true
 - name: 🇳🇱 荷兰 | NLD 3
-  server: images.onetimeok.com
+  server: 173.245.58.75
   port: 443
   type: vless
-  uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3
+  uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
   tls: true
-  reality-opts:
-    public-key: CQhnOxCj9UuA67kiDGGOcXB1G_XayWfHyhmlWGeG4Uw
-    short-id: cfb882e7dcf03ef2
-  servername: images.onetimeok.com
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: api.v2.ApiService
+  servername: vangoghhh.info
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /rdfgtws
+    headers:
+      Host: vangoghhh.info
   udp: true
-- name: 🇦🇱 AL_11
-  server: 157.22.240.141
-  port: 57925
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: FXpDf7WV6lfD6n9hpz7HF2
-- name: 🇬🇧 英国 | GBR 5
-  server: 91.193.59.65
+- name: CA加拿大丨yoyapai.com_6
+  type: vless
+  server: 162.159.16.154
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
+  udp: true
+- name: CA加拿大丨yoyapai.com_11
+  type: vless
+  server: 104.18.37.237
+  port: 8443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
+  udp: true
+- name: 🇬🇧 英国 | GBR
+  server: 91.193.59.204
   port: 443
   type: vless
   uuid: 7612dd26-d0ce-4fe0-be7c-d093bb8645da
@@ -1071,7 +1606,22 @@ proxies:
     headers:
       Host: cf11.evan00.dpdns.org
   udp: true
-- name: 🇬🇧 英国 | GBR
+- name: CA加拿大丨yoyapai.com_2
+  type: vless
+  server: 162.159.8.123
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
+  udp: true
+- name: 🇬🇧 英国 | GBR 3
   server: api.oneoker.com
   port: 443
   type: vless
@@ -1087,229 +1637,332 @@ proxies:
     grpc-mode: gun
     grpc-service-name: api.v1.StreamService
   udp: true
-- name: 🇩🇪 德国 | DEU 12
-  server: 152.228.135.111
-  port: 8443
+- name: CA加拿大丨yoyapai.com_3
   type: vless
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  tls: true
-  servername: s5gydl.936.us.ci
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-    headers:
-      Host: s5gydl.936.us.ci
-- name: 🏴‍☠️ 未知地区 | Unknown 2
-  server: pro-mako.rooster465.autos
+  server: 162.159.8.42
   port: 443
-  type: trojan
-  password: HW85960347
-  sni: pro-mako.rooster465.autos
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
+  udp: true
+- name: CA加拿大丨yoyapai.com_21
+  type: vless
+  server: 104.18.35.13
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
+  udp: true
+- name: 🇩🇪 德国 | DEU 12
+  server: fl01.auragg.org
+  port: 443
+  type: hysteria2
+  password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
+  auth: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
+  sni: fl01.auragg.org
+  skip-cert-verify: true
+- name: 🇬🇧 英国 | GBR 5
+  server: cdn.pinecloud.net
+  port: 443
+  type: vless
+  uuid: b052df40-d51c-456c-9bd6-57af01a87e4e
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: vWSgdMDirb9aDZLWijSXXXl-NCTrtBgEe9MQqcgV6h8
+    short-id: 6a2e3af684799b19
+  servername: cdn.pinecloud.net
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇳🇱 荷兰 | NLD 5
+  server: 95.85.228.34
+  port: 443
+  type: vless
+  uuid: 8f0560ec-ba22-4431-a6a7-318dc59d5233
+  tls: true
+  reality-opts:
+    public-key: ibignrnL_bVupAb4hFM939eT22FtlzPvc1FZY_FDwnw
+    short-id: 5e3ab3ab228625
+  servername: 1vga81kaw013f-topology-gslb-yccdn.ru
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: nexusGrpc
+  udp: true
+- name: 羅馬尼亞丨yoyapai.com_8
+  type: vless
+  server: 185.137.157.72
+  port: 443
+  uuid: 55a5044d-5b35-405f-971c-ea7aacaafcb4
+  servername: www.nvidia.com
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: z6_OFl0jskilOOxkQcUcdQOCS4-LVndwFF9i7kIOPzg
+    short-id: d23753491eefde7e
   skip-cert-verify: true
   udp: true
 - name: 🇩🇪 德国 | DEU 10
-  server: 51.91.100.128
-  port: 8443
-  type: vless
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-  tls: true
-  servername: s5gydl.936.us.ci
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
-    headers:
-      Host: s5gydl.936.us.ci
-  udp: true
+  server: 5.83.129.143
+  port: 26691
+  type: hysteria
+  auth_str: dongtaiwang.com
+  auth-str: dongtaiwang.com
+  up: 11 Mbps
+  down: 55 Mbps
+  protocol: udp
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
 proxy-groups:
 - name: AUTO-FAST
   type: url-test
   proxies:
-  - 🇯🇵 日本 | JPN 16
-  - 🇸🇬 新加坡 | SGP 21
+  - 🇭🇰 香港 | HKG 2
   - 🇸🇬 新加坡 | SGP 13
-  - 🇯🇵 日本 | JPN 22
-  - 🇯🇵 日本 | JPN 12
+  - 🇭🇰 香港 | HKG 6
   - 🇸🇬 新加坡 | SGP 10
-  - 🇸🇬 新加坡 | SGP 20
-  - 🇸🇬 新加坡 | SGP 5
-  - 🇯🇵 日本 | JPN 10
-  - 🇯🇵 日本 | JPN 23
+  - 🇭🇰 香港 | HKG 4
   - 🇸🇬 新加坡 | SGP 11
+  - 🇸🇬 新加坡 | SGP 5
+  - 🇭🇰 香港 | HKG 3
   - 🇯🇵 日本 | JPN 20
-  - 🇯🇵 日本 | JPN 8
-  - 🇯🇵 日本 | JPN 9
-  - 🇯🇵 日本 | JPN 7
-  - 🇯🇵 日本 | JPN 2
-  - 🇯🇵 日本 | JPN 17
   - 🇸🇬 新加坡 | SGP 7
-  - 🇯🇵 日本 | JPN 6
-  - 🇯🇵 日本 | JPN 3
-  - 🇯🇵 日本 | JPN 21
+  - 🇯🇵 日本 | JPN 9
+  - 🇯🇵 日本 | JPN 2
+  - 🇭🇰 香港 | HKG 5
   - 🇯🇵 日本 | JPN 14
-  - 🇯🇵 日本 | JPN 13
-  - 🇸🇬 新加坡 | SGP
-  - 🇯🇵 日本 | JPN 15
-  - 🇸🇬 新加坡 | SGP 18
   - 🇸🇬 新加坡 | SGP 3
-  - 🇯🇵 日本 | JPN 19
+  - 🇸🇬 新加坡 | SGP
   - 🇸🇬 新加坡 | SGP 8
   - 🇸🇬 新加坡 | SGP 6
-  - 🇸🇬 新加坡 | SGP 19
   - 🇸🇬 新加坡 | SGP 14
+  - 🇭🇰HK香港丨yoyapai.com_1
+  - 🇭🇰HK香港丨yoyapai.com
   - 🇸🇬 新加坡 | SGP 2
   - 🇸🇬 新加坡 | SGP 15
   - 🇸🇬 新加坡 | SGP 9
-  - 🇯🇵 日本 | JPN
   - 🇯🇵 日本 | JPN 18
-  - 🇯🇵 日本 | JPN 24
   - 🇸🇬 新加坡 | SGP 4
-  - 🇸🇬 新加坡 | SGP 12
   - 🇸🇬 新加坡 | SGP 17
+  - 🇸🇬 新加坡 | SGP 12
   - 🇸🇬 新加坡 | SGP 16
+  - 🇺🇸 美国 | USA 30
+  - 🇺🇸 美国 | USA 11
+  - 🇺🇸 美国 | USA 26
+  - 🇺🇸 美国 | USA 9
+  - 美國丨yoyapai.com_18
+  - 🇺🇸 美国 | USA 20
   - 🇺🇸 美国 | USA 8
-  - 🇺🇸 美国 | USA 6
-  - 🇺🇸 美国 | USA 7
+  - 🇺🇸 美国 | USA 33
+  - 🇺🇸 美国 | USA 21
+  - 🇺🇸 美国 | USA 16
+  - 🇺🇸 美国 | USA 31
+  - 🇺🇸 美国 | USA 24
+  - 🇺🇸 美国 | USA 34
+  - 美國丨yoyapai.com
   - 🇺🇸 美国 | USA 3
-  - 🇺🇸 美国 | USA 4
+  - US美國丨yoyapai.com
+  - 🇺🇸 美国 | USA 7
   - 🇺🇸 美国 | USA 5
+  - 美國節點丨yoyapai.com
+  - 🇺🇸US美國丨yoyapai.com_1
+  - 🇺🇸 美国 | USA 29
   - 🇺🇸 美国 | USA
+  - 美國丨yoyapai.com_14
   - 🇺🇸 美国 | USA 10
+  - 🇺🇸 美国 | USA 19
+  - 🇺🇸 美国 | USA 17
   - 🇺🇸 美国 | USA 13
+  - 美國節點
   - 🇺🇸 美国 | USA 15
-  - 🇺🇸 美国 | USA 14
-  - 🇺🇸 美国 | USA 2
+  - 🇺🇸US美國丨yoyapai.com
+  - 🇺🇸 美国 | USA 32
+  - 美国+亚利桑那州斯科茨代尔市丨yoyapai.com
+  - 🇺🇸US美國丨yoyapai.com_2
+  - 🇺🇸US美國丨yoyapai.com_4
+  - 🇺🇸 美国 | USA 23
+  - 🇺🇸 美国 | USA 28
+  - CA加拿大丨yoyapai.com_13
+  - CA加拿大丨yoyapai.com_9
+  - CA加拿大丨yoyapai.com_14
   - 🇬🇧 英国 | GBR 4
-  - 🏴‍☠️ 未知地区 | Unknown
+  - 俄羅斯丨yoyapai.com
   - 🇬🇧 英国 | GBR 6
-  - 🇰🇷 韩国 | KOR 2
-  - 🇩🇪 德国 | DEU 16
+  - 德國法蘭克福丨yoyapai.com
+  - 英國丨yoyapai.com_1
+  - CA加拿大丨yoyapai.com_8
   - 🇩🇪 德国 | DEU 7
-  - 🇰🇷 韩国 | KOR 4
-  - 🏴‍☠️ 未知地区 | Unknown 5
-  - 🇳🇱 荷兰 | NLD
-  - 🏴‍☠️ 未知地区 | Unknown 4
+  - 🇩🇪 德国 | DEU 16
+  - 中國臺灣丨yoyapai.com
+  - CA加拿大丨yoyapai.com_20
+  - FR法國丨yoyapai.com
+  - CA加拿大丨yoyapai.com_18
+  - FR法國丨yoyapai.com_3
   - 🇸🇪 瑞典 | SWE 2
-  - 🏴‍☠️ 未知地区 | Unknown 6
-  - 🇹🇼 🇨🇳 台湾 | TWN
+  - CA加拿大丨yoyapai.com_15
   - 🇹🇼 🇨🇳 台湾 | TWN 3
   - 🇷🇺 俄罗斯 | RUS
   - 🇩🇪 德国 | DEU 3
-  - 🇰🇷 韩国 | KOR 5
-  - 🇩🇪 德国 | DEU 19
-  - 🇩🇪 德国 | DEU 5
-  - 🇩🇪 德国 | DEU 17
+  - 英國
+  - 歐盟丨yoyapai.com_2
+  - CA加拿大丨yoyapai.com_19
+  - 斯洛文尼亞丨yoyapai.com
+  - 🇩🇪 德国 | DEU 20
+  - CA加拿大丨yoyapai.com_1
   - 🇩🇪 德国 | DEU 15
-  - 🇮🇪 爱尔兰 | IRL
+  - 🇳🇱_NL荷蘭丨yoyapai.com
+  - CA加拿大丨yoyapai.com_7
+  - 英國節點
+  - 歐盟丨yoyapai.com
+  - CA加拿大丨yoyapai.com_12
+  - CA加拿大丨yoyapai.com_5
   - 🇵🇱 波兰 | POL
   - 🇩🇪 德国 | DEU 6
+  - CA加拿大丨yoyapai.com_16
   - 🇩🇪 德国 | DEU 8
   - 🇩🇪 德国 | DEU 11
-  - 🇹🇼 🇨🇳 台湾 | TWN 2
-  - 🇮🇹 意大利 | ITA
-  - 🇵🇭 菲律宾 | PHL
-  - 🇩🇪 德国 | DEU 14
-  - 🇩🇪 德国 | DEU 4
+  - 🇫🇷 法国 | FRA 3
+  - CA加拿大丨yoyapai.com_17
+  - 荷蘭丨yoyapai.com
+  - 巴西聖保羅丨yoyapai.com
+  - 🇸🇪 瑞典 | SWE
   - 🇬🇧 英国 | GBR 2
-  - 🏴‍☠️ 未知地区 | Unknown 3
+  - CA加拿大丨yoyapai.com_4
+  - 🇩🇪 德国 | DEU 4
   - 🇫🇷 法国 | FRA 4
-  - 🇲🇾 马来西亚 | MYS
+  - 🇳🇱 荷兰 | NLD 6
   - 🇰🇷 韩国 | KOR
-  - 🏴‍☠️ 未知地区 | Unknown 7
-  - 🇫🇷 法国 | FRA
   - 🇳🇱 荷兰 | NLD 2
-  - 🇹🇭 泰国 | THA
-  - 🇲🇴 澳门 | MAC
-  - 🇩🇪 德国 | DEU 9
+  - 🇫🇷 法国 | FRA
   - 🇩🇪 德国 | DEU
-  - 🇵🇭 菲律宾 | PHL 2
+  - CA加拿大丨yoyapai.com_10
+  - CA加拿大丨yoyapai.com_23
   - 🇳🇱 荷兰 | NLD 3
-  - 🇦🇱 AL_11
-  - 🇬🇧 英国 | GBR 5
+  - CA加拿大丨yoyapai.com_6
+  - CA加拿大丨yoyapai.com_11
   - 🇬🇧 英国 | GBR
+  - CA加拿大丨yoyapai.com_2
+  - 🇬🇧 英国 | GBR 3
+  - CA加拿大丨yoyapai.com_3
+  - CA加拿大丨yoyapai.com_21
   - 🇩🇪 德国 | DEU 12
-  - 🏴‍☠️ 未知地区 | Unknown 2
+  - 🇬🇧 英国 | GBR 5
+  - 🇳🇱 荷兰 | NLD 5
+  - 羅馬尼亞丨yoyapai.com_8
   - 🇩🇪 德国 | DEU 10
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: HK-POOL
   type: url-test
   proxies:
-  - 🇯🇵 日本 | JPN 16
-  - 🇸🇬 新加坡 | SGP 21
-  - 🇸🇬 新加坡 | SGP 13
-  - 🇯🇵 日本 | JPN 22
-  - 🇯🇵 日本 | JPN 12
+  - 🇭🇰 香港 | HKG 2
+  - 🇭🇰 香港 | HKG 6
+  - 🇭🇰 香港 | HKG 4
+  - 🇭🇰 香港 | HKG 3
+  - 🇭🇰 香港 | HKG 5
+  - 🇭🇰HK香港丨yoyapai.com_1
+  - 🇭🇰HK香港丨yoyapai.com
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: JP-POOL
   type: url-test
   proxies:
-  - 🇯🇵 日本 | JPN 16
-  - 🇯🇵 日本 | JPN 22
-  - 🇯🇵 日本 | JPN 12
-  - 🇯🇵 日本 | JPN 10
-  - 🇯🇵 日本 | JPN 23
   - 🇯🇵 日本 | JPN 20
-  - 🇯🇵 日本 | JPN 8
   - 🇯🇵 日本 | JPN 9
-  - 🇯🇵 日本 | JPN 7
   - 🇯🇵 日本 | JPN 2
-  - 🇯🇵 日本 | JPN 17
-  - 🇯🇵 日本 | JPN 6
-  - 🇯🇵 日本 | JPN 3
-  - 🇯🇵 日本 | JPN 21
   - 🇯🇵 日本 | JPN 14
-  - 🇯🇵 日本 | JPN 13
-  - 🇯🇵 日本 | JPN 15
-  - 🇯🇵 日本 | JPN 19
-  - 🇯🇵 日本 | JPN
   - 🇯🇵 日本 | JPN 18
-  - 🇯🇵 日本 | JPN 24
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: US-POOL
   type: url-test
   proxies:
+  - 🇺🇸 美国 | USA 30
+  - 🇺🇸 美国 | USA 11
+  - 🇺🇸 美国 | USA 26
+  - 🇺🇸 美国 | USA 9
+  - 美國丨yoyapai.com_18
+  - 🇺🇸 美国 | USA 20
   - 🇺🇸 美国 | USA 8
-  - 🇺🇸 美国 | USA 6
-  - 🇺🇸 美国 | USA 7
+  - 🇺🇸 美国 | USA 33
+  - 🇺🇸 美国 | USA 21
+  - 🇺🇸 美国 | USA 16
+  - 🇺🇸 美国 | USA 31
+  - 🇺🇸 美国 | USA 24
+  - 🇺🇸 美国 | USA 34
+  - 美國丨yoyapai.com
   - 🇺🇸 美国 | USA 3
-  - 🇺🇸 美国 | USA 4
+  - US美國丨yoyapai.com
+  - 🇺🇸 美国 | USA 7
   - 🇺🇸 美国 | USA 5
+  - 美國節點丨yoyapai.com
+  - 🇺🇸US美國丨yoyapai.com_1
+  - 🇺🇸 美国 | USA 29
   - 🇺🇸 美国 | USA
+  - 美國丨yoyapai.com_14
   - 🇺🇸 美国 | USA 10
+  - 🇺🇸 美国 | USA 19
+  - 🇺🇸 美国 | USA 17
   - 🇺🇸 美国 | USA 13
+  - 美國節點
   - 🇺🇸 美国 | USA 15
-  - 🇺🇸 美国 | USA 14
-  - 🇺🇸 美国 | USA 2
+  - 🇺🇸US美國丨yoyapai.com
+  - 🇺🇸 美国 | USA 32
+  - 美国+亚利桑那州斯科茨代尔市丨yoyapai.com
+  - 🇺🇸US美國丨yoyapai.com_2
+  - 🇺🇸US美國丨yoyapai.com_4
+  - 🇺🇸 美国 | USA 23
+  - 🇺🇸 美国 | USA 28
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: AI-POOL
   type: url-test
   proxies:
-  - 🇸🇬 新加坡 | SGP
-  - 🇬🇧 英国 | GBR 4
-  - 🇸🇬 新加坡 | SGP 12
-  - 🇺🇸 美国 | USA 14
-  - 🇬🇧 英国 | GBR 5
-  - 🇸🇬 新加坡 | SGP 5
-  - 🇯🇵 日本 | JPN 16
-  - 🇺🇸 美国 | USA 3
-  - 🇩🇪 德国 | DEU 14
-  - 🇺🇸 美国 | USA 8
-  - 🇩🇪 德国 | DEU 17
-  - 🇺🇸 美国 | USA 5
-  - 🇺🇸 美国 | USA 10
-  - 🇺🇸 美国 | USA 4
-  - 🇳🇱 荷兰 | NLD
-  - 🏴‍☠️ 未知地区 | Unknown 3
-  - 🇺🇸 美国 | USA 2
-  - 🇺🇸 美国 | USA
-  - 🇺🇸 美国 | USA 7
-  - 🇺🇸 美国 | USA 13
-  - 🇹🇼 🇨🇳 台湾 | TWN 2
+  - 巴西聖保羅丨yoyapai.com
+  - 英國
+  - 英國節點
+  - 美國節點
+  - 🇺🇸US美國丨yoyapai.com_1
+  - 🇺🇸 美国 | USA 16
+  - CA加拿大丨yoyapai.com_11
+  - 美國丨yoyapai.com_14
+  - CA加拿大丨yoyapai.com_1
+  - CA加拿大丨yoyapai.com_23
+  - CA加拿大丨yoyapai.com_5
+  - 🇭🇰HK香港丨yoyapai.com_1
+  - CA加拿大丨yoyapai.com_17
+  - 🇸🇬 新加坡 | SGP 10
+  - 🇺🇸 美国 | USA 17
+  - CA加拿大丨yoyapai.com_13
+  - CA加拿大丨yoyapai.com_7
+  - 🇺🇸 美国 | USA 28
+  - 🇺🇸 美国 | USA 34
+  - CA加拿大丨yoyapai.com_3
+  - 🇺🇸 美国 | USA 11
+  - CA加拿大丨yoyapai.com_14
+  - CA加拿大丨yoyapai.com_8
+  - 🇭🇰 香港 | HKG 2
+  - 🇺🇸 美国 | USA 9
+  - 英國丨yoyapai.com_1
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
