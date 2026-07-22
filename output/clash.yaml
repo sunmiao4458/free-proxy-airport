@@ -7,8 +7,21 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-07-22T20:15:35.394014+00:00'
+generated-at: '2026-07-22T21:37:08.799148+00:00'
 proxies:
+- name: 🇸🇬 新加坡 | SGP 13
+  server: 172.64.38.215
+  port: 443
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  tls: true
+  servername: learn00.evany.de5.net
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /fdip=tw.william.us.ci!txt
+    headers:
+      Host: learn00.evany.de5.net
 - name: 🇸🇬 新加坡 | SGP 21
   server: 162.159.33.118
   port: 443
@@ -36,22 +49,9 @@ proxies:
     path: /fdip=tw.william.us.ci!txt
     headers:
       Host: learn00.evany.de5.net
-- name: 🇸🇬 新加坡 | SGP 13
-  server: 172.64.38.215
-  port: 443
-  type: vless
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
-  tls: true
-  servername: learn00.evany.de5.net
-  client-fingerprint: random
-  network: ws
-  ws-opts:
-    path: /fdip=tw.william.us.ci!txt
-    headers:
-      Host: learn00.evany.de5.net
-- name: 🇯🇵 日本 | JPN 16
-  server: cf.130519.xyz
-  port: 443
+- name: 🇯🇵 日本 | JPN 22
+  server: 108.162.198.87
+  port: 2087
   type: vless
   uuid: 29ca503d-e6b8-4509-b666-48133f450857
   tls: true
@@ -63,9 +63,9 @@ proxies:
     headers:
       Host: learn00.evany.de5.net
   udp: true
-- name: 🇯🇵 日本 | JPN 22
-  server: 108.162.198.87
-  port: 2087
+- name: 🇯🇵 日本 | JPN 16
+  server: cf.130519.xyz
+  port: 443
   type: vless
   uuid: 29ca503d-e6b8-4509-b666-48133f450857
   tls: true
@@ -117,9 +117,9 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇯🇵 日本 | JPN 10
-  server: 162.159.38.206
-  port: 8443
+- name: 🇸🇬 新加坡 | SGP 20
+  server: 162.159.6.235
+  port: 443
   type: vless
   uuid: 29ca503d-e6b8-4509-b666-48133f450857
   tls: true
@@ -143,23 +143,9 @@ proxies:
     path: /fdip=tw.william.us.ci!txt
     headers:
       Host: learn00.evany.de5.net
-- name: 🇸🇬 新加坡 | SGP 24
-  server: 104.18.40.56
-  port: 443
-  type: vless
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
-  tls: true
-  servername: learn00.evany.de5.net
-  client-fingerprint: random
-  network: ws
-  ws-opts:
-    path: /fdip=tw.william.us.ci!txt
-    headers:
-      Host: learn00.evany.de5.net
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 20
-  server: 162.159.6.235
-  port: 443
+- name: 🇯🇵 日本 | JPN 10
+  server: 162.159.38.206
+  port: 8443
   type: vless
   uuid: 29ca503d-e6b8-4509-b666-48133f450857
   tls: true
@@ -184,8 +170,8 @@ proxies:
     headers:
       Host: learn00.evany.de5.net
   udp: true
-- name: 🇯🇵 日本 | JPN 2
-  server: 162.159.45.193
+- name: 🇸🇬 新加坡 | SGP 24
+  server: 104.18.40.56
   port: 443
   type: vless
   uuid: 29ca503d-e6b8-4509-b666-48133f450857
@@ -225,22 +211,9 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇯🇵 日本 | JPN 17
-  server: 172.64.53.218
-  port: 2087
-  type: vless
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
-  tls: true
-  servername: learn00.evany.de5.net
-  client-fingerprint: random
-  network: ws
-  ws-opts:
-    path: /fdip=tw.william.us.ci!txt
-    headers:
-      Host: learn00.evany.de5.net
-- name: 🇯🇵 日本 | JPN 7
-  server: 162.159.44.66
-  port: 2053
+- name: 🇯🇵 日本 | JPN 2
+  server: 162.159.45.193
+  port: 443
   type: vless
   uuid: 29ca503d-e6b8-4509-b666-48133f450857
   tls: true
@@ -265,6 +238,20 @@ proxies:
     path: /fdip=tw.william.us.ci!txt
     headers:
       Host: learn00.evany.de5.net
+- name: 🇯🇵 日本 | JPN 7
+  server: 162.159.44.66
+  port: 2053
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  tls: true
+  servername: learn00.evany.de5.net
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /fdip=tw.william.us.ci!txt
+    headers:
+      Host: learn00.evany.de5.net
+  udp: true
 - name: 🇸🇬 新加坡 | SGP 7
   server: 162.159.3.186
   port: 8443
@@ -276,20 +263,6 @@ proxies:
   network: ws
   ws-opts:
     path: /fdip=tw.william.us.ci!txt?ed=2560
-    headers:
-      Host: learn00.evany.de5.net
-  udp: true
-- name: 🇭🇰 香港 | HKG 3
-  server: 154.12.188.210
-  port: 2083
-  type: vless
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
-  tls: true
-  servername: learn00.evany.de5.net
-  client-fingerprint: random
-  network: ws
-  ws-opts:
-    path: /fdip=tw.william.us.ci!txt
     headers:
       Host: learn00.evany.de5.net
   udp: true
@@ -307,8 +280,22 @@ proxies:
     headers:
       Host: learn00.evany.de5.net
   udp: true
-- name: 🇯🇵 日本 | JPN 6
-  server: 162.159.38.165
+- name: 🇭🇰 香港 | HKG 3
+  server: 154.12.188.210
+  port: 2083
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  tls: true
+  servername: learn00.evany.de5.net
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /fdip=tw.william.us.ci!txt
+    headers:
+      Host: learn00.evany.de5.net
+  udp: true
+- name: 🇯🇵 日本 | JPN 17
+  server: 172.64.53.218
   port: 2087
   type: vless
   uuid: 29ca503d-e6b8-4509-b666-48133f450857
@@ -333,9 +320,9 @@ proxies:
     path: /fdip=tw.william.us.ci!txt
     headers:
       Host: learn00.evany.de5.net
-- name: 🇯🇵 日本 | JPN 13
-  server: 108.162.198.165
-  port: 8443
+- name: 🇯🇵 日本 | JPN 6
+  server: 162.159.38.165
+  port: 2087
   type: vless
   uuid: 29ca503d-e6b8-4509-b666-48133f450857
   tls: true
@@ -349,6 +336,19 @@ proxies:
 - name: 🇯🇵 日本 | JPN 14
   server: 162.159.38.129
   port: 443
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  tls: true
+  servername: learn00.evany.de5.net
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /fdip=tw.william.us.ci!txt
+    headers:
+      Host: learn00.evany.de5.net
+- name: 🇯🇵 日本 | JPN 13
+  server: 108.162.198.165
+  port: 8443
   type: vless
   uuid: 29ca503d-e6b8-4509-b666-48133f450857
   tls: true
@@ -373,9 +373,9 @@ proxies:
     headers:
       Host: learn00.evany.de5.net
   udp: true
-- name: 🇸🇬 新加坡 | SGP 18
-  server: 108.162.195.244
-  port: 8443
+- name: 🇯🇵 日本 | JPN 15
+  server: 162.159.44.191
+  port: 443
   type: vless
   uuid: 29ca503d-e6b8-4509-b666-48133f450857
   tls: true
@@ -386,9 +386,9 @@ proxies:
     path: /fdip=tw.william.us.ci!txt
     headers:
       Host: learn00.evany.de5.net
-- name: 🇯🇵 日本 | JPN 15
-  server: 162.159.44.191
-  port: 443
+- name: 🇸🇬 新加坡 | SGP 18
+  server: 108.162.195.244
+  port: 8443
   type: vless
   uuid: 29ca503d-e6b8-4509-b666-48133f450857
   tls: true
@@ -426,19 +426,6 @@ proxies:
     headers:
       Host: learn00.evany.de5.net
   udp: true
-- name: 🇸🇬 新加坡 | SGP 6
-  server: 162.159.16.63
-  port: 443
-  type: vless
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
-  tls: true
-  servername: learn00.evany.de5.net
-  client-fingerprint: random
-  network: ws
-  ws-opts:
-    path: /fdip=tw.william.us.ci!txt?ed=2560
-    headers:
-      Host: learn00.evany.de5.net
 - name: 🇯🇵 日本 | JPN 19
   server: 108.162.198.58
   port: 443
@@ -465,6 +452,26 @@ proxies:
     path: /fdip=tw.william.us.ci!txt
     headers:
       Host: learn00.evany.de5.net
+- name: 🇸🇬 新加坡 | SGP 6
+  server: 162.159.16.63
+  port: 443
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  tls: true
+  servername: learn00.evany.de5.net
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /fdip=tw.william.us.ci!txt?ed=2560
+    headers:
+      Host: learn00.evany.de5.net
+- name: 🇸🇬 新加坡 | SGP 26
+  server: touching-ostrich.rooster465.autos
+  port: 443
+  type: trojan
+  password: WG39087154
+  sni: touching-ostrich.rooster465.autos
+  skip-cert-verify: true
 - name: 🇸🇬 新加坡 | SGP 19
   server: 162.159.0.70
   port: 2087
@@ -478,20 +485,6 @@ proxies:
     path: /fdip=tw.william.us.ci!txt
     headers:
       Host: learn00.evany.de5.net
-- name: 🇸🇬 新加坡 | SGP 26
-  server: touching-ostrich.rooster465.autos
-  port: 443
-  type: trojan
-  password: WG39087154
-  sni: touching-ostrich.rooster465.autos
-  skip-cert-verify: true
-- name: 🇭🇰 香港 | HKG
-  server: 202.146.222.29
-  port: 443
-  type: hysteria2
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  skip-cert-verify: true
 - name: 🇸🇬 新加坡 | SGP 14
   server: 162.159.36.117
   port: 2087
@@ -505,6 +498,13 @@ proxies:
     path: /fdip=tw.william.us.ci!txt
     headers:
       Host: learn00.evany.de5.net
+- name: 🇭🇰 香港 | HKG
+  server: 202.146.222.29
+  port: 443
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  skip-cert-verify: true
 - name: 🇸🇬 新加坡 | SGP 9
   server: 108.162.195.58
   port: 443
@@ -531,6 +531,19 @@ proxies:
     path: /fdip=tw.william.us.ci!txt
     headers:
       Host: learn00.evany.de5.net
+- name: 🇸🇬 新加坡 | SGP 4
+  server: 162.159.17.128
+  port: 443
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  tls: true
+  servername: learn00.evany.de5.net
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /fdip=tw.william.us.ci!txt
+    headers:
+      Host: learn00.evany.de5.net
 - name: 🇯🇵 日本 | JPN
   server: cf.090227.xyz
   port: 443
@@ -545,19 +558,6 @@ proxies:
     headers:
       Host: learn00.evany.de5.net
   udp: true
-- name: 🇸🇬 新加坡 | SGP 4
-  server: 162.159.17.128
-  port: 443
-  type: vless
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
-  tls: true
-  servername: learn00.evany.de5.net
-  client-fingerprint: random
-  network: ws
-  ws-opts:
-    path: /fdip=tw.william.us.ci!txt
-    headers:
-      Host: learn00.evany.de5.net
 - name: 🇸🇬 新加坡 | SGP 17
   server: 104.18.36.192
   port: 2087
@@ -599,6 +599,20 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
+- name: 🇺🇸 美国 | USA 16
+  server: 104.18.0.0
+  port: 443
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  tls: true
+  servername: t1s1.rittbo.kdns.fr
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  udp: true
 - name: 美國丨yoyapai.com_18
   type: trojan
   server: 167.82.101.251
@@ -613,20 +627,6 @@ proxies:
     path: /de
     headers:
       Host: 3-mitivpn.global.ssl.fastly.net
-  udp: true
-- name: 🇺🇸 美国 | USA 16
-  server: 104.18.0.0
-  port: 443
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  tls: true
-  servername: t1s1.rittbo.kdns.fr
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: t1s1.rittbo.kdns.fr
   udp: true
 - name: 🇺🇸 美国 | USA 20
   server: 154.21.93.106
@@ -684,47 +684,9 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸 美国 | USA 7
-  server: ezaccess-project-53562a.pages.dev
-  port: 443
-  type: vless
-  uuid: 22df7ca3-ce10-48a9-a582-a3894296049e
-  tls: true
-  servername: ezacCeSs-PRojEct-53562a.PaGES.dev
-  client-fingerprint: ios
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiWm1TZTQ0NVdZalBwYmtpdSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: ezaccess-project-53562a.pages.dev
 - name: 🇺🇸 美国 | USA 6
   server: 154.21.90.126
   port: 8443
-  type: vless
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
-  tls: true
-  servername: learn00.evany.de5.net
-  client-fingerprint: random
-  network: ws
-  ws-opts:
-    path: /fdip=tw.william.us.ci!txt
-    headers:
-      Host: learn00.evany.de5.net
-- name: 🇺🇸 美国 | USA 3
-  server: nmslfangbinxing.pusytroller.gq
-  port: 2095
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: nmslfangbinxing.pusytroller.gq
-  udp: true
-- name: 🇺🇸 美国 | USA 5
-  server: 34.132.50.119
-  port: 443
   type: vless
   uuid: 29ca503d-e6b8-4509-b666-48133f450857
   tls: true
@@ -750,6 +712,31 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   udp: true
+- name: 🇺🇸 美国 | USA 3
+  server: nmslfangbinxing.pusytroller.gq
+  port: 2095
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: nmslfangbinxing.pusytroller.gq
+  udp: true
+- name: 🇺🇸 美国 | USA 5
+  server: 34.132.50.119
+  port: 443
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  tls: true
+  servername: learn00.evany.de5.net
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /fdip=tw.william.us.ci!txt
+    headers:
+      Host: learn00.evany.de5.net
 - name: 🇺🇸US美國丨yoyapai.com_5
   type: vless
   server: 108.162.196.3
@@ -801,19 +788,6 @@ proxies:
     headers:
       Host: valid22.validbv9501.ir
   udp: true
-- name: 🇺🇸 美国 | USA 15
-  server: 162.159.6.103
-  port: 2053
-  type: vless
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
-  tls: true
-  servername: learn00.evany.de5.net
-  client-fingerprint: random
-  network: ws
-  ws-opts:
-    path: /fdip=tw.william.us.ci!txt?ed=2560
-    headers:
-      Host: learn00.evany.de5.net
 - name: 🇺🇸US美國丨yoyapai.com
   type: vless
   server: 108.162.198.43
@@ -829,6 +803,19 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   udp: true
+- name: 🇺🇸 美国 | USA 15
+  server: 162.159.6.103
+  port: 2053
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  tls: true
+  servername: learn00.evany.de5.net
+  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /fdip=tw.william.us.ci!txt?ed=2560
+    headers:
+      Host: learn00.evany.de5.net
 - name: 🇺🇸US美國丨yoyapai.com_2
   type: vless
   server: 162.159.10.87
@@ -916,21 +903,6 @@ proxies:
   auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: vpn-us-003.fastervpn.world
   skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 22
-  server: us2-r.link-t7.com
-  port: 10239
-  type: vless
-  uuid: 07AD0E96-E020-4F69-9BAB-D678D8B954ED
-  tls: true
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: 686c0ef0
-  servername: s0.awsstatic.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: movie
 - name: 🇺🇸 美国 | USA 2
   server: ad-005.limaklhc6.info
   port: 8443
@@ -945,9 +917,9 @@ proxies:
     headers:
       Host: ad-005.limaklhc6.info
   udp: true
-- name: CA加拿大丨yoyapai.com_14
+- name: CA加拿大丨yoyapai.com_13
   type: vless
-  server: 172.64.35.206
+  server: 104.16.148.8
   port: 443
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   network: ws
@@ -960,9 +932,9 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   udp: true
-- name: CA加拿大丨yoyapai.com_13
+- name: CA加拿大丨yoyapai.com_14
   type: vless
-  server: 104.16.148.8
+  server: 172.64.35.206
   port: 443
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   network: ws
@@ -1004,21 +976,6 @@ proxies:
   client-fingerprint: qq
   network: tcp
   udp: true
-- name: FR法國丨yoyapai.com_5
-  type: vless
-  server: cf.877774.xyz
-  port: 443
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  network: ws
-  servername: t1s1.rittbo.kdns.fr
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-  skip-cert-verify: true
-  udp: true
 - name: 🇳🇱 荷兰 | NLD 7
   server: netherlands.orbit-escape.ru
   port: 443
@@ -1033,29 +990,6 @@ proxies:
     host: netherlands.orbit-escape.ru
     mode: auto
   udp: true
-- name: 🇫🇷 法国 | FRA 5
-  server: great-krill.rooster465.autos
-  port: 443
-  type: trojan
-  password: WG39087154
-  sni: great-krill.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: CA加拿大丨yoyapai.com_8
-  type: vless
-  server: 162.159.46.226
-  port: 8443
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  network: ws
-  servername: t1s1.rittbo.kdns.fr
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-  skip-cert-verify: true
-  udp: true
 - name: 🇫🇷 法国 | FRA 7
   server: 45.130.125.126
   port: 443
@@ -1068,6 +1002,14 @@ proxies:
     path: /assignment
     headers:
       Host: www.calmlunch.com
+  udp: true
+- name: 🇫🇷 法国 | FRA 5
+  server: great-krill.rooster465.autos
+  port: 443
+  type: trojan
+  password: WG39087154
+  sni: great-krill.rooster465.autos
+  skip-cert-verify: true
   udp: true
 - name: 俄羅斯丨yoyapai.com
   type: vless
@@ -1094,10 +1036,10 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: CA加拿大丨yoyapai.com_20
+- name: CA加拿大丨yoyapai.com_8
   type: vless
-  server: 162.159.21.206
-  port: 2083
+  server: 162.159.46.226
+  port: 8443
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   network: ws
   servername: t1s1.rittbo.kdns.fr
@@ -1119,6 +1061,21 @@ proxies:
   obfs: salamander
   obfs-password: oMgvuBy5Lj5kYM57sGsnjpjNcSEQ
   udp: true
+- name: CA加拿大丨yoyapai.com_20
+  type: vless
+  server: 162.159.21.206
+  port: 2083
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
+  udp: true
 - name: 🇰🇷 韩国 | KOR 2
   server: equipped-panther.rooster465.autos
   port: 443
@@ -1126,17 +1083,9 @@ proxies:
   password: WG39087154
   sni: equipped-panther.rooster465.autos
   skip-cert-verify: true
-- name: 中國臺灣丨yoyapai.com
-  type: hysteria2
-  server: vpn-tw-002.fastervpn.world
-  port: 443
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: vpn-tw-002.fastervpn.world
-  skip-cert-verify: true
-  udp: true
-- name: FR法國丨yoyapai.com_3
+- name: CA加拿大丨yoyapai.com_18
   type: vless
-  server: cf.130519.xyz
+  server: 162.159.1.170
   port: 443
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   network: ws
@@ -1149,9 +1098,17 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   udp: true
-- name: CA加拿大丨yoyapai.com_18
+- name: 中國臺灣丨yoyapai.com
+  type: hysteria2
+  server: vpn-tw-002.fastervpn.world
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: vpn-tw-002.fastervpn.world
+  skip-cert-verify: true
+  udp: true
+- name: FR法國丨yoyapai.com_3
   type: vless
-  server: 162.159.1.170
+  server: cf.130519.xyz
   port: 443
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   network: ws
@@ -1179,19 +1136,6 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   udp: true
-- name: 🇳🇱 荷兰 | NLD 4
-  server: 104.18.1.1
-  port: 443
-  type: vless
-  uuid: a26c3d8c-d803-43a6-b589-807f59dc7306
-  tls: true
-  servername: DeluxHost-NL-AMS-1.sharingfreenode.cc.cd
-  client-fingerprint: ios
-  network: ws
-  ws-opts:
-    path: /a26c3d8c
-    headers:
-      Host: DeluxHost-NL-AMS-1.sharingfreenode.cc.cd
 - name: CA加拿大丨yoyapai.com_15
   type: vless
   server: 162.159.41.198
@@ -1207,6 +1151,19 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   udp: true
+- name: 🇳🇱 荷兰 | NLD 4
+  server: 104.18.1.1
+  port: 443
+  type: vless
+  uuid: a26c3d8c-d803-43a6-b589-807f59dc7306
+  tls: true
+  servername: DeluxHost-NL-AMS-1.sharingfreenode.cc.cd
+  client-fingerprint: ios
+  network: ws
+  ws-opts:
+    path: /a26c3d8c
+    headers:
+      Host: DeluxHost-NL-AMS-1.sharingfreenode.cc.cd
 - name: CA加拿大丨yoyapai.com_19
   type: vless
   server: 162.159.42.182
@@ -1312,29 +1269,6 @@ proxies:
   password: oZIoA69Q8yhcQV8ka3Pa3A
   skip-cert-verify: true
   udp: true
-- name: 🇦🇺 澳大利亚 | AUS
-  server: in-colt.rooster465.autos
-  port: 443
-  type: trojan
-  password: HW85960347
-  sni: in-colt.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: CA加拿大丨yoyapai.com_5
-  type: vless
-  server: 172.64.145.186
-  port: 443
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  network: ws
-  servername: t1s1.rittbo.kdns.fr
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-  skip-cert-verify: true
-  udp: true
 - name: 🇮🇪 爱尔兰 | IRL
   server: grateful-unicorn.rooster465.autos
   port: 443
@@ -1358,6 +1292,29 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   udp: true
+- name: 🇦🇺 澳大利亚 | AUS
+  server: in-colt.rooster465.autos
+  port: 443
+  type: trojan
+  password: HW85960347
+  sni: in-colt.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+- name: CA加拿大丨yoyapai.com_5
+  type: vless
+  server: 172.64.145.186
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
+  udp: true
 - name: 英國節點
   type: vmess
   server: 82.198.246.250
@@ -1368,6 +1325,13 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
+- name: 🇵🇱 波兰 | POL
+  server: primary-leech.rooster465.autos
+  port: 443
+  type: trojan
+  password: SX95078263
+  sni: primary-leech.rooster465.autos
+  skip-cert-verify: true
 - name: CA加拿大丨yoyapai.com_22
   type: vless
   server: 162.159.12.210
@@ -1383,13 +1347,6 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   udp: true
-- name: 🇵🇱 波兰 | POL
-  server: primary-leech.rooster465.autos
-  port: 443
-  type: trojan
-  password: SX95078263
-  sni: primary-leech.rooster465.autos
-  skip-cert-verify: true
 - name: 巴西聖保羅丨yoyapai.com
   type: trojan
   server: 188.114.97.6
@@ -1405,13 +1362,18 @@ proxies:
     headers:
       Host: mitivpn.de.ssl.global.fastly.net.mitivpn.site
   udp: true
-- name: 台湾省台北市丨yoyapai.com
-  type: ss
-  server: r3mrcg001286ek2.cybervena.com
-  port: 50099
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  skip-cert-verify: true
+- name: 🇨🇭 瑞士 | CHE
+  server: 87.242.85.102
+  port: 443
+  type: vless
+  uuid: 2a77a470-315c-493d-b690-59b814a804cb
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: abuse.sellflow.org
+  client-fingerprint: firefox
+  network: tcp
   udp: true
 - name: 🇫🇷 法国 | FRA 3
   server: 194.76.154.31
@@ -1423,19 +1385,6 @@ proxies:
     public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
     short-id: a8ae
   servername: deepl.com
-  client-fingerprint: firefox
-  network: tcp
-  udp: true
-- name: 🇨🇭 瑞士 | CHE
-  server: 87.242.85.102
-  port: 443
-  type: vless
-  uuid: 2a77a470-315c-493d-b690-59b814a804cb
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  servername: abuse.sellflow.org
   client-fingerprint: firefox
   network: tcp
   udp: true
@@ -1454,20 +1403,6 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   udp: true
-- name: 🇵🇭 菲律宾 | PHL 3
-  server: 45.196.201.18
-  port: 443
-  type: vless
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-  network: tcp
-  udp: true
 - name: CA加拿大丨yoyapai.com_4
   type: vless
   server: 172.64.145.2
@@ -1483,19 +1418,30 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   udp: true
-- name: 🇳🇱 荷兰 | NLD 6
-  server: 188.114.97.3
+- name: 🇩🇪 德国 | DEU 13
+  server: 185.218.194.64
   port: 443
   type: vless
-  uuid: 22df7ca3-ce10-48a9-a582-a3894296049e
+  uuid: c8b5f6c9-83ff-0021-be9c-f997a5b2f692
   tls: true
-  servername: EzaCcESS-proJeCT-53562A.pageS.Dev
-  client-fingerprint: ios
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiQ01pb2drU1dkNWdLcWdMIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==
-    headers:
-      Host: ezaccess-project-53562a.pages.dev
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: PDBVcDR6o01XUpdNNZ6rutJ_DBqnF7VcDuWceHIpyE8
+    short-id: 8e5f0a7b
+  servername: www.amd.com
+  client-fingerprint: firefox
+  network: tcp
+  udp: true
+- name: 荷蘭丨yoyapai.com
+  type: hysteria2
+  server: hy2.aspidnet.xyz
+  port: 443
+  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+  sni: hy2.aspidnet.xyz
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
+  udp: true
 - name: 🇸🇪 瑞典 | SWE
   server: sw01.auragg.org
   port: 443
@@ -1511,16 +1457,6 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: auragrpc
-  udp: true
-- name: 荷蘭丨yoyapai.com
-  type: hysteria2
-  server: hy2.aspidnet.xyz
-  port: 443
-  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
-  sni: hy2.aspidnet.xyz
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
   udp: true
 - name: 🇳🇱 荷兰 | NLD 2
   server: icook.hk
@@ -1593,6 +1529,21 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   udp: true
+- name: CA加拿大丨yoyapai.com_23
+  type: vless
+  server: 172.64.151.158
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
+  udp: true
 - name: 🇧🇿 BZ_164
   server: 45.131.5.9
   port: 443
@@ -1620,6 +1571,21 @@ proxies:
     headers:
       Host: learn00.evany.de5.net
   udp: true
+- name: CA加拿大丨yoyapai.com_21
+  type: vless
+  server: 104.18.35.13
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
+  udp: true
 - name: 🇳🇱 荷兰 | NLD 3
   server: 185.239.69.147
   port: 8443
@@ -1633,20 +1599,6 @@ proxies:
     path: /fdip=tw.william.us.ci!txt
     headers:
       Host: learn00.evany.de5.net
-  udp: true
-- name: 🇵🇭 菲律宾 | PHL 2
-  server: 45.196.201.2
-  port: 443
-  type: vless
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: c6ef72e4635d15a5
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-  network: tcp
   udp: true
 - name: CA加拿大丨yoyapai.com_2
   type: vless
@@ -1667,21 +1619,6 @@ proxies:
   type: vless
   server: 104.18.37.237
   port: 8443
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  network: ws
-  servername: t1s1.rittbo.kdns.fr
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-  skip-cert-verify: true
-  udp: true
-- name: CA加拿大丨yoyapai.com_21
-  type: vless
-  server: 104.18.35.13
-  port: 443
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   network: ws
   servername: t1s1.rittbo.kdns.fr
@@ -1718,68 +1655,67 @@ proxy-groups:
 - name: AUTO-FAST
   type: url-test
   proxies:
+  - 🇸🇬 新加坡 | SGP 13
   - 🇸🇬 新加坡 | SGP 21
   - 🇯🇵 日本 | JPN 5
-  - 🇸🇬 新加坡 | SGP 13
-  - 🇯🇵 日本 | JPN 16
   - 🇯🇵 日本 | JPN 22
+  - 🇯🇵 日本 | JPN 16
   - 🇸🇬 新加坡 | SGP 25
   - 🇸🇬 新加坡 | SGP 10
   - 🇸🇬 新加坡 | SGP 23
-  - 🇯🇵 日本 | JPN 10
-  - 🇯🇵 日本 | JPN 11
-  - 🇸🇬 新加坡 | SGP 24
   - 🇸🇬 新加坡 | SGP 20
+  - 🇯🇵 日本 | JPN 11
+  - 🇯🇵 日本 | JPN 10
   - 🇯🇵 日本 | JPN 20
-  - 🇯🇵 日本 | JPN 2
+  - 🇸🇬 新加坡 | SGP 24
   - 🇯🇵 日本 | JPN 9
   - 🇸🇬 新加坡 | SGP 11
-  - 🇯🇵 日本 | JPN 17
-  - 🇯🇵 日本 | JPN 7
+  - 🇯🇵 日本 | JPN 2
   - 🇯🇵 日本 | JPN 8
+  - 🇯🇵 日本 | JPN 7
   - 🇸🇬 新加坡 | SGP 7
-  - 🇭🇰 香港 | HKG 3
   - 🇸🇬 新加坡 | SGP 5
-  - 🇯🇵 日本 | JPN 6
+  - 🇭🇰 香港 | HKG 3
+  - 🇯🇵 日本 | JPN 17
   - 🇸🇬 新加坡 | SGP 22
-  - 🇯🇵 日本 | JPN 13
+  - 🇯🇵 日本 | JPN 6
   - 🇯🇵 日本 | JPN 14
+  - 🇯🇵 日本 | JPN 13
   - 🇯🇵 日本 | JPN 3
-  - 🇸🇬 新加坡 | SGP 18
   - 🇯🇵 日本 | JPN 15
+  - 🇸🇬 新加坡 | SGP 18
   - 🇸🇬 新加坡 | SGP
   - 🇸🇬 新加坡 | SGP 3
-  - 🇸🇬 新加坡 | SGP 6
   - 🇯🇵 日本 | JPN 19
   - 🇸🇬 新加坡 | SGP 8
-  - 🇸🇬 新加坡 | SGP 19
+  - 🇸🇬 新加坡 | SGP 6
   - 🇸🇬 新加坡 | SGP 26
-  - 🇭🇰 香港 | HKG
+  - 🇸🇬 新加坡 | SGP 19
   - 🇸🇬 新加坡 | SGP 14
+  - 🇭🇰 香港 | HKG
   - 🇸🇬 新加坡 | SGP 9
   - 🇸🇬 新加坡 | SGP 15
-  - 🇯🇵 日本 | JPN
   - 🇸🇬 新加坡 | SGP 4
+  - 🇯🇵 日本 | JPN
   - 🇸🇬 新加坡 | SGP 17
   - 🇸🇬 新加坡 | SGP 16
   - 🇺🇸 美国 | USA 11
-  - 美國丨yoyapai.com_18
   - 🇺🇸 美国 | USA 16
+  - 美國丨yoyapai.com_18
   - 🇺🇸 美国 | USA 20
   - 🇺🇸 美国 | USA 24
   - 🇺🇸 美国 | USA 25
   - 美國丨yoyapai.com
-  - 🇺🇸 美国 | USA 7
   - 🇺🇸 美国 | USA 6
+  - 🇺🇸US美國丨yoyapai.com_1
   - 🇺🇸 美国 | USA 3
   - 🇺🇸 美国 | USA 5
-  - 🇺🇸US美國丨yoyapai.com_1
   - 🇺🇸US美國丨yoyapai.com_5
   - 🇺🇸 美国 | USA 13
   - 🇺🇸 美国 | USA 19
   - 🇺🇸 美国 | USA 17
-  - 🇺🇸 美国 | USA 15
   - 🇺🇸US美國丨yoyapai.com
+  - 🇺🇸 美国 | USA 15
   - 🇺🇸US美國丨yoyapai.com_2
   - 🇺🇸US美國丨yoyapai.com_4
   - 美國節點
@@ -1787,28 +1723,26 @@ proxy-groups:
   - 🇺🇸 美国 | USA 14
   - 🇺🇸 美国 | USA 23
   - 🇺🇸 美国 | USA 12
-  - 🇺🇸 美国 | USA 22
   - 🇺🇸 美国 | USA 2
-  - CA加拿大丨yoyapai.com_14
   - CA加拿大丨yoyapai.com_13
+  - CA加拿大丨yoyapai.com_14
   - CA加拿大丨yoyapai.com_9
   - 🇫🇷 法国 | FRA 6
-  - FR法國丨yoyapai.com_5
   - 🇳🇱 荷兰 | NLD 7
-  - 🇫🇷 法国 | FRA 5
-  - CA加拿大丨yoyapai.com_8
   - 🇫🇷 法国 | FRA 7
+  - 🇫🇷 法国 | FRA 5
   - 俄羅斯丨yoyapai.com
   - 🇩🇪 德国 | DEU 2
-  - CA加拿大丨yoyapai.com_20
+  - CA加拿大丨yoyapai.com_8
   - 德國法蘭克福丨yoyapai.com
+  - CA加拿大丨yoyapai.com_20
   - 🇰🇷 韩国 | KOR 2
+  - CA加拿大丨yoyapai.com_18
   - 中國臺灣丨yoyapai.com
   - FR法國丨yoyapai.com_3
-  - CA加拿大丨yoyapai.com_18
   - FR法國丨yoyapai.com
-  - 🇳🇱 荷兰 | NLD 4
   - CA加拿大丨yoyapai.com_15
+  - 🇳🇱 荷兰 | NLD 4
   - CA加拿大丨yoyapai.com_19
   - 🇩🇪 德国 | DEU 3
   - 英國
@@ -1817,35 +1751,33 @@ proxy-groups:
   - 🇩🇪 德国 | DEU 5
   - CA加拿大丨yoyapai.com_12
   - 🇳🇱_NL荷蘭丨yoyapai.com
-  - 🇦🇺 澳大利亚 | AUS
-  - CA加拿大丨yoyapai.com_5
   - 🇮🇪 爱尔兰 | IRL
   - CA加拿大丨yoyapai.com_16
+  - 🇦🇺 澳大利亚 | AUS
+  - CA加拿大丨yoyapai.com_5
   - 英國節點
-  - CA加拿大丨yoyapai.com_22
   - 🇵🇱 波兰 | POL
+  - CA加拿大丨yoyapai.com_22
   - 巴西聖保羅丨yoyapai.com
-  - 台湾省台北市丨yoyapai.com
-  - 🇫🇷 法国 | FRA 3
   - 🇨🇭 瑞士 | CHE
+  - 🇫🇷 法国 | FRA 3
   - CA加拿大丨yoyapai.com_17
-  - 🇵🇭 菲律宾 | PHL 3
   - CA加拿大丨yoyapai.com_4
-  - 🇳🇱 荷兰 | NLD 6
-  - 🇸🇪 瑞典 | SWE
+  - 🇩🇪 德国 | DEU 13
   - 荷蘭丨yoyapai.com
+  - 🇸🇪 瑞典 | SWE
   - 🇳🇱 荷兰 | NLD 2
   - 🇫🇷 法国 | FRA
   - 🇩🇪 德国 | DEU
   - CA加拿大丨yoyapai.com_6
   - CA加拿大丨yoyapai.com_10
+  - CA加拿大丨yoyapai.com_23
   - 🇧🇿 BZ_164
   - 🇫🇷 法国 | FRA 2
+  - CA加拿大丨yoyapai.com_21
   - 🇳🇱 荷兰 | NLD 3
-  - 🇵🇭 菲律宾 | PHL 2
   - CA加拿大丨yoyapai.com_2
   - CA加拿大丨yoyapai.com_11
-  - CA加拿大丨yoyapai.com_21
   - CA加拿大丨yoyapai.com_3
   - 🇩🇪 德国 | DEU 10
   url: http://www.gstatic.com/generate_204
@@ -1861,19 +1793,19 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇯🇵 日本 | JPN 5
-  - 🇯🇵 日本 | JPN 16
   - 🇯🇵 日本 | JPN 22
-  - 🇯🇵 日本 | JPN 10
+  - 🇯🇵 日本 | JPN 16
   - 🇯🇵 日本 | JPN 11
+  - 🇯🇵 日本 | JPN 10
   - 🇯🇵 日本 | JPN 20
-  - 🇯🇵 日本 | JPN 2
   - 🇯🇵 日本 | JPN 9
-  - 🇯🇵 日本 | JPN 17
-  - 🇯🇵 日本 | JPN 7
+  - 🇯🇵 日本 | JPN 2
   - 🇯🇵 日本 | JPN 8
+  - 🇯🇵 日本 | JPN 7
+  - 🇯🇵 日本 | JPN 17
   - 🇯🇵 日本 | JPN 6
-  - 🇯🇵 日本 | JPN 13
   - 🇯🇵 日本 | JPN 14
+  - 🇯🇵 日本 | JPN 13
   - 🇯🇵 日本 | JPN 3
   - 🇯🇵 日本 | JPN 15
   - 🇯🇵 日本 | JPN 19
@@ -1884,23 +1816,22 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇺🇸 美国 | USA 11
-  - 美國丨yoyapai.com_18
   - 🇺🇸 美国 | USA 16
+  - 美國丨yoyapai.com_18
   - 🇺🇸 美国 | USA 20
   - 🇺🇸 美国 | USA 24
   - 🇺🇸 美国 | USA 25
   - 美國丨yoyapai.com
-  - 🇺🇸 美国 | USA 7
   - 🇺🇸 美国 | USA 6
+  - 🇺🇸US美國丨yoyapai.com_1
   - 🇺🇸 美国 | USA 3
   - 🇺🇸 美国 | USA 5
-  - 🇺🇸US美國丨yoyapai.com_1
   - 🇺🇸US美國丨yoyapai.com_5
   - 🇺🇸 美国 | USA 13
   - 🇺🇸 美国 | USA 19
   - 🇺🇸 美国 | USA 17
-  - 🇺🇸 美国 | USA 15
   - 🇺🇸US美國丨yoyapai.com
+  - 🇺🇸 美国 | USA 15
   - 🇺🇸US美國丨yoyapai.com_2
   - 🇺🇸US美國丨yoyapai.com_4
   - 美國節點
@@ -1908,7 +1839,6 @@ proxy-groups:
   - 🇺🇸 美国 | USA 14
   - 🇺🇸 美国 | USA 23
   - 🇺🇸 美国 | USA 12
-  - 🇺🇸 美国 | USA 22
   - 🇺🇸 美国 | USA 2
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -1916,31 +1846,30 @@ proxy-groups:
   type: url-test
   proxies:
   - 巴西聖保羅丨yoyapai.com
-  - 🇸🇬 新加坡 | SGP 6
-  - CA加拿大丨yoyapai.com_22
-  - CA加拿大丨yoyapai.com_8
   - CA加拿大丨yoyapai.com_19
-  - 🇺🇸US美國丨yoyapai.com_2
-  - CA加拿大丨yoyapai.com_14
   - CA加拿大丨yoyapai.com_6
-  - 🇸🇬 新加坡 | SGP 10
-  - 🇸🇬 新加坡 | SGP
-  - 🇸🇬 新加坡 | SGP 21
-  - 🇺🇸 美国 | USA 18
-  - CA加拿大丨yoyapai.com_12
-  - CA加拿大丨yoyapai.com_16
-  - 🇯🇵 日本 | JPN 2
   - 🇺🇸 美国 | USA 16
-  - CA加拿大丨yoyapai.com_1
-  - 🇯🇵 日本 | JPN 10
   - 🇺🇸US美國丨yoyapai.com_4
-  - 🇯🇵 日本 | JPN 5
-  - 🇸🇬 新加坡 | SGP 25
-  - 🇯🇵 日本 | JPN 17
-  - 🇸🇬 新加坡 | SGP 7
-  - CA加拿大丨yoyapai.com_20
-  - FR法國丨yoyapai.com_3
-  - 🇯🇵 日本 | JPN 6
+  - 🇺🇸US美國丨yoyapai.com_2
+  - CA加拿大丨yoyapai.com_21
+  - 🇸🇬 新加坡 | SGP 9
+  - CA加拿大丨yoyapai.com_15
+  - CA加拿大丨yoyapai.com_1
+  - CA加拿大丨yoyapai.com_23
+  - 🇺🇸US美國丨yoyapai.com_5
+  - 🇯🇵 日本 | JPN 9
+  - 🇺🇸US美國丨yoyapai.com_1
+  - CA加拿大丨yoyapai.com_18
+  - CA加拿大丨yoyapai.com_16
+  - 🇸🇬 新加坡 | SGP 8
+  - 🇸🇬 新加坡 | SGP 13
+  - 🇯🇵 日本 | JPN 14
+  - 🇸🇬 新加坡 | SGP 16
+  - 美國丨yoyapai.com
+  - CA加拿大丨yoyapai.com_22
+  - CA加拿大丨yoyapai.com_13
+  - 🇯🇵 日本 | JPN 11
+  - 🇯🇵 日本 | JPN 20
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
