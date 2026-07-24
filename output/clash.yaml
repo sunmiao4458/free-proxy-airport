@@ -7,24 +7,10 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-07-24T18:57:36.578106+00:00'
+generated-at: '2026-07-24T20:20:48.439067+00:00'
 proxies:
 - name: 🇸🇬 新加坡 | SGP 13
   server: cf.3666888.xyz
-  port: 443
-  type: vless
-  uuid: 57d68ec3-6cc5-10e9-2bca-5ba3994aa783
-  tls: true
-  servername: l.m.j.u.w.9.y.i.m.y.s.8.p.y.us.art-us.kdns.fr
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /glasspanel/0038ba35_0_1bdabe931208/
-    headers:
-      Host: l.m.j.u.w.9.y.i.m.y.s.8.p.y.us.art-us.kdns.fr
-  udp: true
-- name: 🇯🇵 日本 | JPN 10
-  server: cf.877774.xyz
   port: 443
   type: vless
   uuid: 57d68ec3-6cc5-10e9-2bca-5ba3994aa783
@@ -76,6 +62,20 @@ proxies:
   skip-cert-verify: true
 - name: 🇸🇬 新加坡 | SGP 10
   server: cucc.cloudflare.seeck.cn
+  port: 443
+  type: vless
+  uuid: 57d68ec3-6cc5-10e9-2bca-5ba3994aa783
+  tls: true
+  servername: l.m.j.u.w.9.y.i.m.y.s.8.p.y.us.art-us.kdns.fr
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /glasspanel/0038ba35_0_1bdabe931208/
+    headers:
+      Host: l.m.j.u.w.9.y.i.m.y.s.8.p.y.us.art-us.kdns.fr
+  udp: true
+- name: 🇯🇵 日本 | JPN 10
+  server: cf.877774.xyz
   port: 443
   type: vless
   uuid: 57d68ec3-6cc5-10e9-2bca-5ba3994aa783
@@ -158,20 +158,6 @@ proxies:
     headers:
       Host: 2.r.y.a.j.7.c.z.d.z.8.f.f.r.us.art-us.kdns.fr
   udp: true
-- name: 🇯🇵 日本 | JPN 2
-  server: cf.877774.xyz
-  port: 443
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  tls: true
-  servername: jwvze.f40g.szo.hh.vavava.kdns.fr
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: jwvze.f40g.szo.hh.vavava.kdns.fr
-  udp: true
 - name: 🇯🇵 日本 | JPN 7
   server: 139.162.83.190
   port: 74
@@ -185,6 +171,20 @@ proxies:
     path: /glasspanel/0038ba35_0_1bdabe931208/
     headers:
       Host: l.m.j.u.w.9.y.i.m.y.s.8.p.y.us.art-us.kdns.fr
+  udp: true
+- name: 🇯🇵 日本 | JPN 2
+  server: cf.877774.xyz
+  port: 443
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  tls: true
+  servername: jwvze.f40g.szo.hh.vavava.kdns.fr
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: jwvze.f40g.szo.hh.vavava.kdns.fr
   udp: true
 - name: 🇸🇬 新加坡 | SGP 7
   server: cmcc.cloudflare.seeck.cn
@@ -242,6 +242,18 @@ proxies:
     headers:
       Host: jwvze.f40g.szo.hh.vavava.kdns.fr
   udp: true
+- name: 🇭🇰 香港 | HKG 5
+  server: 185.206.171.78
+  port: 8081
+  type: vmess
+  uuid: 450037e8-e9fb-4296-bdf7-213f40b753c1
+  alterId: 0
+  cipher: auto
+  tls: false
+  alpn:
+  - ''
+  skip-cert-verify: true
+  udp: true
 - name: 🇸🇬 新加坡 | SGP 8
   server: 104.18.40.163
   port: 443
@@ -256,34 +268,8 @@ proxies:
     headers:
       Host: jwvze.f40g.szo.hh.vavava.kdns.fr
   udp: true
-- name: 🇭🇰 香港 | HKG 5
-  server: 185.206.171.78
-  port: 8081
-  type: vmess
-  uuid: 450037e8-e9fb-4296-bdf7-213f40b753c1
-  alterId: 0
-  cipher: auto
-  tls: false
-  alpn:
-  - ''
-  skip-cert-verify: true
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 14
-  server: nexusmods.com
-  port: 443
-  type: vless
-  uuid: 57d68ec3-6cc5-10e9-2bca-5ba3994aa783
-  tls: true
-  servername: 2.r.y.a.j.7.c.z.d.z.8.f.f.r.us.art-us.kdns.fr
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /glasspanel/0038ba35_0_1bdabe931208/
-    headers:
-      Host: 2.r.y.a.j.7.c.z.d.z.8.f.f.r.us.art-us.kdns.fr
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 19
-  server: 104.18.46.234
+- name: 🇸🇬 新加坡 | SGP
+  server: cucc.cloudflare.seeck.cn
   port: 443
   type: vless
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
@@ -296,22 +282,8 @@ proxies:
     headers:
       Host: jwvze.f40g.szo.hh.vavava.kdns.fr
   udp: true
-- name: 🇸🇬 新加坡 | SGP 9
-  server: 104.18.37.237
-  port: 8443
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  tls: true
-  servername: t1s1.rittbo.kdns.fr
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-  udp: true
-- name: 🇸🇬 新加坡 | SGP
-  server: cucc.cloudflare.seeck.cn
+- name: 🇸🇬 新加坡 | SGP 19
+  server: 104.18.46.234
   port: 443
   type: vless
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
@@ -337,6 +309,34 @@ proxies:
     path: /glasspanel/0038ba35_0_1bdabe931208/
     headers:
       Host: l.m.j.u.w.9.y.i.m.y.s.8.p.y.us.art-us.kdns.fr
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 14
+  server: nexusmods.com
+  port: 443
+  type: vless
+  uuid: 57d68ec3-6cc5-10e9-2bca-5ba3994aa783
+  tls: true
+  servername: 2.r.y.a.j.7.c.z.d.z.8.f.f.r.us.art-us.kdns.fr
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /glasspanel/0038ba35_0_1bdabe931208/
+    headers:
+      Host: 2.r.y.a.j.7.c.z.d.z.8.f.f.r.us.art-us.kdns.fr
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 9
+  server: 104.18.37.237
+  port: 8443
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  tls: true
+  servername: t1s1.rittbo.kdns.fr
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
   udp: true
 - name: 🇸🇬 新加坡 | SGP 6
   server: ctcc.cloudflare.seeck.cn
@@ -446,6 +446,21 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
+- name: US美國丨yoyapai.com
+  type: vless
+  server: cf.090227.xyz
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
+  udp: true
 - name: 🇺🇸 美国 | USA 8
   server: 162.159.21.178
   port: 8880
@@ -457,6 +472,20 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net
     headers:
       Host: yellow-breeze-989b.348-9b8.workers.dev
+  udp: true
+- name: 🇺🇸 美国 | USA 9
+  server: 154.193.55.183
+  port: 443
+  type: vless
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4
+    short-id: c76ba2c2fb172e8b
+  servername: storage.yandex.net
+  client-fingerprint: firefox
+  network: tcp
   udp: true
 - name: 🇺🇸 美国 | USA 11
   server: 194.135.34.121
@@ -474,23 +503,9 @@ proxies:
     headers:
       Host: cloudflare.vhub.pro
   udp: true
-- name: 🇺🇸 美国 | USA 9
-  server: 154.193.55.183
-  port: 443
+- name: 美國丨yoyapai.com
   type: vless
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4
-    short-id: c76ba2c2fb172e8b
-  servername: storage.yandex.net
-  client-fingerprint: firefox
-  network: tcp
-  udp: true
-- name: US美國丨yoyapai.com
-  type: vless
-  server: cf.090227.xyz
+  server: 198.41.223.238
   port: 443
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   network: ws
@@ -526,21 +541,6 @@ proxies:
   auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
   sni: vpn-us-002.fastervpn.world
   skip-cert-verify: true
-- name: 美國丨yoyapai.com
-  type: vless
-  server: 198.41.223.238
-  port: 443
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  network: ws
-  servername: t1s1.rittbo.kdns.fr
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-  skip-cert-verify: true
-  udp: true
 - name: 🇺🇸 美国 | USA 25
   server: 154.193.55.183
   port: 443
@@ -569,6 +569,21 @@ proxies:
     headers:
       Host: jwvze.f40g.szo.hh.vavava.kdns.fr
   udp: true
+- name: 🇺🇸US美國丨yoyapai.com_1
+  type: vless
+  server: 162.159.45.201
+  port: 2083
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
+  udp: true
 - name: 🇺🇸 美国 | USA 31
   server: www.ntu.edu.sg
   port: 443
@@ -595,21 +610,6 @@ proxies:
     path: /glasspanel/0038ba35_0_1bdabe931208/
     headers:
       Host: 2.r.y.a.j.7.c.z.d.z.8.f.f.r.us.art-us.kdns.fr
-  udp: true
-- name: 🇺🇸US美國丨yoyapai.com_1
-  type: vless
-  server: 162.159.45.201
-  port: 2083
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  network: ws
-  servername: t1s1.rittbo.kdns.fr
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-  skip-cert-verify: true
   udp: true
 - name: 🇺🇸 美国 | USA 16
   server: cdn.9889888.xyz
@@ -655,21 +655,19 @@ proxies:
     headers:
       Host: ad-007.cloud25075.info
   udp: true
-- name: 🇺🇸 美国 | USA 3
-  server: us02.uzifan.monster
-  port: 8443
-  type: tuic
-  password: 56d8a8fd-68b8-47f8-8c7f-98cc675902db
-  uuid: 56d8a8fd-68b8-47f8-8c7f-98cc675902db
-  sni: www.bing.com
+- name: 🇺🇸 美国 | USA 4
+  server: 172.64.147.227
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.gossipglove.com
   skip-cert-verify: true
-  alpn:
-  - h3
-  disable-sni: false
-  reduce-rtt: false
-  request-timeout: 0
-  udp-relay-mode: native
-  congestion-controller: bbr
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.gossipglove.com
+  udp: true
 - name: 🇺🇸 美国 | USA
   server: 104.16.72.50
   port: 443
@@ -729,21 +727,6 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US美國丨yoyapai.com_2
-  type: vless
-  server: 162.159.10.87
-  port: 443
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  network: ws
-  servername: t1s1.rittbo.kdns.fr
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-  skip-cert-verify: true
-  udp: true
 - name: 🇺🇸US美國丨yoyapai.com_4
   type: vless
   server: 162.159.44.180
@@ -769,6 +752,21 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: vwrgaergG
+- name: 🇺🇸US美國丨yoyapai.com_2
+  type: vless
+  server: 162.159.10.87
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
+  udp: true
 - name: 🇺🇸 美国 | USA 13
   server: 104.18.22.63
   port: 443
@@ -844,6 +842,21 @@ proxies:
   - ''
   skip-cert-verify: true
   udp: true
+- name: CA加拿大丨yoyapai.com_14
+  type: vless
+  server: 172.64.35.206
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
+  udp: true
 - name: CA加拿大丨yoyapai.com_13
   type: vless
   server: 104.16.148.8
@@ -874,10 +887,10 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   udp: true
-- name: CA加拿大丨yoyapai.com_14
+- name: CA加拿大丨yoyapai.com_20
   type: vless
-  server: 172.64.35.206
-  port: 443
+  server: 162.159.21.206
+  port: 2083
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   network: ws
   servername: t1s1.rittbo.kdns.fr
@@ -904,54 +917,9 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   udp: true
-- name: CA加拿大丨yoyapai.com_8
-  type: vless
-  server: 162.159.46.226
-  port: 8443
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  network: ws
-  servername: t1s1.rittbo.kdns.fr
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-  skip-cert-verify: true
-  udp: true
 - name: CA加拿大丨yoyapai.com_9
   type: vless
   server: 172.64.40.49
-  port: 443
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  network: ws
-  servername: t1s1.rittbo.kdns.fr
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-  skip-cert-verify: true
-  udp: true
-- name: CA加拿大丨yoyapai.com_20
-  type: vless
-  server: 162.159.21.206
-  port: 2083
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  network: ws
-  servername: t1s1.rittbo.kdns.fr
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-  skip-cert-verify: true
-  udp: true
-- name: CA加拿大丨yoyapai.com_18
-  type: vless
-  server: 162.159.1.170
   port: 443
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   network: ws
@@ -993,16 +961,33 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   udp: true
-- name: 🇩🇪 德国 | DEU 22
-  server: 81.31.211.170
-  port: 2085
+- name: 🇩🇪 德国 | DEU 2
+  server: 5.83.129.153
+  port: 20088
+  type: hysteria
+  auth_str: dongtaiwang.com
+  auth-str: dongtaiwang.com
+  up: 500
+  down: 1000
+  protocol: udp
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+- name: CA加拿大丨yoyapai.com_8
   type: vless
-  uuid: b5b5f69a-840d-423a-a7cf-11cc936618d7
-  tls: false
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: vless
+  server: 162.159.46.226
+  port: 8443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
   udp: true
 - name: 🇬🇧 英国 | GBR 4
   server: vl10.myxasecure.space
@@ -1041,6 +1026,21 @@ proxies:
   obfs: salamander
   obfs-password: oMgvuBy5Lj5kYM57sGsnjpjNcSEQ
   udp: true
+- name: CA加拿大丨yoyapai.com_18
+  type: vless
+  server: 162.159.1.170
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
+  udp: true
 - name: 🇰🇷 韩国 | KOR 2
   server: 211.49.57.179
   port: 443
@@ -1054,42 +1054,6 @@ proxies:
     path: /?ed=2560
     headers:
       Host: jwvze.f40g.szo.hh.vavava.kdns.fr
-  udp: true
-- name: 🇩🇪 德国 | DEU 16
-  server: 199.232.78.159
-  port: 443
-  type: vless
-  uuid: 79a5be11-ec1f-4e18-b7fc-aef854234c43
-  tls: true
-  servername: ssl.fastly.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
-    headers:
-      Host: pan1.global.ssl.fastly.net
-  udp: true
-- name: 🇰🇷 韩国 | KOR 4
-  server: 61.85.1.77
-  port: 12150
-  type: vless
-  uuid: 57d68ec3-6cc5-10e9-2bca-5ba3994aa783
-  tls: true
-  servername: l.m.j.u.w.9.y.i.m.y.s.8.p.y.us.art-us.kdns.fr
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /glasspanel/0038ba35_0_1bdabe931208/
-    headers:
-      Host: l.m.j.u.w.9.y.i.m.y.s.8.p.y.us.art-us.kdns.fr
-  udp: true
-- name: 中國臺灣丨yoyapai.com
-  type: hysteria2
-  server: vpn-tw-002.fastervpn.world
-  port: 443
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: vpn-tw-002.fastervpn.world
-  skip-cert-verify: true
   udp: true
 - name: CA加拿大丨yoyapai.com_15
   type: vless
@@ -1106,6 +1070,20 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   udp: true
+- name: 🇩🇪 德国 | DEU 16
+  server: 199.232.78.159
+  port: 443
+  type: vless
+  uuid: 79a5be11-ec1f-4e18-b7fc-aef854234c43
+  tls: true
+  servername: ssl.fastly.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+    headers:
+      Host: pan1.global.ssl.fastly.net
+  udp: true
 - name: CA加拿大丨yoyapai.com_19
   type: vless
   server: 162.159.42.182
@@ -1121,20 +1099,27 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   udp: true
-- name: FR法國丨yoyapai.com
-  type: vless
-  server: yx.cloudflare.182682.xyz
+- name: 中國臺灣丨yoyapai.com
+  type: hysteria2
+  server: vpn-tw-002.fastervpn.world
   port: 443
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  network: ws
-  servername: t1s1.rittbo.kdns.fr
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: t1s1.rittbo.kdns.fr
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
+  udp: true
+- name: 🇰🇷 韩国 | KOR 4
+  server: 61.85.1.77
+  port: 12150
+  type: vless
+  uuid: 57d68ec3-6cc5-10e9-2bca-5ba3994aa783
+  tls: true
+  servername: l.m.j.u.w.9.y.i.m.y.s.8.p.y.us.art-us.kdns.fr
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /glasspanel/0038ba35_0_1bdabe931208/
+    headers:
+      Host: l.m.j.u.w.9.y.i.m.y.s.8.p.y.us.art-us.kdns.fr
   udp: true
 - name: 🇨🇦 加拿大 | CAN
   server: 50.114.177.134
@@ -1164,6 +1149,35 @@ proxies:
   password: JT80563429
   sni: mutual-puma.rooster465.autos
   skip-cert-verify: true
+- name: 巴西聖保羅丨yoyapai.com
+  type: trojan
+  server: 188.114.97.6
+  port: 443
+  password: mitivpn
+  sni: 2.1.mitivpn.dee.srfsl.gleobal.fastl3y.n3et.mitivpn.site
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  tls: true
+  ws-opts:
+    path: https://chatgpt.com
+    headers:
+      Host: mitivpn.de.ssl.global.fastly.net.mitivpn.site
+  udp: true
+- name: 🇸🇪 瑞典 | SWE 2
+  server: 176.125.241.103
+  port: 443
+  type: vless
+  uuid: c01c2da7-6977-4b53-a493-cda17fa61b4f
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 0x63_7Sha2MEQnTqWxtrMsypbwAuQhR7w9OdTP7pEn0
+    short-id: 9433f344374b00cf
+  servername: 3cx.com
+  client-fingerprint: firefox
+  network: tcp
+  udp: true
 - name: CA加拿大丨yoyapai.com_1
   type: vless
   server: 162.159.4.221
@@ -1179,19 +1193,34 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   udp: true
-- name: 🇸🇪 瑞典 | SWE 2
-  server: 176.125.241.103
+- name: 🇩🇪 德国 | DEU 23
+  server: node6.mxvpn.dev
   port: 443
   type: vless
-  uuid: c01c2da7-6977-4b53-a493-cda17fa61b4f
+  uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
   tls: true
   flow: xtls-rprx-vision
   reality-opts:
-    public-key: 0x63_7Sha2MEQnTqWxtrMsypbwAuQhR7w9OdTP7pEn0
-    short-id: 9433f344374b00cf
-  servername: 3cx.com
+    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
+    short-id: bbc68cec8bb8d2e3
+  servername: node6.mxvpn.dev
   client-fingerprint: firefox
   network: tcp
+  udp: true
+- name: CA加拿大丨yoyapai.com_5
+  type: vless
+  server: 172.64.145.186
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
   udp: true
 - name: CA加拿大丨yoyapai.com_7
   type: vless
@@ -1216,30 +1245,20 @@ proxies:
   auth: 042a1881-44e4-4781-bd40-bf75164faf4f
   sni: germany1.noesissite.ru
   skip-cert-verify: true
-- name: 英國
-  type: vmess
-  server: 82.198.246.37
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 巴西聖保羅丨yoyapai.com
-  type: trojan
-  server: 188.114.97.6
+- name: CA加拿大丨yoyapai.com_12
+  type: vless
+  server: 172.64.41.202
   port: 443
-  password: mitivpn
-  sni: 2.1.mitivpn.dee.srfsl.gleobal.fastl3y.n3et.mitivpn.site
-  alpn:
-  - http/1.1
-  skip-cert-verify: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
   tls: true
+  client-fingerprint: chrome
   ws-opts:
-    path: https://chatgpt.com
+    path: /
     headers:
-      Host: mitivpn.de.ssl.global.fastly.net.mitivpn.site
+      Host: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
   udp: true
 - name: CA加拿大丨yoyapai.com_16
   type: vless
@@ -1256,24 +1275,39 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   udp: true
-- name: CA加拿大丨yoyapai.com_4
-  type: vless
-  server: 172.64.145.2
-  port: 443
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  network: ws
-  servername: t1s1.rittbo.kdns.fr
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: t1s1.rittbo.kdns.fr
+- name: 英國
+  type: vmess
+  server: 82.198.246.37
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: true
   udp: true
-- name: CA加拿大丨yoyapai.com_12
+- name: 🇹🇷 土耳其 | TUR
+  server: tr.fasti.win
+  port: 443
   type: vless
-  server: 172.64.41.202
+  uuid: 6f98a077-004e-4b86-8b78-8d09308d3868
+  tls: true
+  reality-opts:
+    public-key: XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs
+    short-id: 992f3294e2336744
+  servername: stats.vk-portal.net
+  client-fingerprint: randomized
+  network: xhttp
+  xhttp-opts:
+    path: /
+    host: stats.vk-portal.net
+    mode: auto
+    sc-max-each-post-bytes: 1000000
+    sc-min-posts-interval-ms: 30
+    x-padding-bytes: 100-1000
+  udp: true
+- name: CA加拿大丨yoyapai.com_22
+  type: vless
+  server: 162.159.12.210
   port: 443
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   network: ws
@@ -1299,36 +1333,6 @@ proxies:
   servername: www.mozilla.org
   client-fingerprint: firefox
   network: tcp
-  udp: true
-- name: CA加拿大丨yoyapai.com_5
-  type: vless
-  server: 172.64.145.186
-  port: 443
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  network: ws
-  servername: t1s1.rittbo.kdns.fr
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-  skip-cert-verify: true
-  udp: true
-- name: CA加拿大丨yoyapai.com_22
-  type: vless
-  server: 162.159.12.210
-  port: 443
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  network: ws
-  servername: t1s1.rittbo.kdns.fr
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-  skip-cert-verify: true
   udp: true
 - name: 🇩🇪 德国 | DEU 20
   server: 5.83.129.143
@@ -1356,6 +1360,13 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
+- name: 🇮🇪 爱尔兰 | IRL
+  server: good-ocelot.rooster465.autos
+  port: 443
+  type: trojan
+  password: JT80563429
+  sni: good-ocelot.rooster465.autos
+  skip-cert-verify: true
 - name: 🇦🇺 澳大利亚 | AUS
   server: 161.33.231.22
   port: 30000
@@ -1365,16 +1376,9 @@ proxies:
   sni: vpn7.rnmcnm.com
   skip-cert-verify: true
   udp: true
-- name: 🇮🇪 爱尔兰 | IRL
-  server: good-ocelot.rooster465.autos
-  port: 443
-  type: trojan
-  password: JT80563429
-  sni: good-ocelot.rooster465.autos
-  skip-cert-verify: true
-- name: CA加拿大丨yoyapai.com_17
+- name: CA加拿大丨yoyapai.com_4
   type: vless
-  server: 172.64.146.229
+  server: 172.64.145.2
   port: 443
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   network: ws
@@ -1395,6 +1399,21 @@ proxies:
   alterId: 0
   cipher: auto
   tls: false
+  skip-cert-verify: true
+  udp: true
+- name: CA加拿大丨yoyapai.com_17
+  type: vless
+  server: 172.64.146.229
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   udp: true
 - name: 🇩🇪 德国 | DEU 6
@@ -1435,6 +1454,13 @@ proxies:
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   skip-cert-verify: true
   udp: true
+- name: 🇫🇷 法国 | FRA 3
+  server: musical-shrew.rooster465.autos
+  port: 443
+  type: trojan
+  password: JT80563429
+  sni: musical-shrew.rooster465.autos
+  skip-cert-verify: true
 - name: 🇵🇱 波兰 | POL 2
   server: pl.mcqueenconnection.ru
   port: 443
@@ -1449,13 +1475,6 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
-- name: 🇫🇷 法国 | FRA 3
-  server: musical-shrew.rooster465.autos
-  port: 443
-  type: trojan
-  password: JT80563429
-  sni: musical-shrew.rooster465.autos
-  skip-cert-verify: true
 - name: CA加拿大丨yoyapai.com_10
   type: vless
   server: 162.159.13.196
@@ -1471,9 +1490,9 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   udp: true
-- name: CA加拿大丨yoyapai.com_23
+- name: CA加拿大丨yoyapai.com_6
   type: vless
-  server: 172.64.151.158
+  server: 162.159.16.154
   port: 443
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   network: ws
@@ -1500,29 +1519,6 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
-- name: 🇩🇪 德国 | DEU 14
-  server: 95.38.197.126
-  port: 8080
-  type: vless
-  uuid: ProxyVPNVip-ChannelTelegram
-  tls: true
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
-  encryption: mlkem768x25519plus.native.0rtt.S5tQO3pPOG2nemudouz-HV4ocOjLbBcECmPWbc5l3hc
-  reality-opts:
-    public-key: 43RSx9zmb505nLdhUUbRQueJhKnWMoVo1Gia8aB3VD0
-    short-id: 49d12a
-  servername: icloud.com
-  client-fingerprint: chrome
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /@ProxyVPNVip
-    headers:
-      Host:
-      - icloud.com
-  udp: true
 - name: 荷蘭丨yoyapai.com
   type: hysteria2
   server: hy2.aspidnet.xyz
@@ -1532,21 +1528,6 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-  udp: true
-- name: CA加拿大丨yoyapai.com_6
-  type: vless
-  server: 162.159.16.154
-  port: 443
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  network: ws
-  servername: t1s1.rittbo.kdns.fr
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-  skip-cert-verify: true
   udp: true
 - name: 🇩🇪 德国 | DEU 4
   server: de2.twixvpn.com
@@ -1560,6 +1541,21 @@ proxies:
   servername: www.yandex.com
   client-fingerprint: edge
   network: tcp
+  udp: true
+- name: CA加拿大丨yoyapai.com_23
+  type: vless
+  server: 172.64.151.158
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
   udp: true
 - name: 🇳🇱 荷兰 | NLD 6
   server: node2.mxvpn.dev
@@ -1589,20 +1585,19 @@ proxies:
     headers:
       Host: jwvze.f40g.szo.hh.vavava.kdns.fr
   udp: true
-- name: CA加拿大丨yoyapai.com_2
-  type: vless
-  server: 162.159.8.123
+- name: 🇳🇱 荷兰 | NLD 2
+  server: node4.mxvpn.dev
   port: 443
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  network: ws
-  servername: t1s1.rittbo.kdns.fr
+  type: vless
+  uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
   tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-  skip-cert-verify: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
+    short-id: bbc68cec8bb8d2e3
+  servername: node4.mxvpn.dev
+  client-fingerprint: firefox
+  network: tcp
   udp: true
 - name: CA加拿大丨yoyapai.com_3
   type: vless
@@ -1619,19 +1614,20 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
   skip-cert-verify: true
   udp: true
-- name: 🇳🇱 荷兰 | NLD 2
-  server: node4.mxvpn.dev
-  port: 443
+- name: CA加拿大丨yoyapai.com_21
   type: vless
-  uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
+  server: 104.18.35.13
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  network: ws
+  servername: t1s1.rittbo.kdns.fr
   tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
-    short-id: bbc68cec8bb8d2e3
-  servername: node4.mxvpn.dev
-  client-fingerprint: firefox
-  network: tcp
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
   udp: true
 - name: 🇩🇪 德国 | DEU 9
   server: fi.riotvpn.eu
@@ -1649,9 +1645,9 @@ proxies:
     grpc-mode: gun
     grpc-service-name: grpc-yandex
   udp: true
-- name: CA加拿大丨yoyapai.com_21
+- name: CA加拿大丨yoyapai.com_2
   type: vless
-  server: 104.18.35.13
+  server: 162.159.8.123
   port: 443
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   network: ws
@@ -1737,29 +1733,29 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇸🇬 新加坡 | SGP 13
-  - 🇯🇵 日本 | JPN 10
   - 🇯🇵 日本 | JPN 5
   - 🇭🇰 香港 | HKG 2
   - 🇭🇰 香港 | HKG 4
   - 🇸🇬 新加坡 | SGP 10
+  - 🇯🇵 日本 | JPN 10
   - 🇸🇬 新加坡 | SGP 11
   - 🇯🇵 日本 | JPN 11
   - 🇸🇬 新加坡 | SGP 5
   - 🇯🇵 日本 | JPN 9
   - 🇯🇵 日本 | JPN 8
-  - 🇯🇵 日本 | JPN 2
   - 🇯🇵 日本 | JPN 7
+  - 🇯🇵 日本 | JPN 2
   - 🇸🇬 新加坡 | SGP 7
   - 🇯🇵 日本 | JPN 6
   - 🇯🇵 日本 | JPN 3
   - 🇸🇬 新加坡 | SGP 3
-  - 🇸🇬 新加坡 | SGP 8
   - 🇭🇰 香港 | HKG 5
-  - 🇸🇬 新加坡 | SGP 14
-  - 🇸🇬 新加坡 | SGP 19
-  - 🇸🇬 新加坡 | SGP 9
+  - 🇸🇬 新加坡 | SGP 8
   - 🇸🇬 新加坡 | SGP
+  - 🇸🇬 新加坡 | SGP 19
   - 🇯🇵 日本 | JPN 4
+  - 🇸🇬 新加坡 | SGP 14
+  - 🇸🇬 新加坡 | SGP 9
   - 🇸🇬 新加坡 | SGP 6
   - 🇸🇬 新加坡 | SGP 12
   - 🇸🇬 新加坡 | SGP 15
@@ -1769,96 +1765,96 @@ proxy-groups:
   - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA 26
   - 🇺🇸 美国 | USA 30
-  - 🇺🇸 美国 | USA 8
-  - 🇺🇸 美国 | USA 11
-  - 🇺🇸 美国 | USA 9
   - US美國丨yoyapai.com
+  - 🇺🇸 美国 | USA 8
+  - 🇺🇸 美国 | USA 9
+  - 🇺🇸 美国 | USA 11
+  - 美國丨yoyapai.com
   - 美國丨yoyapai.com_18
   - 🇺🇸 美国 | USA 20
-  - 美國丨yoyapai.com
   - 🇺🇸 美国 | USA 25
   - 🇺🇸 美国 | USA 21
+  - 🇺🇸US美國丨yoyapai.com_1
   - 🇺🇸 美国 | USA 31
   - 🇺🇸 美国 | USA 24
-  - 🇺🇸US美國丨yoyapai.com_1
   - 🇺🇸 美国 | USA 16
   - 🇺🇸 美国 | USA 7
   - 🇺🇸 美国 | USA 6
-  - 🇺🇸 美国 | USA 3
+  - 🇺🇸 美国 | USA 4
   - 🇺🇸 美国 | USA
   - 🇺🇸US美國丨yoyapai.com_5
   - 🇺🇸 美国 | USA 29
   - 🇺🇸US美國丨yoyapai.com
-  - 🇺🇸US美國丨yoyapai.com_2
   - 🇺🇸US美國丨yoyapai.com_4
   - 🇺🇸 美国 | USA 10
+  - 🇺🇸US美國丨yoyapai.com_2
   - 🇺🇸 美国 | USA 13
   - 🇺🇸 美国 | USA 17
   - 美國節點
   - 🇺🇸 美国 | USA 28
   - 🇺🇸 美国 | USA 22
   - 🇺🇸 美国 | USA 2
+  - CA加拿大丨yoyapai.com_14
   - CA加拿大丨yoyapai.com_13
   - FR法國丨yoyapai.com_5
-  - CA加拿大丨yoyapai.com_14
-  - CA加拿大丨yoyapai.com
-  - CA加拿大丨yoyapai.com_8
-  - CA加拿大丨yoyapai.com_9
   - CA加拿大丨yoyapai.com_20
-  - CA加拿大丨yoyapai.com_18
+  - CA加拿大丨yoyapai.com
+  - CA加拿大丨yoyapai.com_9
   - 🇩🇪 德国 | DEU 18
   - FR法國丨yoyapai.com_3
-  - 🇩🇪 德国 | DEU 22
+  - 🇩🇪 德国 | DEU 2
+  - CA加拿大丨yoyapai.com_8
   - 🇬🇧 英国 | GBR 4
   - 🇳🇱 荷兰 | NLD 8
   - 德國法蘭克福丨yoyapai.com
+  - CA加拿大丨yoyapai.com_18
   - 🇰🇷 韩国 | KOR 2
-  - 🇩🇪 德国 | DEU 16
-  - 🇰🇷 韩国 | KOR 4
-  - 中國臺灣丨yoyapai.com
   - CA加拿大丨yoyapai.com_15
+  - 🇩🇪 德国 | DEU 16
   - CA加拿大丨yoyapai.com_19
-  - FR法國丨yoyapai.com
+  - 中國臺灣丨yoyapai.com
+  - 🇰🇷 韩国 | KOR 4
   - 🇨🇦 加拿大 | CAN
   - 🇳🇱 荷兰 | NLD 4
   - 🇰🇷 韩国 | KOR 3
-  - CA加拿大丨yoyapai.com_1
+  - 巴西聖保羅丨yoyapai.com
   - 🇸🇪 瑞典 | SWE 2
+  - CA加拿大丨yoyapai.com_1
+  - 🇩🇪 德国 | DEU 23
+  - CA加拿大丨yoyapai.com_5
   - CA加拿大丨yoyapai.com_7
   - 🇩🇪 德国 | DEU 3
-  - 英國
-  - 巴西聖保羅丨yoyapai.com
-  - CA加拿大丨yoyapai.com_16
-  - CA加拿大丨yoyapai.com_4
   - CA加拿大丨yoyapai.com_12
-  - 🇩🇪 德国 | DEU 5
-  - CA加拿大丨yoyapai.com_5
+  - CA加拿大丨yoyapai.com_16
+  - 英國
+  - 🇹🇷 土耳其 | TUR
   - CA加拿大丨yoyapai.com_22
+  - 🇩🇪 德国 | DEU 5
   - 🇩🇪 德国 | DEU 20
   - 🇩🇪 德国 | DEU 15
-  - 🇦🇺 澳大利亚 | AUS
   - 🇮🇪 爱尔兰 | IRL
-  - CA加拿大丨yoyapai.com_17
+  - 🇦🇺 澳大利亚 | AUS
+  - CA加拿大丨yoyapai.com_4
   - 英國節點
+  - CA加拿大丨yoyapai.com_17
   - 🇩🇪 德国 | DEU 6
   - 🇩🇪 德国 | DEU 11
   - 台湾省台北市丨yoyapai.com
-  - 🇵🇱 波兰 | POL 2
   - 🇫🇷 法国 | FRA 3
+  - 🇵🇱 波兰 | POL 2
   - CA加拿大丨yoyapai.com_10
-  - CA加拿大丨yoyapai.com_23
-  - 🇸🇪 瑞典 | SWE
-  - 🇩🇪 德国 | DEU 14
-  - 荷蘭丨yoyapai.com
   - CA加拿大丨yoyapai.com_6
+  - 🇸🇪 瑞典 | SWE
+  - 荷蘭丨yoyapai.com
   - 🇩🇪 德国 | DEU 4
+  - CA加拿大丨yoyapai.com_23
   - 🇳🇱 荷兰 | NLD 6
   - 🇰🇷 韩国 | KOR
-  - CA加拿大丨yoyapai.com_2
-  - CA加拿大丨yoyapai.com_3
   - 🇳🇱 荷兰 | NLD 2
-  - 🇩🇪 德国 | DEU 9
+  - CA加拿大丨yoyapai.com_3
   - CA加拿大丨yoyapai.com_21
+  - 🇩🇪 德国 | DEU 9
+  - CA加拿大丨yoyapai.com_2
   - 🇫🇷 法国 | FRA 2
   - 🇳🇱 荷兰 | NLD 3
   - 🇬🇧 英国 | GBR 3
@@ -1877,13 +1873,13 @@ proxy-groups:
 - name: JP-POOL
   type: url-test
   proxies:
-  - 🇯🇵 日本 | JPN 10
   - 🇯🇵 日本 | JPN 5
+  - 🇯🇵 日本 | JPN 10
   - 🇯🇵 日本 | JPN 11
   - 🇯🇵 日本 | JPN 9
   - 🇯🇵 日本 | JPN 8
-  - 🇯🇵 日本 | JPN 2
   - 🇯🇵 日本 | JPN 7
+  - 🇯🇵 日本 | JPN 2
   - 🇯🇵 日本 | JPN 6
   - 🇯🇵 日本 | JPN 3
   - 🇯🇵 日本 | JPN 4
@@ -1896,29 +1892,29 @@ proxy-groups:
   - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA 26
   - 🇺🇸 美国 | USA 30
-  - 🇺🇸 美国 | USA 8
-  - 🇺🇸 美国 | USA 11
-  - 🇺🇸 美国 | USA 9
   - US美國丨yoyapai.com
+  - 🇺🇸 美国 | USA 8
+  - 🇺🇸 美国 | USA 9
+  - 🇺🇸 美国 | USA 11
+  - 美國丨yoyapai.com
   - 美國丨yoyapai.com_18
   - 🇺🇸 美国 | USA 20
-  - 美國丨yoyapai.com
   - 🇺🇸 美国 | USA 25
   - 🇺🇸 美国 | USA 21
+  - 🇺🇸US美國丨yoyapai.com_1
   - 🇺🇸 美国 | USA 31
   - 🇺🇸 美国 | USA 24
-  - 🇺🇸US美國丨yoyapai.com_1
   - 🇺🇸 美国 | USA 16
   - 🇺🇸 美国 | USA 7
   - 🇺🇸 美国 | USA 6
-  - 🇺🇸 美国 | USA 3
+  - 🇺🇸 美国 | USA 4
   - 🇺🇸 美国 | USA
   - 🇺🇸US美國丨yoyapai.com_5
   - 🇺🇸 美国 | USA 29
   - 🇺🇸US美國丨yoyapai.com
-  - 🇺🇸US美國丨yoyapai.com_2
   - 🇺🇸US美國丨yoyapai.com_4
   - 🇺🇸 美国 | USA 10
+  - 🇺🇸US美國丨yoyapai.com_2
   - 🇺🇸 美国 | USA 13
   - 🇺🇸 美国 | USA 17
   - 美國節點
@@ -1932,28 +1928,28 @@ proxy-groups:
   proxies:
   - 🇺🇸 美国 | USA 5
   - 巴西聖保羅丨yoyapai.com
-  - CA加拿大丨yoyapai.com_4
-  - 🇺🇸US美國丨yoyapai.com_2
-  - 🇺🇸US美國丨yoyapai.com_4
-  - CA加拿大丨yoyapai.com_18
   - US美國丨yoyapai.com
+  - 🇺🇸US美國丨yoyapai.com_1
+  - CA加拿大丨yoyapai.com_5
+  - CA加拿大丨yoyapai.com_6
+  - 美國丨yoyapai.com
+  - CA加拿大丨yoyapai.com_20
+  - CA加拿大丨yoyapai.com_19
+  - 🇺🇸US美國丨yoyapai.com_4
+  - CA加拿大丨yoyapai.com_16
+  - CA加拿大丨yoyapai.com_14
+  - CA加拿大丨yoyapai.com_22
+  - CA加拿大丨yoyapai.com_10
+  - CA加拿大丨yoyapai.com_4
   - FR法國丨yoyapai.com_3
+  - CA加拿大丨yoyapai.com_1
+  - CA加拿大丨yoyapai.com_12
   - CA加拿大丨yoyapai.com_23
   - 🇺🇸 美国 | USA 26
+  - CA加拿大丨yoyapai.com_15
   - 🇺🇸US美國丨yoyapai.com
-  - 🇸🇬 新加坡 | SGP 9
-  - CA加拿大丨yoyapai.com_1
-  - 🇺🇸US美國丨yoyapai.com_1
-  - CA加拿大丨yoyapai.com_8
-  - CA加拿大丨yoyapai.com_19
-  - CA加拿大丨yoyapai.com_10
-  - CA加拿大丨yoyapai.com_6
   - CA加拿大丨yoyapai.com_3
-  - CA加拿大丨yoyapai.com_20
-  - CA加拿大丨yoyapai.com_22
-  - CA加拿大丨yoyapai.com_2
-  - 🇸🇬 新加坡 | SGP 12
-  - CA加拿大丨yoyapai.com_17
+  - CA加拿大丨yoyapai.com_21
   - CA加拿大丨yoyapai.com_13
   url: http://www.gstatic.com/generate_204
   interval: 120
