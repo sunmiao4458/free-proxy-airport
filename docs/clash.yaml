@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-08-15T21:45:04.415603+00:00'
+generated-at: '2026-08-15T22:17:42.173178+00:00'
 proxies:
 - name: 🇭🇰 香港 | HKG 7
   server: hy2-tw.starq.me
@@ -362,6 +362,20 @@ proxies:
   password: FH72359861
   skip-cert-verify: true
   udp: true
+- name: 🇰🇬 KG_63
+  server: 81.85.75.85
+  port: 443
+  type: vless
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
+    short-id: 4a46213c935e2ee4
+  servername: baltic.cendora.ru
+  client-fingerprint: firefox
+  network: tcp
+  udp: true
 - name: 🇰🇷 韩国 | KOR 3
   server: complete-narwhal.rooster465.autos
   port: 443
@@ -524,12 +538,15 @@ proxies:
     path: /assignment
     headers:
       host: www.calmlunch.com
-- name: 🇧🇷 巴西 | BRA
-  server: 163.176.56.46
-  port: 59319
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 2f/hSnAF5GDhyve8brmwep/LzS1dKM8uaWRYsvIobFw=
+- name: 🇮🇪 爱尔兰 | IRL 4
+  server: v4.hdacd.com
+  port: 30804
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
   udp: true
 - name: 🇰🇷 韩国 | KOR
   server: star-shrimp.rooster465.autos
@@ -684,6 +701,7 @@ proxy-groups:
   - 🇰🇷 韩国 | KOR 4
   - 🇷🇺 俄罗斯 | RUS 2
   - 🇳🇱 荷兰 | NLD 4
+  - 🇰🇬 KG_63
   - 🇰🇷 韩国 | KOR 3
   - 🇰🇷 韩国 | KOR 9
   - 🇹🇼 🇨🇳 台湾 | TWN
@@ -701,7 +719,7 @@ proxy-groups:
   - 🇵🇱 波兰 | POL
   - 🇩🇪 德国 | DEU 8
   - 未知TROJAN-230|free-nodes
-  - 🇧🇷 巴西 | BRA
+  - 🇮🇪 爱尔兰 | IRL 4
   - 🇰🇷 韩国 | KOR
   - 🇳🇱 荷兰 | NLD 2
   - 未知VLESS-641|free-nodes
@@ -761,18 +779,18 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇺🇸 美国 | USA 20
-  - 🇺🇸 美国 | USA 15
   - 🇺🇸 美国 | USA 5
+  - 🇺🇸 美国 | USA 15
+  - 🇺🇸 美国 | USA 10
   - 🇯🇵 日本 | JPN 11
   - 🇳🇱 荷兰 | NLD 8
   - 🇺🇸 美国 | USA 6
   - 🇳🇱 荷兰 | NLD 2
   - 🇬🇧 英国 | GBR
   - 🇭🇰 香港 | HKG 4
-  - 🇺🇸 美国 | USA 22
   - 🇯🇵 日本 | JPN 5
-  - 🇧🇷 巴西 | BRA
-  - 🇯🇵 日本 | JPN 12
+  - 🇯🇵 日本 | JPN 2
+  - 🇯🇵 日本 | JPN
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
