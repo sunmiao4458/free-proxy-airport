@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-08-18T17:53:43.850180+00:00'
+generated-at: '2026-08-18T18:33:24.467342+00:00'
 proxies:
 - name: 🇯🇵 日本 | JPN 5
   server: legible-ocelot.rooster465.autos
@@ -91,6 +91,18 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
+- name: 🇺🇸 美国 | USA 8
+  server: 64.83.12.153
+  port: 443
+  type: vmess
+  uuid: 9d476209-d8bd-9536-6e8d-61c97ec114db
+  alterId: 0
+  cipher: auto
+  tls: false
+  alpn:
+  - ''
+  skip-cert-verify: true
+  udp: true
 - name: 🇺🇸 美国 | USA 16
   server: 172.67.118.45
   port: 443
@@ -141,20 +153,20 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇺🇸 美国 | USA 22
-  server: 166-0-16-52.liao.kdns.fr
-  port: 50160
-  type: hysteria2
-  password: 6f65680b8d4de72e9f7c030e92e27a32
-  auth: 6f65680b8d4de72e9f7c030e92e27a32
-  sni: 166-0-16-52.liao.kdns.fr
-  skip-cert-verify: true
 - name: 🇬🇧 英国 | GBR 4
   server: 129.151.77.35
   port: 61312
   type: ss
   cipher: 2022-blake3-chacha20-poly1305
   password: sC1RiQOK5Ts5zgUYDwB/AGFbqjpytI0/AczgkgCCnew=
+- name: 🇳🇱 荷兰 | NLD 8
+  server: 206.189.7.80
+  port: 5446
+  type: trojan
+  password: fg20mtCFHy
+  sni: inxgc.southbyte.xyz
+  skip-cert-verify: true
+  udp: true
 - name: 🇳🇱 荷兰 | NLD 4
   server: one-for-all.levikogjgfdd.ir
   port: 443
@@ -168,14 +180,6 @@ proxies:
     path: /sg-melbi
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
-  udp: true
-- name: 🇳🇱 荷兰 | NLD 8
-  server: 206.189.7.80
-  port: 5446
-  type: trojan
-  password: fg20mtCFHy
-  sni: inxgc.southbyte.xyz
-  skip-cert-verify: true
   udp: true
 - name: 🇰🇷 韩国 | KOR 4
   server: 3.39.237.40
@@ -213,13 +217,6 @@ proxies:
   auth: DWUWPXNSLv23EqVH
   sni: kor-ls-c-4.nebulacloud.win
   skip-cert-verify: true
-- name: 🇷🇺 俄罗斯 | RUS 3
-  server: 45.8.158.176
-  port: 10801
-  type: ss
-  cipher: aes-256-gcm
-  password: 1eadd4e4a37b6601
-  udp: true
 - name: 🇰🇷 韩国 | KOR 8
   server: 188.253.123.164
   port: 38551
@@ -233,19 +230,33 @@ proxies:
   servername: cdnjs.cloudflare.com
   client-fingerprint: chrome
   network: tcp
-- name: 🇩🇪 德国 | DEU 5
-  server: 23.165.200.168
-  port: 49527
-  type: vless
-  uuid: 853a3bff-2583-4908-9f16-934bb3077d24
+- name: 🇷🇺 俄罗斯 | RUS
+  server: 195.133.23.5
+  port: 20998
+  type: ss
+  cipher: aes-256-gcm
+  password: d99c422199e62b6b
+- name: 🇫🇷 法国 | FRA 20
+  server: 15.237.189.197
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
+- name: 🇫🇮 荷蘭
+  type: vmess
+  server: 185.246.152.159
+  port: 443
+  uuid: 5f72f180-b21b-4b7a-8484-240759012604
+  alterId: 0
+  cipher: auto
   tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: IbI4GjOoEE7mFvOyegC2bdADUgDjzpz24OIIhQhzdnc
-    short-id: 9c4b91b9
-  servername: apple.com
-  client-fingerprint: chrome
-  network: tcp
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /5f72f180-b21b-4b7a-8484-240759096785
+    headers:
+      Host: apjhdggyx.com
   udp: true
 - name: 🇳🇱_NL荷蘭丨yoyapai.com
   type: ss
@@ -280,6 +291,17 @@ proxies:
     public-key: cFmHbKSQO1BQnCBGd26-EA0CU-zYmduwk0Wqu0fhuT0
     short-id: 7e8d2954eb836947
   servername: www.cloudflare.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇨🇭 瑞士 | CHE
+  server: translate.magazinetut.online
+  port: 443
+  type: vless
+  uuid: 5c025078-2eae-4c53-bad1-5e491f33395e
+  tls: true
+  flow: xtls-rprx-vision
+  servername: translate.magazinetut.online
   client-fingerprint: chrome
   network: tcp
   udp: true
@@ -320,6 +342,14 @@ proxies:
   auth: 3JdcAYVWhBbZrVNi
   sni: kor-akile-a3.nebulacloud.win
   skip-cert-verify: true
+- name: 🇨🇴 哥伦比亚 | COL 3
+  server: 157.137.217.159
+  port: 62145
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  tls: false
+  network: tcp
+  udp: true
 - name: 🇩🇪 德国 | DEU
   server: swe2.frkn.org
   port: 443
@@ -355,6 +385,20 @@ proxies:
     path: /connect
     headers:
       Host: 129.121.95.159
+  udp: true
+- name: 🇹🇭 Thailand泰国丨yoyapai.com
+  type: vless
+  server: 18.239.134.69
+  port: 80
+  uuid: de27291c-15a9-4256-9ba7-ad517569877e
+  network: ws
+  tls: false
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
+  skip-cert-verify: true
   udp: true
 - name: 🇬🇧 英国 | GBR 5
   server: 129.151.66.31
@@ -397,31 +441,35 @@ proxy-groups:
   - 🇸🇬 新加坡 | SGP 2
   - 🇯🇵 日本 | JPN
   - 🇺🇸 美国 | USA 20
+  - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 16
   - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA 14
   - 🇺🇸 美国 | USA 12
-  - 🇺🇸 美国 | USA 22
   - 🇬🇧 英国 | GBR 4
-  - 🇳🇱 荷兰 | NLD 4
   - 🇳🇱 荷兰 | NLD 8
+  - 🇳🇱 荷兰 | NLD 4
   - 🇰🇷 韩国 | KOR 4
   - 🇷🇺 俄罗斯 | RUS 2
   - 🇳🇱 荷兰 | NLD
   - 🇰🇷 韩国 | KOR 3
-  - 🇷🇺 俄罗斯 | RUS 3
   - 🇰🇷 韩国 | KOR 8
-  - 🇩🇪 德国 | DEU 5
+  - 🇷🇺 俄罗斯 | RUS
+  - 🇫🇷 法国 | FRA 20
+  - 🇫🇮 荷蘭
   - 🇳🇱_NL荷蘭丨yoyapai.com
   - 🇩🇪 德国 | DEU 6
   - 🇨🇭 瑞士 | CHE 2
+  - 🇨🇭 瑞士 | CHE
   - 🇹🇭泰国丨yoyapai.com
   - 🇧🇷 巴西 | BRA
   - 🇸🇪 瑞典 | SWE
   - 🇰🇷 韩国 | KOR
+  - 🇨🇴 哥伦比亚 | COL 3
   - 🇩🇪 德国 | DEU
   - 🇳🇴 挪威 | NOR
   - 🇬🇧 英国 | GBR 3
+  - 🇹🇭 Thailand泰国丨yoyapai.com
   - 🇬🇧 英国 | GBR 5
   - 🇫🇷 法国 | FRA 8
   - 🇳🇱 荷兰 | NLD 5
@@ -447,23 +495,24 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇺🇸 美国 | USA 20
+  - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 16
   - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA 14
   - 🇺🇸 美国 | USA 12
-  - 🇺🇸 美国 | USA 22
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: AI-POOL
   type: url-test
   proxies:
-  - 🇳🇱 荷兰 | NLD 4
   - 🇸🇬 新加坡 | SGP 2
-  - 🇳🇱 荷兰 | NLD
+  - 🇳🇱 荷兰 | NLD 4
   - 🇺🇸 美国 | USA 20
-  - 🇬🇧 英国 | GBR 5
+  - 🇳🇱 荷兰 | NLD
   - 🇬🇧 英国 | GBR 4
   - 🇳🇱_NL荷蘭丨yoyapai.com
+  - 🇬🇧 英国 | GBR 5
+  - 🇺🇸 美国 | USA 14
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
