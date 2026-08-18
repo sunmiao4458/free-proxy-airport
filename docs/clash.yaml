@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-08-18T11:51:05.597149+00:00'
+generated-at: '2026-08-18T12:39:12.137113+00:00'
 proxies:
 - name: 🇯🇵 日本 | JPN 5
   server: 188.253.123.164
@@ -29,21 +29,6 @@ proxies:
   password: HC04361579
   sni: driven-doberman.rooster465.autos
   skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 日本 | JPN 8
-  server: exact-sawfish.rooster465.autos
-  port: 443
-  type: trojan
-  password: HC04361579
-  sni: exact-sawfish.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 日本 | JPN 4
-  server: 0ccenterhk-c.center-link.org
-  port: 611
-  type: ss
-  cipher: aes-128-gcm
-  password: 929c5ce8-222b-4d93-a80f-9ed580e2e8c1
   udp: true
 - name: 🇯🇵 日本 | JPN
   server: legible-ocelot.rooster465.autos
@@ -93,22 +78,6 @@ proxies:
     headers:
       Host: www.calmlunch.com
   udp: true
-- name: 🇺🇸 美国 | USA 20
-  server: 162.159.236.101
-  port: 443
-  type: vless
-  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  servername: ecc06d49s2316.fuhuovps.xyz
-  client-fingerprint: ios
-  network: xhttp
-  xhttp-opts:
-    path: 5eee8cbc26dc7dec26a61e56c5dea5c4
-    host: ecc06d49s2316.fuhuovps.xyz
-  udp: true
 - name: 🇺🇸 美国 | USA 24
   server: 107.172.243.149
   port: 8443
@@ -137,12 +106,6 @@ proxies:
     headers:
       Host: vpn-node.internal
   udp: true
-- name: 🇺🇸 美国 | USA 7
-  server: 144.24.13.187
-  port: 50356
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: nRZy6ykJ/fn39mZEQVUp0dEfSoQTdszf6wdGbVUYuuE=
 - name: 🇺🇸 美国 | USA 3
   server: 151.101.56.6
   port: 443
@@ -224,24 +187,6 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
-- name: 🇳🇱 荷兰 | NLD 7
-  server: 84.235.171.188
-  port: 62145
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-  tls: false
-  network: tcp
-- name: 🇷🇺 俄罗斯 | RUS 2
-  server: 185.141.227.150
-  port: 18443
-  type: vless
-  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
-  tls: true
-  flow: xtls-rprx-vision
-  servername: disagreedebut.net
-  client-fingerprint: firefox
-  network: tcp
-  udp: true
 - name: 🇳🇱 荷兰 | NLD
   server: 188.114.97.3
   port: 443
@@ -256,6 +201,17 @@ proxies:
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
   udp: true
+- name: 🇷🇺 俄罗斯 | RUS 2
+  server: 185.141.227.150
+  port: 18443
+  type: vless
+  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
+  tls: true
+  flow: xtls-rprx-vision
+  servername: disagreedebut.net
+  client-fingerprint: firefox
+  network: tcp
+  udp: true
 - name: 🇨🇦 加拿大 | CAN
   server: 166.88.130.218
   port: 50118
@@ -263,21 +219,19 @@ proxies:
   cipher: aes-256-gcm
   password: fbcec76953a2d173
   udp: true
-- name: 🇺🇦 乌克兰 | UKR
-  server: 104.20.56.152
-  port: 443
+- name: 🇷🇺 俄罗斯 | RUS
+  server: 78.159.247.253
+  port: 2027
   type: vless
-  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
+  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
   tls: true
-  alpn:
-  - h2
-  - http/1.1
-  servername: 85442499s274.fuhuovps.xyz
-  client-fingerprint: ios
-  network: xhttp
-  xhttp-opts:
-    path: 38fca3ff51a1a355d385b4db9b8f022a
-    host: 85442499s274.fuhuovps.xyz
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
+    short-id: dc8109baf0f607ea
+  servername: storage.yandex.net
+  client-fingerprint: chrome
+  network: tcp
   udp: true
 - name: 🇨🇭 瑞士 | CHE 3
   server: jhmq-16fdqod.henghesoft.net
@@ -307,6 +261,13 @@ proxies:
   type: ss
   cipher: chacha20-ietf-poly1305
   password: TqkkHRpZTkjbTBrk
+  udp: true
+- name: 🇫🇷 法国 | FRA 9
+  server: 15.237.189.197
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
   udp: true
 - name: 🇩🇪 德国 | DEU 8
   server: 91.107.255.181
@@ -338,22 +299,6 @@ proxies:
   servername: translate.magazinetut.online
   client-fingerprint: chrome
   network: tcp
-  udp: true
-- name: 🇺🇦 乌克兰 | UKR 4
-  server: 104.21.73.124
-  port: 443
-  type: vless
-  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  servername: 85442499s274.fuhuovps.xyz
-  client-fingerprint: ios
-  network: xhttp
-  xhttp-opts:
-    path: 38fca3ff51a1a355d385b4db9b8f022a
-    host: 85442499s274.fuhuovps.xyz
   udp: true
 - name: 🇩🇪 德国 | DEU 4
   server: 94.237.81.50
@@ -432,22 +377,6 @@ proxies:
   type: ss
   cipher: 2022-blake3-chacha20-poly1305
   password: dBzhdBpUjjungwbNFFQOLIrxd9SYfqP4Qt2l29/2uYo=
-- name: 🇺🇦 乌克兰 | UKR 2
-  server: 172.67.178.39
-  port: 443
-  type: vless
-  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  servername: 85442499s274.fuhuovps.xyz
-  client-fingerprint: ios
-  network: xhttp
-  xhttp-opts:
-    path: 38fca3ff51a1a355d385b4db9b8f022a
-    host: 85442499s274.fuhuovps.xyz
-  udp: true
 - name: 🇹🇭 Thailand泰国丨yoyapai.com
   type: vless
   server: 18.239.134.69
@@ -461,22 +390,6 @@ proxies:
     headers:
       Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
   skip-cert-verify: true
-  udp: true
-- name: 🇺🇦 乌克兰 | UKR 3
-  server: 104.17.56.191
-  port: 443
-  type: vless
-  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  servername: 85442499s274.fuhuovps.xyz
-  client-fingerprint: ios
-  network: xhttp
-  xhttp-opts:
-    path: 38fca3ff51a1a355d385b4db9b8f022a
-    host: 85442499s274.fuhuovps.xyz
   udp: true
 - name: 🇳🇱 荷兰 | NLD 5
   server: 45.9.14.159
@@ -509,33 +422,28 @@ proxy-groups:
   proxies:
   - 🇯🇵 日本 | JPN 5
   - 🇯🇵 日本 | JPN 9
-  - 🇯🇵 日本 | JPN 8
-  - 🇯🇵 日本 | JPN 4
   - 🇯🇵 日本 | JPN
   - 🇭🇰 香港 | HKG 15
   - 🇭🇰 香港 | HKG 18
   - 🇺🇸 美国 | USA 11
-  - 🇺🇸 美国 | USA 20
   - 🇺🇸 美国 | USA 24
   - 🇺🇸 美国 | USA 16
-  - 🇺🇸 美国 | USA 7
   - 🇺🇸 美国 | USA 3
   - 美國丨yoyapai.com_8
   - 🇺🇸 美国 | USA 13
   - 🇺🇸 美国 | USA 15
   - 🇺🇸 美国 | USA 18
   - 🇺🇸 美国 | USA 12
-  - 🇳🇱 荷兰 | NLD 7
-  - 🇷🇺 俄罗斯 | RUS 2
   - 🇳🇱 荷兰 | NLD
+  - 🇷🇺 俄罗斯 | RUS 2
   - 🇨🇦 加拿大 | CAN
-  - 🇺🇦 乌克兰 | UKR
+  - 🇷🇺 俄罗斯 | RUS
   - 🇨🇭 瑞士 | CHE 3
   - 🇳🇱_NL荷蘭丨yoyapai.com
   - 🇦🇺 澳大利亚 | AUS
+  - 🇫🇷 法国 | FRA 9
   - 🇩🇪 德国 | DEU 8
   - 🇨🇭 瑞士 | CHE
-  - 🇺🇦 乌克兰 | UKR 4
   - 🇩🇪 德国 | DEU 4
   - 🇬🇧 英国 | GBR 2
   - 🇨🇴 哥伦比亚 | COL
@@ -543,9 +451,7 @@ proxy-groups:
   - 🇳🇱 荷兰 | NLD 2
   - 🇳🇱 荷兰 | NLD 3
   - 🇬🇧 英国 | GBR 3
-  - 🇺🇦 乌克兰 | UKR 2
   - 🇹🇭 Thailand泰国丨yoyapai.com
-  - 🇺🇦 乌克兰 | UKR 3
   - 🇳🇱 荷兰 | NLD 5
   - 🇪🇸 西班牙 | ESP
   url: http://www.gstatic.com/generate_204
@@ -562,8 +468,6 @@ proxy-groups:
   proxies:
   - 🇯🇵 日本 | JPN 5
   - 🇯🇵 日本 | JPN 9
-  - 🇯🇵 日本 | JPN 8
-  - 🇯🇵 日本 | JPN 4
   - 🇯🇵 日本 | JPN
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -571,10 +475,8 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇺🇸 美国 | USA 11
-  - 🇺🇸 美国 | USA 20
   - 🇺🇸 美国 | USA 24
   - 🇺🇸 美国 | USA 16
-  - 🇺🇸 美国 | USA 7
   - 🇺🇸 美国 | USA 3
   - 美國丨yoyapai.com_8
   - 🇺🇸 美国 | USA 13
@@ -586,14 +488,12 @@ proxy-groups:
 - name: AI-POOL
   type: url-test
   proxies:
-  - 🇺🇸 美国 | USA 24
-  - 🇨🇦 加拿大 | CAN
-  - 🇺🇸 美国 | USA 7
-  - 🇺🇸 美国 | USA 20
   - 🇳🇱 荷兰 | NLD
+  - 🇨🇦 加拿大 | CAN
+  - 🇺🇸 美国 | USA 24
   - 🇨🇴 哥伦比亚 | COL
   - 🇺🇸 美国 | USA 18
-  - 🇬🇧 英国 | GBR 2
+  - 🇫🇷 法国 | FRA 9
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
