@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-08-18T22:50:29.307213+00:00'
+generated-at: '2026-08-18T23:19:14.435255+00:00'
 proxies:
 - name: 🇯🇵 日本 | JPN 5
   server: legible-ocelot.rooster465.autos
@@ -193,6 +193,12 @@ proxies:
   sni: inxgc.southbyte.xyz
   skip-cert-verify: true
   udp: true
+- name: 🇷🇺 俄罗斯 | RUS 2
+  server: 195.133.23.200
+  port: 10998
+  type: ss
+  cipher: aes-256-gcm
+  password: 81a20429165df87e
 - name: 🇳🇱 荷兰 | NLD 4
   server: one-for-all.levikogjgfdd.ir
   port: 443
@@ -207,12 +213,6 @@ proxies:
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
   udp: true
-- name: 🇷🇺 俄罗斯 | RUS 2
-  server: 195.133.23.200
-  port: 10998
-  type: ss
-  cipher: aes-256-gcm
-  password: 81a20429165df87e
 - name: 🇳🇱 荷兰 | NLD
   server: one-for-all.levikogjgfdd.ir
   port: 443
@@ -227,6 +227,19 @@ proxies:
     headers:
       Host: josni.hoyes.cloudns.ch
   udp: true
+- name: 🇷🇺 俄罗斯 | RUS 3
+  server: 45.8.158.176
+  port: 10801
+  type: ss
+  cipher: aes-256-gcm
+  password: 1eadd4e4a37b6601
+  udp: true
+- name: 🇷🇺 俄罗斯 | RUS
+  server: 195.133.23.5
+  port: 20998
+  type: ss
+  cipher: aes-256-gcm
+  password: d99c422199e62b6b
 - name: 🇫🇷 法国 | FRA 20
   server: 15.237.189.197
   port: 443
@@ -234,25 +247,6 @@ proxies:
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: 🇰🇷 韩国 | KOR 8
-  server: 188.253.123.164
-  port: 38551
-  type: vless
-  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: bc8e3658db7d1323
-  servername: cdnjs.cloudflare.com
-  client-fingerprint: chrome
-  network: tcp
-- name: 🇷🇺 俄罗斯 | RUS
-  server: 195.133.23.5
-  port: 20998
-  type: ss
-  cipher: aes-256-gcm
-  password: d99c422199e62b6b
 - name: 🇫🇮 荷蘭
   type: vmess
   server: 185.246.152.159
@@ -439,12 +433,12 @@ proxy-groups:
   - 🇳🇱 荷兰 | NLD 7
   - 🇬🇧 英国 | GBR 4
   - 🇳🇱 荷兰 | NLD 8
-  - 🇳🇱 荷兰 | NLD 4
   - 🇷🇺 俄罗斯 | RUS 2
+  - 🇳🇱 荷兰 | NLD 4
   - 🇳🇱 荷兰 | NLD
-  - 🇫🇷 法国 | FRA 20
-  - 🇰🇷 韩国 | KOR 8
+  - 🇷🇺 俄罗斯 | RUS 3
   - 🇷🇺 俄罗斯 | RUS
+  - 🇫🇷 法国 | FRA 20
   - 🇫🇮 荷蘭
   - 🇩🇪 德国 | DEU 5
   - 🇳🇱_NL荷蘭丨yoyapai.com
@@ -492,13 +486,13 @@ proxy-groups:
 - name: AI-POOL
   type: url-test
   proxies:
-  - 🇸🇬 新加坡 | SGP 2
-  - 🇳🇱 荷兰 | NLD 4
   - 🇺🇸 美国 | USA 20
-  - 🇫🇷 法国 | FRA 20
-  - 🇬🇧 英国 | GBR 5
+  - 🇳🇱 荷兰 | NLD 4
+  - 🇸🇬 新加坡 | SGP 2
   - 🇺🇸 美国 | USA 5
+  - 🇫🇷 法国 | FRA 20
   - 🇬🇧 英国 | GBR 4
+  - 🇬🇧 英国 | GBR 5
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
