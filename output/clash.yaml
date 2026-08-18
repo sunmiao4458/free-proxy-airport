@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-08-18T22:19:45.529387+00:00'
+generated-at: '2026-08-18T22:50:29.307213+00:00'
 proxies:
 - name: 🇯🇵 日本 | JPN 5
   server: legible-ocelot.rooster465.autos
@@ -24,6 +24,13 @@ proxies:
   sni: exact-sawfish.rooster465.autos
   skip-cert-verify: true
   udp: true
+- name: 🇯🇵 日本 | JPN 6
+  server: settling-shad.rooster465.autos
+  port: 443
+  type: trojan
+  password: HC04361579
+  sni: settling-shad.rooster465.autos
+  skip-cert-verify: true
 - name: 🇯🇵 日本 | JPN 3
   server: 139.180.198.220
   port: 52143
@@ -32,13 +39,6 @@ proxies:
   tls: false
   network: tcp
   udp: true
-- name: 🇯🇵 日本 | JPN 6
-  server: settling-shad.rooster465.autos
-  port: 443
-  type: trojan
-  password: HC04361579
-  sni: settling-shad.rooster465.autos
-  skip-cert-verify: true
 - name: 🇭🇰 香港 | HKG 10
   server: planb.mojcn.com.linuxlh.xin
   port: 16632
@@ -172,6 +172,13 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
+- name: 🇳🇱 荷兰 | NLD 7
+  server: 92.5.228.26
+  port: 45819
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 5Xn2qHoVdu6aJjp6R2KjKrk10+qFniNh5OjKW93TdWk=
+  udp: true
 - name: 🇬🇧 英国 | GBR 4
   server: 129.151.77.35
   port: 61312
@@ -186,20 +193,6 @@ proxies:
   sni: inxgc.southbyte.xyz
   skip-cert-verify: true
   udp: true
-- name: 🇰🇷 韩国 | KOR 4
-  server: 3.39.237.40
-  port: 56001
-  type: hysteria2
-  password: NjpqMyHOlMjWTcjE
-  auth: NjpqMyHOlMjWTcjE
-  sni: kor-ls-6.nebulacloud.win
-  skip-cert-verify: true
-- name: 🇷🇺 俄罗斯 | RUS 2
-  server: 195.133.23.200
-  port: 10998
-  type: ss
-  cipher: aes-256-gcm
-  password: 81a20429165df87e
 - name: 🇳🇱 荷兰 | NLD 4
   server: one-for-all.levikogjgfdd.ir
   port: 443
@@ -214,6 +207,12 @@ proxies:
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
   udp: true
+- name: 🇷🇺 俄罗斯 | RUS 2
+  server: 195.133.23.200
+  port: 10998
+  type: ss
+  cipher: aes-256-gcm
+  password: 81a20429165df87e
 - name: 🇳🇱 荷兰 | NLD
   server: one-for-all.levikogjgfdd.ir
   port: 443
@@ -228,20 +227,12 @@ proxies:
     headers:
       Host: josni.hoyes.cloudns.ch
   udp: true
-- name: 🇰🇷 韩国 | KOR 3
-  server: 15.165.42.204
-  port: 46001
-  type: hysteria2
-  password: DWUWPXNSLv23EqVH
-  auth: DWUWPXNSLv23EqVH
-  sni: kor-ls-c-4.nebulacloud.win
-  skip-cert-verify: true
-- name: 🇷🇺 俄罗斯 | RUS 3
-  server: 45.8.158.176
-  port: 10801
+- name: 🇫🇷 法国 | FRA 20
+  server: 15.237.189.197
+  port: 443
   type: ss
-  cipher: aes-256-gcm
-  password: 1eadd4e4a37b6601
+  cipher: aes-256-cfb
+  password: amazonskr05
   udp: true
 - name: 🇰🇷 韩国 | KOR 8
   server: 188.253.123.164
@@ -361,14 +352,6 @@ proxies:
   sni: yugdv.southbyte.xyz
   skip-cert-verify: true
   udp: true
-- name: 🇰🇷 韩国 | KOR
-  server: 210.216.173.110
-  port: 56001
-  type: hysteria2
-  password: 3JdcAYVWhBbZrVNi
-  auth: 3JdcAYVWhBbZrVNi
-  sni: kor-akile-a3.nebulacloud.win
-  skip-cert-verify: true
 - name: 🇩🇪 德国 | DEU
   server: swe2.frkn.org
   port: 443
@@ -405,20 +388,6 @@ proxies:
     headers:
       Host: 129.121.95.159
   udp: true
-- name: 🇹🇭 Thailand泰国丨yoyapai.com
-  type: vless
-  server: 18.239.134.69
-  port: 80
-  uuid: de27291c-15a9-4256-9ba7-ad517569877e
-  network: ws
-  tls: false
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
-  skip-cert-verify: true
-  udp: true
 - name: 🇬🇧 英国 | GBR 5
   server: 129.151.66.31
   port: 61312
@@ -434,14 +403,28 @@ proxies:
   sni: gtyxz.southbyte.xyz
   skip-cert-verify: true
   udp: true
+- name: 🇳🇱 荷兰 | NLD 5
+  server: 195.184.247.223
+  port: 443
+  type: vless
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 6z3YcVP0f2pK3iANKIkBUZOgNeErDjxY83mHZG5jrnI
+    short-id: f63805c3ecc7a483
+  servername: savesafe.co
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
 proxy-groups:
 - name: AUTO-FAST
   type: url-test
   proxies:
   - 🇯🇵 日本 | JPN 5
   - 🇯🇵 日本 | JPN 8
-  - 🇯🇵 日本 | JPN 3
   - 🇯🇵 日本 | JPN 6
+  - 🇯🇵 日本 | JPN 3
   - 🇭🇰 香港 | HKG 10
   - 🇸🇬 新加坡 | SGP 3
   - 🇸🇬 新加坡 | SGP 2
@@ -453,14 +436,13 @@ proxy-groups:
   - 美國丨yoyapai.com_8
   - 🇺🇸 美国 | USA 14
   - 🇺🇸 美国 | USA 12
+  - 🇳🇱 荷兰 | NLD 7
   - 🇬🇧 英国 | GBR 4
   - 🇳🇱 荷兰 | NLD 8
-  - 🇰🇷 韩国 | KOR 4
-  - 🇷🇺 俄罗斯 | RUS 2
   - 🇳🇱 荷兰 | NLD 4
+  - 🇷🇺 俄罗斯 | RUS 2
   - 🇳🇱 荷兰 | NLD
-  - 🇰🇷 韩国 | KOR 3
-  - 🇷🇺 俄罗斯 | RUS 3
+  - 🇫🇷 法国 | FRA 20
   - 🇰🇷 韩国 | KOR 8
   - 🇷🇺 俄罗斯 | RUS
   - 🇫🇮 荷蘭
@@ -471,13 +453,12 @@ proxy-groups:
   - 🇹🇭泰国丨yoyapai.com
   - 🇨🇭 瑞士 | CHE
   - 🇸🇪 瑞典 | SWE
-  - 🇰🇷 韩国 | KOR
   - 🇩🇪 德国 | DEU
   - 🇳🇴 挪威 | NOR
   - 🇬🇧 英国 | GBR 3
-  - 🇹🇭 Thailand泰国丨yoyapai.com
   - 🇬🇧 英国 | GBR 5
   - 🇫🇷 法国 | FRA 8
+  - 🇳🇱 荷兰 | NLD 5
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: HK-POOL
@@ -491,8 +472,8 @@ proxy-groups:
   proxies:
   - 🇯🇵 日本 | JPN 5
   - 🇯🇵 日本 | JPN 8
-  - 🇯🇵 日本 | JPN 3
   - 🇯🇵 日本 | JPN 6
+  - 🇯🇵 日本 | JPN 3
   - 🇯🇵 日本 | JPN
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -512,13 +493,12 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇸🇬 新加坡 | SGP 2
-  - 🇺🇸 美国 | USA 14
   - 🇳🇱 荷兰 | NLD 4
-  - 🇺🇸 美国 | USA 5
-  - 🇺🇸 美国 | USA 12
   - 🇺🇸 美国 | USA 20
-  - 🇳🇱 荷兰 | NLD
-  - 🇯🇵 日本 | JPN 3
+  - 🇫🇷 法国 | FRA 20
+  - 🇬🇧 英国 | GBR 5
+  - 🇺🇸 美国 | USA 5
+  - 🇬🇧 英国 | GBR 4
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
