@@ -7,23 +7,8 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-08-18T17:23:28.370456+00:00'
+generated-at: '2026-08-18T17:53:43.850180+00:00'
 proxies:
-- name: 🇭🇰 香港 | HKG 7
-  server: hk01.vpn.taiaise.cn
-  port: 443
-  type: vmess
-  uuid: 060aede7-11ea-4032-b025-6c4168a5182e
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: hk01.vpn.taiaise.cn
-  network: ws
-  ws-opts:
-    path: /xray
-    headers:
-      Host: hk01.vpn.taiaise.cn
 - name: 🇯🇵 日本 | JPN 5
   server: legible-ocelot.rooster465.autos
   port: 443
@@ -31,17 +16,6 @@ proxies:
   password: HC04361579
   sni: legible-ocelot.rooster465.autos
   skip-cert-verify: true
-- name: 🇭🇰 香港 | HKG 4
-  server: bns.taiaise.cn
-  port: 9444
-  type: vless
-  uuid: 060aede7-11ea-4032-b025-6c4168a5182e
-  tls: true
-  flow: xtls-rprx-vision
-  servername: bns.taiaise.cn
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
 - name: 🇯🇵 日本 | JPN 8
   server: exact-sawfish.rooster465.autos
   port: 443
@@ -82,26 +56,6 @@ proxies:
     headers:
       Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
   udp: true
-- name: 🇸🇬 新加坡 | SGP 3
-  server: 168.107.81.254
-  port: 56927
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: SeX7cLfW+WWgFoc3nPSBxPxBPtE63qwODMqpUf7Slho=
-- name: 🇯🇵 日本 | JPN 4
-  server: cc28.goingside.site
-  port: 8998
-  type: vmess
-  uuid: 4b019faa-38b0-473d-bc49-60bb68151c34
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cc28.goingside.site
 - name: 🇸🇬 新加坡 | SGP 2
   server: 172.64.146.211
   port: 2087
@@ -136,18 +90,6 @@ proxies:
   servername: services.digitaleast.mobi
   client-fingerprint: chrome
   network: tcp
-  udp: true
-- name: 🇺🇸 美国 | USA 8
-  server: 64.83.12.153
-  port: 443
-  type: vmess
-  uuid: 9d476209-d8bd-9536-6e8d-61c97ec114db
-  alterId: 0
-  cipher: auto
-  tls: false
-  alpn:
-  - ''
-  skip-cert-verify: true
   udp: true
 - name: 🇺🇸 美国 | USA 16
   server: 172.67.118.45
@@ -207,33 +149,26 @@ proxies:
   auth: 6f65680b8d4de72e9f7c030e92e27a32
   sni: 166-0-16-52.liao.kdns.fr
   skip-cert-verify: true
-- name: 🇳🇱 荷兰 | NLD 7
-  server: 92.5.228.26
-  port: 45819
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 5Xn2qHoVdu6aJjp6R2KjKrk10+qFniNh5OjKW93TdWk=
-  udp: true
 - name: 🇬🇧 英国 | GBR 4
   server: 129.151.77.35
   port: 61312
   type: ss
   cipher: 2022-blake3-chacha20-poly1305
   password: sC1RiQOK5Ts5zgUYDwB/AGFbqjpytI0/AczgkgCCnew=
-- name: 🇮🇳 印度 | IND
-  server: cc35.goingside.site
-  port: 8998
-  type: vmess
-  uuid: 4b019faa-38b0-473d-bc49-60bb68151c34
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
+- name: 🇳🇱 荷兰 | NLD 4
+  server: one-for-all.levikogjgfdd.ir
+  port: 443
+  type: vless
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  tls: true
+  servername: hhlfy.twiladaphne.ndjp.net
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /hls/cctv5phd.m3u8
+    path: /sg-melbi
     headers:
-      Host: cc35.goingside.site
+      Host: hhlfy.twiladaphne.ndjp.net
+  udp: true
 - name: 🇳🇱 荷兰 | NLD 8
   server: 206.189.7.80
   port: 5446
@@ -256,20 +191,6 @@ proxies:
   type: ss
   cipher: aes-256-gcm
   password: 81a20429165df87e
-- name: 🇳🇱 荷兰 | NLD 4
-  server: one-for-all.levikogjgfdd.ir
-  port: 443
-  type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  tls: true
-  servername: hhlfy.twiladaphne.ndjp.net
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-  udp: true
 - name: 🇳🇱 荷兰 | NLD
   server: one-for-all.levikogjgfdd.ir
   port: 443
@@ -299,12 +220,33 @@ proxies:
   cipher: aes-256-gcm
   password: 1eadd4e4a37b6601
   udp: true
-- name: 🇷🇺 俄罗斯 | RUS
-  server: 195.133.23.5
-  port: 20998
-  type: ss
-  cipher: aes-256-gcm
-  password: d99c422199e62b6b
+- name: 🇰🇷 韩国 | KOR 8
+  server: 188.253.123.164
+  port: 38551
+  type: vless
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: bc8e3658db7d1323
+  servername: cdnjs.cloudflare.com
+  client-fingerprint: chrome
+  network: tcp
+- name: 🇩🇪 德国 | DEU 5
+  server: 23.165.200.168
+  port: 49527
+  type: vless
+  uuid: 853a3bff-2583-4908-9f16-934bb3077d24
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: IbI4GjOoEE7mFvOyegC2bdADUgDjzpz24OIIhQhzdnc
+    short-id: 9c4b91b9
+  servername: apple.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
 - name: 🇳🇱_NL荷蘭丨yoyapai.com
   type: ss
   server: 82.38.31.35
@@ -355,17 +297,6 @@ proxies:
     headers:
       Host: d1yxsk0zprgivr.cloudfront.net
   skip-cert-verify: true
-  udp: true
-- name: 🇨🇭 瑞士 | CHE
-  server: translate.magazinetut.online
-  port: 443
-  type: vless
-  uuid: 5c025078-2eae-4c53-bad1-5e491f33395e
-  tls: true
-  flow: xtls-rprx-vision
-  servername: translate.magazinetut.online
-  client-fingerprint: chrome
-  network: tcp
   udp: true
 - name: 🇧🇷 巴西 | BRA
   server: 146.235.35.83
@@ -458,40 +389,33 @@ proxy-groups:
 - name: AUTO-FAST
   type: url-test
   proxies:
-  - 🇭🇰 香港 | HKG 7
   - 🇯🇵 日本 | JPN 5
-  - 🇭🇰 香港 | HKG 4
   - 🇯🇵 日本 | JPN 8
   - 🇯🇵 日本 | JPN 6
   - 🇯🇵 日本 | JPN 3
   - 🇭🇰 香港 | HKG 10
-  - 🇸🇬 新加坡 | SGP 3
-  - 🇯🇵 日本 | JPN 4
   - 🇸🇬 新加坡 | SGP 2
   - 🇯🇵 日本 | JPN
   - 🇺🇸 美国 | USA 20
-  - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 16
   - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA 14
   - 🇺🇸 美国 | USA 12
   - 🇺🇸 美国 | USA 22
-  - 🇳🇱 荷兰 | NLD 7
   - 🇬🇧 英国 | GBR 4
-  - 🇮🇳 印度 | IND
+  - 🇳🇱 荷兰 | NLD 4
   - 🇳🇱 荷兰 | NLD 8
   - 🇰🇷 韩国 | KOR 4
   - 🇷🇺 俄罗斯 | RUS 2
-  - 🇳🇱 荷兰 | NLD 4
   - 🇳🇱 荷兰 | NLD
   - 🇰🇷 韩国 | KOR 3
   - 🇷🇺 俄罗斯 | RUS 3
-  - 🇷🇺 俄罗斯 | RUS
+  - 🇰🇷 韩国 | KOR 8
+  - 🇩🇪 德国 | DEU 5
   - 🇳🇱_NL荷蘭丨yoyapai.com
   - 🇩🇪 德国 | DEU 6
   - 🇨🇭 瑞士 | CHE 2
   - 🇹🇭泰国丨yoyapai.com
-  - 🇨🇭 瑞士 | CHE
   - 🇧🇷 巴西 | BRA
   - 🇸🇪 瑞典 | SWE
   - 🇰🇷 韩国 | KOR
@@ -506,8 +430,6 @@ proxy-groups:
 - name: HK-POOL
   type: url-test
   proxies:
-  - 🇭🇰 香港 | HKG 7
-  - 🇭🇰 香港 | HKG 4
   - 🇭🇰 香港 | HKG 10
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -518,7 +440,6 @@ proxy-groups:
   - 🇯🇵 日本 | JPN 8
   - 🇯🇵 日本 | JPN 6
   - 🇯🇵 日本 | JPN 3
-  - 🇯🇵 日本 | JPN 4
   - 🇯🇵 日本 | JPN
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -526,7 +447,6 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇺🇸 美国 | USA 20
-  - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 16
   - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA 14
@@ -537,13 +457,12 @@ proxy-groups:
 - name: AI-POOL
   type: url-test
   proxies:
-  - 🇺🇸 美国 | USA 5
   - 🇳🇱 荷兰 | NLD 4
-  - 🇺🇸 美国 | USA 20
   - 🇸🇬 新加坡 | SGP 2
-  - 🇺🇸 美国 | USA 12
-  - 🇺🇸 美国 | USA 14
-  - 🇳🇱 荷兰 | NLD 7
+  - 🇳🇱 荷兰 | NLD
+  - 🇺🇸 美国 | USA 20
+  - 🇬🇧 英国 | GBR 5
+  - 🇬🇧 英国 | GBR 4
   - 🇳🇱_NL荷蘭丨yoyapai.com
   url: http://www.gstatic.com/generate_204
   interval: 120
