@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-08-18T12:39:12.137113+00:00'
+generated-at: '2026-08-18T13:39:51.890887+00:00'
 proxies:
 - name: 🇯🇵 日本 | JPN 5
   server: 188.253.123.164
@@ -22,12 +22,31 @@ proxies:
   servername: cdnjs.cloudflare.com
   client-fingerprint: chrome
   network: tcp
+- name: 🇭🇰 香港 | HKG 4
+  server: bns.taiaise.cn
+  port: 9444
+  type: vless
+  uuid: 060aede7-11ea-4032-b025-6c4168a5182e
+  tls: true
+  flow: xtls-rprx-vision
+  servername: bns.taiaise.cn
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
 - name: 🇯🇵 日本 | JPN 9
   server: driven-doberman.rooster465.autos
   port: 443
   type: trojan
   password: HC04361579
   sni: driven-doberman.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 日本 | JPN 8
+  server: exact-sawfish.rooster465.autos
+  port: 443
+  type: trojan
+  password: HC04361579
+  sni: exact-sawfish.rooster465.autos
   skip-cert-verify: true
   udp: true
 - name: 🇯🇵 日本 | JPN
@@ -65,19 +84,6 @@ proxies:
     path: /
     headers:
       Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
-- name: 🇺🇸 美国 | USA 11
-  server: 172.64.152.23
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-  udp: true
 - name: 🇺🇸 美国 | USA 24
   server: 107.172.243.149
   port: 8443
@@ -93,19 +99,6 @@ proxies:
   request-timeout: 0
   udp-relay-mode: native
   congestion-controller: bbr
-- name: 🇺🇸 美国 | USA 16
-  server: 172.238.22.232
-  port: 48774
-  type: trojan
-  password: 758a36c5-d422-4e0d-9bee-a89ce9f9b078
-  sni: vpn-node.internal
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /xVpnTrojanWsSvc7f3a
-    headers:
-      Host: vpn-node.internal
-  udp: true
 - name: 🇺🇸 美国 | USA 3
   server: 151.101.56.6
   port: 443
@@ -201,37 +194,27 @@ proxies:
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
   udp: true
-- name: 🇷🇺 俄罗斯 | RUS 2
-  server: 185.141.227.150
-  port: 18443
+- name: 🇳🇱 荷兰 | NLD 7
+  server: 84.235.171.188
+  port: 62145
   type: vless
-  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
-  tls: true
-  flow: xtls-rprx-vision
-  servername: disagreedebut.net
-  client-fingerprint: firefox
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  tls: false
   network: tcp
-  udp: true
-- name: 🇨🇦 加拿大 | CAN
-  server: 166.88.130.218
-  port: 50118
-  type: ss
-  cipher: aes-256-gcm
-  password: fbcec76953a2d173
-  udp: true
-- name: 🇷🇺 俄罗斯 | RUS
-  server: 78.159.247.253
-  port: 2027
-  type: vless
-  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
+- name: 🇫🇮 荷蘭
+  type: vmess
+  server: 185.246.152.159
+  port: 443
+  uuid: 5f72f180-b21b-4b7a-8484-240759012604
+  alterId: 0
+  cipher: auto
   tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
-    short-id: dc8109baf0f607ea
-  servername: storage.yandex.net
-  client-fingerprint: chrome
-  network: tcp
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /5f72f180-b21b-4b7a-8484-240759096785
+    headers:
+      Host: apjhdggyx.com
   udp: true
 - name: 🇨🇭 瑞士 | CHE 3
   server: jhmq-16fdqod.henghesoft.net
@@ -255,40 +238,6 @@ proxies:
   password: oZIoA69Q8yhcQV8ka3Pa3A
   skip-cert-verify: true
   udp: true
-- name: 🇦🇺 澳大利亚 | AUS
-  server: 45.32.246.180
-  port: 8388
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: TqkkHRpZTkjbTBrk
-  udp: true
-- name: 🇫🇷 法国 | FRA 9
-  server: 15.237.189.197
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: 🇩🇪 德国 | DEU 8
-  server: 91.107.255.181
-  port: 28110
-  type: vmess
-  uuid: 9b4cf5b4-7fd9-436b-a441-6e9dfe601bf9
-  alterId: 0
-  cipher: auto
-  tls: false
-  alpn:
-  - ''
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - www.apple.com
-  udp: true
 - name: 🇨🇭 瑞士 | CHE
   server: translate.magazinetut.online
   port: 443
@@ -299,6 +248,21 @@ proxies:
   servername: translate.magazinetut.online
   client-fingerprint: chrome
   network: tcp
+  udp: true
+- name: 🇹🇭泰国丨yoyapai.com
+  type: vless
+  server: 3.170.185.91
+  port: 443
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+  network: ws
+  servername: d1yxsk0zprgivr.cloudfront.net
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: d1yxsk0zprgivr.cloudfront.net
+  skip-cert-verify: true
   udp: true
 - name: 🇩🇪 德国 | DEU 4
   server: 94.237.81.50
@@ -321,13 +285,6 @@ proxies:
   type: ss
   cipher: 2022-blake3-chacha20-poly1305
   password: 7CCOp1icO5ZfmmzSweQowSvA5+efeJ3HrKxHDAAJmUc=
-- name: 🇨🇴 哥伦比亚 | COL
-  server: 158.247.124.70
-  port: 62145
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-  tls: false
-  network: tcp
 - name: 🇩🇪 德国 | DEU 9
   server: 2.26.71.73
   port: 443
@@ -408,26 +365,18 @@ proxies:
     host: max.ru
     mode: packet-up
   udp: true
-- name: 🇪🇸 西班牙 | ESP
-  server: xby.mangshe.xyz
-  port: 2056
-  type: hysteria2
-  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
-  auth: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
-  sni: mg2.mangshe.xyz
-  skip-cert-verify: true
 proxy-groups:
 - name: AUTO-FAST
   type: url-test
   proxies:
   - 🇯🇵 日本 | JPN 5
+  - 🇭🇰 香港 | HKG 4
   - 🇯🇵 日本 | JPN 9
+  - 🇯🇵 日本 | JPN 8
   - 🇯🇵 日本 | JPN
   - 🇭🇰 香港 | HKG 15
   - 🇭🇰 香港 | HKG 18
-  - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 24
-  - 🇺🇸 美国 | USA 16
   - 🇺🇸 美国 | USA 3
   - 美國丨yoyapai.com_8
   - 🇺🇸 美国 | USA 13
@@ -435,30 +384,26 @@ proxy-groups:
   - 🇺🇸 美国 | USA 18
   - 🇺🇸 美国 | USA 12
   - 🇳🇱 荷兰 | NLD
-  - 🇷🇺 俄罗斯 | RUS 2
-  - 🇨🇦 加拿大 | CAN
-  - 🇷🇺 俄罗斯 | RUS
+  - 🇳🇱 荷兰 | NLD 7
+  - 🇫🇮 荷蘭
   - 🇨🇭 瑞士 | CHE 3
   - 🇳🇱_NL荷蘭丨yoyapai.com
-  - 🇦🇺 澳大利亚 | AUS
-  - 🇫🇷 法国 | FRA 9
-  - 🇩🇪 德国 | DEU 8
   - 🇨🇭 瑞士 | CHE
+  - 🇹🇭泰国丨yoyapai.com
   - 🇩🇪 德国 | DEU 4
   - 🇬🇧 英国 | GBR 2
-  - 🇨🇴 哥伦比亚 | COL
   - 🇩🇪 德国 | DEU 9
   - 🇳🇱 荷兰 | NLD 2
   - 🇳🇱 荷兰 | NLD 3
   - 🇬🇧 英国 | GBR 3
   - 🇹🇭 Thailand泰国丨yoyapai.com
   - 🇳🇱 荷兰 | NLD 5
-  - 🇪🇸 西班牙 | ESP
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: HK-POOL
   type: url-test
   proxies:
+  - 🇭🇰 香港 | HKG 4
   - 🇭🇰 香港 | HKG 15
   - 🇭🇰 香港 | HKG 18
   url: http://www.gstatic.com/generate_204
@@ -468,15 +413,14 @@ proxy-groups:
   proxies:
   - 🇯🇵 日本 | JPN 5
   - 🇯🇵 日本 | JPN 9
+  - 🇯🇵 日本 | JPN 8
   - 🇯🇵 日本 | JPN
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: US-POOL
   type: url-test
   proxies:
-  - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 24
-  - 🇺🇸 美国 | USA 16
   - 🇺🇸 美国 | USA 3
   - 美國丨yoyapai.com_8
   - 🇺🇸 美国 | USA 13
@@ -489,11 +433,10 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇳🇱 荷兰 | NLD
-  - 🇨🇦 加拿大 | CAN
   - 🇺🇸 美国 | USA 24
-  - 🇨🇴 哥伦比亚 | COL
-  - 🇺🇸 美国 | USA 18
-  - 🇫🇷 法国 | FRA 9
+  - 🇬🇧 英国 | GBR 3
+  - 🇬🇧 英国 | GBR 2
+  - 🇳🇱_NL荷蘭丨yoyapai.com
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
