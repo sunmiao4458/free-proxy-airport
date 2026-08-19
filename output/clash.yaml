@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-08-19T23:20:14.145623+00:00'
+generated-at: '2026-08-19T23:46:50.524348+00:00'
 proxies:
 - name: 🇭🇰 香港 | HKG 7
   server: 120.232.250.161
@@ -86,14 +86,6 @@ proxies:
   sni: picked-hamster.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: 🇸🇬 新加坡 | SGP 2
-  server: internal-raccoon.rooster465.autos
-  port: 443
-  type: trojan
-  password: EQ30679154
-  sni: internal-raccoon.rooster465.autos
-  skip-cert-verify: true
-  udp: true
 - name: 🇸🇬 新加坡 | SGP 4
   server: 172.64.146.211
   port: 2087
@@ -107,6 +99,14 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 2
+  server: internal-raccoon.rooster465.autos
+  port: 443
+  type: trojan
+  password: EQ30679154
+  sni: internal-raccoon.rooster465.autos
+  skip-cert-verify: true
   udp: true
 - name: 🇭🇰 香港 | HKG 8
   server: 103.195.4.7
@@ -179,6 +179,12 @@ proxies:
       Host: support.zoom.us.yxls.eu.cc
   skip-cert-verify: true
   udp: true
+- name: 🇺🇸 美国 | USA 17
+  server: 3.145.35.194
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 美國丨yoyapai.com_8
   type: vless
   server: 45.155.52.231
@@ -200,12 +206,6 @@ proxies:
   tls: false
   network: tcp
   udp: true
-- name: 🇺🇸 美国 | USA 17
-  server: 3.145.35.194
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 🇺🇸 美国 | USA 15
   server: 38.244.4.1
   port: 443
@@ -256,13 +256,6 @@ proxies:
   sni: warm-krill.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: 🇨🇳 CN_13
-  server: 183.240.203.86
-  port: 65443
-  type: ss
-  cipher: aes-256-cfb
-  password: 7eadc6dbe2ae
-  udp: true
 - name: 🇳🇱 荷兰 | NLD 7
   server: 95.85.228.161
   port: 8443
@@ -274,19 +267,12 @@ proxies:
     grpc-mode: gun
     grpc-service-name: grpc
   udp: true
-- name: 🇩🇪 德国 | DEU 2
-  server: 31.76.5.26
-  port: 13443
-  type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
-    short-id: a7f3c91b2e6d84c0
-  servername: auto.cendora.ru
-  client-fingerprint: qq
-  network: tcp
+- name: 🇨🇳 CN_13
+  server: 183.240.203.86
+  port: 65443
+  type: ss
+  cipher: aes-256-cfb
+  password: 7eadc6dbe2ae
   udp: true
 - name: 🇮🇳 印度 | IND
   server: 5.253.28.189
@@ -315,6 +301,12 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
+- name: 🇩🇪 德国 | DEU 7
+  server: 52.59.195.252
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 🇳🇱 荷兰 | NLD 10
   server: 158.180.13.47
   port: 62145
@@ -339,20 +331,6 @@ proxies:
     headers:
       Host: sync.meshbeat.online
   udp: true
-- name: 🇩🇰 丹麦 | DNK 2
-  server: 46.29.235.9
-  port: 443
-  type: vless
-  uuid: d67af820-f54c-48ab-862c-19086357f276
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: dhLgVSqPBDrdbhyTS2j60LWZDGEZh-smkcjUNSic-WI
-    short-id: a1b2c3d4
-  servername: telegraf.lv
-  client-fingerprint: firefox
-  network: tcp
-  udp: true
 - name: 🇨🇦 加拿大 | CAN
   server: 184.107.141.174
   port: 443
@@ -364,6 +342,20 @@ proxies:
     public-key: i00_tpIO0Oe2TV2lxm2BLm6QUzzkncyJtauMa7Rn500
     short-id: b91a73752053b039
   servername: ca.servers.gracevpnbuy.com
+  client-fingerprint: firefox
+  network: tcp
+  udp: true
+- name: 🇩🇰 丹麦 | DNK 2
+  server: 46.29.235.9
+  port: 443
+  type: vless
+  uuid: d67af820-f54c-48ab-862c-19086357f276
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: dhLgVSqPBDrdbhyTS2j60LWZDGEZh-smkcjUNSic-WI
+    short-id: a1b2c3d4
+  servername: telegraf.lv
   client-fingerprint: firefox
   network: tcp
   udp: true
@@ -409,6 +401,20 @@ proxies:
     headers:
       Host: www.calmlunch.com
   udp: true
+- name: 🇳🇱 荷兰 | NLD 11
+  server: 188.114.97.3
+  port: 443
+  type: vless
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  tls: true
+  servername: hhlfy.twiladaphne.ndjp.net
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+  udp: true
 - name: 🇩🇰 丹麦 | DNK
   server: ipw.ygdfw.com
   port: 443
@@ -452,20 +458,6 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇳🇱 荷兰 | NLD 11
-  server: 188.114.97.3
-  port: 443
-  type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  tls: true
-  servername: hhlfy.twiladaphne.ndjp.net
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-  udp: true
 - name: 🇳🇱 荷兰 | NLD 13
   server: stream.meshbeat.online
   port: 8444
@@ -494,6 +486,21 @@ proxies:
     path: /assignment
     headers:
       Host: www.calmlunch.com
+  udp: true
+- name: 🇹🇭泰国丨yoyapai.com
+  type: vless
+  server: 3.170.185.91
+  port: 443
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+  network: ws
+  servername: d1yxsk0zprgivr.cloudfront.net
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: d1yxsk0zprgivr.cloudfront.net
+  skip-cert-verify: true
   udp: true
 - name: 🇵🇭 菲律宾 | PHL 3
   server: 66.253.10.22
@@ -741,40 +748,41 @@ proxy-groups:
   - 🇸🇬 新加坡 | SGP 8
   - 🇭🇰 香港 | HKG
   - 🇸🇬 新加坡 | SGP 6
-  - 🇸🇬 新加坡 | SGP 2
   - 🇸🇬 新加坡 | SGP 4
+  - 🇸🇬 新加坡 | SGP 2
   - 🇭🇰 香港 | HKG 8
   - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA 20
   - 🇺🇸 美国 | USA 16
   - 🇺🇸US美國丨yoyapai.com_5
+  - 🇺🇸 美国 | USA 17
   - 美國丨yoyapai.com_8
   - 🇺🇸 美国 | USA 13
-  - 🇺🇸 美国 | USA 17
   - 🇺🇸 美国 | USA 15
   - 🇺🇸 美国 | USA 18
   - 🇺🇸 美国 | USA 12
   - 🇺🇸 美国 | USA 2
-  - 🇨🇳 CN_13
   - 🇳🇱 荷兰 | NLD 7
-  - 🇩🇪 德国 | DEU 2
+  - 🇨🇳 CN_13
   - 🇮🇳 印度 | IND
   - 🇳🇱 荷兰 | NLD 8
+  - 🇩🇪 德国 | DEU 7
   - 🇳🇱 荷兰 | NLD 10
   - 🇳🇱 荷兰 | NLD 14
-  - 🇩🇰 丹麦 | DNK 2
   - 🇨🇦 加拿大 | CAN
+  - 🇩🇰 丹麦 | DNK 2
   - 🇫🇮 荷蘭
   - 🇪🇪 爱沙尼亚 | EST
   - 🇦🇹 奥地利 | AUT
+  - 🇳🇱 荷兰 | NLD 11
   - 🇩🇰 丹麦 | DNK
   - 🇨🇴 哥伦比亚 | COL 4
   - 🇳🇱_NL荷蘭丨yoyapai.com
   - 🇦🇺 澳大利亚 | AUS
   - 🇩🇪 德国 | DEU 6
-  - 🇳🇱 荷兰 | NLD 11
   - 🇳🇱 荷兰 | NLD 13
   - 🇫🇷 法国 | FRA 10
+  - 🇹🇭泰国丨yoyapai.com
   - 🇵🇭 菲律宾 | PHL 3
   - 🇩🇪 德国 | DEU 13
   - 🇩🇪 德国 | DEU 14
@@ -821,9 +829,9 @@ proxy-groups:
   - 🇺🇸 美国 | USA 20
   - 🇺🇸 美国 | USA 16
   - 🇺🇸US美國丨yoyapai.com_5
+  - 🇺🇸 美国 | USA 17
   - 美國丨yoyapai.com_8
   - 🇺🇸 美国 | USA 13
-  - 🇺🇸 美国 | USA 17
   - 🇺🇸 美国 | USA 15
   - 🇺🇸 美国 | USA 18
   - 🇺🇸 美国 | USA 12
@@ -834,17 +842,17 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇳🇱 荷兰 | NLD 11
-  - 🇺🇸 美国 | USA 15
-  - 🇺🇸 美国 | USA 16
-  - 🇺🇸US美國丨yoyapai.com_5
   - 🇸🇬 新加坡 | SGP 4
-  - 🇺🇸 美国 | USA 18
-  - 🇺🇸 美国 | USA 2
-  - 🇺🇸 美国 | USA 17
+  - 🇺🇸 美国 | USA 16
   - 🇺🇸 美国 | USA 9
+  - 🇺🇸 美国 | USA 17
+  - 🇨🇦 加拿大 | CAN
+  - 🇺🇸US美國丨yoyapai.com_5
   - 🇺🇸 美国 | USA 20
-  - 🇨🇴 哥伦比亚 | COL 4
   - 🇨🇴 哥伦比亚 | COL 3
+  - 🇨🇴 哥伦比亚 | COL 4
+  - 🇳🇱 荷兰 | NLD 10
+  - 🇩🇪 德国 | DEU 6
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
