@@ -7,22 +7,8 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-08-22T10:19:46.904445+00:00'
+generated-at: '2026-08-22T10:49:06.506619+00:00'
 proxies:
-- name: 🇭🇰 香港 | HKG 6
-  server: family.bucket.8.kfc-520.com
-  port: 10024
-  type: vless
-  uuid: 7aecb4a5-f0a4-32a0-aabe-c9d5241e313f
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: FOb0ZkxJkEGs2Z0FUD__78hraM4jz1zYVaHzIanK8Gs
-    short-id: b2
-  servername: www.hp.com
-  client-fingerprint: firefox
-  network: tcp
-  udp: true
 - name: 🇭🇰HK香港節點丨yoyapai.com_3
   type: vless
   server: 91.193.58.117
@@ -36,6 +22,20 @@ proxies:
     headers:
       Host: jamph131-1228.pages.dev
   skip-cert-verify: true
+  udp: true
+- name: 🇭🇰 香港 | HKG 6
+  server: family.bucket.8.kfc-520.com
+  port: 10024
+  type: vless
+  uuid: 7aecb4a5-f0a4-32a0-aabe-c9d5241e313f
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: FOb0ZkxJkEGs2Z0FUD__78hraM4jz1zYVaHzIanK8Gs
+    short-id: b2
+  servername: www.hp.com
+  client-fingerprint: firefox
+  network: tcp
   udp: true
 - name: 🇭🇰 香港 | HKG 4
   server: family.bucket.8.kfc-520.com
@@ -65,18 +65,6 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
-- name: 🇸🇬 新加坡 | SGP 8
-  server: codecanyon.net
-  port: 8880
-  type: vless
-  uuid: 692d631b-cff1-4ed4-ba81-f716388fff46
-  tls: false
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.US.CMLiussss.net
-    headers:
-      Host: odd-darkness-57ce.334-a29.workers.dev
-  udp: true
 - name: 🇭🇰HK香港節點丨yoyapai.com
   type: vless
   server: 91.193.58.93
@@ -91,6 +79,18 @@ proxies:
       Host: jamph131-1228.pages.dev
   skip-cert-verify: true
   udp: true
+- name: 🇸🇬 新加坡 | SGP 8
+  server: codecanyon.net
+  port: 8880
+  type: vless
+  uuid: 692d631b-cff1-4ed4-ba81-f716388fff46
+  tls: false
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: odd-darkness-57ce.334-a29.workers.dev
+  udp: true
 - name: 🇯🇵 日本 | JPN 4
   server: family.bucket.7.kfc-520.com
   port: 10014
@@ -104,6 +104,20 @@ proxies:
   servername: www.sony.com
   client-fingerprint: firefox
   network: tcp
+  udp: true
+- name: 🇭🇰HK香港節點丨yoyapai.com_1
+  type: vless
+  server: 91.193.58.195
+  port: 443
+  uuid: 9419f782-b18e-4c4b-ae95-a7a279fd021f
+  network: ws
+  servername: jamph131-1228.pages.dev
+  tls: true
+  ws-opts:
+    path: Telegram-WangCai2🇨🇳
+    headers:
+      Host: jamph131-1228.pages.dev
+  skip-cert-verify: true
   udp: true
 - name: 🇭🇰 香港 | HKG
   server: planb.mojcn.com.linuxlh.xin
@@ -120,20 +134,6 @@ proxies:
     path: /
     headers:
       Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
-  udp: true
-- name: 🇭🇰HK香港節點丨yoyapai.com_1
-  type: vless
-  server: 91.193.58.195
-  port: 443
-  uuid: 9419f782-b18e-4c4b-ae95-a7a279fd021f
-  network: ws
-  servername: jamph131-1228.pages.dev
-  tls: true
-  ws-opts:
-    path: Telegram-WangCai2🇨🇳
-    headers:
-      Host: jamph131-1228.pages.dev
-  skip-cert-verify: true
   udp: true
 - name: 🇭🇰HK香港節點丨yoyapai.com_2
   type: vless
@@ -205,20 +205,6 @@ proxies:
     headers:
       Host: a.cwvps.eu.org
   udp: true
-- name: 🇺🇸 美国 | USA 33
-  server: family.bucket.4.kfc-520.com
-  port: 10005
-  type: vless
-  uuid: 7aecb4a5-f0a4-32a0-aabe-c9d5241e313f
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: ryX4yUguNp9iQ6j_BPlEMyCK62474if28u_ouXSPciQ
-    short-id: 1974efea3b2148
-  servername: www.asus.com
-  client-fingerprint: firefox
-  network: tcp
-  udp: true
 - name: 🇺🇸 美国 | USA 3
   server: 104.16.150.7
   port: 2087
@@ -232,6 +218,20 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  udp: true
+- name: 🇺🇸 美国 | USA 33
+  server: family.bucket.4.kfc-520.com
+  port: 10005
+  type: vless
+  uuid: 7aecb4a5-f0a4-32a0-aabe-c9d5241e313f
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: ryX4yUguNp9iQ6j_BPlEMyCK62474if28u_ouXSPciQ
+    short-id: 1974efea3b2148
+  servername: www.asus.com
+  client-fingerprint: firefox
+  network: tcp
   udp: true
 - name: 🇺🇸 美国 | USA 25
   server: family.bucket.1.kfc-520.com
@@ -247,14 +247,6 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
-- name: 🇺🇸 美国 | USA 4
-  server: do.aigh.store
-  port: 10929
-  type: hysteria2
-  password: 17aVvwmiSU
-  auth: 17aVvwmiSU
-  sni: do.aigh.store
-  skip-cert-verify: true
 - name: 🇺🇸US美國丨yoyapai.com_5
   type: vless
   server: support.zoom.us
@@ -291,6 +283,18 @@ proxies:
   auth: 099830134df5ac3a04a4b21d39b8c395
   sni: www.bing.com
   skip-cert-verify: true
+- name: 🇺🇸 美国 | USA 15
+  server: 201.24.49.74
+  port: 2200
+  type: vless
+  uuid: f0528a17-863f-4160-a5a0-0d9ad03f2ee7
+  tls: false
+  network: ws
+  ws-opts:
+    path: /v1
+    headers:
+      Host: rzd.ru
+  udp: true
 - name: 🇺🇸 美国 | USA 32
   server: 97.64.31.10
   port: 13779
@@ -305,30 +309,14 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇺🇸 美国 | USA 27
-  server: 172.64.152.23
+- name: 🇺🇸 美国 | USA 14
+  server: starlink-ft.251313.xyz
   port: 443
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
+  type: hysteria2
+  password: https://xship.2fa.cat
+  auth: https://xship.2fa.cat
+  sni: xship.top
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-  udp: true
-- name: 🇺🇸 美国 | USA 15
-  server: 201.24.49.74
-  port: 2200
-  type: vless
-  uuid: f0528a17-863f-4160-a5a0-0d9ad03f2ee7
-  tls: false
-  network: ws
-  ws-opts:
-    path: /v1
-    headers:
-      Host: rzd.ru
   udp: true
 - name: 🇺🇸 美国 | USA 18
   server: 151.101.56.6
@@ -346,12 +334,6 @@ proxies:
     headers:
       Host: c12.com
   udp: true
-- name: 🇺🇸 美国 | USA 2
-  server: 129.146.167.224
-  port: 50356
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: oa7A0+9L7mp4aPLp9pFZ8FayB0x3G70Kw64suapoH8k=
 - name: 🇺🇸 美国 | USA 28
   server: srv-a04472.21freedom.net
   port: 443
@@ -369,6 +351,12 @@ proxies:
     host: gitlab.com
     mode: auto
   udp: true
+- name: 🇺🇸 美国 | USA 2
+  server: 129.146.167.224
+  port: 50356
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: oa7A0+9L7mp4aPLp9pFZ8FayB0x3G70Kw64suapoH8k=
 - name: 🇳🇱 荷兰 | NLD 7
   server: 134.98.133.122
   port: 45819
@@ -405,14 +393,12 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: stWyUk6orboi395iL0FnR3BPusuEjio2VBywW09OOO0=
   udp: true
-- name: 🇩🇪 德国 | DEU 7
-  server: hy2-germany.unlimited-access.ru
-  port: 8443
-  type: hysteria2
-  password: GSPOBvG-ZwYcBFMr0ekFGO_Zga3wK6v_
-  auth: GSPOBvG-ZwYcBFMr0ekFGO_Zga3wK6v_
-  sni: hy2-germany.unlimited-access.ru
-  skip-cert-verify: true
+- name: 🇰🇷 韩国 | KOR 2
+  server: 121.46.230.138
+  port: 65443
+  type: ss
+  cipher: aes-256-cfb
+  password: 7eadc6dbe2ae
 - name: 🇷🇺 俄罗斯 | RUS 2
   server: 195.133.23.200
   port: 20990
@@ -435,13 +421,6 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: HEZMw3e3ObzQ4hOH3EwEh3RsD3u7zzmSOHpVGDATZRk=
   udp: true
-- name: 🇳🇱 荷兰 | NLD
-  server: 134.98.150.87
-  port: 45819
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: J2sKKVp6+QBdjiJJskSFOXJ1ljCxje05WtZ91yS7qrc=
-  udp: true
 - name: 🇳🇱 荷兰 | NLD 4
   server: 82.27.117.133
   port: 3389
@@ -450,6 +429,13 @@ proxies:
   auth: e0c73147-a2d2-4cc6-b616-d7205ea1b314
   sni: vpn.chernienko.pro
   skip-cert-verify: true
+- name: 🇳🇱 荷兰 | NLD
+  server: 134.98.150.87
+  port: 45819
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: J2sKKVp6+QBdjiJJskSFOXJ1ljCxje05WtZ91yS7qrc=
+  udp: true
 - name: 🇨🇿 捷克 | CZE
   server: family.bucket.9.kfc-520.com
   port: 10050
@@ -471,20 +457,6 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: uTP7T8hg8KZuMkMy3aRzZP2UQkaTUhrW7NKgP/vT8I4=
   udp: true
-- name: 🇨🇦 加拿大 | CAN
-  server: family.bucket.9.kfc-520.com
-  port: 10043
-  type: vless
-  uuid: 7aecb4a5-f0a4-32a0-aabe-c9d5241e313f
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: PGH5Jy0dfgEwQlGGd2YklalRs51yUTvD5j1DZPxKgUw
-    short-id: 9eafa129b6
-  servername: www.adobe.com
-  client-fingerprint: firefox
-  network: tcp
-  udp: true
 - name: 🇫🇮 荷蘭
   type: vmess
   server: 185.246.152.159
@@ -499,6 +471,20 @@ proxies:
     path: /5f72f180-b21b-4b7a-8484-240759096785
     headers:
       Host: apjhdggyx.com
+  udp: true
+- name: 🇨🇦 加拿大 | CAN
+  server: family.bucket.9.kfc-520.com
+  port: 10043
+  type: vless
+  uuid: 7aecb4a5-f0a4-32a0-aabe-c9d5241e313f
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: PGH5Jy0dfgEwQlGGd2YklalRs51yUTvD5j1DZPxKgUw
+    short-id: 9eafa129b6
+  servername: www.adobe.com
+  client-fingerprint: firefox
+  network: tcp
   udp: true
 - name: 🇹🇷 土耳其 | TUR
   server: 194.135.34.207
@@ -612,19 +598,6 @@ proxies:
   type: ss
   cipher: 2022-blake3-chacha20-poly1305
   password: a/UK8LHF/90SAehQnn56RP5pUgdXKFLeP4sXt/D7VOw=
-- name: 🇩🇪 德国 | DEU 4
-  server: 217.60.68.49
-  port: 443
-  type: vless
-  uuid: 20df893e-dcf4-491d-8261-6dbb24f9566b
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: KdTNB-nAu9Sd9WdysLIg8BRwsYG7DN6xqgCZiOsv0XA
-  servername: 739.laviroso.click
-  client-fingerprint: firefox
-  network: tcp
-  udp: true
 - name: 🇳🇱 荷兰 | NLD 6
   server: 134.98.133.97
   port: 45819
@@ -721,12 +694,6 @@ proxies:
     headers:
       Host: web-production-41122.up.railway.app
   udp: true
-- name: 🇧🇷 巴西 | BRA 3
-  server: 136.248.74.249
-  port: 59319
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: keCxFI2Iy4vMTOGXW2Bzi5IlksnPxxdqO67TkmJGw/I=
 - name: 🇳🇱 荷兰 | NLD 9
   server: 134.98.135.220
   port: 62145
@@ -809,47 +776,46 @@ proxy-groups:
 - name: AUTO-FAST
   type: url-test
   proxies:
-  - 🇭🇰 香港 | HKG 6
   - 🇭🇰HK香港節點丨yoyapai.com_3
+  - 🇭🇰 香港 | HKG 6
   - 🇭🇰 香港 | HKG 4
   - 🇯🇵 日本 | JPN 3
-  - 🇸🇬 新加坡 | SGP 8
   - 🇭🇰HK香港節點丨yoyapai.com
+  - 🇸🇬 新加坡 | SGP 8
   - 🇯🇵 日本 | JPN 4
-  - 🇭🇰 香港 | HKG
   - 🇭🇰HK香港節點丨yoyapai.com_1
+  - 🇭🇰 香港 | HKG
   - 🇭🇰HK香港節點丨yoyapai.com_2
   - 🇸🇬 新加坡 | SGP 2
   - 🇸🇬 新加坡 | SGP 4
   - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 26
-  - 🇺🇸 美国 | USA 33
   - 🇺🇸 美国 | USA 3
+  - 🇺🇸 美国 | USA 33
   - 🇺🇸 美国 | USA 25
-  - 🇺🇸 美国 | USA 4
   - 🇺🇸US美國丨yoyapai.com_5
   - 美國丨yoyapai.com_8
   - 🇺🇸 美国 | USA 13
-  - 🇺🇸 美国 | USA 32
-  - 🇺🇸 美国 | USA 27
   - 🇺🇸 美国 | USA 15
+  - 🇺🇸 美国 | USA 32
+  - 🇺🇸 美国 | USA 14
   - 🇺🇸 美国 | USA 18
-  - 🇺🇸 美国 | USA 2
   - 🇺🇸 美国 | USA 28
+  - 🇺🇸 美国 | USA 2
   - 🇳🇱 荷兰 | NLD 7
   - 🇹🇭 泰国 | THA 3
   - 🇩🇪 德国 | DEU 2
   - 🇳🇱 荷兰 | NLD 8
-  - 🇩🇪 德国 | DEU 7
+  - 🇰🇷 韩国 | KOR 2
   - 🇷🇺 俄罗斯 | RUS 2
   - 🇳🇱 荷兰 | NLD 10
   - 🇬🇧 英国 | GBR 10
-  - 🇳🇱 荷兰 | NLD
   - 🇳🇱 荷兰 | NLD 4
+  - 🇳🇱 荷兰 | NLD
   - 🇨🇿 捷克 | CZE
   - 🇬🇧 英国 | GBR 11
-  - 🇨🇦 加拿大 | CAN
   - 🇫🇮 荷蘭
+  - 🇨🇦 加拿大 | CAN
   - 🇹🇷 土耳其 | TUR
   - 🇳🇱_NL荷蘭丨yoyapai.com
   - 🇵🇱 波兰 | POL
@@ -861,7 +827,6 @@ proxy-groups:
   - 🇳🇱 荷兰 | NLD 11
   - 🇧🇷 巴西 | BRA
   - 🇬🇧 英国 | GBR 2
-  - 🇩🇪 德国 | DEU 4
   - 🇳🇱 荷兰 | NLD 6
   - 🇨🇴 哥伦比亚 | COL 3
   - 🇫🇷 法国 | FRA
@@ -872,7 +837,6 @@ proxy-groups:
   - 🇨🇴 哥伦比亚 | COL 2
   - 🇩🇪 德国 | DEU
   - 🇳🇱 荷兰 | NLD 3
-  - 🇧🇷 巴西 | BRA 3
   - 🇳🇱 荷兰 | NLD 9
   - 🇬🇧 英国 | GBR 3
   - 🇹🇭 Thailand泰国丨yoyapai.com
@@ -885,12 +849,12 @@ proxy-groups:
 - name: HK-POOL
   type: url-test
   proxies:
-  - 🇭🇰 香港 | HKG 6
   - 🇭🇰HK香港節點丨yoyapai.com_3
+  - 🇭🇰 香港 | HKG 6
   - 🇭🇰 香港 | HKG 4
   - 🇭🇰HK香港節點丨yoyapai.com
-  - 🇭🇰 香港 | HKG
   - 🇭🇰HK香港節點丨yoyapai.com_1
+  - 🇭🇰 香港 | HKG
   - 🇭🇰HK香港節點丨yoyapai.com_2
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -906,38 +870,36 @@ proxy-groups:
   proxies:
   - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 26
-  - 🇺🇸 美国 | USA 33
   - 🇺🇸 美国 | USA 3
+  - 🇺🇸 美国 | USA 33
   - 🇺🇸 美国 | USA 25
-  - 🇺🇸 美国 | USA 4
   - 🇺🇸US美國丨yoyapai.com_5
   - 美國丨yoyapai.com_8
   - 🇺🇸 美国 | USA 13
-  - 🇺🇸 美国 | USA 32
-  - 🇺🇸 美国 | USA 27
   - 🇺🇸 美国 | USA 15
+  - 🇺🇸 美国 | USA 32
+  - 🇺🇸 美国 | USA 14
   - 🇺🇸 美国 | USA 18
-  - 🇺🇸 美国 | USA 2
   - 🇺🇸 美国 | USA 28
+  - 🇺🇸 美国 | USA 2
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: AI-POOL
   type: url-test
   proxies:
   - 🇺🇸 美国 | USA 3
+  - 🇭🇰HK香港節點丨yoyapai.com_3
   - 🇭🇰HK香港節點丨yoyapai.com_1
-  - 🇸🇬 新加坡 | SGP 8
+  - 🇭🇰HK香港節點丨yoyapai.com
   - 🇭🇰HK香港節點丨yoyapai.com_2
   - 🇺🇸US美國丨yoyapai.com_5
-  - 🇭🇰HK香港節點丨yoyapai.com_3
+  - 🇳🇱 荷兰 | NLD 13
+  - 🇸🇬 新加坡 | SGP 8
   - 🇺🇸 美国 | USA 2
-  - 🇭🇰HK香港節點丨yoyapai.com
-  - 🇨🇴 哥伦比亚 | COL
   - 🇨🇴 哥伦比亚 | COL 3
   - 🇨🇴 哥伦比亚 | COL 2
-  - 🇳🇱 荷兰 | NLD 9
-  - 🇳🇱 荷兰 | NLD 10
-  - 🇳🇱 荷兰 | NLD 8
+  - 🇨🇴 哥伦比亚 | COL
+  - 🇫🇷 法国 | FRA
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
