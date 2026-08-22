@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-08-22T22:18:43.282932+00:00'
+generated-at: '2026-08-22T22:47:32.221358+00:00'
 proxies:
 - name: 🇭🇰 香港 | HKG 6
   server: family.bucket.8.kfc-520.com
