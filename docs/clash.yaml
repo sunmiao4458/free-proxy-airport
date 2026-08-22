@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-08-22T13:29:14.182185+00:00'
+generated-at: '2026-08-22T13:54:18.808000+00:00'
 proxies:
 - name: 🇭🇰 香港 | HKG 6
   server: family.bucket.8.kfc-520.com
@@ -64,18 +64,6 @@ proxies:
   servername: www.sony.com
   client-fingerprint: firefox
   network: tcp
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 8
-  server: codecanyon.net
-  port: 8880
-  type: vless
-  uuid: 692d631b-cff1-4ed4-ba81-f716388fff46
-  tls: false
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.US.CMLiussss.net
-    headers:
-      Host: odd-darkness-57ce.334-a29.workers.dev
   udp: true
 - name: 🇭🇰 香港 | HKG
   server: planb.mojcn.com.linuxlh.xin
@@ -191,14 +179,21 @@ proxies:
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   udp: true
-- name: 🇺🇸 美国 | USA 4
-  server: do.aigh.store
-  port: 10929
-  type: hysteria2
-  password: 17aVvwmiSU
-  auth: 17aVvwmiSU
-  sni: do.aigh.store
+- name: 🇺🇸US美國丨yoyapai.com_5
+  type: vless
+  server: support.zoom.us
+  port: 443
+  uuid: 6680846a-8a57-4dfd-9a0e-63209cfc8535
+  network: ws
+  servername: support.zoom.us.yxls.eu.cc
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /sg-amz
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
   skip-cert-verify: true
+  udp: true
 - name: 🇺🇸 美国 | USA 13
   server: 163.192.14.135
   port: 50160
@@ -220,32 +215,27 @@ proxies:
     short-id: 0b
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US美國丨yoyapai.com_5
-  type: vless
-  server: support.zoom.us
+- name: 🇺🇸 美国 | USA 27
+  server: 172.64.152.23
   port: 443
-  uuid: 6680846a-8a57-4dfd-9a0e-63209cfc8535
-  network: ws
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /sg-amz
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
   skip-cert-verify: true
-  udp: true
-- name: 🇺🇸 美国 | USA 15
-  server: 201.24.49.74
-  port: 2200
-  type: vless
-  uuid: f0528a17-863f-4160-a5a0-0d9ad03f2ee7
-  tls: false
   network: ws
   ws-opts:
-    path: /v1
+    path: /assignment
     headers:
-      Host: rzd.ru
+      Host: www.calmlunch.com
+  udp: true
+- name: 🇺🇸 美国 | USA 14
+  server: starlink-ft.251313.xyz
+  port: 443
+  type: hysteria2
+  password: https://xship.2fa.cat
+  auth: https://xship.2fa.cat
+  sni: xship.top
+  skip-cert-verify: true
   udp: true
 - name: 🇺🇸 美国 | USA 18
   server: 151.101.56.6
@@ -290,13 +280,6 @@ proxies:
   servername: www.adobe.com
   client-fingerprint: firefox
   network: tcp
-  udp: true
-- name: 🇳🇱 荷兰 | NLD 8
-  server: 134.98.146.23
-  port: 45819
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: stWyUk6orboi395iL0FnR3BPusuEjio2VBywW09OOO0=
   udp: true
 - name: 🇷🇺 俄罗斯 | RUS 2
   server: 195.133.23.200
@@ -378,20 +361,6 @@ proxies:
   auth: 1ba59989-225e-4f1c-ab62-9bd7366009cb
   sni: 194.135.34.207
   skip-cert-verify: true
-- name: 🇩🇪 德国 | DEU 5
-  server: 31.76.5.26
-  port: 13443
-  type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
-    short-id: a7f3c91b2e6d84c0
-  servername: auto.cendora.ru
-  client-fingerprint: qq
-  network: tcp
-  udp: true
 - name: 🇳🇱_NL荷蘭丨yoyapai.com
   type: ss
   server: 82.38.31.35
@@ -461,13 +430,21 @@ proxies:
       Host: game-net1212.th3store.ir
     v2ray-http-upgrade: true
   udp: true
-- name: 🇳🇱 荷兰 | NLD 11
-  server: 143.47.183.8
-  port: 62145
+- name: 🇮🇹 意大利 | ITA
+  server: 185.207.66.243
+  port: 443
   type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-  tls: false
-  network: tcp
+  uuid: 0a2988ed-9f42-499e-b4a8-3ed4cbda5457
+  tls: true
+  reality-opts:
+    public-key: eNvO4-6_VFngHHC6D5AhcCpCpOdi5gY7-Srimhh-6Xw
+  servername: dl.google.com
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: grpc-tunnel
+  udp: true
 - name: 🇧🇷 巴西 | BRA
   server: 136.248.118.107
   port: 59319
@@ -554,6 +531,20 @@ proxies:
   tls: false
   network: tcp
   udp: true
+- name: 🇬🇧 英国 | GBR 3
+  server: 91.245.226.122
+  port: 2053
+  type: vless
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  tls: true
+  servername: forfreeuse.rtqa.ru
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: forfreeuse.rtqa.ru
+  udp: true
 - name: 🇬🇧 英国 | GBR 5
   server: family.bucket.9.kfc-520.com
   port: 10034
@@ -604,7 +595,6 @@ proxy-groups:
   - 🇭🇰 香港 | HKG 4
   - 🇯🇵 日本 | JPN 3
   - 🇯🇵 日本 | JPN 4
-  - 🇸🇬 新加坡 | SGP 8
   - 🇭🇰 香港 | HKG
   - 🇸🇬 新加坡 | SGP 2
   - 🇸🇬 新加坡 | SGP 4
@@ -613,16 +603,15 @@ proxy-groups:
   - 🇺🇸 美国 | USA 33
   - 🇺🇸 美国 | USA 25
   - 🇺🇸 美国 | USA 3
-  - 🇺🇸 美国 | USA 4
+  - 🇺🇸US美國丨yoyapai.com_5
   - 🇺🇸 美国 | USA 13
   - 美國丨yoyapai.com_8
-  - 🇺🇸US美國丨yoyapai.com_5
-  - 🇺🇸 美国 | USA 15
+  - 🇺🇸 美国 | USA 27
+  - 🇺🇸 美国 | USA 14
   - 🇺🇸 美国 | USA 18
   - 🇺🇸 美国 | USA 2
   - 🇹🇭 泰国 | THA 3
   - 🇩🇪 德国 | DEU 2
-  - 🇳🇱 荷兰 | NLD 8
   - 🇷🇺 俄罗斯 | RUS 2
   - 🇬🇧 英国 | GBR 10
   - 🇳🇱 荷兰 | NLD 4
@@ -631,14 +620,13 @@ proxy-groups:
   - 🇫🇮 荷蘭
   - 🇨🇦 加拿大 | CAN
   - 🇹🇷 土耳其 | TUR
-  - 🇩🇪 德国 | DEU 5
   - 🇳🇱_NL荷蘭丨yoyapai.com
   - 🇵🇱 波兰 | POL
   - 🇧🇷 巴西 | BRA 2
   - 🇳🇱 荷兰 | NLD 13
   - 🇷🇴 罗马尼亚 | ROU
   - 🇩🇪 德国 | DEU 8
-  - 🇳🇱 荷兰 | NLD 11
+  - 🇮🇹 意大利 | ITA
   - 🇧🇷 巴西 | BRA
   - 🇬🇧 英国 | GBR 2
   - 🇳🇱 荷兰 | NLD 6
@@ -650,6 +638,7 @@ proxy-groups:
   - 🇩🇪 德国 | DEU
   - 🇨🇴 哥伦比亚 | COL 2
   - 🇳🇱 荷兰 | NLD 9
+  - 🇬🇧 英国 | GBR 3
   - 🇬🇧 英国 | GBR 5
   - 🇳🇱 荷兰 | NLD 5
   - 🇬🇧 英国 | GBR 8
@@ -679,11 +668,11 @@ proxy-groups:
   - 🇺🇸 美国 | USA 33
   - 🇺🇸 美国 | USA 25
   - 🇺🇸 美国 | USA 3
-  - 🇺🇸 美国 | USA 4
+  - 🇺🇸US美國丨yoyapai.com_5
   - 🇺🇸 美国 | USA 13
   - 美國丨yoyapai.com_8
-  - 🇺🇸US美國丨yoyapai.com_5
-  - 🇺🇸 美国 | USA 15
+  - 🇺🇸 美国 | USA 27
+  - 🇺🇸 美国 | USA 14
   - 🇺🇸 美国 | USA 18
   - 🇺🇸 美国 | USA 2
   url: http://www.gstatic.com/generate_204
@@ -691,16 +680,16 @@ proxy-groups:
 - name: AI-POOL
   type: url-test
   proxies:
-  - 🇺🇸 美国 | USA 2
   - 🇺🇸 美国 | USA 3
-  - 🇺🇸 美国 | USA 13
-  - 🇺🇸 美国 | USA 4
-  - 🇨🇴 哥伦比亚 | COL
-  - 🇨🇴 哥伦比亚 | COL 3
-  - 🇨🇴 哥伦比亚 | COL 2
+  - 🇺🇸 美国 | USA 2
+  - 🇳🇱 荷兰 | NLD 13
   - 🇺🇸US美國丨yoyapai.com_5
-  - 🇳🇱 荷兰 | NLD 5
-  - 🇬🇧 英国 | GBR 11
+  - 🇺🇸 美国 | USA 13
+  - 🇨🇴 哥伦比亚 | COL 2
+  - 🇨🇴 哥伦比亚 | COL 3
+  - 🇨🇴 哥伦比亚 | COL
+  - 🇳🇱 荷兰 | NLD 6
+  - 🇳🇱 荷兰 | NLD 9
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
