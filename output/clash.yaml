@@ -7,8 +7,14 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-08-23T14:20:50.411662+00:00'
+generated-at: '2026-08-23T14:49:12.927172+00:00'
 proxies:
+- name: 🇭🇰 香港 | HKG 7
+  server: mn.qwer-cn.org
+  port: 10931
+  type: ss
+  cipher: aes-128-gcm
+  password: adbc1e8c-184e-4d02-b0e0-f0cb70b377df
 - name: 🇭🇰 香港 | HKG 6
   server: hk03.ccdn3.work
   port: 798
@@ -20,20 +26,6 @@ proxies:
     public-key: czEoNozTky8HvZ2j4Tnkr6c9L-rAhsdoaBvEz1vjAkU
     short-id: 6aa9279c1fbab9c9
   servername: i1.hdslb.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 13
-  server: jpaws.ccwink.photos
-  port: 64294
-  type: vless
-  uuid: a157bb84-dd84-4ad8-86b0-0656bc76e4d1
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: KmcS-yU6kDycbSojXgUYU1-fHwXmF1oBk_ke0gbGUy0
-    short-id: '7083'
-  servername: docs.aws.amazon.com
   client-fingerprint: chrome
   network: tcp
   udp: true
@@ -126,6 +118,12 @@ proxies:
   auth: 2544ad8a388f1b7e6d1c878f5a7d121c
   sni: www.bing.com
   skip-cert-verify: true
+- name: 🇯🇵 日本 | JPN 8
+  server: mn.qwer-cn.org
+  port: 10925
+  type: ss
+  cipher: aes-128-gcm
+  password: adbc1e8c-184e-4d02-b0e0-f0cb70b377df
 - name: 🇯🇵 日本 | JPN 9
   server: 45.66.218.187
   port: 50159
@@ -308,6 +306,13 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
+- name: 🇯🇵 日本 | JPN
+  server: 121.46.230.136
+  port: 65443
+  type: ss
+  cipher: aes-256-cfb
+  password: 7eadc6dbe2ae
+  udp: true
 - name: 🇸🇬 新加坡 | SGP 4
   server: inbound.sled019fd6eb-369f.rfsconfig.com
   port: 2556
@@ -336,6 +341,12 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
+- name: 🇸🇬 新加坡 | SGP 12
+  server: mn.qwer-cn.org
+  port: 10934
+  type: ss
+  cipher: aes-128-gcm
+  password: adbc1e8c-184e-4d02-b0e0-f0cb70b377df
 - name: 🇺🇸US美國丨yoyapai.com_6
   type: vless
   server: support.zoom.us
@@ -351,6 +362,19 @@ proxies:
       Host: support.zoom.us.yxls.eu.cc
   skip-cert-verify: true
   udp: true
+- name: 🇺🇸 美国 | USA 9
+  server: 51.81.223.225
+  port: 11094
+  type: vless
+  uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 9dnXiXxP4xgvtTVRj9SBFdyO6mjGvVhWD8qVZZLCCCk
+    short-id: a356addf
+  servername: www.yahoo.com
+  client-fingerprint: chrome
+  network: tcp
 - name: 🇺🇸 美国 | USA 26
   server: inbound.sled019fd6eb-369f.rfsconfig.com
   port: 2691
@@ -365,19 +389,6 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇺🇸 美国 | USA 9
-  server: 51.81.223.225
-  port: 11094
-  type: vless
-  uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: 9dnXiXxP4xgvtTVRj9SBFdyO6mjGvVhWD8qVZZLCCCk
-    short-id: a356addf
-  servername: www.yahoo.com
-  client-fingerprint: chrome
-  network: tcp
 - name: 🇺🇸 美国 | USA 20
   server: k2.cloud--vpn.site
   port: 443
@@ -602,18 +613,19 @@ proxies:
   client-fingerprint: qq
   network: tcp
   udp: true
-- name: 🇨🇦 加拿大 | CAN 2
-  server: 99.79.128.42
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 🇬🇧 英国 | GBR 4
   server: 35.178.103.18
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 🇩🇪 德国 | DEU 2
+  server: 130.61.40.100
+  port: 59924
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: jeFxHeDLdS3v1c6txqm38GivrrSQFTuxRBft80ewg6Q=
+  udp: true
 - name: 🇮🇳 印度 | IND
   server: hk03.ccdn3.work
   port: 753
@@ -628,6 +640,12 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
+- name: 🇨🇦 加拿大 | CAN 2
+  server: 99.79.128.42
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 🇳🇱 荷兰 | NLD 8
   server: 85.155.226.168
   port: 443
@@ -683,6 +701,13 @@ proxies:
   servername: getsavesafe.net
   client-fingerprint: chrome
   network: tcp
+- name: 🇬🇧 英国 | GBR 9
+  server: 129.151.80.36
+  port: 61312
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: ztWQ/Cl3aqqvDwxiDYlh/xFqmmD7O5ZhwJM5V7WTgxI=
+  udp: true
 - name: 🇳🇱 荷兰 | NLD 4
   server: 69.46.46.39
   port: 443
@@ -699,13 +724,6 @@ proxies:
     headers:
       Host: tagh-production-kjdbd.up.railway.app
   udp: true
-- name: 🇬🇧 英国 | GBR 9
-  server: 129.151.80.36
-  port: 61312
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: ztWQ/Cl3aqqvDwxiDYlh/xFqmmD7O5ZhwJM5V7WTgxI=
-  udp: true
 - name: 🇰🇷 韩国 | KOR 3
   server: 8mc0z4qk-7n2r-5t9x-0r6p-3a4w8k1d9e2.edge.ccdn3.work
   port: 20158
@@ -720,6 +738,12 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
+- name: 🇨🇦 加拿大 | CAN
+  server: 15.222.248.181
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 🇸🇪 瑞典 | SWE 2
   server: mmdpenelmmdxx.vahidzhv.ir
   port: 1232
@@ -734,12 +758,6 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇨🇦 加拿大 | CAN
-  server: 15.222.248.181
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 🇹🇼 🇨🇳 台湾 | TWN 3
   server: hk05.ccdn3.work
   port: 762
@@ -754,6 +772,12 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
+- name: 🇩🇪 德国 | DEU 3
+  server: mn.qwer-cn.org
+  port: 10910
+  type: ss
+  cipher: aes-128-gcm
+  password: adbc1e8c-184e-4d02-b0e0-f0cb70b377df
 - name: 🇵🇱PL波兰丨yoyapai.com
   type: vless
   server: 144.31.171.143
@@ -776,6 +800,12 @@ proxies:
   password: oZIoA69Q8yhcQV8ka3Pa3A
   skip-cert-verify: true
   udp: true
+- name: 🇦🇺 澳大利亚 | AUS
+  server: mn.qwer-cn.org
+  port: 10927
+  type: ss
+  cipher: aes-128-gcm
+  password: adbc1e8c-184e-4d02-b0e0-f0cb70b377df
 - name: 🇦🇺 澳大利亚 | AUS 2
   server: inbound.sled019fd6eb-369f.rfsconfig.com
   port: 2570
@@ -790,6 +820,18 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
+- name: 🇹🇼 🇨🇳 台湾 | TWN 2
+  server: mn.qwer-cn.org
+  port: 10936
+  type: ss
+  cipher: aes-128-gcm
+  password: adbc1e8c-184e-4d02-b0e0-f0cb70b377df
+- name: 🇵🇭 菲律宾 | PHL
+  server: mn.qwer-cn.org
+  port: 10917
+  type: ss
+  cipher: aes-128-gcm
+  password: adbc1e8c-184e-4d02-b0e0-f0cb70b377df
 - name: 🇷🇺RU俄罗斯丨yoyapai.com
   type: vless
   server: 78.159.247.253
@@ -812,12 +854,6 @@ proxies:
   auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
   sni: vpn-ca-002.fastervpn.world
   skip-cert-verify: true
-- name: 🇧🇷 巴西 | BRA
-  server: 137.131.228.121
-  port: 59319
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 55nlrXTkb08jPEwboRS7GOlM3LiBb4sqMGC0wmvKhw0=
 - name: 🇬🇧 英国 | GBR 7
   server: kkvlvvq-a.catcat321.com
   port: 20006
@@ -840,6 +876,12 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
+- name: 🇧🇷 巴西 | BRA
+  server: 137.131.228.121
+  port: 59319
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 55nlrXTkb08jPEwboRS7GOlM3LiBb4sqMGC0wmvKhw0=
 - name: 🇰🇿 哈萨克斯坦 | KAZ
   server: 194.238.42.191
   port: 443
@@ -854,14 +896,12 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
-- name: 🇩🇪 德国 | DEU 4
-  server: 185.230.44.170
-  port: 9443
-  type: hysteria2
-  password: e5gqbtu97umt992j
-  auth: e5gqbtu97umt992j
-  sni: 185.230.44.170
-  skip-cert-verify: true
+- name: 🇬🇧 英国 | GBR 2
+  server: mn.qwer-cn.org
+  port: 10929
+  type: ss
+  cipher: aes-128-gcm
+  password: adbc1e8c-184e-4d02-b0e0-f0cb70b377df
 - name: 🇲🇾 马来西亚 | MYS
   server: 47.250.84.25
   port: 443
@@ -900,12 +940,6 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇳🇱 荷兰 | NLD 2
-  server: 134.98.143.145
-  port: 45819
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 2cGVRLlm5ZdqSr9Bxbq3stoSrplHdU5eTwja/F0w/b8=
 - name: 🇲🇴 澳门 | MAC
   server: jpaws.ccwink.photos
   port: 6897
@@ -1011,20 +1045,6 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇹🇭 Thailand泰国丨yoyapai.com
-  type: vless
-  server: 18.239.134.69
-  port: 80
-  uuid: de27291c-15a9-4256-9ba7-ad517569877e
-  network: ws
-  tls: false
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
-  skip-cert-verify: true
-  udp: true
 - name: 🇬🇧 英国 | GBR
   server: hkdcrtc-e.catcat321.com
   port: 20116
@@ -1046,34 +1066,12 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
-- name: 🇳🇱 荷兰 | NLD 5
-  server: hgvh-production.up.railway.app
-  port: 443
-  type: vless
-  uuid: 4a09b051-3e49-425a-9fd3-1f074d7e587a
-  tls: true
-  alpn:
-  - http/1.1
-  servername: hgvh-production.up.railway.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws/4a09b051-3e49-425a-9fd3-1f074d7e587a
-    headers:
-      Host: hgvh-production.up.railway.app
-  udp: true
-- name: 🇬🇧 英国 | GBR 8
-  server: 13.135.252.176
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
 proxy-groups:
 - name: AUTO-FAST
   type: url-test
   proxies:
+  - 🇭🇰 香港 | HKG 7
   - 🇭🇰 香港 | HKG 6
-  - 🇸🇬 新加坡 | SGP 13
   - 🇯🇵 日本 | JPN 5
   - 🇭🇰 香港 | HKG 2
   - 🇭🇰 香港 | HKG 4
@@ -1082,6 +1080,7 @@ proxy-groups:
   - 🇸🇬 新加坡 | SGP 11
   - 🇭🇰 香港 | HKG 3
   - 🇸🇬 新加坡 | SGP 5
+  - 🇯🇵 日本 | JPN 8
   - 🇯🇵 日本 | JPN 9
   - 🇯🇵 日本 | JPN 7
   - 🇸🇬 新加坡 | SGP 7
@@ -1095,11 +1094,13 @@ proxy-groups:
   - 🇸🇬 新加坡 | SGP 2
   - 🇭🇰 香港 | HKG 11
   - 🇸🇬 新加坡 | SGP 9
+  - 🇯🇵 日本 | JPN
   - 🇸🇬 新加坡 | SGP 4
   - 🇭🇰 香港 | HKG 8
+  - 🇸🇬 新加坡 | SGP 12
   - 🇺🇸US美國丨yoyapai.com_6
-  - 🇺🇸 美国 | USA 26
   - 🇺🇸 美国 | USA 9
+  - 🇺🇸 美国 | USA 26
   - 🇺🇸 美国 | USA 20
   - 🇺🇸 美国 | USA 25
   - 🇺🇸 美国 | USA 16
@@ -1117,34 +1118,38 @@ proxy-groups:
   - 🇺🇸 美国 | USA 23
   - 🇺🇸 美国 | USA 22
   - 🇳🇱 荷兰 | NLD 7
-  - 🇨🇦 加拿大 | CAN 2
   - 🇬🇧 英国 | GBR 4
+  - 🇩🇪 德国 | DEU 2
   - 🇮🇳 印度 | IND
+  - 🇨🇦 加拿大 | CAN 2
   - 🇳🇱 荷兰 | NLD 8
   - 🇬🇧 英国 | GBR 6
   - 🇰🇷 韩国 | KOR 2
   - 🇳🇱 荷兰 | NLD
-  - 🇳🇱 荷兰 | NLD 4
   - 🇬🇧 英国 | GBR 9
+  - 🇳🇱 荷兰 | NLD 4
   - 🇰🇷 韩国 | KOR 3
-  - 🇸🇪 瑞典 | SWE 2
   - 🇨🇦 加拿大 | CAN
+  - 🇸🇪 瑞典 | SWE 2
   - 🇹🇼 🇨🇳 台湾 | TWN 3
+  - 🇩🇪 德国 | DEU 3
   - 🇵🇱PL波兰丨yoyapai.com
   - 🇳🇱_NL荷蘭丨yoyapai.com
+  - 🇦🇺 澳大利亚 | AUS
   - 🇦🇺 澳大利亚 | AUS 2
+  - 🇹🇼 🇨🇳 台湾 | TWN 2
+  - 🇵🇭 菲律宾 | PHL
   - 🇷🇺RU俄罗斯丨yoyapai.com
   - 🇨🇦 加拿大 | CAN 3
-  - 🇧🇷 巴西 | BRA
   - 🇬🇧 英国 | GBR 7
   - 🇸🇪 瑞典 | SWE
+  - 🇧🇷 巴西 | BRA
   - 🇰🇿 哈萨克斯坦 | KAZ
-  - 🇩🇪 德国 | DEU 4
+  - 🇬🇧 英国 | GBR 2
   - 🇲🇾 马来西亚 | MYS
   - 🇪🇪爱沙尼亚丨yoyapai.com
   - 🇰🇷 韩国 | KOR
   - 🇫🇷 法国 | FRA
-  - 🇳🇱 荷兰 | NLD 2
   - 🇲🇴 澳门 | MAC
   - 🇩🇪 德国 | DEU
   - 🇱🇻 拉脱维亚 | LVA
@@ -1153,16 +1158,14 @@ proxy-groups:
   - 🇳🇱 荷兰 | NLD 9
   - 🇻🇳 越南 | VNM
   - 🇬🇧 英国 | GBR 3
-  - 🇹🇭 Thailand泰国丨yoyapai.com
   - 🇬🇧 英国 | GBR
   - 🇬🇧 英国 | GBR 5
-  - 🇳🇱 荷兰 | NLD 5
-  - 🇬🇧 英国 | GBR 8
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: HK-POOL
   type: url-test
   proxies:
+  - 🇭🇰 香港 | HKG 7
   - 🇭🇰 香港 | HKG 6
   - 🇭🇰 香港 | HKG 2
   - 🇭🇰 香港 | HKG 4
@@ -1179,17 +1182,19 @@ proxy-groups:
   proxies:
   - 🇯🇵 日本 | JPN 5
   - 🇯🇵 日本 | JPN 11
+  - 🇯🇵 日本 | JPN 8
   - 🇯🇵 日本 | JPN 9
   - 🇯🇵 日本 | JPN 7
   - 🇯🇵 日本 | JPN 6
+  - 🇯🇵 日本 | JPN
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: US-POOL
   type: url-test
   proxies:
   - 🇺🇸US美國丨yoyapai.com_6
-  - 🇺🇸 美国 | USA 26
   - 🇺🇸 美国 | USA 9
+  - 🇺🇸 美国 | USA 26
   - 🇺🇸 美国 | USA 20
   - 🇺🇸 美国 | USA 25
   - 🇺🇸 美国 | USA 16
@@ -1212,22 +1217,23 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇺🇸US美国丨yoyapai.com
-  - 🇺🇸 美国 | USA 27
   - 🇨🇦 加拿大 | CAN
-  - 🇺🇸 美国 | USA 16
-  - 🇺🇸 美国 | USA 25
-  - 🇨🇦 加拿大 | CAN 2
-  - 🇺🇸 美国 | USA 24
-  - 🇺🇸 美国 | USA 7
-  - 🇺🇸 美国 | USA 22
-  - 🇺🇸US美國丨yoyapai.com_6
   - 🇺🇸 美国 | USA 19
-  - 🇺🇸 美国 | USA 15
+  - 🇺🇸 美国 | USA 22
+  - 🇺🇸 美国 | USA 27
+  - 🇺🇸 美国 | USA 16
+  - 🇺🇸 美国 | USA 24
+  - 🇺🇸 美国 | USA 25
+  - 🇺🇸US美國丨yoyapai.com_6
+  - 🇺🇸 美国 | USA 7
   - 🇨🇦 加拿大 | CAN 3
-  - 🇬🇧 英国 | GBR 4
+  - 🇺🇸 美国 | USA 15
   - 🇺🇸 美国 | USA 9
-  - 🇳🇱 荷兰 | NLD 2
-  - 🇬🇧 英国 | GBR 8
+  - 🇬🇧 英国 | GBR 4
+  - 🇬🇧 英国 | GBR 9
+  - 🇳🇱_NL荷蘭丨yoyapai.com
+  - 🇳🇱 荷兰 | NLD 8
+  - 🇳🇱 荷兰 | NLD
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
