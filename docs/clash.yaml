@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-08-23T17:18:11.775850+00:00'
+generated-at: '2026-08-23T17:45:16.130748+00:00'
 proxies:
 - name: 🇭🇰 香港 | HKG 7
   server: mn.qwer-cn.org
@@ -66,12 +66,6 @@ proxies:
   auth: 2544ad8a388f1b7e6d1c878f5a7d121c
   sni: www.bing.com
   skip-cert-verify: true
-- name: 🇯🇵 日本 | JPN 8
-  server: mn.qwer-cn.org
-  port: 10925
-  type: ss
-  cipher: aes-128-gcm
-  password: adbc1e8c-184e-4d02-b0e0-f0cb70b377df
 - name: 🇯🇵 日本 | JPN 9
   server: 45.66.218.187
   port: 50159
@@ -86,6 +80,12 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
+- name: 🇯🇵 日本 | JPN 8
+  server: mn.qwer-cn.org
+  port: 10925
+  type: ss
+  cipher: aes-128-gcm
+  password: adbc1e8c-184e-4d02-b0e0-f0cb70b377df
 - name: 🇯🇵 日本 | JPN 7
   server: jpaws.ccwink.photos
   port: 53225
@@ -155,6 +155,19 @@ proxies:
   type: ss
   cipher: aes-128-gcm
   password: adbc1e8c-184e-4d02-b0e0-f0cb70b377df
+- name: 🇺🇸 美国 | USA 9
+  server: 51.81.223.225
+  port: 11094
+  type: vless
+  uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 9dnXiXxP4xgvtTVRj9SBFdyO6mjGvVhWD8qVZZLCCCk
+    short-id: a356addf
+  servername: www.yahoo.com
+  client-fingerprint: chrome
+  network: tcp
 - name: 🇺🇸US美國丨yoyapai.com_6
   type: vless
   server: support.zoom.us
@@ -170,6 +183,19 @@ proxies:
       Host: support.zoom.us.yxls.eu.cc
   skip-cert-verify: true
   udp: true
+- name: 🇺🇸 美国 | USA 25
+  server: 192.220.55.133
+  port: 443
+  type: vless
+  uuid: a54fec73-26a1-4c05-b948-6a01c157927e
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: HCa-dCIFGG7LF3wPOBlrRzk_T1m-YIkhmupepQy0bzI
+    short-id: 616ead1cdc4486ca
+  servername: www.apple.com
+  client-fingerprint: chrome
+  network: tcp
 - name: 🇺🇸 美国 | USA 24
   server: 179.255.158.151
   port: 50160
@@ -192,45 +218,6 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇺🇸US美国丨yoyapai.com
-  type: trojan
-  server: 216.24.57.7
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  alpn:
-  - http/1.1
-  skip-cert-verify: true
-  tls: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 🇺🇸 美国 | USA 25
-  server: 192.220.55.133
-  port: 443
-  type: vless
-  uuid: a54fec73-26a1-4c05-b948-6a01c157927e
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: HCa-dCIFGG7LF3wPOBlrRzk_T1m-YIkhmupepQy0bzI
-    short-id: 616ead1cdc4486ca
-  servername: www.apple.com
-  client-fingerprint: chrome
-  network: tcp
-- name: 🇺🇸 美国 | USA 9
-  server: 51.81.223.225
-  port: 11094
-  type: vless
-  uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: 9dnXiXxP4xgvtTVRj9SBFdyO6mjGvVhWD8qVZZLCCCk
-    short-id: a356addf
-  servername: www.yahoo.com
-  client-fingerprint: chrome
-  network: tcp
 - name: 🇺🇸 美国 | USA 7
   server: 34.222.2.182
   port: 50159
@@ -244,6 +231,14 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: chrome
   network: tcp
+- name: 🇺🇸 美国 | USA 5
+  server: 82.39.214.95
+  port: 8443
+  type: hysteria2
+  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
+  auth: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
+  sni: hopp-us.yyuyy.com
+  skip-cert-verify: true
 - name: 🇺🇸 美国 | USA 19
   server: 172.64.146.211
   port: 2087
@@ -257,28 +252,6 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  udp: true
-- name: 🇺🇸 美国 | USA 5
-  server: 82.39.214.95
-  port: 8443
-  type: hysteria2
-  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
-  auth: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
-  sni: hopp-us.yyuyy.com
-  skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 27
-  server: 104.17.22.240
-  port: 443
-  type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  tls: true
-  servername: hhlfy.twiladaphne.ndjp.net
-  client-fingerprint: random
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
   udp: true
 - name: 🇺🇸 美国 | USA
   server: 172.67.118.45
@@ -334,19 +307,32 @@ proxies:
     short-id: 0b
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸 美国 | USA 22
-  server: 104.19.32.132
-  port: 8443
+- name: 🇺🇸 美国 | USA 27
+  server: 104.17.22.240
+  port: 443
   type: vless
-  uuid: 2b181a3a-c001-4145-845a-5d43a43837d5
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   tls: true
-  servername: vpn-1fj.pages.dev
-  client-fingerprint: chrome
+  servername: hhlfy.twiladaphne.ndjp.net
+  client-fingerprint: random
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: vpn-1fj.pages.dev
+      Host: hhlfy.twiladaphne.ndjp.net
+  udp: true
+- name: 🇺🇸US美国丨yoyapai.com
+  type: trojan
+  server: 216.24.57.7
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  tls: true
+  ws-opts:
+    path: /assignment
   udp: true
 - name: 🇳🇱 荷兰 | NLD 7
   server: 85.155.226.137
@@ -369,14 +355,14 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: jeFxHeDLdS3v1c6txqm38GivrrSQFTuxRBft80ewg6Q=
   udp: true
-- name: 🇬🇧 英国 | GBR 4
-  server: 35.178.103.18
+- name: 🇨🇦 加拿大 | CAN 2
+  server: 99.79.128.42
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇨🇦 加拿大 | CAN 2
-  server: 99.79.128.42
+- name: 🇬🇧 英国 | GBR 4
+  server: 35.178.103.18
   port: 443
   type: ss
   cipher: aes-256-cfb
@@ -408,20 +394,6 @@ proxies:
   servername: getsavesafe.net
   client-fingerprint: chrome
   network: tcp
-- name: 🇸🇪 瑞典 | SWE 2
-  server: mmdpenelmmdxx.vahidzhv.ir
-  port: 1232
-  type: vless
-  uuid: 5bf26e14-1802-4bec-bda8-d67c3a60c81f
-  tls: true
-  encryption: mlkem768x25519plus.native.0rtt.vE3bjfrVq9mR1HwCKhpfeg6F2bBkUH1P60FAIoYotR4
-  reality-opts:
-    public-key: gsAIY6awZoaQweyTekhech-LzBNdvZa6d8LqbwpJhBc
-    short-id: 9a90d8c57f249443
-  servername: adl.windows.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
 - name: 🇨🇦 加拿大 | CAN
   server: 15.222.248.181
   port: 443
@@ -627,36 +599,34 @@ proxy-groups:
   - 🇸🇬 新加坡 | SGP 10
   - 🇸🇬 新加坡 | SGP 11
   - 🇸🇬 新加坡 | SGP 5
-  - 🇯🇵 日本 | JPN 8
   - 🇯🇵 日本 | JPN 9
+  - 🇯🇵 日本 | JPN 8
   - 🇯🇵 日本 | JPN 7
   - 🇯🇵 日本 | JPN 6
   - 🇸🇬SG新加坡丨yoyapai.com_1
   - 🇸🇬 新加坡 | SGP 2
   - 🇯🇵 日本 | JPN
   - 🇸🇬 新加坡 | SGP 12
+  - 🇺🇸 美国 | USA 9
   - 🇺🇸US美國丨yoyapai.com_6
+  - 🇺🇸 美国 | USA 25
   - 🇺🇸 美国 | USA 24
   - 🇺🇸 美国 | USA 16
-  - 🇺🇸US美国丨yoyapai.com
-  - 🇺🇸 美国 | USA 25
-  - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA 7
-  - 🇺🇸 美国 | USA 19
   - 🇺🇸 美国 | USA 5
-  - 🇺🇸 美国 | USA 27
+  - 🇺🇸 美国 | USA 19
   - 🇺🇸 美国 | USA
   - 🇺🇸 美国 | USA 10
   - 🇺🇸 美国 | USA 13
   - 🇺🇸 美國節點丨yoyapai.com
-  - 🇺🇸 美国 | USA 22
+  - 🇺🇸 美国 | USA 27
+  - 🇺🇸US美国丨yoyapai.com
   - 🇳🇱 荷兰 | NLD 7
   - 🇩🇪 德国 | DEU 2
-  - 🇬🇧 英国 | GBR 4
   - 🇨🇦 加拿大 | CAN 2
+  - 🇬🇧 英国 | GBR 4
   - 🇳🇱 荷兰 | NLD 8
   - 🇳🇱 荷兰 | NLD
-  - 🇸🇪 瑞典 | SWE 2
   - 🇨🇦 加拿大 | CAN
   - 🇩🇪 德国 | DEU 3
   - 🇵🇱PL波兰丨yoyapai.com
@@ -691,8 +661,8 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇯🇵 日本 | JPN 5
-  - 🇯🇵 日本 | JPN 8
   - 🇯🇵 日本 | JPN 9
+  - 🇯🇵 日本 | JPN 8
   - 🇯🇵 日本 | JPN 7
   - 🇯🇵 日本 | JPN 6
   - 🇯🇵 日本 | JPN
@@ -701,37 +671,36 @@ proxy-groups:
 - name: US-POOL
   type: url-test
   proxies:
+  - 🇺🇸 美国 | USA 9
   - 🇺🇸US美國丨yoyapai.com_6
+  - 🇺🇸 美国 | USA 25
   - 🇺🇸 美国 | USA 24
   - 🇺🇸 美国 | USA 16
-  - 🇺🇸US美国丨yoyapai.com
-  - 🇺🇸 美国 | USA 25
-  - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA 7
-  - 🇺🇸 美国 | USA 19
   - 🇺🇸 美国 | USA 5
-  - 🇺🇸 美国 | USA 27
+  - 🇺🇸 美国 | USA 19
   - 🇺🇸 美国 | USA
   - 🇺🇸 美国 | USA 10
   - 🇺🇸 美国 | USA 13
   - 🇺🇸 美國節點丨yoyapai.com
-  - 🇺🇸 美国 | USA 22
+  - 🇺🇸 美国 | USA 27
+  - 🇺🇸US美国丨yoyapai.com
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: AI-POOL
   type: url-test
   proxies:
   - 🇺🇸US美国丨yoyapai.com
+  - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA 27
-  - 🇺🇸 美国 | USA 24
   - 🇺🇸 美国 | USA 19
   - 🇺🇸US美國丨yoyapai.com_6
-  - 🇺🇸 美国 | USA 16
-  - 🇺🇸 美国 | USA 25
-  - 🇺🇸 美国 | USA 22
   - 🇺🇸 美国 | USA 7
-  - 🇨🇦 加拿大 | CAN
+  - 🇺🇸 美国 | USA 25
+  - 🇺🇸 美国 | USA 24
+  - 🇺🇸 美国 | USA 16
   - 🇨🇦 加拿大 | CAN 2
+  - 🇨🇦 加拿大 | CAN 3
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
