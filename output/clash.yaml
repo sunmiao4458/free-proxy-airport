@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-08-24T12:42:44.880833+00:00'
+generated-at: '2026-08-24T13:49:18.650459+00:00'
 proxies:
 - name: 🇭🇰 香港 | HKG 3
   server: 202.155.141.87
@@ -84,20 +84,6 @@ proxies:
   auth: 3e8790e4fb6629aa819217d9655eafa3
   sni: www.bing.com
   skip-cert-verify: true
-- name: 🇭🇰 香港 | HKG 8
-  server: 43.161.225.44
-  port: 443
-  type: vless
-  uuid: 904183f1-0495-478b-b11f-1fe12e84ad8b
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: j0mfhbzohqV1W_PaNeYyKEVuaiK1-A9k2AQJQK7ZDzQ
-    short-id: 4aeab483de4dd53a
-  servername: www.apple.com
-  client-fingerprint: firefox
-  network: tcp
-  udp: true
 - name: 🇺🇸 美国 | USA 11
   server: 51.81.223.225
   port: 11094
@@ -126,12 +112,6 @@ proxies:
       Host: support.zoom.us.yxls.eu.cc
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸 美国 | USA 3
-  server: 129.146.113.93
-  port: 50356
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: fLNIIbHAv/g58k4JwMx87hCjA8+Uod3DuU7fo6yi1Bk=
 - name: 🇺🇸 美国 | USA 4
   server: 104.16.150.130
   port: 2087
@@ -257,6 +237,13 @@ proxies:
   auth: e5gqbtu97umt992j
   sni: 185.230.44.170
   skip-cert-verify: true
+- name: 🇰🇷 韩国 | KOR 2
+  server: 49.254.204.133
+  port: 1774
+  type: ss
+  cipher: aes-256-cfb
+  password: 1234!@#$
+  udp: true
 - name: 🇬🇧 英国 | GBR 6
   server: 78.129.150.216
   port: 443
@@ -407,12 +394,6 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇧🇷 巴西 | BRA
-  server: 64.181.171.113
-  port: 59319
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: OYAoH+Rfx3SHm6POtoPiRHDXs/hWB8AviM1xxUek39c=
 - name: 🇩🇪 德国 | DEU 4
   server: 130.61.145.58
   port: 59924
@@ -541,20 +522,6 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
-- name: 🇹🇭 Thailand泰国丨yoyapai.com
-  type: vless
-  server: 18.239.134.69
-  port: 80
-  uuid: de27291c-15a9-4256-9ba7-ad517569877e
-  network: ws
-  tls: false
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
-  skip-cert-verify: true
-  udp: true
 - name: 🇬🇧 英国 | GBR
   server: 94.156.250.67
   port: 55000
@@ -600,10 +567,8 @@ proxy-groups:
   - 🇭🇰 香港 | HKG
   - 🇸🇬 新加坡 | SGP 2
   - 🇯🇵 日本 | JPN
-  - 🇭🇰 香港 | HKG 8
   - 🇺🇸 美国 | USA 11
   - 🇺🇸US美國丨yoyapai.com_6
-  - 🇺🇸 美国 | USA 3
   - 🇺🇸 美国 | USA 4
   - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA
@@ -615,6 +580,7 @@ proxy-groups:
   - 🇨🇦 加拿大 | CAN 2
   - 🇬🇧 英国 | GBR 4
   - 🇩🇪 德国 | DEU 2
+  - 🇰🇷 韩国 | KOR 2
   - 🇬🇧 英国 | GBR 6
   - 🇩🇪 德国 | DEU 7
   - 🇳🇱 荷兰 | NLD
@@ -628,7 +594,6 @@ proxy-groups:
   - 🇨🇭 瑞士 | CHE
   - 🇵🇱 波兰 | POL 2
   - 🇨🇦 加拿大 | CAN 3
-  - 🇧🇷 巴西 | BRA
   - 🇩🇪 德国 | DEU 4
   - 🇬🇧 英国 | GBR 2
   - 🇫🇷 法国 | FRA 4
@@ -643,7 +608,6 @@ proxy-groups:
   - 🇳🇴 挪威 | NOR
   - 🇬🇧 英国 | GBR 3
   - 🇦🇱 AL_43
-  - 🇹🇭 Thailand泰国丨yoyapai.com
   - 🇬🇧 英国 | GBR
   - 🇳🇱 荷兰 | NLD 5
   - 🇪🇸 西班牙 | ESP
@@ -654,7 +618,6 @@ proxy-groups:
   proxies:
   - 🇭🇰 香港 | HKG 3
   - 🇭🇰 香港 | HKG
-  - 🇭🇰 香港 | HKG 8
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: JP-POOL
@@ -669,7 +632,6 @@ proxy-groups:
   proxies:
   - 🇺🇸 美国 | USA 11
   - 🇺🇸US美國丨yoyapai.com_6
-  - 🇺🇸 美国 | USA 3
   - 🇺🇸 美国 | USA 4
   - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA
@@ -686,12 +648,12 @@ proxy-groups:
   - 🇺🇸US美国丨yoyapai.com
   - 🇨🇦 加拿大 | CAN
   - 🇨🇦 加拿大 | CAN 4
-  - 🇺🇸 美国 | USA 5
   - 🇨🇦 加拿大 | CAN 2
-  - 🇺🇸 美国 | USA 10
+  - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA 4
-  - 🇺🇸 美国 | USA 3
+  - 🇺🇸 美国 | USA 10
   - 🇨🇦 加拿大 | CAN 3
+  - 🇬🇧 英国 | GBR 2
   - 🇬🇧 英国 | GBR 4
   url: http://www.gstatic.com/generate_204
   interval: 120
