@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-08-24T19:26:31.468238+00:00'
+generated-at: '2026-08-24T19:55:20.976588+00:00'
 proxies:
 - name: 🇭🇰 香港 | HKG 7
   server: 154.3.35.200
@@ -47,6 +47,13 @@ proxies:
     short-id: e53048e82bb20077
   skip-cert-verify: true
   udp: true
+- name: 🇸🇬 新加坡 | SGP 2
+  server: 129.150.48.175
+  port: 56927
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 8C+C41HLztRjvq+sf6K94V2i+6SYGHN/ldg2UttNNY4=
+  udp: true
 - name: 🇭🇰 香港 | HKG 9
   server: 155.254.122.234
   port: 8443
@@ -60,13 +67,6 @@ proxies:
     path: /sg-melbi/
     headers:
       Host: josni.hoyes.cloudns.ch
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 2
-  server: 129.150.48.175
-  port: 56927
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 8C+C41HLztRjvq+sf6K94V2i+6SYGHN/ldg2UttNNY4=
   udp: true
 - name: 🇸🇬 新加坡 | SGP 4
   server: 138.2.87.37
@@ -198,6 +198,13 @@ proxies:
   type: ss
   cipher: 2022-blake3-chacha20-poly1305
   password: rccNBXGUPgDWHLt9USQQukjqF2JvS5yU+TUxLxL473Y=
+  udp: true
+- name: 🇩🇪 德国 | DEU 2
+  server: 45.95.2.25
+  port: 8388
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: MzcxY
   udp: true
 - name: 🇬🇧 英国 | GBR 4
   server: 129.151.74.128
@@ -393,6 +400,12 @@ proxies:
   tls: false
   network: tcp
   udp: true
+- name: 🇬🇧 英国 | GBR 7
+  server: 13.135.73.177
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 🇸🇪 瑞典 | SWE
   server: 176.109.108.83
   port: 9830
@@ -479,23 +492,19 @@ proxies:
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: 🇳🇱 荷兰 | NLD 5
-  server: inetchnl-production-1330.up.railway.app
-  port: 443
+- name: 🇹🇭 Thailand泰国丨yoyapai.com
   type: vless
-  uuid: 2c7eacb3-58ea-7851-9cf0-2fd8469fc0a3
-  tls: true
-  alpn:
-  - h2
-  - http/1.1
-  - h3
-  servername: inetchnl-production-1330.up.railway.app
-  client-fingerprint: chrome
+  server: 18.239.134.69
+  port: 80
+  uuid: de27291c-15a9-4256-9ba7-ad517569877e
   network: ws
+  tls: false
+  client-fingerprint: chrome
   ws-opts:
-    path: /ws/2c7eacb3-58ea-7851-9cf0-2fd8469fc0a3
+    path: /
     headers:
-      Host: inetchnl-production-1330.up.railway.app
+      Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
+  skip-cert-verify: true
   udp: true
 proxy-groups:
 - name: AUTO-FAST
@@ -505,8 +514,8 @@ proxy-groups:
   - 🇯🇵 日本 | JPN 5
   - 🇯🇵 日本 | JPN 7
   - 🇸🇬SG新加坡丨yoyapai.com_1
-  - 🇭🇰 香港 | HKG 9
   - 🇸🇬 新加坡 | SGP 2
+  - 🇭🇰 香港 | HKG 9
   - 🇸🇬 新加坡 | SGP 4
   - 🇺🇸US美國丨yoyapai.com_6
   - 🇺🇸 美国 | USA 25
@@ -518,6 +527,7 @@ proxy-groups:
   - 🇺🇸 美国 | USA 2
   - 🇨🇦 加拿大 | CAN 2
   - 🇳🇱 荷兰 | NLD 7
+  - 🇩🇪 德国 | DEU 2
   - 🇬🇧 英国 | GBR 4
   - 🇧🇪 比利时 | BEL
   - 🇬🇧 英国 | GBR 6
@@ -535,6 +545,7 @@ proxy-groups:
   - 🇨🇭 瑞士 | CHE 2
   - 🇵🇱 波兰 | POL 2
   - 🇳🇱 荷兰 | NLD 11
+  - 🇬🇧 英国 | GBR 7
   - 🇸🇪 瑞典 | SWE
   - 🇬🇧 英国 | GBR 2
   - 🇫🇷 法国 | FRA
@@ -544,7 +555,7 @@ proxy-groups:
   - 🇩🇪 德国 | DEU
   - 🇳🇱 荷兰 | NLD 3
   - 🇬🇧 英国 | GBR
-  - 🇳🇱 荷兰 | NLD 5
+  - 🇹🇭 Thailand泰国丨yoyapai.com
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: HK-POOL
@@ -580,10 +591,11 @@ proxy-groups:
   - 🇺🇸US美国丨yoyapai.com
   - 🇨🇦 加拿大 | CAN 2
   - 🇺🇸 美国 | USA 25
+  - 🇺🇸US美國丨yoyapai.com_6
   - 🇺🇸 美国 | USA 15
   - 🇺🇸 美国 | USA 24
+  - 🇨🇦 加拿大 | CAN
   - 🇮🇪 爱尔兰 | IRL
-  - 🇨🇴 哥伦比亚 | COL
   - 🇬🇧 英国 | GBR
   url: http://www.gstatic.com/generate_204
   interval: 120
