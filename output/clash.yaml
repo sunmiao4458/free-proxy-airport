@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-08-24T20:26:37.205458+00:00'
+generated-at: '2026-08-24T20:59:14.561307+00:00'
 proxies:
 - name: 🇭🇰 香港 | HKG 7
   server: 154.3.35.200
@@ -75,6 +75,19 @@ proxies:
       Host: support.zoom.us.yxls.eu.cc
   skip-cert-verify: true
   udp: true
+- name: 🇺🇸US美国丨yoyapai.com
+  type: trojan
+  server: 216.24.57.7
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  tls: true
+  ws-opts:
+    path: /assignment
+  udp: true
 - name: 🇺🇸 美國節點丨yoyapai.com
   type: vless
   server: 45.155.52.231
@@ -101,33 +114,12 @@ proxies:
     headers:
       Host: _acme-challenge.sb.cloudns.biz
   udp: true
-- name: 🇺🇸US美国丨yoyapai.com
-  type: trojan
-  server: 216.24.57.7
+- name: 🇨🇦 加拿大 | CAN 2
+  server: 99.79.128.42
   port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  alpn:
-  - http/1.1
-  skip-cert-verify: true
-  tls: true
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 🇺🇸 美国 | USA 2
-  server: 31.76.61.232
-  port: 443
-  type: vless
-  uuid: 4829c2f5-f45a-4330-9b3c-d381b9efdbec
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: CMTA5uuaIVIeqHslZMT3CbFwP8F5ysMLii72ybsTlyY
-    short-id: e2a4c6b8
-  servername: policies.google.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 🇳🇱 荷兰 | NLD 7
   server: 141.148.244.61
   port: 45819
@@ -135,12 +127,6 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: rccNBXGUPgDWHLt9USQQukjqF2JvS5yU+TUxLxL473Y=
   udp: true
-- name: 🇨🇦 加拿大 | CAN 2
-  server: 99.79.128.42
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 🇬🇧 英国 | GBR 4
   server: 129.151.74.128
   port: 61312
@@ -168,30 +154,6 @@ proxies:
   type: ss
   cipher: 2022-blake3-chacha20-poly1305
   password: oNh1eL/Q4w8hzh0wY6/JPnFjFMidf6FZLhICWd1Gmok=
-- name: 🇷🇺 俄罗斯 | RUS 2
-  server: 89.248.192.63
-  port: 9894
-  type: vless
-  uuid: 14777bd9-56a5-46f6-a94f-826b4800dc05
-  tls: true
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: aabbccdd
-  servername: dl.google.com
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: grpc-tunnel
-  udp: true
-- name: 🇳🇱 荷兰 | NLD
-  server: 134.98.129.83
-  port: 62145
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-  tls: false
-  network: tcp
-  udp: true
 - name: 🇳🇱 荷兰 | NLD 4
   server: edge4.rumedia-cdn.com
   port: 8448
@@ -204,6 +166,14 @@ proxies:
     short-id: a94eb0e19d010373
   servername: www.rumedia-cdn.com
   client-fingerprint: qq
+  network: tcp
+  udp: true
+- name: 🇳🇱 荷兰 | NLD
+  server: 134.98.129.83
+  port: 62145
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  tls: false
   network: tcp
   udp: true
 - name: 🇨🇦 加拿大 | CAN
@@ -301,6 +271,19 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
+- name: 🇨🇭 瑞士 | CHE
+  server: 45.134.38.204
+  port: 8059
+  type: vless
+  uuid: a88e2744-3555-4a0a-9635-0aae23e038f8
+  tls: true
+  reality-opts:
+    public-key: hjJ1VN2xwcl1n7vrwvOspB2NFWrXNySUNPexutOVvAM
+    short-id: d3aea86e1949
+  servername: www.amd.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
 - name: 🇳🇱 荷兰 | NLD 11
   server: 158.178.152.114
   port: 62145
@@ -309,12 +292,6 @@ proxies:
   tls: false
   network: tcp
   udp: true
-- name: 🇬🇧 英国 | GBR 7
-  server: 13.135.73.177
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 🇸🇪 瑞典 | SWE
   server: 176.109.108.83
   port: 9830
@@ -419,18 +396,16 @@ proxy-groups:
   - 🇸🇬 新加坡 | SGP 2
   - 🇸🇬 新加坡 | SGP 4
   - 🇺🇸US美國丨yoyapai.com_6
+  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美國節點丨yoyapai.com
   - 🇺🇸 美国 | USA 14
-  - 🇺🇸US美国丨yoyapai.com
-  - 🇺🇸 美国 | USA 2
-  - 🇳🇱 荷兰 | NLD 7
   - 🇨🇦 加拿大 | CAN 2
+  - 🇳🇱 荷兰 | NLD 7
   - 🇬🇧 英国 | GBR 4
   - 🇳🇱 荷兰 | NLD 8
   - 🇬🇧 英国 | GBR 6
-  - 🇷🇺 俄罗斯 | RUS 2
-  - 🇳🇱 荷兰 | NLD
   - 🇳🇱 荷兰 | NLD 4
+  - 🇳🇱 荷兰 | NLD
   - 🇨🇦 加拿大 | CAN
   - 🇵🇱PL波兰丨yoyapai.com
   - 🇳🇱_NL荷蘭丨yoyapai.com
@@ -439,8 +414,8 @@ proxy-groups:
   - 🇵🇱 波兰 | POL
   - 🇨🇭 瑞士 | CHE 2
   - 🇵🇱 波兰 | POL 2
+  - 🇨🇭 瑞士 | CHE
   - 🇳🇱 荷兰 | NLD 11
-  - 🇬🇧 英国 | GBR 7
   - 🇸🇪 瑞典 | SWE
   - 🇬🇧 英国 | GBR 2
   - 🇪🇪爱沙尼亚丨yoyapai.com
@@ -470,10 +445,9 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇺🇸US美國丨yoyapai.com_6
+  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美國節點丨yoyapai.com
   - 🇺🇸 美国 | USA 14
-  - 🇺🇸US美国丨yoyapai.com
-  - 🇺🇸 美国 | USA 2
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: AI-POOL
@@ -482,9 +456,9 @@ proxy-groups:
   - 🇺🇸US美国丨yoyapai.com
   - 🇨🇦 加拿大 | CAN 2
   - 🇮🇪 爱尔兰 | IRL
+  - 🇨🇦 加拿大 | CAN
+  - 🇺🇸US美國丨yoyapai.com_6
   - 🇳🇱 荷兰 | NLD 7
-  - 🇬🇧 英国 | GBR
-  - 🇬🇧 英国 | GBR 7
   - 🇳🇱 荷兰 | NLD 11
   url: http://www.gstatic.com/generate_204
   interval: 120
