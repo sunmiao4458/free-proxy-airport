@@ -7,8 +7,22 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-09-01T21:35:04.458184+00:00'
+generated-at: '2026-09-01T23:46:43.118378+00:00'
 proxies:
+- name: 🇭🇰 香港 | HKG 7
+  server: family.bucket.zjs.h.1.0.kfc-520.com
+  port: 10022
+  type: vless
+  uuid: c2564a65-0821-3241-b090-45d49cef58fd
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: FmSty5DyZmIEu6Yg8KhYmE-JqqWxFaesDlrk9pJweS4
+    short-id: fbb093
+  servername: www.hp.com
+  client-fingerprint: firefox
+  network: tcp
+  udp: true
 - name: 🇭🇰 香港 | HKG 6
   server: hk4-r.link-t7.com
   port: 10129
@@ -24,20 +38,6 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: movie
-- name: 🇭🇰 香港 | HKG 7
-  server: family.bucket.zjs.h.1.0.kfc-520.com
-  port: 10022
-  type: vless
-  uuid: c2564a65-0821-3241-b090-45d49cef58fd
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: FmSty5DyZmIEu6Yg8KhYmE-JqqWxFaesDlrk9pJweS4
-    short-id: fbb093
-  servername: www.hp.com
-  client-fingerprint: firefox
-  network: tcp
-  udp: true
 - name: 🇭🇰 香港 | HKG 2
   server: family.bucket.zjs.h.1.0.kfc-520.com
   port: 10024
@@ -246,6 +246,18 @@ proxies:
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   udp: true
+- name: 🇺🇸US美国丨yoyapai.com
+  type: trojan
+  server: 216.24.57.7
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  alpn:
+  - http/1.1
+  skip-cert-verify: false
+  ws-opts:
+    path: /assignment
+  udp: true
 - name: 🇺🇸 美国 | USA 6
   server: 38.244.20.31
   port: 443
@@ -327,18 +339,6 @@ proxies:
   client-fingerprint: ios
   network: tcp
   udp: true
-- name: 🇺🇸US美国丨yoyapai.com
-  type: trojan
-  server: 216.24.57.7
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  alpn:
-  - http/1.1
-  skip-cert-verify: false
-  ws-opts:
-    path: /assignment
-  udp: true
 - name: 🇹🇭TH泰国丨yoyapai.com
   type: vless
   server: 18.239.134.69
@@ -405,6 +405,13 @@ proxies:
     headers:
       Host: wsnl4.wba-pn.ru
   udp: true
+- name: 🇨🇦 加拿大 | CAN
+  server: 3.96.124.46
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
 - name: 🇰🇷 韩国 | KOR 3
   server: vpn-kr-003.fastervpn.world
   port: 443
@@ -413,13 +420,6 @@ proxies:
   auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
   sni: vpn-kr-003.fastervpn.world
   skip-cert-verify: true
-- name: 🇨🇦 加拿大 | CAN
-  server: 3.96.124.46
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
 - name: 🇩🇪 德国 | DEU 3
   server: 82.24.203.10
   port: 2087
@@ -452,14 +452,6 @@ proxies:
   password: oZIoA69Q8yhcQV8ka3Pa3A
   skip-cert-verify: false
   udp: true
-- name: 🇵🇱 波兰 | POL
-  server: 2.26.148.207
-  port: 443
-  type: hysteria2
-  password: 146e49e3-c86d-4607-b5ac-acc1997f025e
-  auth: 146e49e3-c86d-4607-b5ac-acc1997f025e
-  sni: yula.ultimagamest.com
-  skip-cert-verify: true
 - name: 🇩🇪 德国 | DEU 6
   server: 162.55.242.208
   port: 2053
@@ -473,6 +465,14 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
+- name: 🇵🇱 波兰 | POL
+  server: 2.26.148.207
+  port: 443
+  type: hysteria2
+  password: 146e49e3-c86d-4607-b5ac-acc1997f025e
+  auth: 146e49e3-c86d-4607-b5ac-acc1997f025e
+  sni: yula.ultimagamest.com
+  skip-cert-verify: true
 - name: 🇩🇪DE德国丨yoyapai.com_13
   type: vless
   server: 169.40.42.229
@@ -551,8 +551,8 @@ proxy-groups:
 - name: AUTO-FAST
   type: url-test
   proxies:
-  - 🇭🇰 香港 | HKG 6
   - 🇭🇰 香港 | HKG 7
+  - 🇭🇰 香港 | HKG 6
   - 🇭🇰 香港 | HKG 2
   - 🇭🇰 香港 | HKG 4
   - 🇭🇰 香港 | HKG 3
@@ -568,25 +568,25 @@ proxy-groups:
   - 🇭🇰 香港 | HKG 8
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 7
+  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 6
   - 🇺🇸 美国 | USA
   - 🇺🇸 美国 | USA 10
   - 🇺🇸 美国 | USA 13
   - 🇺🇸 美國節點丨yoyapai.com
   - 🇺🇸 美国 | USA 14
-  - 🇺🇸US美国丨yoyapai.com
   - 🇹🇭TH泰国丨yoyapai.com
   - 🇩🇪 德国 | DEU 2
   - 🇬🇧 英国 | GBR 4
   - 🇰🇷 韩国 | KOR 2
   - 🇳🇱 荷兰 | NLD
-  - 🇰🇷 韩国 | KOR 3
   - 🇨🇦 加拿大 | CAN
+  - 🇰🇷 韩国 | KOR 3
   - 🇩🇪 德国 | DEU 3
   - 🇩🇪 德国 | DEU 5
   - 🇳🇱_NL荷蘭丨yoyapai.com
-  - 🇵🇱 波兰 | POL
   - 🇩🇪 德国 | DEU 6
+  - 🇵🇱 波兰 | POL
   - 🇩🇪DE德国丨yoyapai.com_13
   - 🇵🇱 波兰 | POL 2
   - 🇰🇷 韩国 | KOR
@@ -599,8 +599,8 @@ proxy-groups:
 - name: HK-POOL
   type: url-test
   proxies:
-  - 🇭🇰 香港 | HKG 6
   - 🇭🇰 香港 | HKG 7
+  - 🇭🇰 香港 | HKG 6
   - 🇭🇰 香港 | HKG 2
   - 🇭🇰 香港 | HKG 4
   - 🇭🇰 香港 | HKG 3
@@ -624,13 +624,13 @@ proxy-groups:
   proxies:
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 7
+  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 6
   - 🇺🇸 美国 | USA
   - 🇺🇸 美国 | USA 10
   - 🇺🇸 美国 | USA 13
   - 🇺🇸 美國節點丨yoyapai.com
   - 🇺🇸 美国 | USA 14
-  - 🇺🇸US美国丨yoyapai.com
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: AI-POOL
@@ -638,12 +638,12 @@ proxy-groups:
   proxies:
   - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 8
-  - 🇨🇦 加拿大 | CAN
   - 🇺🇸 美国 | USA 7
-  - 🇺🇸 美国 | USA 6
-  - 🇬🇧 英国 | GBR 5
+  - 🇨🇦 加拿大 | CAN
   - 🇺🇸 美国 | USA 14
-  - 🇬🇧 英国 | GBR 3
+  - 🇺🇸 美国 | USA 10
+  - 🇩🇪DE德国丨yoyapai.com_13
+  - 🇺🇸 美国 | USA 13
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
