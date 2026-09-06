@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-09-06T19:24:05.953305+00:00'
+generated-at: '2026-09-06T21:32:30.548373+00:00'
 proxies:
 - name: 🇭🇰 香港 | HKG 4
   server: v33.hdacd.com
@@ -104,35 +104,12 @@ proxies:
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
   udp: true
-- name: 🇺🇸 美国 | USA 7
-  server: 147.224.12.19
-  port: 443
-  type: hysteria2
-  password: cbb5cf13f04b22883390f1a073753123
-  auth: cbb5cf13f04b22883390f1a073753123
-  sni: www.bing.com
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: 7a5537b116d923fe572f85f1db7fe501
 - name: 🇺🇸 美国 | USA
   server: 162.159.43.187
   port: 8880
   type: vless
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  udp: true
-- name: 🇺🇸 美国 | USA 10
-  server: 162.159.38.127
-  port: 2052
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  tls: false
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
   network: ws
   ws-opts:
     path: /?ed=2560security=tls
@@ -151,6 +128,29 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
+- name: 🇺🇸 美国 | USA 10
+  server: 162.159.38.127
+  port: 2052
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  tls: false
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  udp: true
+- name: 🇺🇸 美国 | USA 7
+  server: 147.224.12.19
+  port: 443
+  type: hysteria2
+  password: cbb5cf13f04b22883390f1a073753123
+  auth: cbb5cf13f04b22883390f1a073753123
+  sni: www.bing.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 7a5537b116d923fe572f85f1db7fe501
 - name: 🇺🇸 美国 | USA 12
   server: 172.64.52.173
   port: 2087
@@ -259,6 +259,14 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
+- name: 🇳🇱 荷兰 | NLD
+  server: 92.5.225.187
+  port: 62145
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  tls: false
+  network: tcp
+  udp: true
 - name: 🇳🇱 荷兰 | NLD 4
   server: 141.144.198.50
   port: 62145
@@ -266,31 +274,6 @@ proxies:
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
   tls: false
   network: tcp
-  udp: true
-- name: 🇱🇹 立陶宛 | LTU
-  server: 188.72.103.3
-  port: 443
-  type: vless
-  uuid: 5d8cf280-e0f4-4539-b35c-7ff90659c0d0
-  tls: true
-  servername: cdnapi.streamru10.net
-  client-fingerprint: qq
-  network: xhttp
-  xhttp-opts:
-    path: /api/v74/uptodown/
-    mode: packet-up
-    seq-key: part_index
-    seq-placement: cookie
-    session-key: stream_auth
-    session-placement: cookie
-    uplink-data-placement: body
-    uplink-http-method: GET
-    x-padding-bytes: 96-1040
-    x-padding-header: X-Media-Token
-    x-padding-key: _t
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: queryInHeader
   udp: true
 - name: 🇩🇪 德国 | DEU 5
   server: 130.61.44.247
@@ -411,13 +394,6 @@ proxies:
     short-id: c39cc7310a
   skip-cert-verify: false
   udp: true
-- name: 🇳🇱 荷兰 | NLD 2
-  server: 92.5.231.206
-  port: 45819
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: E7S9NmbJuTjNpSFGXlZRWHvpRnVlnOC6wu9kUKlD8QE=
-  udp: true
 - name: 🇩🇪 德国 | DEU
   server: 5.83.129.153
   port: 20088
@@ -447,6 +423,19 @@ proxies:
     path: /assets/v2/pkg
     host: sstats.vk-portal.net
   udp: true
+- name: 🇷🇺RU俄罗斯
+  type: vmess
+  server: renderer-stream-2-62.mirra.now
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /api/v1/gpu-stream/socket
+  udp: true
 - name: 🇬🇧 英国 | GBR 3
   server: 129.151.67.2
   port: 61312
@@ -472,6 +461,13 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
+- name: 🇬🇧 英国 | GBR 5
+  server: 18.130.157.255
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
 - name: 🇬🇧 英国 | GBR 8
   server: 129.151.69.35
   port: 61312
@@ -490,10 +486,10 @@ proxy-groups:
   - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 6
-  - 🇺🇸 美国 | USA 7
   - 🇺🇸 美国 | USA
-  - 🇺🇸 美国 | USA 10
   - 🇺🇸US美国丨yoyapai.com
+  - 🇺🇸 美国 | USA 10
+  - 🇺🇸 美国 | USA 7
   - 🇺🇸 美国 | USA 12
   - 🇺🇸 美国 | USA 2
   - 🇨🇦 加拿大 | CAN 2
@@ -503,8 +499,8 @@ proxy-groups:
   - 🇬🇧 英国 | GBR 6
   - 🇩🇪 德国 | DEU 7
   - 🇲🇩 摩尔多瓦 | MDA
+  - 🇳🇱 荷兰 | NLD
   - 🇳🇱 荷兰 | NLD 4
-  - 🇱🇹 立陶宛 | LTU
   - 🇩🇪 德国 | DEU 5
   - 🇦🇹 奥地利 | AUT
   - 🇵🇱PL波兰丨yoyapai.com
@@ -517,12 +513,13 @@ proxy-groups:
   - 🇩🇪 德国 | DEU 4
   - 🇲🇾 马来西亚 | MYS
   - 🇩🇪DE德国丨yoyapai.com_11
-  - 🇳🇱 荷兰 | NLD 2
   - 🇩🇪 德国 | DEU
   - 🇳🇱 荷兰 | NLD 3
+  - 🇷🇺RU俄罗斯
   - 🇬🇧 英国 | GBR 3
   - 🇨🇳 CN_12
   - 🇬🇧 英国 | GBR
+  - 🇬🇧 英国 | GBR 5
   - 🇬🇧 英国 | GBR 8
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -546,10 +543,10 @@ proxy-groups:
   - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 6
-  - 🇺🇸 美国 | USA 7
   - 🇺🇸 美国 | USA
-  - 🇺🇸 美国 | USA 10
   - 🇺🇸US美国丨yoyapai.com
+  - 🇺🇸 美国 | USA 10
+  - 🇺🇸 美国 | USA 7
   - 🇺🇸 美国 | USA 12
   - 🇺🇸 美国 | USA 2
   url: http://www.gstatic.com/generate_204
@@ -558,13 +555,13 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇺🇸US美国丨yoyapai.com
-  - 🇺🇸 美国 | USA 10
   - 🇺🇸 美国 | USA 8
-  - 🇺🇸 美国 | USA 6
+  - 🇺🇸 美国 | USA
   - 🇺🇸 美国 | USA 11
-  - 🇨🇦 加拿大 | CAN 2
+  - 🇺🇸 美国 | USA 6
+  - 🇺🇸 美国 | USA 10
   - 🇺🇸 美国 | USA 12
-  - 🇺🇸 美国 | USA 7
+  - 🇺🇸 美国 | USA 2
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
