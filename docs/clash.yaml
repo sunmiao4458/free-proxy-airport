@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-09-07T18:05:37.885893+00:00'
+generated-at: '2026-09-07T21:41:54.301101+00:00'
 proxies:
 - name: 🇭🇰HK香港丨yoyapai.com_9
   type: vmess
@@ -36,19 +36,6 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇸🇬 新加坡 | SGP
-  server: 143.198.87.50
-  port: 8443
-  type: vless
-  uuid: 56cba26b-efcb-40d0-838a-d66df2dd516f
-  tls: true
-  servername: sni.868001.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
-    headers:
-      Host: sni.868001.xyz
 - name: 🇯🇵 日本 | JPN
   server: 130.12.102.26
   port: 443
@@ -88,6 +75,18 @@ proxies:
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
   udp: true
+- name: 🇺🇸 美国 | USA 6
+  server: support.cloudflare.com
+  port: 2095
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fangbinxingnmsl.fuckingnigga.eu.cc
+  udp: true
 - name: 🇺🇸 美国 | USA 5
   server: 104.18.46.46
   port: 80
@@ -101,8 +100,8 @@ proxies:
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
   udp: true
-- name: 🇺🇸 美国 | USA 6
-  server: support.cloudflare.com
+- name: 🇺🇸 美国 | USA 3
+  server: cdnjs.com
   port: 2095
   type: vless
   uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
@@ -113,8 +112,8 @@ proxies:
     headers:
       Host: fangbinxingnmsl.fuckingnigga.eu.cc
   udp: true
-- name: 🇺🇸 美国 | USA 3
-  server: cdnjs.com
+- name: 🇺🇸 美国 | USA
+  server: docs.cloudflare.com
   port: 2095
   type: vless
   uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
@@ -151,18 +150,6 @@ proxies:
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   udp: true
-- name: 🇺🇸 美国 | USA
-  server: docs.cloudflare.com
-  port: 2095
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fangbinxingnmsl.fuckingnigga.eu.cc
-  udp: true
 - name: 🇺🇸 美国 | USA 14
   server: cloudflare-dns.com
   port: 2095
@@ -175,16 +162,6 @@ proxies:
     path: /
     headers:
       Host: fangbinxingnmsl.fuckingnigga.eu.cc
-- name: 🇺🇸 美国 | USA 12
-  server: 23.95.28.131
-  port: 443
-  type: hysteria2
-  password: 5319f194c3164cd0f0dce502e83d60aa
-  auth: 5319f194c3164cd0f0dce502e83d60aa
-  sni: www.bing.com
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: 73221641ddc56c49b02bf110ac85afdb
 - name: 🇺🇸 美国 | USA 2
   server: www.epicgames.com
   port: 2095
@@ -197,58 +174,19 @@ proxies:
     headers:
       Host: fangbinxingnmsl.fuckingnigga.eu.cc
   udp: true
-- name: 🇫🇷 法国 | FRA 7
-  server: 217.60.39.139
-  port: 8443
-  type: vless
-  uuid: 56cba26b-efcb-40d0-838a-d66df2dd516f
-  tls: true
-  servername: sni.868001.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
-    headers:
-      Host: sni.868001.xyz
-- name: 🇩🇪 德国 | DEU 2
-  server: 82.117.245.170
-  port: 2053
-  type: vless
-  uuid: 56cba26b-efcb-40d0-838a-d66df2dd516f
-  tls: true
-  servername: sni.868001.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
-    headers:
-      Host: sni.868001.xyz
-  udp: true
-- name: 🇪🇪 爱沙尼亚 | EST 2
-  server: 5.101.114.177
+- name: 🇺🇸 美国 | USA 12
+  server: 23.95.28.131
   port: 443
-  type: vless
-  uuid: 56cba26b-efcb-40d0-838a-d66df2dd516f
-  tls: true
-  servername: sni.868001.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
-    headers:
-      Host: sni.868001.xyz
-  udp: true
+  type: hysteria2
+  password: 5319f194c3164cd0f0dce502e83d60aa
+  auth: 5319f194c3164cd0f0dce502e83d60aa
+  sni: www.bing.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 73221641ddc56c49b02bf110ac85afdb
 - name: 🇱🇦 LA_194
   server: z-sg2.251313.xyz
   port: 10045
-  type: trojan
-  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  sni: www.cloudflare.com
-  skip-cert-verify: true
-  udp: true
-- name: 🇾🇪 YE_220
-  server: z-jp2.251313.xyz
-  port: 10010
   type: trojan
   password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
   sni: www.cloudflare.com
@@ -268,26 +206,6 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
-- name: 🇳🇱 荷兰 | NLD 4
-  server: 134.98.137.196
-  port: 45819
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: K+/ERLJni8xTb+fO9R9gNA6T2kGPRkRa1OwPEeG7aqM=
-  udp: true
-- name: 🇸🇪 瑞典 | SWE 2
-  server: 64.188.82.173
-  port: 443
-  type: vless
-  uuid: 56cba26b-efcb-40d0-838a-d66df2dd516f
-  tls: true
-  servername: sni.868001.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
-    headers:
-      Host: sni.868001.xyz
 - name: 🇦🇫 AF_157
   server: z-jp1.251313.xyz
   port: 10009
@@ -295,20 +213,6 @@ proxies:
   password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
   sni: www.cloudflare.com
   skip-cert-verify: true
-  udp: true
-- name: 🇷🇺 俄罗斯 | RUS
-  server: 45.9.15.206
-  port: 443
-  type: vless
-  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
-  tls: true
-  servername: ru05.abvpn.ru
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /websocket
-    headers:
-      Host: ru05.abvpn.ru
   udp: true
 - name: 🇩🇪 德国 | DEU 3
   server: 92.5.43.121
@@ -376,20 +280,6 @@ proxies:
   sni: www.cloudflare.com
   skip-cert-verify: true
   udp: true
-- name: 🇵🇱 波兰 | POL
-  server: 146.59.19.208
-  port: 2053
-  type: vless
-  uuid: 56cba26b-efcb-40d0-838a-d66df2dd516f
-  tls: true
-  servername: sni.868001.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
-    headers:
-      Host: sni.868001.xyz
-  udp: true
 - name: 🇦🇺AU澳大利亚丨yoyapai.com
   type: vless
   server: 163.8.195.241
@@ -402,75 +292,6 @@ proxies:
     headers:
       Host: /?--v2rayNplus--v2rayNplus--v2rayNplus--
   skip-cert-verify: false
-  udp: true
-- name: 🇫🇷 法国 | FRA 9
-  server: 31.58.76.27
-  port: 2053
-  type: vless
-  uuid: 56cba26b-efcb-40d0-838a-d66df2dd516f
-  tls: true
-  servername: sni.868001.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
-    headers:
-      Host: sni.868001.xyz
-  udp: true
-- name: 🇨🇭 瑞士 | CHE
-  server: 84.234.16.169
-  port: 443
-  type: vless
-  uuid: 56cba26b-efcb-40d0-838a-d66df2dd516f
-  tls: true
-  servername: sni.868001.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
-    headers:
-      Host: sni.868001.xyz
-- name: 🇵🇱 波兰 | POL 2
-  server: 51.77.58.226
-  port: 443
-  type: vless
-  uuid: 56cba26b-efcb-40d0-838a-d66df2dd516f
-  tls: true
-  servername: sni.868001.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
-    headers:
-      Host: sni.868001.xyz
-- name: 🇸🇪 瑞典 | SWE
-  server: 185.36.141.81
-  port: 443
-  type: vless
-  uuid: 56cba26b-efcb-40d0-838a-d66df2dd516f
-  tls: true
-  servername: sni.868001.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
-    headers:
-      Host: sni.868001.xyz
-  udp: true
-- name: 🇫🇷 法国 | FRA
-  server: 62.210.7.139
-  port: 60111
-  type: hysteria2
-  password: github.com/Alvin9999-newpac/fanqiang
-  auth: github.com/Alvin9999-newpac/fanqiang
-  sni: bing.com
-  skip-cert-verify: true
-- name: 🇳🇱 荷兰 | NLD 2
-  server: 152.70.51.87
-  port: 45819
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: Z8Zd769iHmU/lrmBfcd3MQG7UUHT+isXNZ6kyBcEQe0=
   udp: true
 - name: 🇩🇪DE德国丨yoyapai.com_11
   type: vless
@@ -485,6 +306,43 @@ proxies:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
   skip-cert-verify: false
+  udp: true
+- name: 🇩🇪 德国 | DEU 4
+  server: 31.77.199.147
+  port: 4443
+  type: vless
+  uuid: 20dd9433-389e-4573-ba7b-689619cf13da
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: GvkQwcZWiXQBLzEhTVfQkyPpdgo6Opc3RtLsED9sA0A
+    short-id: 7da2eae792187ab9
+  servername: images.unsplash.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇫🇷 法国 | FRA
+  server: 62.210.7.139
+  port: 60111
+  type: hysteria2
+  password: github.com/Alvin9999-newpac/fanqiang
+  auth: github.com/Alvin9999-newpac/fanqiang
+  sni: bing.com
+  skip-cert-verify: true
+- name: 🇳🇱 荷兰 | NLD 6
+  server: 78.17.71.236
+  port: 33736
+  type: vmess
+  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
+  alterId: 0
+  cipher: auto
+  tls: false
+  alpn:
+  - ''
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vmess-ws
   udp: true
 - name: 🇹🇭 泰国 | THA
   server: 18.239.134.69
@@ -519,20 +377,6 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇫🇷 法国 | FRA 2
-  server: 31.59.121.156
-  port: 2053
-  type: vless
-  uuid: 56cba26b-efcb-40d0-838a-d66df2dd516f
-  tls: true
-  servername: sni.868001.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
-    headers:
-      Host: sni.868001.xyz
-  udp: true
 - name: 🇳🇱 荷兰 | NLD 3
   server: 94.228.219.177
   port: 443
@@ -549,112 +393,56 @@ proxies:
     path: /assets/v2/pkg
     host: sstats.vk-portal.net
   udp: true
-- name: 🇭🇺 匈牙利 | HUN
-  server: 38.180.109.174
+- name: 🇷🇺RU俄罗斯
+  type: vmess
+  server: renderer-stream-2-62.mirra.now
   port: 443
-  type: vless
-  uuid: 56cba26b-efcb-40d0-838a-d66df2dd516f
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
   tls: true
-  servername: sni.868001.xyz
-  client-fingerprint: chrome
+  skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
-    headers:
-      Host: sni.868001.xyz
-- name: 🇳🇱 荷兰 | NLD 5
-  server: 185.214.10.72
-  port: 2053
-  type: vless
-  uuid: 56cba26b-efcb-40d0-838a-d66df2dd516f
-  tls: true
-  servername: sni.868001.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
-    headers:
-      Host: sni.868001.xyz
+    path: /api/v1/gpu-stream/socket
   udp: true
-- name: 🇫🇷 法国 | FRA 8
-  server: 46.8.225.115
-  port: 8443
-  type: vless
-  uuid: 56cba26b-efcb-40d0-838a-d66df2dd516f
-  tls: true
-  servername: sni.868001.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
-    headers:
-      Host: sni.868001.xyz
-- name: 🇪🇸 西班牙 | ESP
-  server: 172.233.97.34
-  port: 443
-  type: vless
-  uuid: 56cba26b-efcb-40d0-838a-d66df2dd516f
-  tls: true
-  servername: sni.868001.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=tw.william.us.ci?uuid=82bc2875-3fee-49d1-ab29-e108a7b1e5f9
-    headers:
-      Host: sni.868001.xyz
 proxy-groups:
 - name: AUTO-FAST
   type: url-test
   proxies:
   - 🇭🇰HK香港丨yoyapai.com_9
   - 🇯🇵 日本 | JPN 2
-  - 🇸🇬 新加坡 | SGP
   - 🇯🇵 日本 | JPN
   - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 8
-  - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA 6
+  - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA 3
+  - 🇺🇸 美国 | USA
   - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 15
-  - 🇺🇸 美国 | USA
   - 🇺🇸 美国 | USA 14
-  - 🇺🇸 美国 | USA 12
   - 🇺🇸 美国 | USA 2
-  - 🇫🇷 法国 | FRA 7
-  - 🇩🇪 德国 | DEU 2
-  - 🇪🇪 爱沙尼亚 | EST 2
+  - 🇺🇸 美国 | USA 12
   - 🇱🇦 LA_194
-  - 🇾🇪 YE_220
   - 🇲🇩 摩尔多瓦 | MDA
-  - 🇳🇱 荷兰 | NLD 4
-  - 🇸🇪 瑞典 | SWE 2
   - 🇦🇫 AF_157
-  - 🇷🇺 俄罗斯 | RUS
   - 🇩🇪 德国 | DEU 3
   - 🇪🇪 爱沙尼亚 | EST
   - 🇹🇷 土耳其 | TUR
   - 🇵🇱PL波兰丨yoyapai.com
   - 🇳🇱_NL荷蘭丨yoyapai.com
   - 🇾🇪 YE_219
-  - 🇵🇱 波兰 | POL
   - 🇦🇺AU澳大利亚丨yoyapai.com
-  - 🇫🇷 法国 | FRA 9
-  - 🇨🇭 瑞士 | CHE
-  - 🇵🇱 波兰 | POL 2
-  - 🇸🇪 瑞典 | SWE
-  - 🇫🇷 法国 | FRA
-  - 🇳🇱 荷兰 | NLD 2
   - 🇩🇪DE德国丨yoyapai.com_11
+  - 🇩🇪 德国 | DEU 4
+  - 🇫🇷 法国 | FRA
+  - 🇳🇱 荷兰 | NLD 6
   - 🇹🇭 泰国 | THA
   - 🇸🇩 SD_198
   - 🇩🇪 德国 | DEU
-  - 🇫🇷 法国 | FRA 2
   - 🇳🇱 荷兰 | NLD 3
-  - 🇭🇺 匈牙利 | HUN
-  - 🇳🇱 荷兰 | NLD 5
-  - 🇫🇷 法国 | FRA 8
-  - 🇪🇸 西班牙 | ESP
+  - 🇷🇺RU俄罗斯
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: HK-POOL
@@ -675,15 +463,15 @@ proxy-groups:
   proxies:
   - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 8
-  - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA 6
+  - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA 3
+  - 🇺🇸 美国 | USA
   - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 15
-  - 🇺🇸 美国 | USA
   - 🇺🇸 美国 | USA 14
-  - 🇺🇸 美国 | USA 12
   - 🇺🇸 美国 | USA 2
+  - 🇺🇸 美国 | USA 12
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: AI-POOL
@@ -694,10 +482,7 @@ proxy-groups:
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA 11
-  - 🇺🇸 美国 | USA
-  - 🇺🇸 美国 | USA 3
-  - 🇺🇸 美国 | USA 14
-  - 🇺🇸 美国 | USA 6
+  - 🇩🇪DE德国丨yoyapai.com_11
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
