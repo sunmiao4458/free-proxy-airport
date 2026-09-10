@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-09-10T16:53:37.527252+00:00'
+generated-at: '2026-09-10T19:27:47.128317+00:00'
 proxies:
 - name: 🇭🇰 香港 | HKG 7
   server: 68.64.181.175
@@ -74,18 +74,20 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇭🇰 香港 | HKG 5
-  server: 38.147.173.43
-  port: 32073
-  type: vless
-  uuid: b145ee79-42dd-4399-adcc-044660ad306f
+- name: 🇭🇰HK香港丨yoyapai.com_9
+  type: vmess
+  server: u2frxj0g13vdi0wo.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
   tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: G7_z4XOqJImMhL0H8rBzN-VSR739_RsUGokfNuyadQc
-  servername: www.paypal.com
-  client-fingerprint: chrome
-  network: tcp
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: U2FRxj0G13vDI0Wo.v.3dns.vip
   udp: true
 - name: 🇭🇰 香港 | HKG
   server: 38.147.172.2
@@ -118,6 +120,19 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
+- name: 🇺🇸 美国 | USA 6
+  server: 104.17.117.154
+  port: 2053
+  type: vless
+  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
+  tls: true
+  servername: mianfei-73q.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=154.3.33.43
+    headers:
+      Host: mianfei-73q.pages.dev
 - name: 🇺🇸 美国 | USA 3
   server: 104.16.150.130
   port: 2087
@@ -132,31 +147,6 @@ proxies:
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   udp: true
-- name: 🇺🇸 美国 | USA 9
-  server: 2.26.178.152
-  port: 443
-  type: vless
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  servername: localhost
-  client-fingerprint: chrome
-  network: tcp
-- name: 🇺🇸 美国 | USA 6
-  server: 104.17.117.154
-  port: 2053
-  type: vless
-  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
-  tls: true
-  servername: mianfei-73q.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=154.3.33.43
-    headers:
-      Host: mianfei-73q.pages.dev
 - name: 🇺🇸US美国丨yoyapai.com
   type: trojan
   server: 216.24.57.7
@@ -169,22 +159,6 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: 🇺🇸 美国 | USA 4
-  server: a2.arshia-nova.ir
-  port: 443
-  type: vless
-  uuid: d9eda159-18d6-4457-8983-55523a21658c
-  tls: true
-  alpn:
-  - h2
-  servername: ssl.fastly.com
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: c12.com
-  udp: true
 - name: 🇺🇸 美国 | USA 18
   server: 157.238.208.110
   port: 41834
@@ -194,19 +168,6 @@ proxies:
   network: ws
   ws-opts:
     path: /5adeccb9
-  udp: true
-- name: 🇺🇸 美国 | USA 2
-  server: brightharbor.download
-  port: 443
-  type: vless
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  servername: localhost
-  client-fingerprint: chrome
-  network: tcp
   udp: true
 - name: 🇩🇪 德国 | DEU 2
   server: de1.sferavpn.pro
@@ -218,49 +179,6 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
-- name: 🇩🇪 德国 | DEU 7
-  server: 199.232.78.160
-  port: 443
-  type: vless
-  uuid: XpnTeam-10
-  tls: true
-  alpn:
-  - http/1.1
-  servername: ssl.fastly.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-  udp: true
-- name: 🇩🇪 德国 | DEU 5
-  server: 199.232.78.160
-  port: 443
-  type: vless
-  uuid: XpnTeam-9
-  tls: true
-  alpn:
-  - http/1.1
-  servername: ssl.fastly.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-  udp: true
-- name: 🇵🇱PL波兰丨yoyapai.com
-  type: vless
-  server: 178.95.170.83
-  port: 2087
-  uuid: bf443e4a-aa9e-4509-abf0-d0f6828d57be
-  network: ws
-  tls: false
-  ws-opts:
-    path: /4bc027a44532
-  skip-cert-verify: false
-  udp: true
 - name: 🇦🇺 澳大利亚 | AUS
   server: 103.75.119.11
   port: 443
@@ -277,19 +195,6 @@ proxies:
     path: /api/v1/c8dd02d6
     host: sberbank.ru
     mode: stream-one
-  udp: true
-- name: 🇵🇱 波兰 | POL
-  server: viper-22.moriarty-web.com
-  port: 443
-  type: vless
-  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
-  tls: true
-  alpn:
-  - h2
-  flow: xtls-rprx-vision
-  servername: viper-22.moriarty-web.com
-  client-fingerprint: firefox
-  network: tcp
   udp: true
 - name: 🇦🇺AU澳大利亚丨yoyapai.com
   type: vless
@@ -317,6 +222,19 @@ proxies:
     path: /kdi
     headers:
       Host: aljha.typeshoes.online
+  udp: true
+- name: 🇵🇱 波兰 | POL
+  server: viper-22.moriarty-web.com
+  port: 443
+  type: vless
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+  tls: true
+  alpn:
+  - h2
+  flow: xtls-rprx-vision
+  servername: viper-22.moriarty-web.com
+  client-fingerprint: firefox
+  network: tcp
   udp: true
 - name: 🇮🇹 意大利 | ITA
   server: 205.237.109.165
@@ -352,31 +270,6 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇬🇧 英国 | GBR 2
-  server: 45.152.65.157
-  port: 30521
-  type: vless
-  uuid: e6752712-f10c-4c8c-8308-d80b70a2b87a
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: TsiUxIyOUQqEhPYWJ2HAlM-ecuOiHbH5ZTnaFdGdNU8
-  servername: aws.amazon.com
-  client-fingerprint: chrome
-  network: tcp
-- name: 🇩🇪 德国 | DEU
-  server: 172.67.71.160
-  port: 443
-  type: vless
-  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
-  tls: true
-  servername: mianfei-73q.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=154.3.33.43
-    headers:
-      Host: mianfei-73q.pages.dev
 - name: 🇩🇪DE德国丨yoyapai.com_11
   type: vless
   server: 169.40.42.229
@@ -390,6 +283,33 @@ proxies:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
   skip-cert-verify: false
+  udp: true
+- name: 🇩🇪 德国 | DEU
+  server: 172.67.71.160
+  port: 443
+  type: vless
+  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
+  tls: true
+  servername: mianfei-73q.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=154.3.33.43
+    headers:
+      Host: mianfei-73q.pages.dev
+- name: 🇳🇱 荷兰 | NLD 2
+  server: 89.105.202.115
+  port: 443
+  type: vless
+  uuid: 4550993c-2191-493a-a612-aaba4a4ec083
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk
+    short-id: 6d6f13013d3e1d0c
+  servername: g2.steptofsvo.com
+  client-fingerprint: chrome
+  network: tcp
   udp: true
 - name: 🇳🇱 荷兰 | NLD 3
   server: 46.229.243.152
@@ -415,31 +335,25 @@ proxy-groups:
   - 🇭🇰 香港 | HKG 2
   - 🇭🇰 香港 | HKG 4
   - 🇭🇰 香港 | HKG 3
-  - 🇭🇰 香港 | HKG 5
+  - 🇭🇰HK香港丨yoyapai.com_9
   - 🇭🇰 香港 | HKG
   - 🇸🇬 新加坡 | SGP 2
   - 🇭🇰 香港 | HKG 8
-  - 🇺🇸 美国 | USA 3
-  - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA 6
+  - 🇺🇸 美国 | USA 3
   - 🇺🇸US美国丨yoyapai.com
-  - 🇺🇸 美国 | USA 4
   - 🇺🇸 美国 | USA 18
-  - 🇺🇸 美国 | USA 2
   - 🇩🇪 德国 | DEU 2
-  - 🇩🇪 德国 | DEU 7
-  - 🇩🇪 德国 | DEU 5
-  - 🇵🇱PL波兰丨yoyapai.com
   - 🇦🇺 澳大利亚 | AUS
-  - 🇵🇱 波兰 | POL
   - 🇦🇺AU澳大利亚丨yoyapai.com
   - 🇩🇪 德国 | DEU 6
+  - 🇵🇱 波兰 | POL
   - 🇮🇹 意大利 | ITA
   - 🇵🇱 波兰 | POL 2
   - 🇩🇪 德国 | DEU 4
-  - 🇬🇧 英国 | GBR 2
-  - 🇩🇪 德国 | DEU
   - 🇩🇪DE德国丨yoyapai.com_11
+  - 🇩🇪 德国 | DEU
+  - 🇳🇱 荷兰 | NLD 2
   - 🇳🇱 荷兰 | NLD 3
   - 🇬🇧 英国 | GBR
   url: http://www.gstatic.com/generate_204
@@ -452,7 +366,7 @@ proxy-groups:
   - 🇭🇰 香港 | HKG 2
   - 🇭🇰 香港 | HKG 4
   - 🇭🇰 香港 | HKG 3
-  - 🇭🇰 香港 | HKG 5
+  - 🇭🇰HK香港丨yoyapai.com_9
   - 🇭🇰 香港 | HKG
   - 🇭🇰 香港 | HKG 8
   url: http://www.gstatic.com/generate_204
@@ -470,13 +384,10 @@ proxy-groups:
 - name: US-POOL
   type: url-test
   proxies:
-  - 🇺🇸 美国 | USA 3
-  - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA 6
+  - 🇺🇸 美国 | USA 3
   - 🇺🇸US美国丨yoyapai.com
-  - 🇺🇸 美国 | USA 4
   - 🇺🇸 美国 | USA 18
-  - 🇺🇸 美国 | USA 2
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: AI-POOL
@@ -484,7 +395,6 @@ proxy-groups:
   proxies:
   - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 3
-  - 🇺🇸 美国 | USA 18
   - 🇺🇸 美国 | USA 6
   - 🇩🇪 德国 | DEU
   - 🇩🇪DE德国丨yoyapai.com_11
