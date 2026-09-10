@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-09-10T21:46:22.172181+00:00'
+generated-at: '2026-09-10T23:41:53.327990+00:00'
 proxies:
 - name: 🇭🇰 香港 | HKG 7
   server: 68.64.181.175
@@ -73,6 +73,21 @@ proxies:
   servername: www.amazon.com
   client-fingerprint: chrome
   network: tcp
+  udp: true
+- name: 🇭🇰HK香港丨yoyapai.com_9
+  type: vmess
+  server: u2frxj0g13vdi0wo.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: U2FRxj0G13vDI0Wo.v.3dns.vip
   udp: true
 - name: 🇭🇰 香港 | HKG 5
   server: 38.147.173.43
@@ -145,6 +160,18 @@ proxies:
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   udp: true
+- name: 🇺🇸US美国丨yoyapai.com
+  type: trojan
+  server: 216.24.57.7
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  alpn:
+  - http/1.1
+  skip-cert-verify: false
+  ws-opts:
+    path: /assignment
+  udp: true
 - name: 🇺🇸 美国 | USA 4
   server: a2.arshia-nova.ir
   port: 443
@@ -160,28 +187,6 @@ proxies:
     path: /
     headers:
       Host: c12.com
-  udp: true
-- name: 🇺🇸US美国丨yoyapai.com
-  type: trojan
-  server: 216.24.57.7
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  alpn:
-  - http/1.1
-  skip-cert-verify: false
-  ws-opts:
-    path: /assignment
-  udp: true
-- name: 🇺🇸 美国 | USA 18
-  server: 157.238.208.110
-  port: 41834
-  type: vless
-  uuid: 5adeccb9-dfca-41de-cdf7-4d901f2e70f5
-  tls: false
-  network: ws
-  ws-opts:
-    path: /5adeccb9
   udp: true
 - name: 🇩🇪 德国 | DEU 2
   server: de1.sferavpn.pro
@@ -234,19 +239,6 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
-- name: 🇦🇺AU澳大利亚丨yoyapai.com
-  type: vless
-  server: 163.8.195.241
-  port: 2087
-  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
-  network: ws
-  tls: false
-  ws-opts:
-    path: /29c8fed7ca22
-    headers:
-      Host: /?--v2rayNplus--v2rayNplus--v2rayNplus--
-  skip-cert-verify: false
-  udp: true
 - name: 🇩🇪 德国 | DEU 6
   server: aljha.typeshoes.online
   port: 443
@@ -260,6 +252,19 @@ proxies:
     path: /kdi
     headers:
       Host: aljha.typeshoes.online
+  udp: true
+- name: 🇦🇺AU澳大利亚丨yoyapai.com
+  type: vless
+  server: 163.8.195.241
+  port: 2087
+  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
+  network: ws
+  tls: false
+  ws-opts:
+    path: /29c8fed7ca22
+    headers:
+      Host: /?--v2rayNplus--v2rayNplus--v2rayNplus--
+  skip-cert-verify: false
   udp: true
 - name: 🇮🇹 意大利 | ITA
   server: 205.237.109.165
@@ -295,6 +300,19 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
+- name: 🇩🇪 德国 | DEU
+  server: 172.67.71.160
+  port: 443
+  type: vless
+  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
+  tls: true
+  servername: mianfei-73q.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=154.3.33.43
+    headers:
+      Host: mianfei-73q.pages.dev
 - name: 🇬🇧 英国 | GBR 2
   server: 45.152.65.157
   port: 30521
@@ -321,33 +339,6 @@ proxies:
     short-id: c39cc7310a
   skip-cert-verify: false
   udp: true
-- name: 🇳🇱 荷兰 | NLD 2
-  server: 89.105.202.115
-  port: 443
-  type: vless
-  uuid: 4550993c-2191-493a-a612-aaba4a4ec083
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk
-    short-id: 6d6f13013d3e1d0c
-  servername: g2.steptofsvo.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: 🇩🇪 德国 | DEU
-  server: 172.67.71.160
-  port: 443
-  type: vless
-  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
-  tls: true
-  servername: mianfei-73q.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=154.3.33.43
-    headers:
-      Host: mianfei-73q.pages.dev
 - name: 🇳🇱 荷兰 | NLD 3
   server: 46.229.243.152
   port: 8443
@@ -385,28 +376,27 @@ proxy-groups:
   - 🇭🇰 香港 | HKG 2
   - 🇭🇰 香港 | HKG 4
   - 🇭🇰 香港 | HKG 3
+  - 🇭🇰HK香港丨yoyapai.com_9
   - 🇭🇰 香港 | HKG 5
   - 🇭🇰 香港 | HKG
   - 🇸🇬 新加坡 | SGP 2
   - 🇭🇰 香港 | HKG 8
   - 🇺🇸 美国 | USA 6
   - 🇺🇸 美国 | USA 3
-  - 🇺🇸 美国 | USA 4
   - 🇺🇸US美国丨yoyapai.com
-  - 🇺🇸 美国 | USA 18
+  - 🇺🇸 美国 | USA 4
   - 🇩🇪 德国 | DEU 2
   - 🇵🇱PL波兰丨yoyapai.com
   - 🇦🇺 澳大利亚 | AUS
   - 🇵🇱 波兰 | POL
-  - 🇦🇺AU澳大利亚丨yoyapai.com
   - 🇩🇪 德国 | DEU 6
+  - 🇦🇺AU澳大利亚丨yoyapai.com
   - 🇮🇹 意大利 | ITA
   - 🇵🇱 波兰 | POL 2
   - 🇩🇪 德国 | DEU 4
+  - 🇩🇪 德国 | DEU
   - 🇬🇧 英国 | GBR 2
   - 🇩🇪DE德国丨yoyapai.com_11
-  - 🇳🇱 荷兰 | NLD 2
-  - 🇩🇪 德国 | DEU
   - 🇳🇱 荷兰 | NLD 3
   - 🇷🇺RU俄罗斯
   - 🇬🇧 英国 | GBR
@@ -420,6 +410,7 @@ proxy-groups:
   - 🇭🇰 香港 | HKG 2
   - 🇭🇰 香港 | HKG 4
   - 🇭🇰 香港 | HKG 3
+  - 🇭🇰HK香港丨yoyapai.com_9
   - 🇭🇰 香港 | HKG 5
   - 🇭🇰 香港 | HKG
   - 🇭🇰 香港 | HKG 8
@@ -440,20 +431,18 @@ proxy-groups:
   proxies:
   - 🇺🇸 美国 | USA 6
   - 🇺🇸 美国 | USA 3
-  - 🇺🇸 美国 | USA 4
   - 🇺🇸US美国丨yoyapai.com
-  - 🇺🇸 美国 | USA 18
+  - 🇺🇸 美国 | USA 4
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: AI-POOL
   type: url-test
   proxies:
   - 🇺🇸US美国丨yoyapai.com
-  - 🇩🇪 德国 | DEU
   - 🇺🇸 美国 | USA 6
-  - 🇺🇸 美国 | USA 18
+  - 🇩🇪 德国 | DEU
   - 🇺🇸 美国 | USA 3
-  - 🇬🇧 英国 | GBR
+  - 🇩🇪DE德国丨yoyapai.com_11
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
