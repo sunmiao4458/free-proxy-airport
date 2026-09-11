@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-09-11T19:26:51.126847+00:00'
+generated-at: '2026-09-11T21:50:57.783653+00:00'
 proxies:
 - name: 🇯🇵 日本 | JPN 2
   server: ot2.hyas.space
@@ -21,20 +21,6 @@ proxies:
     path: /x7f9k2m4p8
     headers:
       Host: ot2.hyas.space
-  udp: true
-- name: 🇸🇬 新加坡 | SGP
-  server: 172.64.146.211
-  port: 2083
-  type: vless
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  tls: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   udp: true
 - name: 🇸🇬 新加坡 | SGP 3
   server: 91.193.58.131
@@ -50,6 +36,20 @@ proxies:
     headers:
       Host: free-server.techsonic.dev
   udp: true
+- name: 🇸🇬 新加坡 | SGP
+  server: 172.64.146.211
+  port: 2083
+  type: vless
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  tls: true
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  udp: true
 - name: 🇭🇰 香港 | HKG
   server: 207.57.131.123
   port: 26631
@@ -62,6 +62,18 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: chrome
   network: tcp
+  udp: true
+- name: 🇺🇸 美国 | USA 11
+  server: 104.18.46.234
+  port: 2095
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
   udp: true
 - name: 🇺🇸 美国 | USA 9
   server: starlink-ft.251313.xyz
@@ -170,6 +182,13 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
+- name: 🇨🇦 加拿大 | CAN
+  server: 35.182.182.58
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
 - name: 🇷🇺 俄罗斯 | RUS
   server: 161.104.38.98
   port: 443
@@ -185,13 +204,6 @@ proxies:
   xhttp-opts:
     path: /assets
     host: donatov.net
-  udp: true
-- name: 🇨🇦 加拿大 | CAN
-  server: 35.182.182.58
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
   udp: true
 - name: 🇦🇹 奥地利 | AUT
   server: 82.110.60.9
@@ -258,19 +270,6 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
-- name: 🇬🇧 英国 | GBR 2
-  server: 82.117.245.125
-  port: 2053
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-  udp: true
 - name: 🇩🇪DE德国丨yoyapai.com_11
   type: vless
   server: 169.40.42.229
@@ -285,21 +284,6 @@ proxies:
     short-id: c39cc7310a
   skip-cert-verify: false
   udp: true
-- name: 🇱🇻 拉脱维亚 | LVA
-  server: lv-irancell.xelfona.ir
-  port: 20018
-  type: vless
-  uuid: 028f3908-8885-4f06-ba95-777a435074bd
-  tls: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - play-apps-features.googleusercontent.com
-  udp: true
 - name: 🇳🇱 荷兰 | NLD 3
   server: 158.101.199.87
   port: 45819
@@ -307,6 +291,25 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: 4TVQ2f1okbVq3+Brnm5IMRtM6r6S8HjjQpliw944wEA=
   udp: true
+- name: 🇷🇺RU俄罗斯
+  type: vmess
+  server: renderer-stream-2-62.mirra.now
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /api/v1/gpu-stream/socket
+  udp: true
+- name: 🇬🇧 英国 | GBR 3
+  server: 134.65.57.209
+  port: 61312
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: wzbgRLlSeDwxHX6xLVVxKk93K5k5N8k+7rncQXn80XA=
 - name: 🇬🇧 英国 | GBR
   server: 158.173.221.214
   port: 11001
@@ -319,9 +322,10 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇯🇵 日本 | JPN 2
-  - 🇸🇬 新加坡 | SGP
   - 🇸🇬 新加坡 | SGP 3
+  - 🇸🇬 新加坡 | SGP
   - 🇭🇰 香港 | HKG
+  - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 16
@@ -331,18 +335,18 @@ proxy-groups:
   - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 12
   - 🇩🇪 德国 | DEU 2
-  - 🇷🇺 俄罗斯 | RUS
   - 🇨🇦 加拿大 | CAN
+  - 🇷🇺 俄罗斯 | RUS
   - 🇦🇹 奥地利 | AUT
   - 🇵🇱PL波兰丨yoyapai.com
   - 🇦🇺 澳大利亚 | AUS
   - 🇦🇺AU澳大利亚丨yoyapai.com
   - 🇮🇹 意大利 | ITA
   - 🇦🇺 澳大利亚 | AUS 2
-  - 🇬🇧 英国 | GBR 2
   - 🇩🇪DE德国丨yoyapai.com_11
-  - 🇱🇻 拉脱维亚 | LVA
   - 🇳🇱 荷兰 | NLD 3
+  - 🇷🇺RU俄罗斯
+  - 🇬🇧 英国 | GBR 3
   - 🇬🇧 英国 | GBR
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -361,6 +365,7 @@ proxy-groups:
 - name: US-POOL
   type: url-test
   proxies:
+  - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 16
@@ -375,10 +380,10 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇺🇸US美国丨yoyapai.com
+  - 🇨🇦 加拿大 | CAN
+  - 🇺🇸 美国 | USA 11
+  - 🇺🇸 美国 | USA 12
   - 🇺🇸 美国 | USA 8
-  - 🇺🇸 美国 | USA
-  - 🇸🇬 新加坡 | SGP
-  - 🇺🇸 美国 | USA 6
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
