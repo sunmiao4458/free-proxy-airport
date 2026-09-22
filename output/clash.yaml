@@ -7,39 +7,24 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-09-22T13:53:16.114844+00:00'
+generated-at: '2026-09-22T17:55:47.985831+00:00'
 proxies:
 - name: 🇭🇰 香港 | HKG 2
-  server: 172.67.130.159
-  port: 2096
+  server: 34.96.146.210
+  port: 443
   type: vless
-  uuid: ecb9ab47-31aa-4dd9-92eb-191047b353bd
+  uuid: 90153538-ef08-4942-b8e1-41e7c523e659
   tls: true
-  servername: cdn-hk.skyvora.app
+  reality-opts:
+    public-key: tSBJnEt6E1dy6UgX9gX5wUfvZ2KAXjGWVKsEq886OWM
+    short-id: 56d4e7ae4f86fa39
+  servername: www.cloudflare.com
   client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /f7i3lo6xbs
-    headers:
-      Host: cdn-hk.skyvora.app
+  network: tcp
   udp: true
-- name: 🇸🇬 新加坡 | SGP 3
-  server: 172.64.146.211
-  port: 2096
-  type: vless
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  tls: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  udp: true
-- name: 🇸🇬 新加坡 | SGP
+- name: 🇸🇬 新加坡 | SGP 5
   server: 162.159.43.187
-  port: 2082
+  port: 8880
   type: vless
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   tls: false
@@ -49,21 +34,7 @@ proxies:
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
   udp: true
-- name: 🇸🇬 新加坡 | SGP 2
-  server: 172.67.130.159
-  port: 2096
-  type: vless
-  uuid: 832c8f42-7fe1-4aa4-9171-eb9dddbf6fef
-  tls: true
-  servername: cdn-sg.skyvora.app
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /78bc8
-    headers:
-      Host: cdn-sg.skyvora.app
-  udp: true
-- name: 🇺🇸 美国 | USA 9
+- name: 🇸🇬 新加坡 | SGP
   server: 162.159.43.187
   port: 2086
   type: vless
@@ -76,47 +47,99 @@ proxies:
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
   udp: true
-- name: 🇺🇸 美国 | USA 4
-  server: lyra.yokkastars.com
-  port: 40443
+- name: 🇸🇬 新加坡 | SGP 3
+  server: 5.223.74.174
+  port: 2053
   type: vless
-  uuid: 5be7fb02-b6a5-450f-b041-3243b98e8420
+  uuid: 29b81e1a-1989-4778-b0cb-a7223730f59d
   tls: true
   flow: xtls-rprx-vision
   reality-opts:
-    public-key: Uvj5H9pDJP0HX2bN7NN7sCQwVCrC5N2NbKf-yuy1ikE
-    short-id: ee33
-  servername: deepl.com
-  client-fingerprint: edge
+    public-key: pIkxGlcFFawk7e0T-2VcdFXOc9LsjoBhl47vl8EuRgg
+    short-id: 36151c48e28cfb65
+  servername: 5.223.74.174
+  client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇺🇸 美国 | USA
-  server: 172.67.130.159
-  port: 2096
+- name: 🇭🇰 香港 | HKG
+  server: hk2.xiaoliyu.cyou
+  port: 4433
+  type: hysteria2
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  auth: 19f72087-4591-4d72-930b-2697078ec2be
+  skip-cert-verify: true
+- name: 🇸🇬 新加坡 | SGP 2
+  server: signodels.jumpernode.online
+  port: 443
   type: vless
-  uuid: 214bf4c5-045a-4ddb-944b-e2eef9b33338
+  uuid: 051fbf39-789a-4017-9022-eb32daeb5efd
   tls: true
-  servername: cdn-fr.skyvora.app
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: Q8vb7a7wHy2nB-9fVuVeeizz9efta09IHHmC-mRbgQw
+    short-id: 334b080fa37c42f4
+  servername: shop.business.amazon.com
   client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /9hf8a67dhf
-    headers:
-      Host: cdn-fr.skyvora.app
+  network: tcp
+- name: 🇺🇸 美国 | USA 9
+  server: starlink-ft.251313.xyz
+  port: 443
+  type: hysteria2
+  password: https://xship.top
+  auth: https://xship.top
+  sni: xship.top
+  skip-cert-verify: true
   udp: true
-- name: 🇺🇸 美国 | USA 10
-  server: 172.67.130.159
-  port: 2096
+- name: 🇺🇸 美国 | USA 8
+  server: 172.64.229.170
+  port: 8080
   type: vless
-  uuid: bdc5e450-3e2d-4001-928e-e3bc6cecb249
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  udp: true
+- name: 🇺🇸 美国 | USA 4
+  server: 136.117.218.86
+  port: 443
+  type: vless
+  uuid: dffab367-7769-4c6c-86f2-66fc6bd03003
   tls: true
-  servername: cdn.skyvora.app
+  reality-opts:
+    public-key: LYnDDS0AkBwVeeTyIEE5MhrTV_PZO5f1qBAbMN6z4HM
+    short-id: f1955f72763eb2fb
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇺🇸 美国 | USA 5
+  server: 45.131.5.241
+  port: 443
+  type: vless
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  tls: true
+  servername: xi.tbv.ccwu.cc
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /hux9duzm54
+    path: /
     headers:
-      Host: cdn.skyvora.app
+      Host: xi.tbv.ccwu.cc
+  udp: true
+- name: 🇺🇸 美国 | USA
+  server: 162.159.43.187
+  port: 2082
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
   udp: true
 - name: 🇺🇸US美国丨yoyapai.com
   type: trojan
@@ -130,62 +153,55 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: 🇺🇸 美国 | USA 15
-  server: 72.56.41.33
-  port: 40443
+- name: 🇳🇱 荷兰 | NLD 4
+  server: 92.5.236.74
+  port: 62145
   type: vless
-  uuid: 5be7fb02-b6a5-450f-b041-3243b98e8420
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: Uvj5H9pDJP0HX2bN7NN7sCQwVCrC5N2NbKf-yuy1ikE
-    short-id: ee33
-  servername: deepl.com
-  client-fingerprint: firefox
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  tls: false
+  servername: 92.5.236.74
   network: tcp
-- name: 🇩🇪 德国 | DEU 2
-  server: 104.24.219.225
-  port: 2087
-  type: vless
-  uuid: fd6fb48f-b324-4a82-9dcd-f8bdb1bd5301
-  tls: true
-  alpn:
-  - h2
-  servername: allsmart1.17e1feeuzi.online
-  client-fingerprint: firefox
-  network: xhttp
-  xhttp-opts:
-    path: /meti
-    host: allsmart1.17e1feeuzi.online
-    mode: stream-one
   udp: true
-- name: 🇱🇻LV拉脱维亚丨yoyapai.com
-  type: vless
-  server: 193.163.203.170
+- name: 🇹🇼 🇨🇳 台湾 | TWN
+  server: 34.81.223.1
   port: 443
-  uuid: 11aabba0-5fd1-4f15-8068-74c1a466cefc
-  servername: yandex.ru
+  type: vless
+  uuid: 31a40f42-4ad6-4a32-a760-71102b459584
   tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
   reality-opts:
-    public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
-    short-id: b28db60d77c50b4f
-  skip-cert-verify: false
+    public-key: qvekI7tKB1NDnZA6JcS_24aV4n8mlCbI3SFvkRr22wg
+    short-id: d74a6321deec9f31
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  network: tcp
   udp: true
-- name: 🇦🇹 奥地利 | AUT
-  server: 213.111.148.137
+- name: 🇩🇪 德国 | DEU 15
+  server: 212.104.128.27
   port: 443
   type: vless
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  uuid: b2593749-691c-428c-9481-14979cba3446
   tls: true
-  servername: shuma.ccwu.cc
-  client-fingerprint: chrome
+  servername: xi.tbv.ccwu.cc
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: shuma.ccwu.cc
+      Host: xi.tbv.ccwu.cc
+  udp: true
+- name: 🇩🇪 德国 | DEU 5
+  server: 91.107.144.22
+  port: 26437
+  type: vless
+  uuid: 0b05ddba-6e1f-4a77-ac5a-4a9f9d08d543
+  tls: false
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /@Nap_v2ray---@Nap_v2ray@Nap_v2ray---@Nap_v2ray@Nap_v2ray---@Nap_v2ray@Nap_v2ray---@Nap_v2ray@Nap_v2ray---@Nap_v2ray@Nap_v2ray---@Nap_v2ray@Nap_v2ray---@Nap_v2ray@Nap_v2ray---@Nap_v2ray
+    headers:
+      Host:
+      - play-apps-features.googleusercontent.com
   udp: true
 - name: 🇵🇱PL波兰丨yoyapai.com
   type: vless
@@ -231,6 +247,13 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
+- name: 🇩🇪 德国 | DEU 6
+  server: 130.61.130.186
+  port: 59924
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: E+do7ZdpBv+KFrzaQE6KQ+/A4N1ONgz0vk7ifrUJ0M0=
+  udp: true
 - name: 🇦🇺AU澳大利亚丨yoyapai.com
   type: vless
   server: 163.8.195.241
@@ -244,54 +267,108 @@ proxies:
       Host: /?--v2rayNplus--v2rayNplus--v2rayNplus--
   skip-cert-verify: false
   udp: true
-- name: 🇷🇴 罗马尼亚 | ROU
-  server: 185.153.198.86
+- name: 🇨🇭 瑞士 | CHE
+  server: 34.65.54.139
   port: 443
   type: vless
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  uuid: bd93a117-2e9d-4e1e-b9b9-69d8d7089bdb
   tls: true
-  servername: shuma.ccwu.cc
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-  udp: true
-- name: 🇩🇪 德国 | DEU
-  server: 150.241.101.17
-  port: 8443
-  type: vless
-  uuid: 47d9b534-8a0a-4bd2-90f1-1d6ade14427e
-  tls: true
-  flow: xtls-rprx-vision
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: 6ba85179e30d4fc2
-  servername: yandex.net
-  client-fingerprint: safari
+    public-key: DE-S0R0KYYTuBsuQmT-iip6rJ2QsuH6z3SJYlsNyUUI
+    short-id: 5214a92cad4ad90e
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇳🇱 荷兰 | NLD 3
-  server: 109.176.202.20
+- name: 🇩🇪 德国 | DEU 14
+  server: 104.24.219.225
+  port: 2087
+  type: vless
+  uuid: fd6fb48f-b324-4a82-9dcd-f8bdb1bd5301
+  tls: true
+  alpn:
+  - h2
+  servername: allsmart1.17e1feeuzi.online
+  client-fingerprint: firefox
+  network: xhttp
+  xhttp-opts:
+    path: /meti
+    host: allsmart1.17e1feeuzi.online
+    mode: stream-one
+  udp: true
+- name: 🇩🇪 德国 | DEU 4
+  server: 34.185.172.52
   port: 443
   type: vless
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  uuid: 3255d065-119c-4103-a422-ea9d301b0707
   tls: true
-  servername: shuma.ccwu.cc
+  reality-opts:
+    public-key: -XH2d9x4wRi--KvR6XTcZW9HXbikI2_262zfYDr1uFw
+    short-id: 690ec9207866c84e
+  servername: www.cloudflare.com
   client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
+  network: tcp
   udp: true
-- name: 🇬🇧 英国 | GBR
-  server: 134.65.56.231
+- name: 🇬🇧 英国 | GBR 2
+  server: 129.151.65.156
   port: 61312
   type: ss
   cipher: 2022-blake3-chacha20-poly1305
-  password: +v9GwPXdDOfF7rNuBwUv2zztIa8B8jTGzbthZepuyLM=
+  password: 0bt5twW+YJsxRkgIINMT2VjqrCioowqMZT8L+H8szBk=
+  udp: true
+- name: 🇹🇭 泰国 | THA
+  server: 34.15.176.240
+  port: 443
+  type: vless
+  uuid: 742dc674-a491-4a42-a551-b3ea6dd2f447
+  tls: true
+  reality-opts:
+    public-key: Euq607wb-KZNjbuOMQ1h646C3dm_Q-ntd7yxZ52jj0U
+    short-id: 856c0a3cd1426a5c
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇩🇪 德国 | DEU 9
+  server: 31.76.245.63
+  port: 443
+  type: vless
+  uuid: d72f05b0-b182-4783-a6f2-21cecc7d841a
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: SibLV5WBGdljTiUCmKx77KhHQfErCwjDMD_ZLoha3js
+    short-id: a1b2c3d4e5f67890
+  servername: dzen.ru
+  client-fingerprint: firefox
+  network: tcp
+  udp: true
+- name: 🇳🇱 荷兰 | NLD 3
+  server: 34.147.59.126
+  port: 443
+  type: vless
+  uuid: f76627ae-2626-4c53-ab57-da0e4d377a53
+  tls: true
+  reality-opts:
+    public-key: ODBW9YQs2TYvh_KBUQvbvAh61EULeZvqvwjc2RysKTs
+    short-id: 973452cd8674dbaf
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇬🇧 英国 | GBR
+  server: 35.234.143.34
+  port: 443
+  type: vless
+  uuid: 9743b4f9-24c3-4e53-8b03-c3b5cd9b71b2
+  tls: true
+  reality-opts:
+    public-key: bx1ylgNlSmg4i-abKzPcSHGMlIE6gdf66Ysjv25ZrE4
+    short-id: 1b580f160d965b01
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
 - name: 🇩🇪DE德国丨yoyapai.com_12
   type: vless
   server: 169.40.42.229
@@ -306,68 +383,117 @@ proxies:
     short-id: c39cc7310a
   skip-cert-verify: false
   udp: true
+- name: 🇩🇪 德国 | DEU 12
+  server: 130.61.33.9
+  port: 59924
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: pAXH1kDzTfDIeAo4L7hAwsKaabXGYYH7Jz4OBLG5oeg=
+  udp: true
+- name: 🇳🇱 荷兰 | NLD 5
+  server: ndi.lavivas.org
+  port: 2096
+  type: vless
+  uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
+  tls: true
+  alpn:
+  - h2
+  - http/1.1
+  flow: xtls-rprx-vision
+  servername: ndi.lavivas.org
+  client-fingerprint: firefox
+  network: tcp
+  udp: true
+- name: 🇩🇪 德国 | DEU 10
+  server: 79.137.202.86
+  port: 8443
+  type: vless
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  tls: true
+  servername: shuma.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+  udp: true
 proxy-groups:
 - name: AUTO-FAST
   type: url-test
   proxies:
   - 🇭🇰 香港 | HKG 2
-  - 🇸🇬 新加坡 | SGP 3
+  - 🇸🇬 新加坡 | SGP 5
   - 🇸🇬 新加坡 | SGP
+  - 🇸🇬 新加坡 | SGP 3
+  - 🇭🇰 香港 | HKG
   - 🇸🇬 新加坡 | SGP 2
   - 🇺🇸 美国 | USA 9
+  - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 4
+  - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA
-  - 🇺🇸 美国 | USA 10
   - 🇺🇸US美国丨yoyapai.com
-  - 🇺🇸 美国 | USA 15
-  - 🇩🇪 德国 | DEU 2
-  - 🇱🇻LV拉脱维亚丨yoyapai.com
-  - 🇦🇹 奥地利 | AUT
+  - 🇳🇱 荷兰 | NLD 4
+  - 🇹🇼 🇨🇳 台湾 | TWN
+  - 🇩🇪 德国 | DEU 15
+  - 🇩🇪 德国 | DEU 5
   - 🇵🇱PL波兰丨yoyapai.com
   - 🇩🇪_德国丨yoyapai.com
   - 🇵🇱 波兰 | POL
+  - 🇩🇪 德国 | DEU 6
   - 🇦🇺AU澳大利亚丨yoyapai.com
-  - 🇷🇴 罗马尼亚 | ROU
-  - 🇩🇪 德国 | DEU
+  - 🇨🇭 瑞士 | CHE
+  - 🇩🇪 德国 | DEU 14
+  - 🇩🇪 德国 | DEU 4
+  - 🇬🇧 英国 | GBR 2
+  - 🇹🇭 泰国 | THA
+  - 🇩🇪 德国 | DEU 9
   - 🇳🇱 荷兰 | NLD 3
   - 🇬🇧 英国 | GBR
   - 🇩🇪DE德国丨yoyapai.com_12
+  - 🇩🇪 德国 | DEU 12
+  - 🇳🇱 荷兰 | NLD 5
+  - 🇩🇪 德国 | DEU 10
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: HK-POOL
   type: url-test
   proxies:
   - 🇭🇰 香港 | HKG 2
+  - 🇭🇰 香港 | HKG
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: JP-POOL
   type: url-test
   proxies:
   - 🇭🇰 香港 | HKG 2
-  - 🇸🇬 新加坡 | SGP 3
+  - 🇸🇬 新加坡 | SGP 5
   - 🇸🇬 新加坡 | SGP
-  - 🇸🇬 新加坡 | SGP 2
-  - 🇺🇸 美国 | USA 9
+  - 🇸🇬 新加坡 | SGP 3
+  - 🇭🇰 香港 | HKG
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: US-POOL
   type: url-test
   proxies:
   - 🇺🇸 美国 | USA 9
+  - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 4
+  - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA
-  - 🇺🇸 美国 | USA 10
   - 🇺🇸US美国丨yoyapai.com
-  - 🇺🇸 美国 | USA 15
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: AI-POOL
   type: url-test
   proxies:
   - 🇺🇸US美国丨yoyapai.com
-  - 🇺🇸 美国 | USA 9
-  - 🇸🇬 新加坡 | SGP 3
+  - 🇸🇬 新加坡 | SGP 5
+  - 🇺🇸 美国 | USA
+  - 🇺🇸 美国 | USA 8
   - 🇸🇬 新加坡 | SGP
+  - 🇩🇪 德国 | DEU 15
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
