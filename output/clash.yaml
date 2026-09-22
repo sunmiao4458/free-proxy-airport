@@ -7,21 +7,8 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-09-22T17:55:47.985831+00:00'
+generated-at: '2026-09-22T20:51:46.327021+00:00'
 proxies:
-- name: 🇭🇰 香港 | HKG 2
-  server: 34.96.146.210
-  port: 443
-  type: vless
-  uuid: 90153538-ef08-4942-b8e1-41e7c523e659
-  tls: true
-  reality-opts:
-    public-key: tSBJnEt6E1dy6UgX9gX5wUfvZ2KAXjGWVKsEq886OWM
-    short-id: 56d4e7ae4f86fa39
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
 - name: 🇸🇬 新加坡 | SGP 5
   server: 162.159.43.187
   port: 8880
@@ -68,19 +55,6 @@ proxies:
   password: 19f72087-4591-4d72-930b-2697078ec2be
   auth: 19f72087-4591-4d72-930b-2697078ec2be
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 | SGP 2
-  server: signodels.jumpernode.online
-  port: 443
-  type: vless
-  uuid: 051fbf39-789a-4017-9022-eb32daeb5efd
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: Q8vb7a7wHy2nB-9fVuVeeizz9efta09IHHmC-mRbgQw
-    short-id: 334b080fa37c42f4
-  servername: shop.business.amazon.com
-  client-fingerprint: chrome
-  network: tcp
 - name: 🇺🇸 美国 | USA 9
   server: starlink-ft.251313.xyz
   port: 443
@@ -153,15 +127,6 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: 🇳🇱 荷兰 | NLD 4
-  server: 92.5.236.74
-  port: 62145
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-  tls: false
-  servername: 92.5.236.74
-  network: tcp
-  udp: true
 - name: 🇹🇼 🇨🇳 台湾 | TWN
   server: 34.81.223.1
   port: 443
@@ -218,21 +183,6 @@ proxies:
     public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
   skip-cert-verify: false
   udp: true
-- name: 🇩🇪_德国丨yoyapai.com
-  type: vless
-  server: 46.101.253.244
-  port: 2083
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  network: ws
-  servername: edge.yzkvm.top
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: edge.yzkvm.top
-  skip-cert-verify: false
-  udp: true
 - name: 🇵🇱 波兰 | POL
   server: 2.59.253.251
   port: 443
@@ -246,13 +196,6 @@ proxies:
   servername: nvidia.com
   client-fingerprint: firefox
   network: tcp
-  udp: true
-- name: 🇩🇪 德国 | DEU 6
-  server: 130.61.130.186
-  port: 59924
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: E+do7ZdpBv+KFrzaQE6KQ+/A4N1ONgz0vk7ifrUJ0M0=
   udp: true
 - name: 🇦🇺AU澳大利亚丨yoyapai.com
   type: vless
@@ -280,22 +223,6 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇩🇪 德国 | DEU 14
-  server: 104.24.219.225
-  port: 2087
-  type: vless
-  uuid: fd6fb48f-b324-4a82-9dcd-f8bdb1bd5301
-  tls: true
-  alpn:
-  - h2
-  servername: allsmart1.17e1feeuzi.online
-  client-fingerprint: firefox
-  network: xhttp
-  xhttp-opts:
-    path: /meti
-    host: allsmart1.17e1feeuzi.online
-    mode: stream-one
-  udp: true
 - name: 🇩🇪 德国 | DEU 4
   server: 34.185.172.52
   port: 443
@@ -309,13 +236,6 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇬🇧 英国 | GBR 2
-  server: 129.151.65.156
-  port: 61312
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 0bt5twW+YJsxRkgIINMT2VjqrCioowqMZT8L+H8szBk=
-  udp: true
 - name: 🇹🇭 泰国 | THA
   server: 34.15.176.240
   port: 443
@@ -327,20 +247,6 @@ proxies:
     short-id: 856c0a3cd1426a5c
   servername: www.cloudflare.com
   client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: 🇩🇪 德国 | DEU 9
-  server: 31.76.245.63
-  port: 443
-  type: vless
-  uuid: d72f05b0-b182-4783-a6f2-21cecc7d841a
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: SibLV5WBGdljTiUCmKx77KhHQfErCwjDMD_ZLoha3js
-    short-id: a1b2c3d4e5f67890
-  servername: dzen.ru
-  client-fingerprint: firefox
   network: tcp
   udp: true
 - name: 🇳🇱 荷兰 | NLD 3
@@ -383,13 +289,6 @@ proxies:
     short-id: c39cc7310a
   skip-cert-verify: false
   udp: true
-- name: 🇩🇪 德国 | DEU 12
-  server: 130.61.33.9
-  port: 59924
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: pAXH1kDzTfDIeAo4L7hAwsKaabXGYYH7Jz4OBLG5oeg=
-  udp: true
 - name: 🇳🇱 荷兰 | NLD 5
   server: ndi.lavivas.org
   port: 2096
@@ -422,37 +321,28 @@ proxy-groups:
 - name: AUTO-FAST
   type: url-test
   proxies:
-  - 🇭🇰 香港 | HKG 2
   - 🇸🇬 新加坡 | SGP 5
   - 🇸🇬 新加坡 | SGP
   - 🇸🇬 新加坡 | SGP 3
   - 🇭🇰 香港 | HKG
-  - 🇸🇬 新加坡 | SGP 2
   - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 4
   - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA
   - 🇺🇸US美国丨yoyapai.com
-  - 🇳🇱 荷兰 | NLD 4
   - 🇹🇼 🇨🇳 台湾 | TWN
   - 🇩🇪 德国 | DEU 15
   - 🇩🇪 德国 | DEU 5
   - 🇵🇱PL波兰丨yoyapai.com
-  - 🇩🇪_德国丨yoyapai.com
   - 🇵🇱 波兰 | POL
-  - 🇩🇪 德国 | DEU 6
   - 🇦🇺AU澳大利亚丨yoyapai.com
   - 🇨🇭 瑞士 | CHE
-  - 🇩🇪 德国 | DEU 14
   - 🇩🇪 德国 | DEU 4
-  - 🇬🇧 英国 | GBR 2
   - 🇹🇭 泰国 | THA
-  - 🇩🇪 德国 | DEU 9
   - 🇳🇱 荷兰 | NLD 3
   - 🇬🇧 英国 | GBR
   - 🇩🇪DE德国丨yoyapai.com_12
-  - 🇩🇪 德国 | DEU 12
   - 🇳🇱 荷兰 | NLD 5
   - 🇩🇪 德国 | DEU 10
   url: http://www.gstatic.com/generate_204
@@ -460,18 +350,17 @@ proxy-groups:
 - name: HK-POOL
   type: url-test
   proxies:
-  - 🇭🇰 香港 | HKG 2
   - 🇭🇰 香港 | HKG
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: JP-POOL
   type: url-test
   proxies:
-  - 🇭🇰 香港 | HKG 2
   - 🇸🇬 新加坡 | SGP 5
   - 🇸🇬 新加坡 | SGP
   - 🇸🇬 新加坡 | SGP 3
   - 🇭🇰 香港 | HKG
+  - 🇺🇸 美国 | USA 9
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: US-POOL
@@ -489,11 +378,9 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇺🇸US美国丨yoyapai.com
-  - 🇸🇬 新加坡 | SGP 5
-  - 🇺🇸 美国 | USA
-  - 🇺🇸 美国 | USA 8
   - 🇸🇬 新加坡 | SGP
-  - 🇩🇪 德国 | DEU 15
+  - 🇺🇸 美国 | USA
+  - 🇸🇬 新加坡 | SGP 5
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
