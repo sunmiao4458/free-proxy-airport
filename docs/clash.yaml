@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-09-23T21:03:11.200069+00:00'
+generated-at: '2026-09-23T23:51:23.702862+00:00'
 proxies:
 - name: 🇸🇬 新加坡 | SGP 3
   server: 129.226.157.220
@@ -47,6 +47,19 @@ proxies:
   password: a6cf39b3-0424-42a2-abf7-b426da69b1a4
   auth: a6cf39b3-0424-42a2-abf7-b426da69b1a4
   skip-cert-verify: true
+- name: 🇺🇸 美国 | USA 24
+  server: 188.114.96.3
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+  udp: true
 - name: 🇺🇸 美国 | USA 25
   server: lyra.yokkastars.com
   port: 40443
@@ -61,6 +74,16 @@ proxies:
   client-fingerprint: edge
   network: tcp
   udp: true
+- name: 🇺🇸 美国 | USA 3
+  server: 107.172.76.105
+  port: 443
+  type: hysteria2
+  password: 975e9f98b4a1b01285ffdb8158ced798
+  auth: 975e9f98b4a1b01285ffdb8158ced798
+  sni: www.bing.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: c8d95078e61be690c18e2fbbefe5e2ef
 - name: 🇺🇸 美国 | USA 4
   server: 136.117.218.86
   port: 443
@@ -73,32 +96,6 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: chrome
   network: tcp
-  udp: true
-- name: 🇺🇸 美国 | USA 3
-  server: 107.172.76.105
-  port: 443
-  type: hysteria2
-  password: 975e9f98b4a1b01285ffdb8158ced798
-  auth: 975e9f98b4a1b01285ffdb8158ced798
-  sni: www.bing.com
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: c8d95078e61be690c18e2fbbefe5e2ef
-- name: 🇺🇸 美国 | USA 7
-  server: bounded-crammed.video-streams.org
-  port: 443
-  type: vless
-  uuid: 11e6c528-434f-4b15-83b3-40a46237ea13
-  tls: true
-  alpn:
-  - http/1.1
-  servername: bounded-crammed.video-streams.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: bounded-crammed.video-streams.org
   udp: true
 - name: 🇺🇸 美国 | USA 15
   server: 162.159.43.187
@@ -124,21 +121,18 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: 🇺🇸 美国 | USA 14
-  server: ghosts-spasm.quick-cdn.net
+- name: 🇫🇷 法国 | FRA 6
+  server: 185.18.250.252
   port: 443
-  type: vless
-  uuid: 11e6c528-434f-4b15-83b3-40a46237ea13
-  tls: true
-  alpn:
-  - http/1.1
-  servername: ghosts-spasm.quick-cdn.net
-  client-fingerprint: chrome
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /ws
+    path: /assignment
     headers:
-      Host: ghosts-spasm.quick-cdn.net
+      Host: www.calmlunch.com
   udp: true
 - name: 🇩🇪 德国 | DEU 7
   server: nova.freshnet.ir
@@ -167,22 +161,6 @@ proxies:
     short-id: b28db60d77c50b4f
   skip-cert-verify: false
   udp: true
-- name: 🇷🇺 俄罗斯 | RUS
-  server: fbsv6.guardora.pro
-  port: 443
-  type: vless
-  uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
-  tls: true
-  alpn:
-  - http/1.1
-  servername: fbsv6.guardora.pro
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: fbsv6.guardora.pro
-  udp: true
 - name: 🇩🇪 德国 | DEU 5
   server: 77.91.76.156
   port: 57160
@@ -196,6 +174,21 @@ proxies:
   servername: funpay.com
   client-fingerprint: firefox
   network: tcp
+  udp: true
+- name: 🇵🇱PL波兰丨yoyapai.com
+  type: vless
+  server: 176.123.161.222
+  port: 9892
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  network: grpc
+  servername: dl.google.com
+  tls: true
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  reality-opts:
+    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
+  skip-cert-verify: false
   udp: true
 - name: 🇦🇺AU澳大利亚丨yoyapai.com
   type: vless
@@ -226,13 +219,6 @@ proxies:
     grpc-mode: gun
     grpc-service-name: your-custom-path
   udp: true
-- name: 🇩🇪 德国 | DEU 9
-  server: 130.61.102.123
-  port: 59924
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 2XG9witwk9u9AP7ZPoKluZNL5VBW82xnYgGA/8oHC4I=
-  udp: true
 - name: 🇫🇷 法国 | FRA 2
   server: 62.210.7.139
   port: 60111
@@ -262,20 +248,19 @@ proxy-groups:
   - 🇸🇬 新加坡 | SGP 3
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 21
+  - 🇺🇸 美国 | USA 24
   - 🇺🇸 美国 | USA 25
-  - 🇺🇸 美国 | USA 4
   - 🇺🇸 美国 | USA 3
-  - 🇺🇸 美国 | USA 7
+  - 🇺🇸 美国 | USA 4
   - 🇺🇸 美国 | USA 15
   - 🇺🇸US美国丨yoyapai.com
-  - 🇺🇸 美国 | USA 14
+  - 🇫🇷 法国 | FRA 6
   - 🇩🇪 德国 | DEU 7
   - 🇱🇻LV拉脱维亚丨yoyapai.com
-  - 🇷🇺 俄罗斯 | RUS
   - 🇩🇪 德国 | DEU 5
+  - 🇵🇱PL波兰丨yoyapai.com
   - 🇦🇺AU澳大利亚丨yoyapai.com
   - 🇫🇷 法国 | FRA
-  - 🇩🇪 德国 | DEU 9
   - 🇫🇷 法国 | FRA 2
   - 🇩🇪DE德国丨yoyapai.com_12
   url: http://www.gstatic.com/generate_204
@@ -286,8 +271,8 @@ proxy-groups:
   - 🇸🇬 新加坡 | SGP 3
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 21
+  - 🇺🇸 美国 | USA 24
   - 🇺🇸 美国 | USA 25
-  - 🇺🇸 美国 | USA 4
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: JP-POOL
@@ -296,8 +281,8 @@ proxy-groups:
   - 🇸🇬 新加坡 | SGP 3
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 21
+  - 🇺🇸 美国 | USA 24
   - 🇺🇸 美国 | USA 25
-  - 🇺🇸 美国 | USA 4
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: US-POOL
@@ -305,13 +290,12 @@ proxy-groups:
   proxies:
   - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 21
+  - 🇺🇸 美国 | USA 24
   - 🇺🇸 美国 | USA 25
-  - 🇺🇸 美国 | USA 4
   - 🇺🇸 美国 | USA 3
-  - 🇺🇸 美国 | USA 7
+  - 🇺🇸 美国 | USA 4
   - 🇺🇸 美国 | USA 15
   - 🇺🇸US美国丨yoyapai.com
-  - 🇺🇸 美国 | USA 14
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: AI-POOL
@@ -319,7 +303,7 @@ proxy-groups:
   proxies:
   - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 15
-  - 🇺🇸 美国 | USA 4
+  - 🇺🇸 美国 | USA 8
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
