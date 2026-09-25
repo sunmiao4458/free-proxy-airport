@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-09-25T19:25:29.201844+00:00'
+generated-at: '2026-09-25T22:38:36.386048+00:00'
 proxies:
 - name: 🇯🇵 日本 | JPN 2
   server: 43.167.208.94
@@ -44,19 +44,6 @@ proxies:
   client-fingerprint: safari
   network: tcp
   udp: true
-- name: 🇺🇸 美国 | USA 8
-  server: 162.159.43.187
-  port: 8080
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  tls: false
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  udp: true
 - name: 🇺🇸 美国 | USA 9
   server: 161.35.187.182
   port: 11186
@@ -71,6 +58,19 @@ proxies:
     headers:
       Host:
       - bmi.ir
+  udp: true
+- name: 🇺🇸 美国 | USA 8
+  server: 162.159.43.187
+  port: 8080
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  tls: false
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
   udp: true
 - name: 🇺🇸 美国 | USA 16
   server: 108.162.198.178
@@ -93,19 +93,30 @@ proxies:
   auth: 488b2611852407f03a681927cb91804b
   sni: cf.shiranyu.xyz
   skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 3
-  server: cos-cdn-a.alicdn.win
+- name: 🇺🇸 美国 | USA 13
+  server: 54.162.206.255
   port: 443
-  type: vless
-  uuid: 52fa48c9-1c1f-4c24-badb-ad92c18e6f92
-  tls: true
-  servername: mms-static-rr6asx-e.oppocdn.sbs
-  client-fingerprint: safari
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇺🇸 美国 | USA 17
+  server: 45.32.128.44
+  port: 2095
+  type: vmess
+  uuid: 1da76fea-2360-40d7-99ce-7374971808bb
+  alterId: 0
+  cipher: auto
+  tls: false
+  alpn:
+  - ''
+  skip-cert-verify: true
+  servername: www.bing.com
   network: ws
   ws-opts:
-    path: /newlogin/login.do
+    path: 1da76fea-2360-40d7-99ce-7374971808bb-vm
     headers:
-      Host: mms-static-edio-e.oppocdn.sbs
+      Host: www.bing.com
+  udp: true
 - name: 🇺🇸US美国丨yoyapai.com
   type: trojan
   server: 216.24.57.7
@@ -153,18 +164,14 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇦🇪 阿联酋 | ARE 2
-  server: 139.185.44.42
-  port: 8443
+- name: 🇲🇩 摩尔多瓦 | MDA
+  server: md-new.failspace.top
+  port: 443
   type: vless
-  uuid: b0fa80ad-d759-4bcc-a0fd-f802d53b5a88
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
   tls: true
   flow: xtls-rprx-vision
-  reality-opts:
-    public-key: VlWMFvYxwGIsctI7BfOgC4PCG3EMToD7_H8vWcRB42w
-    short-id: 855834d3b002ad21
-  servername: www.microsoft.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   network: tcp
   udp: true
 - name: 🇸🇪 瑞典 | SWE 3
@@ -173,22 +180,6 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇳🇱 荷兰 | NLD
-  server: 132.243.121.9
-  port: 443
-  type: vless
-  uuid: cb9bc521-77a2-4c23-9bbf-b8d5318e717d
-  tls: true
-  reality-opts:
-    public-key: --pxBStu9Lk1PFAsYbzTg5vBZKXtzdcOlmrpw9pen1s
-    short-id: 0812e28665a36091
-  servername: ads.x5.ru
-  client-fingerprint: chrome
-  network: xhttp
-  xhttp-opts:
-    path: /
-    host: ads.x5.ru
-  udp: true
 - name: 🇸🇪 瑞典 | SWE 2
   server: 51.20.86.152
   port: 443
@@ -221,20 +212,14 @@ proxies:
     headers:
       Host: platform102.halalkhor.info
   udp: true
-- name: 🇩🇪 德国 | DEU 3
-  server: bgroup.de3.ilovegairport.com
+- name: 🇷🇺 俄罗斯 | RUS
+  server: 77.110.104.238
   port: 443
-  type: vless
-  uuid: a92c5b96-c30a-4130-8cfa-63030349503a
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: vISyEnPtrRB38JGRLcKGO8gm2IY9vOcrKXDia1GbPj4
-    short-id: c3cdb08edf5c
-  servername: eu-central-1.console.aws.amazon.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
+  type: hysteria2
+  password: 5413edfb-08d6-4fba-b51c-809c04feb127
+  auth: 5413edfb-08d6-4fba-b51c-809c04feb127
+  sni: ch2-hy2.veilvpn.life
+  skip-cert-verify: true
 - name: 🇦🇹 奥地利 | AUT
   server: at-at-at.failspace.top
   port: 443
@@ -317,23 +302,23 @@ proxy-groups:
   - 🇯🇵 日本 | JPN 3
   - 🇯🇵 日本 | JPN 4
   - 🇸🇬 新加坡 | SGP
-  - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 9
+  - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 16
   - 🇺🇸 美国 | USA 6
-  - 🇺🇸 美国 | USA 3
+  - 🇺🇸 美国 | USA 13
+  - 🇺🇸 美国 | USA 17
   - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 18
   - 🇺🇸 美国 | USA 2
   - 🇮🇱 以色列 | ISR 3
   - 🇮🇷 伊朗 | IRN
-  - 🇦🇪 阿联酋 | ARE 2
+  - 🇲🇩 摩尔多瓦 | MDA
   - 🇸🇪 瑞典 | SWE 3
-  - 🇳🇱 荷兰 | NLD
   - 🇸🇪 瑞典 | SWE 2
   - 🇱🇻LV拉脱维亚丨yoyapai.com
   - 🇮🇱 以色列 | ISR
-  - 🇩🇪 德国 | DEU 3
+  - 🇷🇺 俄罗斯 | RUS
   - 🇦🇹 奥地利 | AUT
   - 🇵🇱PL波兰丨yoyapai.com
   - 🇦🇺AU澳大利亚丨yoyapai.com
@@ -349,7 +334,7 @@ proxy-groups:
   - 🇯🇵 日本 | JPN 3
   - 🇯🇵 日本 | JPN 4
   - 🇸🇬 新加坡 | SGP
-  - 🇺🇸 美国 | USA 8
+  - 🇺🇸 美国 | USA 9
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: JP-POOL
@@ -363,11 +348,12 @@ proxy-groups:
 - name: US-POOL
   type: url-test
   proxies:
-  - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 9
+  - 🇺🇸 美国 | USA 8
   - 🇺🇸 美国 | USA 16
   - 🇺🇸 美国 | USA 6
-  - 🇺🇸 美国 | USA 3
+  - 🇺🇸 美国 | USA 13
+  - 🇺🇸 美国 | USA 17
   - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 18
   - 🇺🇸 美国 | USA 2
@@ -377,10 +363,10 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇺🇸US美国丨yoyapai.com
-  - 🇺🇸 美国 | USA 8
-  - 🇺🇸 美国 | USA 16
   - 🇺🇸 美国 | USA 2
   - 🇺🇸 美国 | USA 18
+  - 🇺🇸 美国 | USA 9
+  - 🇺🇸 美国 | USA 16
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
