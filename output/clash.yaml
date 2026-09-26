@@ -7,22 +7,8 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-09-26T15:43:43.493362+00:00'
+generated-at: '2026-09-26T18:59:10.073736+00:00'
 proxies:
-- name: 🇯🇵 日本 | JPN 5
-  server: cf.3666888.xyz
-  port: 443
-  type: vless
-  uuid: cd7c5c42-7677-4002-8ad3-4433b166a5d1
-  tls: true
-  servername: 819.18827466.bot.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 819.18827466.bot.cd
-  udp: true
 - name: 🇭🇰 香港 | HKG 2
   server: 54.46.72.234
   port: 8030
@@ -43,6 +29,22 @@ proxies:
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
+- name: 🇯🇵 日本 | JPN 8
+  server: grimness-backlogs.cdn-content.com
+  port: 443
+  type: vless
+  uuid: 2957d7ed-4697-4dda-8939-0caf7a0e93af
+  tls: true
+  alpn:
+  - http/1.1
+  servername: grimness-backlogs.cdn-content.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: grimness-backlogs.cdn-content.com
+  udp: true
 - name: 🇯🇵 日本 | JPN 2
   server: cf.877774.xyz
   port: 443
@@ -56,34 +58,6 @@ proxies:
     path: /proxyip=kr.william.us.ci
     headers:
       Host: yf.962456.xyz
-  udp: true
-- name: 🇯🇵 日本 | JPN 7
-  server: cf.877774.xyz
-  port: 443
-  type: vless
-  uuid: 0740c4b8-2f51-42b9-859a-34d750822dbb
-  tls: true
-  servername: 255038.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 255038.xyz
-  udp: true
-- name: 🇯🇵 日本 | JPN 3
-  server: cf.877774.xyz
-  port: 443
-  type: vless
-  uuid: d342d11e-d224-4463-b982-532309285094
-  tls: true
-  servername: ccc.010304.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
   udp: true
 - name: 🇸🇬 新加坡 | SGP 7
   server: cf.090227.xyz
@@ -99,19 +73,19 @@ proxies:
     headers:
       Host: g.2n2n.ggff.net
   udp: true
-- name: 🇯🇵 日本 | JPN 6
-  server: cf.130519.xyz
+- name: 🇯🇵 日本 | JPN 3
+  server: cf.877774.xyz
   port: 443
   type: vless
-  uuid: cd7c5c42-7677-4002-8ad3-4433b166a5d1
+  uuid: d342d11e-d224-4463-b982-532309285094
   tls: true
-  servername: 819.18827466.bot.cd
+  servername: ccc.010304.xyz
   client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: 819.18827466.bot.cd
+      Host: ccc.010304.xyz
   udp: true
 - name: 🇸🇬 新加坡 | SGP 6
   server: 162.159.43.187
@@ -125,34 +99,6 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 3
-  server: cf.090227.xyz
-  port: 443
-  type: vless
-  uuid: 03f4506a-ca11-44e2-86c5-94015b31d88a
-  tls: true
-  servername: styx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: styx.dpdns.org
-  udp: true
-- name: 🇯🇵 日本 | JPN 4
-  server: cf.877774.xyz
-  port: 443
-  type: vless
-  uuid: 03f4506a-ca11-44e2-86c5-94015b31d88a
-  tls: true
-  servername: styx.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: styx.dpdns.org
   udp: true
 - name: 🇸🇬 新加坡 | SGP
   server: 138.2.89.249
@@ -192,18 +138,6 @@ proxies:
     headers:
       Host: jp3.yohototo.top
   udp: true
-- name: 🇺🇸 美国 | USA 20
-  server: 172.64.53.55
-  port: 8080
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  udp: true
 - name: 🇺🇸 美国 | USA 24
   server: 162.159.43.187
   port: 2086
@@ -211,6 +145,18 @@ proxies:
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   tls: false
   servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  udp: true
+- name: 🇺🇸 美国 | USA 20
+  server: 172.64.53.55
+  port: 8080
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  tls: false
   network: ws
   ws-opts:
     path: /?ed=2560security=tls
@@ -230,16 +176,6 @@ proxies:
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
   udp: true
-- name: 🇺🇸 美国 | USA 6
-  server: 107.172.67.52
-  port: 2053
-  type: hysteria2
-  password: maintell
-  auth: maintell
-  sni: bing.com
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: maintell
 - name: 🇺🇸 美国 | USA 3
   server: 107.149.159.190
   port: 4433
@@ -266,19 +202,6 @@ proxies:
     headers:
       Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
   udp: true
-- name: 🇺🇸 美国 | USA 13
-  server: 151.241.138.44
-  port: 443
-  type: vless
-  uuid: d0f0a880-0df1-48c9-bdf1-5669fb9483ce
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: SB1uC0OEveYjSiS_Nuw9Ld-uVVXWqi794OGnldthY3I
-  servername: condropolo.ggisopi.su
-  client-fingerprint: firefox
-  network: tcp
-  udp: true
 - name: 🇺🇸 美国 | USA 17
   server: cf.877774.xyz
   port: 8443
@@ -293,6 +216,19 @@ proxies:
     headers:
       Host: edgetunnel-4uw.pages.dev
   udp: true
+- name: 🇺🇸 美国 | USA 13
+  server: 151.241.138.44
+  port: 443
+  type: vless
+  uuid: d0f0a880-0df1-48c9-bdf1-5669fb9483ce
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: SB1uC0OEveYjSiS_Nuw9Ld-uVVXWqi794OGnldthY3I
+  servername: condropolo.ggisopi.su
+  client-fingerprint: firefox
+  network: tcp
+  udp: true
 - name: 🇺🇸 美国 | USA 27
   server: 172.64.154.8
   port: 8080
@@ -305,14 +241,6 @@ proxies:
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
   udp: true
-- name: 🇺🇸 美国 | USA 18
-  server: 144.24.46.175
-  port: 8443
-  type: hysteria2
-  password: pbgLTkd5276SN1sZ
-  auth: pbgLTkd5276SN1sZ
-  sni: www.bing.com
-  skip-cert-verify: true
 - name: 🇺🇸US美国丨yoyapai.com
   type: trojan
   server: 216.24.57.7
@@ -325,20 +253,14 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: 🇺🇸 美国 | USA 22
-  server: 38.34.190.212
-  port: 443
-  type: vless
-  uuid: c05ce6f2-7e9d-4b20-82fc-597bad3af79a
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
-    short-id: 66d62ef550107695
-  servername: www.apple.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
+- name: 🇺🇸 美国 | USA 18
+  server: 144.24.46.175
+  port: 8443
+  type: hysteria2
+  password: pbgLTkd5276SN1sZ
+  auth: pbgLTkd5276SN1sZ
+  sni: www.bing.com
+  skip-cert-verify: true
 - name: 🇺🇸 美国 | USA 2
   server: 151.101.56.6
   port: 443
@@ -355,20 +277,6 @@ proxies:
     headers:
       Host: c12.com
   udp: true
-- name: 🇩🇪 德国 | DEU 2
-  server: 78.17.85.30
-  port: 443
-  type: vless
-  uuid: 482514e8-2979-4628-acf3-d04f607c4f12
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: zsHnZqOsCsD1-WFxqIsQZAuS9KNyGLmFD7KFHf7PRF8
-    short-id: 04f1c6d2
-  servername: flo.ufogame.tech
-  client-fingerprint: firefox
-  network: tcp
-  udp: true
 - name: 🇳🇱 荷兰 | NLD
   server: 89.105.197.204
   port: 443
@@ -382,13 +290,6 @@ proxies:
   servername: anyfile2file.com
   client-fingerprint: safari
   network: tcp
-  udp: true
-- name: 🇷🇺 俄罗斯 | RUS
-  server: 185.22.154.239
-  port: 10301
-  type: ss
-  cipher: aes-256-gcm
-  password: bdb313adf74c2ede
   udp: true
 - name: 🇱🇻LV拉脱维亚丨yoyapai.com
   type: vless
@@ -404,60 +305,6 @@ proxies:
     short-id: b28db60d77c50b4f
   skip-cert-verify: false
   udp: true
-- name: 🇨🇦 加拿大 | CAN
-  server: 198.255.87.230
-  port: 443
-  type: vless
-  uuid: effd18d2-a741-4d0d-8b84-39cc414136f1
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
-    short-id: 8a9725533854a7e8
-  servername: www.apple.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: 🇩🇪 德国 | DEU 3
-  server: gem2.chipsomast.ir
-  port: 8118
-  type: vless
-  uuid: eea1c59d-70fd-4829-8ed7-21ddfe55a0da
-  tls: true
-  reality-opts:
-    public-key: LjAkLizwkZf35ObrUMFZ22UHXTEJzpgcTvHk9AuzcUM
-  servername: play.googleapis.com
-  client-fingerprint: ios
-  network: tcp
-  udp: true
-- name: 🇪🇪 爱沙尼亚 | EST
-  server: 144.31.170.72
-  port: 443
-  type: vless
-  uuid: deea5046-3543-4b1b-a17f-3d08a65db91d
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: fkZTYNydTBVO-1LSiTvDcyBMx-zBP5Am780jECmUgg0
-  servername: est.bopen.bond
-  client-fingerprint: safari
-  network: tcp
-  udp: true
-- name: 🇵🇱PL波兰丨yoyapai.com
-  type: vless
-  server: 176.123.161.222
-  port: 9892
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  network: grpc
-  servername: dl.google.com
-  tls: true
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-  skip-cert-verify: false
-  udp: true
 - name: 🇵🇱 波兰 | POL
   server: pl-waw.dontblockmepls.com
   port: 2063
@@ -470,6 +317,19 @@ proxies:
   servername: rusbid.de
   client-fingerprint: firefox
   network: tcp
+  udp: true
+- name: 🇦🇺AU澳大利亚丨yoyapai.com
+  type: vless
+  server: 163.8.195.241
+  port: 2087
+  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
+  network: ws
+  tls: false
+  ws-opts:
+    path: /29c8fed7ca22
+    headers:
+      Host: /?--v2rayNplus--v2rayNplus--v2rayNplus--
+  skip-cert-verify: false
   udp: true
 - name: 🇵🇱 波兰 | POL 2
   server: 31.77.13.19
@@ -494,20 +354,6 @@ proxies:
   reality-opts:
     public-key: SB1uC0OEveYjSiS_Nuw9Ld-uVVXWqi794OGnldthY3I
   client-fingerprint: qq
-  network: tcp
-  udp: true
-- name: 🇫🇷 法国 | FRA 2
-  server: 198.16.113.221
-  port: 443
-  type: vless
-  uuid: 321a9870-0298-428e-b506-ddad3402f3e3
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
-    short-id: 716b7eba38125f3a
-  servername: www.apple.com
-  client-fingerprint: chrome
   network: tcp
   udp: true
 - name: 🇨🇱 智利 | CHL
@@ -541,45 +387,33 @@ proxy-groups:
 - name: AUTO-FAST
   type: url-test
   proxies:
-  - 🇯🇵 日本 | JPN 5
   - 🇭🇰 香港 | HKG 2
   - 🇯🇵 日本 | JPN 9
+  - 🇯🇵 日本 | JPN 8
   - 🇯🇵 日本 | JPN 2
-  - 🇯🇵 日本 | JPN 7
-  - 🇯🇵 日本 | JPN 3
   - 🇸🇬 新加坡 | SGP 7
-  - 🇯🇵 日本 | JPN 6
+  - 🇯🇵 日本 | JPN 3
   - 🇸🇬 新加坡 | SGP 6
-  - 🇸🇬 新加坡 | SGP 3
-  - 🇯🇵 日本 | JPN 4
   - 🇸🇬 新加坡 | SGP
   - 🇸🇬 新加坡 | SGP 2
   - 🇯🇵 日本 | JPN
-  - 🇺🇸 美国 | USA 20
   - 🇺🇸 美国 | USA 24
+  - 🇺🇸 美国 | USA 20
   - 🇺🇸 美国 | USA 16
-  - 🇺🇸 美国 | USA 6
   - 🇺🇸 美国 | USA 3
   - 🇺🇸 美国 | USA 19
-  - 🇺🇸 美国 | USA 13
   - 🇺🇸 美国 | USA 17
+  - 🇺🇸 美国 | USA 13
   - 🇺🇸 美国 | USA 27
-  - 🇺🇸 美国 | USA 18
   - 🇺🇸US美国丨yoyapai.com
-  - 🇺🇸 美国 | USA 22
+  - 🇺🇸 美国 | USA 18
   - 🇺🇸 美国 | USA 2
-  - 🇩🇪 德国 | DEU 2
   - 🇳🇱 荷兰 | NLD
-  - 🇷🇺 俄罗斯 | RUS
   - 🇱🇻LV拉脱维亚丨yoyapai.com
-  - 🇨🇦 加拿大 | CAN
-  - 🇩🇪 德国 | DEU 3
-  - 🇪🇪 爱沙尼亚 | EST
-  - 🇵🇱PL波兰丨yoyapai.com
   - 🇵🇱 波兰 | POL
+  - 🇦🇺AU澳大利亚丨yoyapai.com
   - 🇵🇱 波兰 | POL 2
   - 🇩🇪 德国 | DEU
-  - 🇫🇷 法国 | FRA 2
   - 🇨🇱 智利 | CHL
   - 🇩🇪DE德国丨yoyapai.com_12
   url: http://www.gstatic.com/generate_204
@@ -593,45 +427,37 @@ proxy-groups:
 - name: JP-POOL
   type: url-test
   proxies:
-  - 🇯🇵 日本 | JPN 5
   - 🇯🇵 日本 | JPN 9
+  - 🇯🇵 日本 | JPN 8
   - 🇯🇵 日本 | JPN 2
-  - 🇯🇵 日本 | JPN 7
   - 🇯🇵 日本 | JPN 3
-  - 🇯🇵 日本 | JPN 6
-  - 🇯🇵 日本 | JPN 4
   - 🇯🇵 日本 | JPN
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: US-POOL
   type: url-test
   proxies:
-  - 🇺🇸 美国 | USA 20
   - 🇺🇸 美国 | USA 24
+  - 🇺🇸 美国 | USA 20
   - 🇺🇸 美国 | USA 16
-  - 🇺🇸 美国 | USA 6
   - 🇺🇸 美国 | USA 3
   - 🇺🇸 美国 | USA 19
-  - 🇺🇸 美国 | USA 13
   - 🇺🇸 美国 | USA 17
+  - 🇺🇸 美国 | USA 13
   - 🇺🇸 美国 | USA 27
-  - 🇺🇸 美国 | USA 18
   - 🇺🇸US美国丨yoyapai.com
-  - 🇺🇸 美国 | USA 22
+  - 🇺🇸 美国 | USA 18
   - 🇺🇸 美国 | USA 2
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: AI-POOL
   type: url-test
   proxies:
-  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 19
+  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 24
   - 🇸🇬 新加坡 | SGP 6
-  - 🇺🇸 美国 | USA 27
   - 🇺🇸 美国 | USA 16
-  - 🇺🇸 美国 | USA 22
-  - 🇺🇸 美国 | USA 6
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
