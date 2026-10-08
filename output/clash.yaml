@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-10-07T22:39:54.592360+00:00'
+generated-at: '2026-10-08T02:28:33.665136+00:00'
 proxies:
 - name: 🇭🇰 香港 | HKG 2
   server: 47.83.207.148
@@ -427,11 +427,11 @@ proxy-groups:
 - name: AI-POOL
   type: url-test
   proxies:
-  - 🇺🇸US美国丨yoyapai.com_3
-  - 🇺🇸 美国 | USA
-  - 🇺🇸 美国 | USA 13
-  - 🇺🇸 美国 | USA 10
-  - 🇺🇸 美国 | USA 8
+  - 🇭🇰 香港 | HKG 2
+  - 🇯🇵 日本 | JPN 3
+  - 🇯🇵 日本 | JPN
+  - 🇸🇬 新加坡 | SGP 4
+  - 🇺🇸美国丨yoyapai.com
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
