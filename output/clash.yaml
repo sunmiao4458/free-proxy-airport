@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-10-17T19:01:12.847865+00:00'
+generated-at: '2026-10-17T21:23:59.282753+00:00'
 proxies:
 - name: 🇭🇰 香港 | HKG 4
   server: nycqg19zkwacpm1b.v.3dns.vip
@@ -39,33 +39,6 @@ proxies:
     headers:
       Host: qTKDR8jXE3wEFxJM.v.3dns.vip
   udp: true
-- name: 🇸🇬 新加坡 | SGP 3
-  server: 45.132.75.213
-  port: 2053
-  type: vless
-  uuid: f46182d1-e13b-47d3-97e2-fa5426a93e7c
-  tls: true
-  reality-opts:
-    public-key: TpWeZocgNOygOhMo0l7oJawPu7STkn9D-SOa0UppcyY
-    short-id: cd7e85995ae2afc9
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-  network: tcp
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 6
-  server: funagfrdfs.alixxplay.com
-  port: 30892
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: YinI5MijeZpRatg6QNDvP0qXEif-6VHC6gV5yoji4i4
-    short-id: 3d31326f95
-  servername: us1p1.xn--ghq880n3na965a.com
-  client-fingerprint: safari
-  network: tcp
-  udp: true
 - name: 🇭🇰 香港 | HKG
   server: 47.76.57.83
   port: 443
@@ -81,6 +54,20 @@ proxies:
     path: /ws-vmess
     headers:
       Host: vah4urdzl3jdx5r2.v.3dns.vip
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 6
+  server: funagfrdfs.alixxplay.com
+  port: 30892
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: YinI5MijeZpRatg6QNDvP0qXEif-6VHC6gV5yoji4i4
+    short-id: 3d31326f95
+  servername: us1p1.xn--ghq880n3na965a.com
+  client-fingerprint: safari
+  network: tcp
   udp: true
 - name: 🇸🇬 新加坡 | SGP 2
   server: funagfrdfs.alixxplay.com
@@ -138,19 +125,20 @@ proxies:
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
   udp: true
-- name: 🇺🇸 美国 | USA 5
-  server: 13.214.192.52
-  port: 34379
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 🇺🇸 美国 | USA 7
+  server: 172.67.137.209
+  port: 443
+  type: vmess
+  uuid: f5f0babe-aea2-4f07-a1fc-3c9820253f49
+  alterId: 0
+  cipher: auto
   tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
-    short-id: e51285e3
-  servername: us1p1.xn--ghq880n3na965a.com
-  client-fingerprint: chrome
-  network: tcp
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /London31
+    headers:
+      Host: ukl.lovehk.xyz
   udp: true
 - name: 🇺🇸 美国 | USA
   server: 208.84.100.209
@@ -214,22 +202,6 @@ proxies:
   auth: 082f5694-9019-4110-b67b-8125dbb9bab8
   sni: outh.yandex-cloud.org
   skip-cert-verify: true
-- name: 🇳🇱 荷兰 | NLD
-  server: rrr.soreanapanel.com
-  port: 25566
-  type: vless
-  uuid: 3c1dbb51-4160-4f9f-839e-218272142eaf
-  tls: false
-  encryption: mlkem768x25519plus.native.0rtt.T-gHfXonmN4GiwBIHvADVc8uAEQyff099ST33D7IzA0
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - mitivpn-s5.b-cdn.net
-  udp: true
 - name: 🇰🇷 韩国 | KOR 3
   server: 43.203.219.68
   port: 443
@@ -306,6 +278,20 @@ proxies:
     host: randomquaint.net
     mode: auto
   udp: true
+- name: 🇦🇹 奥地利 | AUT
+  server: 189.74.115.16
+  port: 443
+  type: vless
+  uuid: 082f5694-9019-4110-b67b-8125dbb9bab8
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
+    short-id: a8
+  servername: api.mediakaskad.cc
+  client-fingerprint: firefox
+  network: tcp
+  udp: true
 - name: ❓未知丨yoyapai.com_1
   type: vless
   server: dey.lnmarketplace.net
@@ -366,6 +352,17 @@ proxies:
     short-id: c39cc7310a
   skip-cert-verify: false
   udp: true
+- name: 🇧🇷 巴西 | BRA
+  server: 137.131.171.249
+  port: 20000
+  type: hysteria2
+  password: CyG0RFxMjzs41uQD4OLuHQ==
+  auth: CyG0RFxMjzs41uQD4OLuHQ==
+  sni: rmgyvpn.rest
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: CyG0RFxMjzs41uQD4OLuHQ==
+  ports: 20000-30000
 - name: 🇸🇪 瑞典 | SWE
   server: edge-lab-b.10media.top
   port: 443
@@ -417,29 +414,29 @@ proxy-groups:
   proxies:
   - 🇭🇰 香港 | HKG 4
   - 🇭🇰 香港 | HKG 5
-  - 🇸🇬 新加坡 | SGP 3
-  - 🇸🇬 新加坡 | SGP 6
   - 🇭🇰 香港 | HKG
+  - 🇸🇬 新加坡 | SGP 6
   - 🇸🇬 新加坡 | SGP 2
   - 🇺🇸 美国 | USA 9
   - 🇺🇸US美国丨yoyapai.com_16
   - 🇺🇸 美国 | USA 3
-  - 🇺🇸 美国 | USA 5
+  - 🇺🇸 美国 | USA 7
   - 🇺🇸 美国 | USA
   - 🇺🇸 美国 | USA 10
   - 🇺🇸US美国丨yoyapai.com
   - 🇰🇷 韩国 | KOR 2
   - 🇷🇺 俄罗斯 | RUS 2
-  - 🇳🇱 荷兰 | NLD
   - 🇰🇷 韩国 | KOR 3
   - 🇷🇺 俄罗斯 | RUS 3
   - 🇸🇪 瑞典 | SWE 2
   - 🇱🇻LV拉脱维亚丨yoyapai.com
   - 🇷🇺 俄罗斯 | RUS
+  - 🇦🇹 奥地利 | AUT
   - ❓未知丨yoyapai.com_1
   - 🇮🇪 爱尔兰 | IRL
   - 🇵🇱 波兰 | POL
   - 🇩🇪DE德国丨yoyapai.com_13
+  - 🇧🇷 巴西 | BRA
   - 🇸🇪 瑞典 | SWE
   - 🇵🇱 波兰 | POL 3
   - 🇪🇸 西班牙 | ESP
@@ -458,9 +455,9 @@ proxy-groups:
   proxies:
   - 🇭🇰 香港 | HKG 4
   - 🇭🇰 香港 | HKG 5
-  - 🇸🇬 新加坡 | SGP 3
-  - 🇸🇬 新加坡 | SGP 6
   - 🇭🇰 香港 | HKG
+  - 🇸🇬 新加坡 | SGP 6
+  - 🇸🇬 新加坡 | SGP 2
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: US-POOL
@@ -469,7 +466,7 @@ proxy-groups:
   - 🇺🇸 美国 | USA 9
   - 🇺🇸US美国丨yoyapai.com_16
   - 🇺🇸 美国 | USA 3
-  - 🇺🇸 美国 | USA 5
+  - 🇺🇸 美国 | USA 7
   - 🇺🇸 美国 | USA
   - 🇺🇸 美国 | USA 10
   - 🇺🇸US美国丨yoyapai.com
