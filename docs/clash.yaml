@@ -7,62 +7,48 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-10-17T13:27:14.389154+00:00'
+generated-at: '2026-10-17T16:35:06.750661+00:00'
 proxies:
-- name: 🇭🇰 香港 | HKG 2
-  server: 152.233.71.81
-  port: 443
-  type: vless
-  uuid: 741809be-e44e-000b-b411-bf66f0ae3860
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
-    short-id: 1c3e8241a8743df9
-  servername: brointelengence.com
-  client-fingerprint: random
-  network: tcp
-  udp: true
 - name: 🇸🇬 新加坡 | SGP 3
-  server: funagfrdfs.alixxplay.com
-  port: 47672
+  server: 45.132.75.213
+  port: 2053
   type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  uuid: f46182d1-e13b-47d3-97e2-fa5426a93e7c
   tls: true
-  flow: xtls-rprx-vision
   reality-opts:
-    public-key: tBvlo8F8hKRXSK-EHRAfzEH-x3e4uvheGloO-9bPKx4
-    short-id: 70ab6d813e
-  servername: us1p1.xn--ghq880n3na965a.com
-  client-fingerprint: ios
+    public-key: TpWeZocgNOygOhMo0l7oJawPu7STkn9D-SOa0UppcyY
+    short-id: cd7e85995ae2afc9
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
   network: tcp
   udp: true
-- name: 🇸🇬 新加坡 | SGP
+- name: 🇸🇬 新加坡 | SGP 6
   server: funagfrdfs.alixxplay.com
-  port: 46105
+  port: 30892
   type: vless
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
   tls: true
   flow: xtls-rprx-vision
   reality-opts:
-    public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
-    short-id: 28f5c1f8f98a
-  servername: www.lamer.com.sg
+    public-key: YinI5MijeZpRatg6QNDvP0qXEif-6VHC6gV5yoji4i4
+    short-id: 3d31326f95
+  servername: us1p1.xn--ghq880n3na965a.com
   client-fingerprint: safari
   network: tcp
   udp: true
 - name: 🇸🇬 新加坡 | SGP 2
-  server: 104.18.35.86
-  port: 8080
+  server: funagfrdfs.alixxplay.com
+  port: 33939
   type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  tls: false
-  servername: hhlfy.twiladaphne.ndjp.net
-  network: ws
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: IPg65ZC9ZkvXpBZN2GSnICYZaIyGxcj2d8Y406KXA1I
+    short-id: b20abd16cda27eeb
+  servername: www.otto.de
+  client-fingerprint: firefox
+  network: tcp
   udp: true
 - name: 🇺🇸 美国 | USA 9
   server: 35.90.209.22
@@ -93,19 +79,60 @@ proxies:
     short-id: 21270a66
   skip-cert-verify: false
   udp: true
-- name: 🇺🇸 美国 | USA 6
-  server: 104.16.10.100
-  port: 443
+- name: 🇺🇸 美国 | USA 3
+  server: 104.18.35.86
+  port: 2082
   type: vless
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-  tls: true
-  servername: u.srilankangrill.online
-  client-fingerprint: chrome
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  tls: false
+  servername: hhlfy.twiladaphne.ndjp.net
   network: ws
   ws-opts:
-    path: /
+    path: /fp
     headers:
-      Host: u.srilankangrill.online
+      Host: hhlfy.twiladaphne.ndjp.net
+  udp: true
+- name: 🇺🇸 美国 | USA 7
+  server: 172.67.137.209
+  port: 443
+  type: vmess
+  uuid: f5f0babe-aea2-4f07-a1fc-3c9820253f49
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /London31
+    headers:
+      Host: ukl.lovehk.xyz
+  udp: true
+- name: 🇺🇸 美国 | USA 5
+  server: 13.214.192.52
+  port: 34379
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
+    short-id: e51285e3
+  servername: us1p1.xn--ghq880n3na965a.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 🇺🇸 美国 | USA
+  server: 208.84.100.209
+  port: 2112
+  type: vless
+  uuid: 36c3dcc2-17b6-4478-b8a7-3978e6d5afe9
+  tls: true
+  reality-opts:
+    public-key: p8pUe3hwND5rhAti-yRQ5qMaIkNdhxOV1K1jpbtJlEQ
+    short-id: 125ba3
+  servername: play.google.com
+  client-fingerprint: chrome
+  network: tcp
   udp: true
 - name: 🇺🇸US美国丨yoyapai.com
   type: trojan
@@ -119,8 +146,8 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: 🇺🇸 美国 | USA
-  server: 47.77.196.79
+- name: 🇺🇸 美国 | USA 10
+  server: t17.qifei.app
   port: 443
   type: vless
   uuid: b98d4c6e-6770-4a31-8256-a4750cdea0e7
@@ -130,36 +157,32 @@ proxies:
     public-key: 0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo
     short-id: 1a
   servername: www.amazon.com
-  client-fingerprint: random
+  client-fingerprint: ios
   network: tcp
-- name: 🇺🇸 美国 | USA 13
-  server: 172.66.203.67
-  port: 443
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: vmess.lbw666.dpdns.org
   udp: true
-- name: 🇺🇸 美国 | USA 2
-  server: 67.209.184.133
+- name: 🇰🇷 韩国 | KOR 2
+  server: 13.124.9.166
   port: 443
   type: vless
-  uuid: 96ebc166-565c-474f-9712-7990b55c368a
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: Tp015Ga5LodBwKs4z7Wz4hTvqeh8-4q1EQPZqvZfWR0
-    short-id: ad09494d431b2b92
-  servername: www.bing.com
-  client-fingerprint: chrome
-  network: tcp
+  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
+  tls: false
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - play.googleapis.com
+  udp: true
+- name: 🇷🇺 俄罗斯 | RUS 2
+  server: 189.74.106.162
+  port: 54183
+  type: hysteria2
+  password: 082f5694-9019-4110-b67b-8125dbb9bab8
+  auth: 082f5694-9019-4110-b67b-8125dbb9bab8
+  sni: outh.yandex-cloud.org
+  skip-cert-verify: true
 - name: 🇳🇱 荷兰 | NLD
   server: rrr.soreanapanel.com
   port: 25566
@@ -177,7 +200,7 @@ proxies:
       - mitivpn-s5.b-cdn.net
   udp: true
 - name: 🇰🇷 韩国 | KOR 3
-  server: 13.124.9.166
+  server: 43.203.219.68
   port: 443
   type: vless
   uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
@@ -192,7 +215,7 @@ proxies:
       - play.googleapis.com
   udp: true
 - name: 🇷🇺 俄罗斯 | RUS 3
-  server: randomquaint.net
+  server: 78.159.246.179
   port: 2053
   type: vless
   uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
@@ -222,23 +245,22 @@ proxies:
     short-id: b28db60d77c50b4f
   skip-cert-verify: false
   udp: true
-- name: 🇮🇪 爱尔兰 | IRL 2
-  server: 34.245.208.137
+- name: 🇦🇹 奥地利 | AUT
+  server: 189.74.115.16
   port: 443
   type: vless
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-  tls: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - play.googleapis.com
+  uuid: 082f5694-9019-4110-b67b-8125dbb9bab8
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
+    short-id: a8
+  servername: api.mediakaskad.cc
+  client-fingerprint: firefox
+  network: tcp
   udp: true
 - name: 🇮🇪 爱尔兰 | IRL
-  server: 34.253.212.171
+  server: 34.245.208.137
   port: 443
   type: vless
   uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
@@ -269,30 +291,19 @@ proxies:
     mode: stream-one
   skip-cert-verify: false
   udp: true
-- name: 🇦🇺 澳大利亚 | AUS
-  server: 152.67.115.203
-  port: 443
-  type: hysteria2
-  password: 633bc3be486b646190661ac2387c150a
-  auth: 633bc3be486b646190661ac2387c150a
-  sni: www.bing.com
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
-- name: 🇩🇪 德国 | DEU 6
-  server: 3.124.195.79
+- name: 🇵🇱 波兰 | POL
+  server: api.mediapolyana.cc
   port: 443
   type: vless
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-  tls: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - play.googleapis.com
+  uuid: 082f5694-9019-4110-b67b-8125dbb9bab8
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
+    short-id: a8
+  servername: api.mediapolyana.cc
+  client-fingerprint: edge
+  network: tcp
   udp: true
 - name: 🇩🇪DE德国丨yoyapai.com_13
   type: vless
@@ -308,91 +319,17 @@ proxies:
     short-id: c39cc7310a
   skip-cert-verify: false
   udp: true
-- name: 🇩🇪 德国 | DEU 11
-  server: ger-allnet.onlinernet.ir
-  port: 22000
-  type: vless
-  uuid: 16188ecf-2dcd-40d7-898b-60461f125978
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: IffRRgkO2Kn06y1prY-NT2TfW-Ezm_RBi__F_jhKoSw
-    short-id: 1b0fa065866978d2
-  servername: connectivitycheck.android.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: 🇬🇧 英国 | GBR 2
-  server: 18.171.245.198
-  port: 443
-  type: vless
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-  tls: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - play.googleapis.com
-  udp: true
-- name: 🇸🇪 瑞典 | SWE
-  server: 45.12.63.219
-  port: 443
-  type: vless
-  uuid: 9cb8d71c-fe06-4402-a591-eaa1f173b890
-  tls: true
-  servername: edge-lab-b.10media.top
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: swedenfeed
-  udp: true
 - name: 🇧🇷 巴西 | BRA
-  server: 8dwou5alze.chhbuv.cn
-  port: 34534
-  type: vless
-  uuid: d9109567-3fc3-4e08-9cac-4d9162ef5a9f
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: AavBPGGJUpyGWiriV_Fbx-SrAvR5t-9mHeQY8uIltyo
-    short-id: 41b9cb10b696
-  servername: www.tue.nl
-  client-fingerprint: chrome
-  network: tcp
-- name: 🇪🇸 西班牙 | ESP 2
-  server: 18.100.47.39
-  port: 443
-  type: vless
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-  tls: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - play.googleapis.com
-  udp: true
-- name: 🇬🇧 英国 | GBR 3
-  server: 13.40.65.87
-  port: 443
-  type: vless
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-  tls: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - play.googleapis.com
-  udp: true
+  server: 137.131.171.249
+  port: 20000
+  type: hysteria2
+  password: CyG0RFxMjzs41uQD4OLuHQ==
+  auth: CyG0RFxMjzs41uQD4OLuHQ==
+  sni: rmgyvpn.rest
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: CyG0RFxMjzs41uQD4OLuHQ==
+  ports: 20000-30000
 - name: 🇬🇧 英国 | GBR
   server: 3.8.150.222
   port: 443
@@ -408,68 +345,88 @@ proxies:
       Host:
       - play.googleapis.com
   udp: true
-- name: 🇩🇪 德国 | DEU 10
-  server: studio.10media.top
+- name: 🇵🇱 波兰 | POL 3
+  server: cz.pythonmakemigreat.wiki
+  port: 61374
+  type: vless
+  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
+  tls: true
+  reality-opts:
+    public-key: QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI
+  servername: cz.pythonmakemigreat.wiki
+  client-fingerprint: chrome
+  network: xhttp
+  xhttp-opts:
+    path: /
+    host: cz.pythonmakemigreat.wiki
+    mode: packet-up
+    x-padding-bytes: 100-500
+  udp: true
+- name: 🇪🇸 西班牙 | ESP
+  server: 18.100.47.39
   port: 443
   type: vless
-  uuid: 9cb8d71c-fe06-4402-a591-eaa1f173b890
-  tls: true
-  servername: studio.10media.top
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: studiofeed
+  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
+  tls: false
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - play.googleapis.com
   udp: true
 proxy-groups:
 - name: AUTO-FAST
   type: url-test
   proxies:
-  - 🇭🇰 香港 | HKG 2
   - 🇸🇬 新加坡 | SGP 3
-  - 🇸🇬 新加坡 | SGP
+  - 🇸🇬 新加坡 | SGP 6
   - 🇸🇬 新加坡 | SGP 2
   - 🇺🇸 美国 | USA 9
   - 🇺🇸US美国丨yoyapai.com_16
-  - 🇺🇸 美国 | USA 6
-  - 🇺🇸US美国丨yoyapai.com
+  - 🇺🇸 美国 | USA 3
+  - 🇺🇸 美国 | USA 7
+  - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA
-  - 🇺🇸 美国 | USA 13
-  - 🇺🇸 美国 | USA 2
+  - 🇺🇸US美国丨yoyapai.com
+  - 🇺🇸 美国 | USA 10
+  - 🇰🇷 韩国 | KOR 2
+  - 🇷🇺 俄罗斯 | RUS 2
   - 🇳🇱 荷兰 | NLD
   - 🇰🇷 韩国 | KOR 3
   - 🇷🇺 俄罗斯 | RUS 3
   - 🇱🇻LV拉脱维亚丨yoyapai.com
-  - 🇮🇪 爱尔兰 | IRL 2
+  - 🇦🇹 奥地利 | AUT
   - 🇮🇪 爱尔兰 | IRL
   - ❓未知丨yoyapai.com_1
-  - 🇦🇺 澳大利亚 | AUS
-  - 🇩🇪 德国 | DEU 6
+  - 🇵🇱 波兰 | POL
   - 🇩🇪DE德国丨yoyapai.com_13
-  - 🇩🇪 德国 | DEU 11
-  - 🇬🇧 英国 | GBR 2
-  - 🇸🇪 瑞典 | SWE
   - 🇧🇷 巴西 | BRA
-  - 🇪🇸 西班牙 | ESP 2
-  - 🇬🇧 英国 | GBR 3
   - 🇬🇧 英国 | GBR
-  - 🇩🇪 德国 | DEU 10
+  - 🇵🇱 波兰 | POL 3
+  - 🇪🇸 西班牙 | ESP
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: HK-POOL
   type: url-test
   proxies:
-  - 🇭🇰 香港 | HKG 2
+  - 🇸🇬 新加坡 | SGP 3
+  - 🇸🇬 新加坡 | SGP 6
+  - 🇸🇬 新加坡 | SGP 2
+  - 🇺🇸 美国 | USA 9
+  - 🇺🇸US美国丨yoyapai.com_16
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: JP-POOL
   type: url-test
   proxies:
-  - 🇭🇰 香港 | HKG 2
   - 🇸🇬 新加坡 | SGP 3
-  - 🇸🇬 新加坡 | SGP
+  - 🇸🇬 新加坡 | SGP 6
   - 🇸🇬 新加坡 | SGP 2
   - 🇺🇸 美国 | USA 9
+  - 🇺🇸US美国丨yoyapai.com_16
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: US-POOL
@@ -477,21 +434,22 @@ proxy-groups:
   proxies:
   - 🇺🇸 美国 | USA 9
   - 🇺🇸US美国丨yoyapai.com_16
-  - 🇺🇸 美国 | USA 6
-  - 🇺🇸US美国丨yoyapai.com
+  - 🇺🇸 美国 | USA 3
+  - 🇺🇸 美国 | USA 7
+  - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA
-  - 🇺🇸 美国 | USA 13
-  - 🇺🇸 美国 | USA 2
+  - 🇺🇸US美国丨yoyapai.com
+  - 🇺🇸 美国 | USA 10
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: AI-POOL
   type: url-test
   proxies:
   - 🇺🇸US美国丨yoyapai.com
-  - 🇸🇬 新加坡 | SGP 2
+  - 🇺🇸 美国 | USA 3
+  - 🇺🇸 美国 | USA
   - 🇩🇪DE德国丨yoyapai.com_13
-  - 🇺🇸 美国 | USA 13
-  - 🇮🇪 爱尔兰 | IRL
+  - 🇺🇸 美国 | USA 9
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
