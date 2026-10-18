@@ -7,8 +7,23 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-10-18T20:58:32.080974+00:00'
+generated-at: '2026-10-18T22:52:32.179565+00:00'
 proxies:
+- name: 🇭🇰 香港 | HKG 5
+  server: nycqg19zkwacpm1b.v.3dns.vip
+  port: 443
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: NYcQg19zkwaCPM1B.v.3dns.vip
+  udp: true
 - name: 🇺🇸 美国 | USA 9
   server: 104.18.35.86
   port: 2082
@@ -44,17 +59,6 @@ proxies:
   sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸 美国 | USA 10
-  server: s2317.kukuss.top
-  port: 443
-  type: vless
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  tls: true
-  flow: xtls-rprx-vision
-  servername: u695098uf24555c7s2316.gogocs.xyz
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
 - name: 🇺🇸US美国丨yoyapai.com
   type: trojan
   server: 216.24.57.7
@@ -66,23 +70,6 @@ proxies:
   skip-cert-verify: false
   ws-opts:
     path: /assignment
-  udp: true
-- name: 🇷🇺 俄罗斯 | RUS 2
-  server: 78.159.246.179
-  port: 2053
-  type: vless
-  uuid: 6a2aff19-ff1f-4a13-96c8-a4d8986a9699
-  tls: true
-  alpn:
-  - http/1.1
-  - h2
-  servername: randomquaint.net
-  client-fingerprint: firefox
-  network: xhttp
-  xhttp-opts:
-    path: /api/v1/upload
-    host: randomquaint.net
-    mode: auto
   udp: true
 - name: 🇱🇻LV拉脱维亚丨yoyapai.com
   type: vless
@@ -125,20 +112,6 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
-- name: 🇩🇪DE德国丨yoyapai.com_13
-  type: vless
-  server: 169.40.42.229
-  port: 443
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  servername: yahoo.com
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: ios
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  skip-cert-verify: false
-  udp: true
 - name: 🇷🇴 罗马尼亚 | ROU
   server: de7.dedushka.top
   port: 443
@@ -160,21 +133,6 @@ proxies:
   servername: thtrjhtyjjfd.weebly.com
   client-fingerprint: chrome
   network: tcp
-- name: 🇰🇷 韩国 | KOR
-  server: 43.202.48.94
-  port: 443
-  type: vless
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-  tls: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - play.googleapis.com
-  udp: true
 - name: 🇳🇱 荷兰 | NLD 2
   server: 50d9ab69755390c8.wgse.info
   port: 443
@@ -209,19 +167,16 @@ proxy-groups:
 - name: AUTO-FAST
   type: url-test
   proxies:
+  - 🇭🇰 香港 | HKG 5
   - 🇺🇸 美国 | USA 9
   - 🇺🇸US美国丨yoyapai.com_16
   - 🇺🇸 美国 | USA 7
-  - 🇺🇸 美国 | USA 10
   - 🇺🇸US美国丨yoyapai.com
-  - 🇷🇺 俄罗斯 | RUS 2
   - 🇱🇻LV拉脱维亚丨yoyapai.com
   - ❓未知丨yoyapai.com_1
   - 🇦🇺 澳大利亚 | AUS
-  - 🇩🇪DE德国丨yoyapai.com_13
   - 🇷🇴 罗马尼亚 | ROU
   - 🇹🇼 🇨🇳 台湾 | TWN 4
-  - 🇰🇷 韩国 | KOR
   - 🇳🇱 荷兰 | NLD 2
   - 🇫🇷 法国 | FRA 2
   url: http://www.gstatic.com/generate_204
@@ -229,20 +184,16 @@ proxy-groups:
 - name: HK-POOL
   type: url-test
   proxies:
-  - 🇺🇸 美国 | USA 9
-  - 🇺🇸US美国丨yoyapai.com_16
-  - 🇺🇸 美国 | USA 7
-  - 🇺🇸 美国 | USA 10
-  - 🇺🇸US美国丨yoyapai.com
+  - 🇭🇰 香港 | HKG 5
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: JP-POOL
   type: url-test
   proxies:
+  - 🇭🇰 香港 | HKG 5
   - 🇺🇸 美国 | USA 9
   - 🇺🇸US美国丨yoyapai.com_16
   - 🇺🇸 美国 | USA 7
-  - 🇺🇸 美国 | USA 10
   - 🇺🇸US美国丨yoyapai.com
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -252,7 +203,6 @@ proxy-groups:
   - 🇺🇸 美国 | USA 9
   - 🇺🇸US美国丨yoyapai.com_16
   - 🇺🇸 美国 | USA 7
-  - 🇺🇸 美国 | USA 10
   - 🇺🇸US美国丨yoyapai.com
   url: http://www.gstatic.com/generate_204
   interval: 120
