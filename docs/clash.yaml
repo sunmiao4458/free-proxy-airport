@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-10-20T17:46:24.312842+00:00'
+generated-at: '2026-10-20T21:13:32.098676+00:00'
 proxies:
 - name: 🇯🇵 日本 | JPN 5
   server: 216.23.83.153
@@ -20,19 +20,6 @@ proxies:
     public-key: 1ICcfKdmQI8EpyAD4xsyG8tYMQ-D2En-vUzD-GGM6Qc
     short-id: 6c96
   servername: www.oracle.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: 🇭🇰 香港 | HKG 4
-  server: 47.238.210.5
-  port: 13779
-  type: vless
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
-  tls: true
-  reality-opts:
-    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-    short-id: af1bdd293097b664
-  servername: tesla.com
   client-fingerprint: chrome
   network: tcp
   udp: true
@@ -136,6 +123,13 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
+- name: 🇺🇸 美国 | USA 14
+  server: 45.86.51.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
 - name: 🇺🇸US美国丨yoyapai.com_1
   type: trojan
   server: 216.24.57.7
@@ -147,13 +141,6 @@ proxies:
   skip-cert-verify: false
   ws-opts:
     path: /assignment
-  udp: true
-- name: 🇺🇸 美国 | USA 14
-  server: 45.86.51.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
 - name: 🇺🇸 美国 | USA 2
   server: 185.215.132.9
@@ -191,6 +178,20 @@ proxies:
     short-id: c39cc7310a
   skip-cert-verify: false
   udp: true
+- name: ❓未知丨yoyapai.com_61
+  type: vless
+  server: funagfrdfs.alixxplay.com
+  port: 46105
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  servername: www.lamer.com.sg
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
+    short-id: 28f5c1f8f98a
+  skip-cert-verify: false
+  udp: true
 - name: 🇮🇹 意大利 | ITA 2
   server: 202.50.253.90
   port: 19999
@@ -213,6 +214,18 @@ proxies:
       Host:
       - play.googleapis.com
   udp: true
+- name: ❓未知丨yoyapai.com_46
+  type: vless
+  server: hinet1.2yly.com
+  port: 24215
+  uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
+  servername: addons.mozilla.org
+  tls: true
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
+  skip-cert-verify: false
+  udp: true
 - name: 🇮🇹 意大利 | ITA
   server: 202.50.253.27
   port: 19999
@@ -220,51 +233,17 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇮🇷伊朗丨yoyapai.com
+- name: 🇱🇰LK斯里兰卡丨yoyapai.com
   type: vless
-  server: link.mrpgd.ir
-  port: 6008
-  uuid: e19f406e-0f0f-4abd-9861-a3d2d213b650
-  network: xhttp
-  servername: cafebazaar.ir
-  tls: false
-  xhttp-opts:
-    path: /assets
-    host: cafebazaar.ir
-    mode: stream-up
-  skip-cert-verify: false
-  udp: true
-- name: 🇨🇦CA加拿大丨yoyapai.com_21
-  type: vmess
-  server: hk2.998998.best
-  port: 443
-  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  servername: server15.9966338.xyz
+  server: support.zoom.us
+  port: 80
+  uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
   network: ws
+  tls: false
   ws-opts:
-    path: /asivewritten
+    path: /
     headers:
-      Host: server15.9966338.xyz
-  udp: true
-- name: 🇳🇱NL荷兰丨yoyapai.com
-  type: vless
-  server: dey.lnmarketplace.net
-  port: 443
-  uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
-  network: xhttp
-  servername: dey.lnmarketplace.net
-  tls: true
-  client-fingerprint: firefox
-  alpn:
-  - h2
-  xhttp-opts:
-    path: /kavir
-    host: dey.lnmarketplace.net
-    mode: stream-one
+      Host: free.sahanwickramasinghe.me
   skip-cert-verify: false
   udp: true
 - name: ❓未知丨yoyapai.com_12
@@ -340,7 +319,6 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇯🇵 日本 | JPN 5
-  - 🇭🇰 香港 | HKG 4
   - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA 8
   - 🇺🇸US美国丨yoyapai.com_14
@@ -349,17 +327,17 @@ proxy-groups:
   - 🇺🇸 美国 | USA
   - 🇺🇸 美国 | USA 13
   - 🇺🇸 美国 | USA 15
-  - 🇺🇸US美国丨yoyapai.com_1
   - 🇺🇸 美国 | USA 14
+  - 🇺🇸US美国丨yoyapai.com_1
   - 🇺🇸 美国 | USA 2
   - 🇨🇦 加拿大 | CAN 2
   - 🇩🇪DE德国丨yoyapai.com_10
+  - ❓未知丨yoyapai.com_61
   - 🇮🇹 意大利 | ITA 2
   - 🇨🇦 加拿大 | CAN
+  - ❓未知丨yoyapai.com_46
   - 🇮🇹 意大利 | ITA
-  - 🇮🇷伊朗丨yoyapai.com
-  - 🇨🇦CA加拿大丨yoyapai.com_21
-  - 🇳🇱NL荷兰丨yoyapai.com
+  - 🇱🇰LK斯里兰卡丨yoyapai.com
   - ❓未知丨yoyapai.com_12
   - 🇩🇪 德国 | DEU 9
   - ❓未知丨yoyapai.com_48
@@ -370,7 +348,11 @@ proxy-groups:
 - name: HK-POOL
   type: url-test
   proxies:
-  - 🇭🇰 香港 | HKG 4
+  - 🇯🇵 日本 | JPN 5
+  - 🇺🇸 美国 | USA 9
+  - 🇺🇸 美国 | USA 8
+  - 🇺🇸US美国丨yoyapai.com_14
+  - 🇺🇸 美国 | USA 4
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: JP-POOL
@@ -390,8 +372,8 @@ proxy-groups:
   - 🇺🇸 美国 | USA
   - 🇺🇸 美国 | USA 13
   - 🇺🇸 美国 | USA 15
-  - 🇺🇸US美国丨yoyapai.com_1
   - 🇺🇸 美国 | USA 14
+  - 🇺🇸US美国丨yoyapai.com_1
   - 🇺🇸 美国 | USA 2
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -399,8 +381,8 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇺🇸US美国丨yoyapai.com_1
-  - ❓未知丨yoyapai.com_48
   - 🇺🇸 美国 | USA
+  - ❓未知丨yoyapai.com_48
   - 🇺🇸 美国 | USA 2
   - 🇺🇸 美国 | USA 15
   url: http://www.gstatic.com/generate_204
