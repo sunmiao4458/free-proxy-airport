@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-10-22T17:28:54.345222+00:00'
+generated-at: '2026-10-22T20:44:11.414697+00:00'
 proxies:
 - name: 🇭🇰 香港 | HKG 2
   server: 50.7.44.28
@@ -19,19 +19,6 @@ proxies:
   reality-opts:
     public-key: 1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k
     short-id: 08a4b1f473932632
-  servername: www.apple.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: 🇯🇵 日本 | JPN
-  server: 38.47.97.90
-  port: 443
-  type: vless
-  uuid: 26e3125d-9cc3-4f8a-816f-55c7806692ee
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: oM8fSNZoxUPYolfcA-trXnlHCbeG7402OQTGOfokaVY
   servername: www.apple.com
   client-fingerprint: chrome
   network: tcp
@@ -78,13 +65,6 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
-- name: 🇺🇸 美国 | USA 6
-  server: 202.50.253.45
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
 - name: 🇺🇸 美国 | USA 4
   server: 156.229.164.149
   port: 9443
@@ -110,6 +90,13 @@ proxies:
   skip-cert-verify: false
   ws-opts:
     path: /assignment
+  udp: true
+- name: 🇺🇸 美国 | USA 2
+  server: 202.50.253.36
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
 - name: 🇩🇪DE德国丨yoyapai.com_10
   type: vless
@@ -153,19 +140,37 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇦🇺 澳大利亚 | AUS
-  server: funagfrdfs.alixxplay.com
-  port: 54528
+- name: ❓未知丨yoyapai.com_46
   type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  server: hinet1.2yly.com
+  port: 24215
+  uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
+  servername: addons.mozilla.org
   tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: 7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo
-    short-id: 54cca3c1c1c7
-  servername: www.apple.com
   client-fingerprint: chrome
-  network: tcp
+  reality-opts:
+    public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
+  skip-cert-verify: false
+  udp: true
+- name: 🇮🇹 意大利 | ITA
+  server: 202.50.253.27
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇱🇰LK斯里兰卡丨yoyapai.com
+  type: vless
+  server: support.zoom.us
+  port: 80
+  uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.me
+  skip-cert-verify: false
   udp: true
 - name: 🇳🇱NL荷兰丨yoyapai.com
   type: vless
@@ -182,19 +187,6 @@ proxies:
     path: /kavir
     host: dey.lnmarketplace.net
     mode: stream-one
-  skip-cert-verify: false
-  udp: true
-- name: 🇱🇰LK斯里兰卡丨yoyapai.com
-  type: vless
-  server: support.zoom.us
-  port: 80
-  uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: free.sahanwickramasinghe.me
   skip-cert-verify: false
   udp: true
 - name: ❓未知丨yoyapai.com_12
@@ -230,19 +222,19 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇭🇰 香港 | HKG 2
-  - 🇯🇵 日本 | JPN
   - 🇺🇸 美国 | USA 9
   - 🇺🇸US美国丨yoyapai.com_14
   - 🇺🇸 美国 | USA 16
-  - 🇺🇸 美国 | USA 6
   - 🇺🇸 美国 | USA 4
   - 🇺🇸US美国丨yoyapai.com_1
+  - 🇺🇸 美国 | USA 2
   - 🇩🇪DE德国丨yoyapai.com_10
   - 🇱🇻LV拉脱维亚丨yoyapai.com
   - 🇨🇦 加拿大 | CAN
-  - 🇦🇺 澳大利亚 | AUS
-  - 🇳🇱NL荷兰丨yoyapai.com
+  - ❓未知丨yoyapai.com_46
+  - 🇮🇹 意大利 | ITA
   - 🇱🇰LK斯里兰卡丨yoyapai.com
+  - 🇳🇱NL荷兰丨yoyapai.com
   - ❓未知丨yoyapai.com_12
   - ❓未知丨yoyapai.com_48
   url: http://www.gstatic.com/generate_204
@@ -256,7 +248,11 @@ proxy-groups:
 - name: JP-POOL
   type: url-test
   proxies:
-  - 🇯🇵 日本 | JPN
+  - 🇭🇰 香港 | HKG 2
+  - 🇺🇸 美国 | USA 9
+  - 🇺🇸US美国丨yoyapai.com_14
+  - 🇺🇸 美国 | USA 16
+  - 🇺🇸 美国 | USA 4
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: US-POOL
@@ -265,9 +261,9 @@ proxy-groups:
   - 🇺🇸 美国 | USA 9
   - 🇺🇸US美国丨yoyapai.com_14
   - 🇺🇸 美国 | USA 16
-  - 🇺🇸 美国 | USA 6
   - 🇺🇸 美国 | USA 4
   - 🇺🇸US美国丨yoyapai.com_1
+  - 🇺🇸 美国 | USA 2
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: AI-POOL
