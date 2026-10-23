@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-10-23T18:36:42.704705+00:00'
+generated-at: '2026-10-23T21:51:17.784499+00:00'
 proxies:
 - name: 🇺🇸 美国 | USA 5
   server: 44.205.20.135
@@ -112,6 +112,20 @@ proxies:
     short-id: c39cc7310a
   skip-cert-verify: false
   udp: true
+- name: ❓未知丨yoyapai.com_61
+  type: vless
+  server: funagfrdfs.alixxplay.com
+  port: 46105
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  servername: www.lamer.com.sg
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
+    short-id: 28f5c1f8f98a
+  skip-cert-verify: false
+  udp: true
 - name: 🇱🇻LV拉脱维亚丨yoyapai.com
   type: vless
   server: 193.163.203.170
@@ -133,16 +147,6 @@ proxies:
   cipher: aes-256-gcm
   password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
   udp: true
-- name: 🇹🇷 土耳其 | TUR
-  server: 153.56.210.134
-  port: 34121
-  type: hysteria2
-  password: c8ed6cd1-6566-4f7a-819e-1c55b2b360c9
-  auth: c8ed6cd1-6566-4f7a-819e-1c55b2b360c9
-  sni: www.bing.com
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: 9a33460c-b037-47aa-a606-d04211f4e0ec
 - name: 🇪🇪 爱沙尼亚 | EST
   server: l415ng0o.himoy.space
   port: 443
@@ -168,27 +172,22 @@ proxies:
     public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
   skip-cert-verify: false
   udp: true
+- name: 🇹🇷 土耳其 | TUR
+  server: 153.56.210.134
+  port: 34121
+  type: hysteria2
+  password: c8ed6cd1-6566-4f7a-819e-1c55b2b360c9
+  auth: c8ed6cd1-6566-4f7a-819e-1c55b2b360c9
+  sni: www.bing.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 9a33460c-b037-47aa-a606-d04211f4e0ec
 - name: 🇮🇹 意大利 | ITA
   server: 202.50.253.90
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇰🇷 韩国 | KOR
-  server: 13.209.84.147
-  port: 443
-  type: vless
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-  tls: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - play.googleapis.com
   udp: true
 - name: 🇳🇱NL荷兰丨yoyapai.com
   type: vless
@@ -207,6 +206,21 @@ proxies:
     mode: stream-one
   skip-cert-verify: false
   udp: true
+- name: 🇰🇷 韩国 | KOR
+  server: 13.209.84.147
+  port: 443
+  type: vless
+  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
+  tls: false
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - play.googleapis.com
+  udp: true
 - name: 🇱🇰LK斯里兰卡丨yoyapai.com
   type: vless
   server: support.zoom.us
@@ -218,20 +232,6 @@ proxies:
     path: /
     headers:
       Host: free.sahanwickramasinghe.me
-  skip-cert-verify: false
-  udp: true
-- name: ❓未知丨yoyapai.com_12
-  type: vless
-  server: sg2-8sb.6121999.dpdns.org
-  port: 19825
-  uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
-  servername: sg2-8sb.6121999.dpdns.org
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
-    short-id: 6ba85179e30d4fc2
   skip-cert-verify: false
   udp: true
 - name: ❓未知丨yoyapai.com_48
@@ -246,6 +246,20 @@ proxies:
     path: /fp
     headers:
       Host: ccc.010304.xyz
+  skip-cert-verify: false
+  udp: true
+- name: ❓未知丨yoyapai.com_12
+  type: vless
+  server: sg2-8sb.6121999.dpdns.org
+  port: 19825
+  uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
+  servername: sg2-8sb.6121999.dpdns.org
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
+    short-id: 6ba85179e30d4fc2
   skip-cert-verify: false
   udp: true
 - name: 🇱🇻 拉脱维亚 | LVA
@@ -288,17 +302,18 @@ proxy-groups:
   - 🇺🇸US美国丨yoyapai.com_1
   - 🇳🇱 荷兰 | NLD 7
   - 🇩🇪DE德国丨yoyapai.com_10
+  - ❓未知丨yoyapai.com_61
   - 🇱🇻LV拉脱维亚丨yoyapai.com
   - 🇷🇺 俄罗斯 | RUS
-  - 🇹🇷 土耳其 | TUR
   - 🇪🇪 爱沙尼亚 | EST
   - ❓未知丨yoyapai.com_46
+  - 🇹🇷 土耳其 | TUR
   - 🇮🇹 意大利 | ITA
-  - 🇰🇷 韩国 | KOR
   - 🇳🇱NL荷兰丨yoyapai.com
+  - 🇰🇷 韩国 | KOR
   - 🇱🇰LK斯里兰卡丨yoyapai.com
-  - ❓未知丨yoyapai.com_12
   - ❓未知丨yoyapai.com_48
+  - ❓未知丨yoyapai.com_12
   - 🇱🇻 拉脱维亚 | LVA
   - 🇪🇸 西班牙 | ESP
   url: http://www.gstatic.com/generate_204
@@ -339,7 +354,7 @@ proxy-groups:
   proxies:
   - 🇺🇸 美国 | USA 5
   - 🇺🇸US美国丨yoyapai.com_1
-  - 🇺🇸 美国 | USA 17
+  - 🇺🇸 美国 | USA 4
   - ❓未知丨yoyapai.com_48
   url: http://www.gstatic.com/generate_204
   interval: 120
