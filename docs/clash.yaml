@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-10-24T21:45:02.630789+00:00'
+generated-at: '2026-10-24T23:59:28.673549+00:00'
 proxies:
 - name: 🇸🇬 新加坡 | SGP 4
   server: 104.18.35.86
@@ -241,6 +241,22 @@ proxies:
     mode: stream-up
   skip-cert-verify: false
   udp: true
+- name: 🇨🇦CA加拿大丨yoyapai.com_21
+  type: vmess
+  server: hk2.998998.best
+  port: 443
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  servername: server15.9966338.xyz
+  network: ws
+  ws-opts:
+    path: /asivewritten
+    headers:
+      Host: server15.9966338.xyz
+  udp: true
 - name: 🇲🇾 马来西亚 | MYS
   server: platform128.golnamakcert.top
   port: 80
@@ -332,6 +348,7 @@ proxy-groups:
   - 🇩🇪 德国 | DEU 6
   - 🇮🇹 意大利 | ITA
   - 🇮🇷伊朗丨yoyapai.com
+  - 🇨🇦CA加拿大丨yoyapai.com_21
   - 🇲🇾 马来西亚 | MYS
   - 🇳🇱NL荷兰丨yoyapai.com
   - ❓未知丨yoyapai.com_12
