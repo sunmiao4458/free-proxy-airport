@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-10-31T14:40:05.404063+00:00'
+generated-at: '2026-10-31T19:04:57.854016+00:00'
 proxies:
 - name: 🇭🇰 香港 | HKG 2
   server: 8.217.186.60
@@ -40,15 +40,6 @@ proxies:
     headers:
       Host: nycqg19zkwacpm1b.v.3dns.vip
   udp: true
-- name: 🇸🇬 新加坡 | SGP
-  server: 13.212.240.147
-  port: 443
-  type: hysteria2
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  auth: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  fingerprint: C1:FD:40:94:1F:91:9B:5C:78:96:24:40:97:F2:2D:9D:95:8E:62:5C:D9:58:B7:5F:34:CC:FA:42:18:1F:50:B2
-  sni: www.bing.com
-  skip-cert-verify: true
 - name: 🇭🇰 香港 | HKG
   server: 47.242.81.94
   port: 52080
@@ -127,13 +118,6 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-  udp: true
-- name: 🇺🇸 美国 | USA 3
-  server: 202.50.253.27
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
 - name: 🇺🇸 美国 | USA 5
   server: 179.255.136.143
@@ -302,14 +286,6 @@ proxies:
     headers:
       Host: www.cordweave.com
   udp: true
-- name: 🇷🇺 俄罗斯 | RUS 2
-  server: 103.88.243.142
-  port: 11592
-  type: hysteria2
-  password: 41edb44c8e
-  auth: 41edb44c8e
-  sni: srv-17e124.21freedom.net
-  skip-cert-verify: true
 - name: 🇳🇱 荷兰 | NLD 28
   server: 202.61.226.121
   port: 8443
@@ -323,21 +299,16 @@ proxies:
     headers:
       Host: www.cordweave.com
   udp: true
+- name: 🇷🇺 俄罗斯 | RUS 2
+  server: 103.88.243.142
+  port: 11592
+  type: hysteria2
+  password: 41edb44c8e
+  auth: 41edb44c8e
+  sni: srv-17e124.21freedom.net
+  skip-cert-verify: true
 - name: 🇳🇱 荷兰 | NLD 25
   server: 89.36.137.173
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.cordweave.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-  udp: true
-- name: 🇳🇱 荷兰 | NLD 10
-  server: 172.67.74.177
   port: 443
   type: trojan
   password: humanity
@@ -362,8 +333,8 @@ proxies:
     headers:
       Host: www.cordweave.com
   udp: true
-- name: 🇳🇱 荷兰 | NLD 26
-  server: 202.50.55.76
+- name: 🇳🇱 荷兰 | NLD 10
+  server: 172.67.74.177
   port: 443
   type: trojan
   password: humanity
@@ -377,19 +348,6 @@ proxies:
   udp: true
 - name: 🇳🇱 荷兰 | NLD
   server: 179.255.99.31
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.cordweave.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-  udp: true
-- name: 🇳🇱 荷兰 | NLD 29
-  server: 130.12.46.156
   port: 443
   type: trojan
   password: humanity
@@ -427,6 +385,19 @@ proxies:
     headers:
       Host: www.cordweave.com
   udp: true
+- name: 🇳🇱 荷兰 | NLD 23
+  server: 179.255.102.54
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.cordweave.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.cordweave.com
+  udp: true
 - name: 🇱🇻LV拉脱维亚丨yoyapai.com
   type: vless
   server: 193.163.203.170
@@ -440,19 +411,6 @@ proxies:
     public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
     short-id: b28db60d77c50b4f
   skip-cert-verify: false
-  udp: true
-- name: 🇳🇱 荷兰 | NLD 23
-  server: 179.255.102.54
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.cordweave.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
   udp: true
 - name: 🇳🇱 荷兰 | NLD 38
   server: 93.85.236.9
@@ -479,6 +437,20 @@ proxies:
     path: /assignment
     headers:
       Host: www.cordweave.com
+  udp: true
+- name: 🇩🇪 德国 | DEU 3
+  server: 13.143.180.104
+  port: 443
+  type: vless
+  uuid: a0fa7e19-70ec-41e0-b0cc-bcc984d4201a
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: QvT-t_h_AF2EAT4Ggh_a6pcCK3StY8G9WCXn6-dJbxk
+    short-id: 51079f144d661484
+  servername: s12.bsh-net.ru
+  client-fingerprint: chrome
+  network: tcp
   udp: true
 - name: 🇳🇱 荷兰 | NLD 31
   server: 179.255.132.69
@@ -655,15 +627,6 @@ proxies:
     mode: stream-one
   skip-cert-verify: false
   udp: true
-- name: 🇰🇷 韩国 | KOR
-  server: 3.36.61.213
-  port: 443
-  type: hysteria2
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  auth: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  fingerprint: 89:61:86:FE:B2:0C:B7:40:31:87:A4:5F:F3:BD:5D:DC:8B:FB:DD:41:9D:77:9D:55:D7:86:18:9D:36:73:1A:69
-  sni: www.bing.com
-  skip-cert-verify: true
 - name: 🇳🇱 荷兰 | NLD 6
   server: 52.194.44.56
   port: 443
@@ -730,8 +693,8 @@ proxies:
     headers:
       Host: www.cordweave.com
   udp: true
-- name: 🇳🇱 荷兰 | NLD 12
-  server: 172.104.81.253
+- name: 🇳🇱 荷兰 | NLD 32
+  server: 208.68.180.204
   port: 443
   type: trojan
   password: humanity
@@ -743,8 +706,8 @@ proxies:
     headers:
       Host: www.cordweave.com
   udp: true
-- name: 🇳🇱 荷兰 | NLD 32
-  server: 208.68.180.204
+- name: 🇳🇱 荷兰 | NLD 12
+  server: 172.104.81.253
   port: 443
   type: trojan
   password: humanity
@@ -782,19 +745,18 @@ proxies:
     headers:
       Host: www.cordweave.com
   udp: true
-- name: ❓未知丨yoyapai.com_51
-  type: vless
-  server: sg2-8sb.6121999.dpdns.org
-  port: 19825
-  uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
-  servername: sg2-8sb.6121999.dpdns.org
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
-    short-id: 6ba85179e30d4fc2
-  skip-cert-verify: false
+- name: 🇳🇱 荷兰 | NLD 9
+  server: 212.2.227.187
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.cordweave.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.cordweave.com
   udp: true
 - name: ❓未知丨yoyapai.com_57
   type: vless
@@ -809,19 +771,6 @@ proxies:
     headers:
       Host: ccc.010304.xyz
   skip-cert-verify: false
-  udp: true
-- name: 🇳🇱 荷兰 | NLD 9
-  server: 212.2.227.187
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.cordweave.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
   udp: true
 - name: 🇳🇱 荷兰 | NLD 5
   server: 179.255.126.253
@@ -868,14 +817,12 @@ proxy-groups:
   proxies:
   - 🇭🇰 香港 | HKG 2
   - 🇭🇰 香港 | HKG 4
-  - 🇸🇬 新加坡 | SGP
   - 🇭🇰 香港 | HKG
   - 🇸🇬 新加坡 | SGP 2
   - 🇺🇸US美国丨yoyapai.com_2
   - 🇺🇸 美国 | USA 4
   - 🇺🇸 美国 | USA 6
   - 🇺🇸 美国 | USA 7
-  - 🇺🇸 美国 | USA 3
   - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA
   - 🇺🇸US美国丨yoyapai.com_20
@@ -889,20 +836,19 @@ proxy-groups:
   - 🇳🇱 荷兰 | NLD 20
   - 🇳🇱 荷兰 | NLD 35
   - 🇳🇱 荷兰 | NLD 21
-  - 🇷🇺 俄罗斯 | RUS 2
   - 🇳🇱 荷兰 | NLD 28
+  - 🇷🇺 俄罗斯 | RUS 2
   - 🇳🇱 荷兰 | NLD 25
-  - 🇳🇱 荷兰 | NLD 10
   - 🇳🇱 荷兰 | NLD 16
-  - 🇳🇱 荷兰 | NLD 26
+  - 🇳🇱 荷兰 | NLD 10
   - 🇳🇱 荷兰 | NLD
-  - 🇳🇱 荷兰 | NLD 29
   - 🇳🇱 荷兰 | NLD 4
   - 🇳🇱 荷兰 | NLD 14
-  - 🇱🇻LV拉脱维亚丨yoyapai.com
   - 🇳🇱 荷兰 | NLD 23
+  - 🇱🇻LV拉脱维亚丨yoyapai.com
   - 🇳🇱 荷兰 | NLD 38
   - 🇳🇱 荷兰 | NLD 24
+  - 🇩🇪 德国 | DEU 3
   - 🇳🇱 荷兰 | NLD 31
   - 🇹🇷 土耳其 | TUR
   - 🇳🇱 荷兰 | NLD 17
@@ -916,19 +862,17 @@ proxy-groups:
   - 🇳🇱 荷兰 | NLD 11
   - 🇸🇪 瑞典 | SWE
   - ❓未知丨yoyapai.com_16
-  - 🇰🇷 韩国 | KOR
   - 🇳🇱 荷兰 | NLD 6
   - 🇳🇱 荷兰 | NLD 33
   - 🇩🇪DE德国丨yoyapai.com_11
   - 🇳🇱 荷兰 | NLD 2
   - 🇳🇱 荷兰 | NLD 22
-  - 🇳🇱 荷兰 | NLD 12
   - 🇳🇱 荷兰 | NLD 32
+  - 🇳🇱 荷兰 | NLD 12
   - 🇳🇱 荷兰 | NLD 18
   - 🇳🇱 荷兰 | NLD 3
-  - ❓未知丨yoyapai.com_51
-  - ❓未知丨yoyapai.com_57
   - 🇳🇱 荷兰 | NLD 9
+  - ❓未知丨yoyapai.com_57
   - 🇳🇱 荷兰 | NLD 5
   - 🇳🇱 荷兰 | NLD 19
   - 🇪🇸 西班牙 | ESP
@@ -947,9 +891,9 @@ proxy-groups:
   proxies:
   - 🇭🇰 香港 | HKG 2
   - 🇭🇰 香港 | HKG 4
-  - 🇸🇬 新加坡 | SGP
   - 🇭🇰 香港 | HKG
   - 🇸🇬 新加坡 | SGP 2
+  - 🇺🇸US美国丨yoyapai.com_2
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: US-POOL
@@ -959,7 +903,6 @@ proxy-groups:
   - 🇺🇸 美国 | USA 4
   - 🇺🇸 美国 | USA 6
   - 🇺🇸 美国 | USA 7
-  - 🇺🇸 美国 | USA 3
   - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA
   - 🇺🇸US美国丨yoyapai.com_20
@@ -970,18 +913,17 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇺🇸US美国丨yoyapai.com_2
+  - 🇺🇸 美国 | USA 4
   - 🇺🇸 美国 | USA 2
   - ❓未知丨yoyapai.com_57
-  - 🇺🇸 美国 | USA 4
-  - 🇭🇰 香港 | HKG
   - 🇩🇪DE德国丨yoyapai.com_11
-  - 🇺🇸 美国 | USA 3
-  - ❓未知丨yoyapai.com_16
+  - 🇭🇰 香港 | HKG
   - 🇺🇸 美国 | USA 7
+  - 🇧🇪 比利时 | BEL
+  - 🇳🇱 荷兰 | NLD 20
+  - 🇹🇷 土耳其 | TUR
   - 🇦🇺 澳大利亚 | AUS
-  - 🇳🇱 荷兰 | NLD 37
-  - 🇺🇸 美国 | USA 6
-  - 🇳🇱 荷兰 | NLD 21
+  - 🇷🇺 俄罗斯 | RUS 2
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
