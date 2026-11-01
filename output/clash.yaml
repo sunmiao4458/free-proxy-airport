@@ -7,24 +7,8 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-11-01T20:08:59.144331+00:00'
+generated-at: '2026-11-01T23:45:19.158787+00:00'
 proxies:
-- name: 🇭🇰 香港 | HKG 7
-  server: 8.217.254.88
-  port: 443
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: 2b9hwy8ocx7q74nm.v.3dns.vip
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: 2b9hwy8ocx7q74nm.v.3dns.vip
-  udp: true
 - name: 🇭🇰 香港 | HKG 6
   server: ench-snet-app.w-ctrip.cn
   port: 43638
@@ -61,21 +45,6 @@ proxies:
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
   udp: true
-- name: 🇭🇰 香港 | HKG 3
-  server: 47.243.153.153
-  port: 443
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: i2psm3knof5qjjix.v.3dns.vip
-  udp: true
 - name: 🇸🇬 新加坡 | SGP 3
   server: 104.18.35.86
   port: 8080
@@ -88,26 +57,6 @@ proxies:
     path: /sg-melbi
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
-  udp: true
-- name: 🇭🇰 香港 | HKG 10
-  server: 47.242.81.94
-  port: 52080
-  type: vmess
-  uuid: e47b9f77-60e4-4738-8d53-772b6002e146
-  alterId: 0
-  cipher: auto
-  tls: false
-  alpn:
-  - ''
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /QQqun-737805443
-    headers:
-      Host:
-      - openai.com
   udp: true
 - name: 🇸🇬 新加坡 | SGP
   server: ench-snet-app.w-ctrip.cn
@@ -159,20 +108,6 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: 🇺🇸 美国 | USA 11
-  server: ghosts-spasm.quick-cdn.net
-  port: 443
-  type: vless
-  uuid: 9d50fde6-7e89-4dee-9fee-17a77046604c
-  tls: true
-  servername: ghosts-spasm.quick-cdn.net
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: ghosts-spasm.quick-cdn.net
-  udp: true
 - name: 🇺🇸 美国 | USA 9
   server: ench-snet-app.w-ctrip.cn
   port: 35929
@@ -188,38 +123,6 @@ proxies:
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   sni: cm.g.doubleclick.net
   skip-cert-verify: true
-  udp: true
-- name: 🇺🇸 美国 | USA 3
-  server: ghosts-spasm.quick-cdn.net
-  port: 443
-  type: vless
-  uuid: e262a993-a3be-4f36-95ba-81dc1e32d78c
-  tls: true
-  alpn:
-  - http/1.1
-  servername: ghosts-spasm.quick-cdn.net
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: ghosts-spasm.quick-cdn.net
-  udp: true
-- name: 🇺🇸 美国 | USA 4
-  server: adheres-scruple.quick-cdn.net
-  port: 443
-  type: vless
-  uuid: ecbc4229-e8d3-4607-8f02-fd592c9a0743
-  tls: true
-  alpn:
-  - http/1.1
-  servername: adheres-scruple.quick-cdn.net
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: adheres-scruple.quick-cdn.net
   udp: true
 - name: 🇺🇸 美国 | USA
   server: piracy-android.video-streams.org
@@ -250,21 +153,6 @@ proxies:
     path: /ws
     headers:
       Host: adheres-scruple.quick-cdn.net
-  udp: true
-- name: 🇺🇸 美国 | USA 13
-  server: grimness-backlogs.cdn-content.com
-  port: 443
-  type: vless
-  uuid: 8fa74247-8816-4caf-b2c8-0dadff14ee3c
-  tls: true
-  alpn:
-  - http/1.1
-  client-fingerprint: safari
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: grimness-backlogs.cdn-content.com
   udp: true
 - name: 🇺🇸US美国丨yoyapai.com_20
   type: vless
@@ -309,20 +197,19 @@ proxies:
     headers:
       Host: vmess.lbw666.dpdns.org
   udp: true
+- name: 🇮🇹 意大利 | ITA 2
+  server: 202.50.253.81
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
 - name: 🇷🇺 俄罗斯 | RUS 3
   server: 46.17.46.27
   port: 18443
   type: ss
   cipher: aes-256-gcm
   password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
-  udp: true
-- name: 🇹🇼 🇨🇳 台湾 | TWN
-  server: ench-snet-app.w-ctrip.cn
-  port: 45503
-  type: trojan
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  sni: cm.g.doubleclick.net
-  skip-cert-verify: true
   udp: true
 - name: 🇱🇻LV拉脱维亚丨yoyapai.com
   type: vless
@@ -398,13 +285,18 @@ proxies:
   sni: cm.g.doubleclick.net
   skip-cert-verify: true
   udp: true
-- name: 🇧🇷 巴西 | BRA
-  server: ench-snet-app.w-ctrip.cn
-  port: 16932
-  type: trojan
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  sni: cm.g.doubleclick.net
-  skip-cert-verify: true
+- name: 🇨🇭 瑞士 | CHE
+  server: ch2.h1cloud.net
+  port: 25879
+  type: vless
+  uuid: 241306b3-9f27-4ed3-9524-6c0792c55856
+  tls: true
+  reality-opts:
+    public-key: XuI492LMe1OPIwQH5TQlIo33JRqMM3kfnto62tbx5FU
+    short-id: f1a7a14461a3f389
+  servername: www.bing.com
+  client-fingerprint: qq
+  network: tcp
   udp: true
 - name: 🇸🇪 瑞典 | SWE
   server: 13.143.180.141
@@ -419,6 +311,14 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
+- name: 🇧🇷 巴西 | BRA
+  server: ench-snet-app.w-ctrip.cn
+  port: 16932
+  type: trojan
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  sni: cm.g.doubleclick.net
+  skip-cert-verify: true
+  udp: true
 - name: 🇩🇪 德国 | DEU 4
   server: ench-snet-app.w-ctrip.cn
   port: 41184
@@ -426,6 +326,23 @@ proxies:
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   sni: cm.g.doubleclick.net
   skip-cert-verify: true
+  udp: true
+- name: ❓未知丨yoyapai.com_16
+  type: vless
+  server: dey.lnmarketplace.net
+  port: 443
+  uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+  network: xhttp
+  servername: dey.lnmarketplace.net
+  tls: true
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  xhttp-opts:
+    path: /kavir
+    host: dey.lnmarketplace.net
+    mode: stream-one
+  skip-cert-verify: false
   udp: true
 - name: 🇩🇪DE德国丨yoyapai.com_11
   type: vless
@@ -439,20 +356,6 @@ proxies:
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
-  skip-cert-verify: false
-  udp: true
-- name: ❓未知丨yoyapai.com_57
-  type: vless
-  server: 172.64.152.241
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  network: ws
-  servername: ccc.010304.xyz
-  tls: true
-  ws-opts:
-    path: /fp
-    headers:
-      Host: ccc.010304.xyz
   skip-cert-verify: false
   udp: true
 - name: 🇩🇪 德国 | DEU
@@ -484,58 +387,64 @@ proxies:
   client-fingerprint: randomized
   network: tcp
   udp: true
+- name: ❓未知丨yoyapai.com_57
+  type: vless
+  server: 172.64.152.241
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  network: ws
+  servername: ccc.010304.xyz
+  tls: true
+  ws-opts:
+    path: /fp
+    headers:
+      Host: ccc.010304.xyz
+  skip-cert-verify: false
+  udp: true
 proxy-groups:
 - name: AUTO-FAST
   type: url-test
   proxies:
-  - 🇭🇰 香港 | HKG 7
   - 🇭🇰 香港 | HKG 6
   - 🇭🇰 香港 | HKG 2
   - 🇸🇬 新加坡 | SGP 5
-  - 🇭🇰 香港 | HKG 3
   - 🇸🇬 新加坡 | SGP 3
-  - 🇭🇰 香港 | HKG 10
   - 🇸🇬 新加坡 | SGP
   - 🇭🇰 香港 | HKG
   - 🇭🇰 香港 | HKG 9
   - 🇸🇬 新加坡 | SGP 2
   - 🇺🇸US美国丨yoyapai.com_2
-  - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA 16
-  - 🇺🇸 美国 | USA 3
-  - 🇺🇸 美国 | USA 4
   - 🇺🇸 美国 | USA
   - 🇺🇸 美国 | USA 10
-  - 🇺🇸 美国 | USA 13
   - 🇺🇸US美国丨yoyapai.com_20
   - 🇺🇸 美国 | USA 17
   - 🇺🇸 美国 | USA 12
+  - 🇮🇹 意大利 | ITA 2
   - 🇷🇺 俄罗斯 | RUS 3
-  - 🇹🇼 🇨🇳 台湾 | TWN
   - 🇱🇻LV拉脱维亚丨yoyapai.com
   - 🇮🇱 以色列 | ISR
   - 🇩🇪 德国 | DEU 3
   - 🇩🇪 德国 | DEU 5
   - 🇮🇹 意大利 | ITA
   - 🇹🇼 🇨🇳 台湾 | TWN 2
-  - 🇧🇷 巴西 | BRA
+  - 🇨🇭 瑞士 | CHE
   - 🇸🇪 瑞典 | SWE
+  - 🇧🇷 巴西 | BRA
   - 🇩🇪 德国 | DEU 4
+  - ❓未知丨yoyapai.com_16
   - 🇩🇪DE德国丨yoyapai.com_11
-  - ❓未知丨yoyapai.com_57
   - 🇩🇪 德国 | DEU
   - 🇳🇱 荷兰 | NLD 3
+  - ❓未知丨yoyapai.com_57
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: HK-POOL
   type: url-test
   proxies:
-  - 🇭🇰 香港 | HKG 7
   - 🇭🇰 香港 | HKG 6
   - 🇭🇰 香港 | HKG 2
-  - 🇭🇰 香港 | HKG 3
-  - 🇭🇰 香港 | HKG 10
   - 🇭🇰 香港 | HKG
   - 🇭🇰 香港 | HKG 9
   url: http://www.gstatic.com/generate_204
@@ -543,25 +452,21 @@ proxy-groups:
 - name: JP-POOL
   type: url-test
   proxies:
-  - 🇭🇰 香港 | HKG 7
   - 🇭🇰 香港 | HKG 6
   - 🇭🇰 香港 | HKG 2
   - 🇸🇬 新加坡 | SGP 5
-  - 🇭🇰 香港 | HKG 3
+  - 🇸🇬 新加坡 | SGP 3
+  - 🇸🇬 新加坡 | SGP
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: US-POOL
   type: url-test
   proxies:
   - 🇺🇸US美国丨yoyapai.com_2
-  - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA 16
-  - 🇺🇸 美国 | USA 3
-  - 🇺🇸 美国 | USA 4
   - 🇺🇸 美国 | USA
   - 🇺🇸 美国 | USA 10
-  - 🇺🇸 美国 | USA 13
   - 🇺🇸US美国丨yoyapai.com_20
   - 🇺🇸 美国 | USA 17
   - 🇺🇸 美国 | USA 12
@@ -571,12 +476,11 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇺🇸US美国丨yoyapai.com_2
-  - ❓未知丨yoyapai.com_57
   - 🇸🇬 新加坡 | SGP 3
   - 🇸🇬 新加坡 | SGP 5
-  - 🇺🇸 美国 | USA 4
-  - 🇺🇸 美国 | USA 3
-  - 🇩🇪 德国 | DEU
+  - ❓未知丨yoyapai.com_57
+  - 🇺🇸 美国 | USA 10
+  - 🇺🇸 美国 | USA
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
