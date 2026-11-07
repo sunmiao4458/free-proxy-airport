@@ -7,8 +7,19 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-11-07T16:05:13.349517+00:00'
+generated-at: '2026-11-07T20:25:01.490560+00:00'
 proxies:
+- type: vless
+  name: 🇭🇰HK香港丨yoyapai.com (16)
+  server: 152.175.6.229
+  port: 31884
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  udp: true
+  tls: true
+  servername: hk010.zestapp778.com
+  sni: hk010.zestapp778.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
 - name: 🇭🇰 香港 | HKG 2
   server: 47.244.120.197
   port: 44867
@@ -39,27 +50,6 @@ proxies:
     headers:
       Host: 47.244.120.197
   udp: true
-- name: 🇸🇬 新加坡 | SGP 5
-  server: dddz-3-z.473221.xyz
-  port: 13212
-  type: vless
-  uuid: 65ec84f5-0dd4-4582-8b4f-592e50b22116
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: 4VguZbm-S2NkLpi7gLDsQMv2eDXP2LucxsvTiEt98yY
-    short-id: 961f7127a015ba
-  servername: v1-dy.ixigua.com
-  client-fingerprint: edge
-  network: tcp
-  udp: true
-- name: 🇯🇵 日本 | JPN 2
-  server: 160.21.74.183
-  port: 8443
-  type: trojan
-  password: ZLNrfFIw6IXWvhFvGEWi4EcsWJ76ZiDh
-  sni: 160.21.74.183
-  skip-cert-verify: true
 - name: 🇸🇬 新加坡 | SGP 3
   server: dddz-1-x.473221.xyz
   port: 34761
@@ -86,34 +76,6 @@ proxies:
   network: ws
   ws-opts:
     path: /arki
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 4
-  server: dddz-1-x.473221.xyz
-  port: 33170
-  type: vless
-  uuid: 65ec84f5-0dd4-4582-8b4f-592e50b22116
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: e-3jHS8LUXVi0ZWuwUAxd7OjFznKPr3N0B-H4SuW0yk
-    short-id: c732f5c7529fa4
-  servername: web.hkha.org
-  client-fingerprint: edge
-  network: tcp
-  udp: true
-- name: 🇺🇸 美国 | USA 7
-  server: us2.qik-fin.uk
-  port: 443
-  type: vless
-  uuid: 3c4aa500-e3ae-4778-837b-f02dfea8c85f
-  tls: true
-  servername: us2.qik-fin.uk
-  client-fingerprint: qq
-  network: xhttp
-  xhttp-opts:
-    path: /static/js/chunk
-    host: us2.qik-fin.uk
-    mode: stream-one
   udp: true
 - name: 🇺🇸 美国 | USA 2
   server: 88.216.254.18
@@ -158,6 +120,19 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
+- name: 🇷🇺 俄罗斯 | RUS 2
+  server: 147.45.175.81
+  port: 443
+  type: vless
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  tls: true
+  servername: xsru1.ddnsfree.com
+  client-fingerprint: edge
+  network: ws
+  ws-opts:
+    path: /wsru
+    headers:
+      Host: xsru1.ddnsfree.com
 - type: vless
   name: 🇳🇱荷兰丨yoyapai.com (3)
   server: sw.golangwikito.cfd
@@ -173,19 +148,6 @@ proxies:
   reality-opts:
     public-key: Kb8SsVPprs46BJSUNp5JvWLI-TFEiHmlBOXLQd37Glg
     short-id: a1037b25dcef6aa7
-- name: 🇷🇺 俄罗斯 | RUS 2
-  server: 147.45.175.81
-  port: 443
-  type: vless
-  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
-  tls: true
-  servername: xsru1.ddnsfree.com
-  client-fingerprint: edge
-  network: ws
-  ws-opts:
-    path: /wsru
-    headers:
-      Host: xsru1.ddnsfree.com
 - name: 🇳🇱 荷兰 | NLD
   server: 84.32.102.153
   port: 20443
@@ -208,21 +170,6 @@ proxies:
     headers:
       Host: xsru2.freeddns.org
   udp: true
-- type: vless
-  name: 🇱🇻LV拉脱维亚丨yoyapai.com
-  server: 193.163.203.170
-  port: 443
-  uuid: 11aabba0-5fd1-4f15-8068-74c1a466cefc
-  flow: xtls-rprx-vision
-  udp: true
-  tls: true
-  servername: yandex.ru
-  sni: yandex.ru
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
-    short-id: b28db60d77c50b4f
 - name: 🇷🇺 俄罗斯 | RUS
   server: 46.17.47.58
   port: 18443
@@ -414,15 +361,6 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: false
-- type: ss
-  name: ❓未知丨yoyapai.com (14)
-  server: 202.50.253.54
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
 - name: 🇮🇹 意大利 | ITA 3
   server: 202.50.253.81
   port: 19999
@@ -454,24 +392,20 @@ proxy-groups:
 - name: AUTO-FAST
   type: url-test
   proxies:
+  - 🇭🇰HK香港丨yoyapai.com (16)
   - 🇭🇰 香港 | HKG 2
   - 🇭🇰 香港 | HKG 3
-  - 🇸🇬 新加坡 | SGP 5
-  - 🇯🇵 日本 | JPN 2
   - 🇸🇬 新加坡 | SGP 3
   - 🇭🇰 香港 | HKG
-  - 🇸🇬 新加坡 | SGP 4
-  - 🇺🇸 美国 | USA 7
   - 🇺🇸 美国 | USA 2
   - ❓未知丨yoyapai.com (11)
   - 🇷🇺 俄罗斯 | RUS 4
   - 🇮🇹 意大利 | ITA 2
   - 🇮🇹 意大利 | ITA 4
-  - 🇳🇱荷兰丨yoyapai.com (3)
   - 🇷🇺 俄罗斯 | RUS 2
+  - 🇳🇱荷兰丨yoyapai.com (3)
   - 🇳🇱 荷兰 | NLD
   - 🇷🇺 俄罗斯 | RUS 3
-  - 🇱🇻LV拉脱维亚丨yoyapai.com
   - 🇷🇺 俄罗斯 | RUS
   - 🇨🇭 瑞士 | CHE 3
   - 🇵🇱 波兰 | POL
@@ -486,7 +420,6 @@ proxy-groups:
   - ❓未知丨yoyapai.com (7)
   - 🇩🇪DE德国丨yoyapai.com (12)
   - ❓未知丨yoyapai.com (6)
-  - ❓未知丨yoyapai.com (14)
   - 🇮🇹 意大利 | ITA 3
   - 🇪🇸 西班牙 | ESP
   - ❓未知丨yoyapai.com (10)
@@ -495,6 +428,7 @@ proxy-groups:
 - name: HK-POOL
   type: url-test
   proxies:
+  - 🇭🇰HK香港丨yoyapai.com (16)
   - 🇭🇰 香港 | HKG 2
   - 🇭🇰 香港 | HKG 3
   - 🇭🇰 香港 | HKG
@@ -503,24 +437,26 @@ proxy-groups:
 - name: JP-POOL
   type: url-test
   proxies:
-  - 🇯🇵 日本 | JPN 2
+  - 🇭🇰HK香港丨yoyapai.com (16)
+  - 🇭🇰 香港 | HKG 2
+  - 🇭🇰 香港 | HKG 3
+  - 🇸🇬 新加坡 | SGP 3
+  - 🇭🇰 香港 | HKG
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: US-POOL
   type: url-test
   proxies:
-  - 🇺🇸 美国 | USA 7
   - 🇺🇸 美国 | USA 2
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: AI-POOL
   type: url-test
   proxies:
-  - 🇪🇸 西班牙 | ESP
   - 🇺🇸 美国 | USA 2
+  - 🇪🇸 西班牙 | ESP
   - 🇩🇪DE德国丨yoyapai.com (12)
   - 🇮🇹 意大利 | ITA 4
-  - ❓未知丨yoyapai.com (6)
   - ❓未知丨yoyapai.com (7)
   - 🇮🇹 意大利 | ITA
   url: http://www.gstatic.com/generate_204
