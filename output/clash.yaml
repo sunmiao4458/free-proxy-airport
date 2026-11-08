@@ -7,8 +7,51 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-11-08T17:11:56.686088+00:00'
+generated-at: '2026-11-08T21:18:59.501598+00:00'
 proxies:
+- name: 🇭🇰 香港 | HKG 2
+  server: 47.244.120.197
+  port: 44867
+  type: vmess
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  alterId: 0
+  cipher: auto
+  tls: false
+  alpn:
+  - ''
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /arki
+  udp: true
+- name: 🇭🇰 香港 | HKG 4
+  server: 47.244.120.197
+  port: 23026
+  type: vmess
+  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /arki
+    headers:
+      Host: 47.244.120.197
+  udp: true
+- name: 🇭🇰 香港 | HKG 3
+  server: 47.244.120.197
+  port: 36703
+  type: vmess
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /arki
+  udp: true
 - name: 🇯🇵 日本 | JPN 2
   server: 45.12.89.202
   port: 443
@@ -71,6 +114,19 @@ proxies:
     headers:
       Host: jyfrj1cims.dev.onappjet.com
   udp: true
+- name: 🇺🇸 美国 | USA 7
+  server: 196.245.52.188
+  port: 443
+  type: vless
+  uuid: 747db87a-0cf6-4ea7-ae6b-3293afe2cef6
+  tls: true
+  reality-opts:
+    public-key: UTK3fM9wiII4uIcBYUYJwppN1HezxBPhxPfIxDHZqj4
+    short-id: ce43937e79bc30f0
+  servername: 62981et.us11.h1clayd.click
+  client-fingerprint: firefox
+  network: tcp
+  udp: true
 - name: 🇺🇸 美国 | USA 3
   server: 202.50.253.81
   port: 19999
@@ -78,19 +134,21 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇺🇸 美国 | USA 5
-  server: 154.26.188.52
+- name: 🇺🇸 美国 | USA 10
+  server: 7cabc1g.de-p1.h1clayd.click
   port: 443
   type: vless
-  uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
+  uuid: 747db87a-0cf6-4ea7-ae6b-3293afe2cef6
   tls: true
-  flow: xtls-rprx-vision
   reality-opts:
-    public-key: Njwb7fCl8PXKOs3owDB-gjzbmEyEewlL6JlMKwMTUQc
-    short-id: b46b142b
-  servername: www.amazon.com
-  client-fingerprint: chrome
-  network: tcp
+    public-key: mhIAHuZIEr2NpdGGSeOxar7VRSgEfVoNwb_G8Y0073E
+    short-id: 3b84fc70657725af
+  servername: 7cabc1g.de-p1.h1clayd.click
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: 8cb5baa18cd7
   udp: true
 - name: 🇺🇸 美国 | USA 2
   server: 202.50.253.63
@@ -98,20 +156,6 @@ proxies:
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇩🇪 德国 | DEU 2
-  server: 147.45.153.29
-  port: 443
-  type: vless
-  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: LEziyH-E4k9hehGRJkVi1FadVObB_NZJy8U7oUCVWXU
-    short-id: b9120cd53ffd7bba
-  servername: patch-46.topp-con.xyz
-  client-fingerprint: firefox
-  network: tcp
   udp: true
 - name: 🇷🇺 俄罗斯 | RUS 4
   server: xsru1.ddnsfree.com
@@ -162,13 +206,6 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇮🇹 意大利 | ITA 4
-  server: 202.50.253.72
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
 - name: 🇳🇱 荷兰 | NLD
   server: 156.67.120.205
   port: 51628
@@ -211,6 +248,13 @@ proxies:
   type: ss
   cipher: aes-256-gcm
   password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
+  udp: true
+- name: 🇮🇹 意大利 | ITA 6
+  server: 202.50.253.99
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
 - name: 🇩🇪 德国 | DEU 3
   server: 177.3.222.100
@@ -332,19 +376,12 @@ proxies:
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
-- name: 🇬🇧 英国 | GBR
-  server: 82.148.247.24
-  port: 443
-  type: vless
-  uuid: 16f5041e-7a72-44a0-afbf-744ec2bf1cc9
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: zZvOJ5dL9qvOjzg4u6f_Zo2j37cM6HOnOeUG02kcKCQ
-    short-id: 5c3639b7
-  servername: nl1.xshoponline.ru
-  client-fingerprint: chrome
-  network: tcp
+- name: 🇮🇹 意大利 | ITA 3
+  server: 202.50.253.36
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
 - type: ss
   name: ❓未知丨yoyapai.com (14)
@@ -363,6 +400,22 @@ proxies:
   sni: 8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net
   skip-cert-verify: true
   udp: true
+- name: 🇪🇸 西班牙 | ESP
+  server: 196.245.52.183
+  port: 443
+  type: vless
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  tls: true
+  reality-opts:
+    public-key: jIRVNEf9SpuWP2nJrAbHGGIUnfzOmwZZlrNGw-Y-O2Q
+    short-id: 2d2598d60447a967
+  servername: e60833x.nl7.h1clayd.click
+  client-fingerprint: chrome
+  network: xhttp
+  xhttp-opts:
+    path: /d20896a4ce30
+    host: e60833x.nl7.h1clayd.click
+  udp: true
 - type: ss
   name: ❓未知丨yoyapai.com (10)
   server: 202.50.253.45
@@ -376,25 +429,28 @@ proxy-groups:
 - name: AUTO-FAST
   type: url-test
   proxies:
+  - 🇭🇰 香港 | HKG 2
+  - 🇭🇰 香港 | HKG 4
+  - 🇭🇰 香港 | HKG 3
   - 🇯🇵 日本 | JPN 2
   - 🇯🇵 日本 | JPN 3
   - 🇭🇰 香港 | HKG
   - 🇯🇵 日本 | JPN
   - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 6
+  - 🇺🇸 美国 | USA 7
   - 🇺🇸 美国 | USA 3
-  - 🇺🇸 美国 | USA 5
+  - 🇺🇸 美国 | USA 10
   - 🇺🇸 美国 | USA 2
-  - 🇩🇪 德国 | DEU 2
   - 🇷🇺 俄罗斯 | RUS 4
   - 🇮🇹 意大利 | ITA 2
   - 🇳🇱荷兰丨yoyapai.com (3)
   - 🇷🇺 俄罗斯 | RUS 2
-  - 🇮🇹 意大利 | ITA 4
   - 🇳🇱 荷兰 | NLD
   - 🇷🇺 俄罗斯 | RUS 3
   - 🇱🇻LV拉脱维亚丨yoyapai.com
   - 🇷🇺 俄罗斯 | RUS
+  - 🇮🇹 意大利 | ITA 6
   - 🇩🇪 德国 | DEU 3
   - 🇩🇰 丹麦 | DNK
   - 🇮🇹 意大利 | ITA
@@ -405,15 +461,19 @@ proxy-groups:
   - 🇳🇱 荷兰 | NLD 2
   - 🇩🇪 德国 | DEU
   - 🇩🇪DE德国丨yoyapai.com (12)
-  - 🇬🇧 英国 | GBR
+  - 🇮🇹 意大利 | ITA 3
   - ❓未知丨yoyapai.com (14)
   - 🇩🇪 德国 | DEU 10
+  - 🇪🇸 西班牙 | ESP
   - ❓未知丨yoyapai.com (10)
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: HK-POOL
   type: url-test
   proxies:
+  - 🇭🇰 香港 | HKG 2
+  - 🇭🇰 香港 | HKG 4
+  - 🇭🇰 香港 | HKG 3
   - 🇭🇰 香港 | HKG
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -430,8 +490,9 @@ proxy-groups:
   proxies:
   - 🇺🇸 美国 | USA 11
   - 🇺🇸 美国 | USA 6
+  - 🇺🇸 美国 | USA 7
   - 🇺🇸 美国 | USA 3
-  - 🇺🇸 美国 | USA 5
+  - 🇺🇸 美国 | USA 10
   - 🇺🇸 美国 | USA 2
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -440,10 +501,11 @@ proxy-groups:
   proxies:
   - 🇩🇪DE德国丨yoyapai.com (12)
   - 🇳🇱 荷兰 | NLD
-  - 🇯🇵 日本 | JPN
+  - 🇮🇹 意大利 | ITA 3
   - 🇮🇹 意大利 | ITA 5
-  - 🇺🇸 美国 | USA 3
-  - 🇩🇪 德国 | DEU 3
+  - 🇺🇸 美国 | USA 2
+  - 🇮🇹 意大利 | ITA 2
+  - 🇯🇵 日本 | JPN
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
