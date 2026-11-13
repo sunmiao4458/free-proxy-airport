@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-11-13T18:00:12.149220+00:00'
+generated-at: '2026-11-13T23:27:38.581257+00:00'
 proxies:
 - name: 🇭🇰 香港 | HKG 2
   server: sijiache.hief.store
@@ -91,23 +91,15 @@ proxies:
   sni: hk.catxstar.com
   skip-cert-verify: true
   udp: true
-- type: vless
-  name: 🇩🇪DE德国丨yoyapai.com (37)
-  server: 45.129.242.56
-  port: 443
-  uuid: ebdfaf99-41d8-4e48-8196-d54510ffb556
-  flow: xtls-rprx-vision
-  udp: true
-  tls: true
-  servername: www.cloudflare.com
-  sni: www.cloudflare.com
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: YURKlEQ3rap4KOXXGsVFZyYev2oDU2gCEbNTXPdKWRY
-    short-id: abcdef
 - name: 🇮🇹 意大利 | ITA 8
   server: 202.50.253.54
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇮🇹 意大利 | ITA 2
+  server: 202.50.253.72
   port: 19999
   type: ss
   cipher: aes-256-gcm
@@ -127,8 +119,8 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
-- name: 🇮🇹 意大利 | ITA 2
-  server: 202.50.253.72
+- name: 🇮🇹 意大利 | ITA 4
+  server: 202.50.253.18
   port: 19999
   type: ss
   cipher: aes-256-gcm
@@ -148,33 +140,6 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: mobile.api.Event
-  udp: true
-- name: 🇳🇱 荷兰 | NLD
-  server: 104.171.135.229
-  port: 443
-  type: vless
-  uuid: Fluffy_VPN-Oth8rOq3
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: mpo4BIcoWiMXAQGt5a8IJ4MFkPJQyLC50dO_bXzC7z0
-  servername: absolute-disaster.org
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: 🇱🇹 立陶宛 | LTU
-  server: 84.32.51.250
-  port: 443
-  type: vless
-  uuid: a94d8907-6bbb-4570-80d3-dfdc314c1e7a
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: awc2TGvraH8xMqfsAnNQ7JMQ_uUF8gW5auvU2gQfjR0
-    short-id: b31de5bead2ebf3c
-  servername: lt.t1n2.com
-  client-fingerprint: firefox
-  network: tcp
   udp: true
 - name: 🇮🇹 意大利 | ITA 6
   server: 202.50.253.45
@@ -224,20 +189,6 @@ proxies:
     path: /assets/twru01/
     mode: auto
   udp: true
-- name: 🇩🇪 德国 | DEU 5
-  server: 178.214.125.1
-  port: 443
-  type: vless
-  uuid: 3f3160a0-747d-4fed-bf3d-4d884bfa964d
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: ZxCwJxbsZWJYYCPzeWj7_fxJMVhwh4XGfpvjmEIQjHY
-    short-id: 6172ba9cffe9c22f
-  servername: conf.emaar.ru
-  client-fingerprint: edge
-  network: tcp
-  udp: true
 - name: 🇧🇾 BY_17
   server: 196.196.148.63
   port: 443
@@ -262,19 +213,23 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇱🇹 立陶宛 | LTU 2
-  server: lt.t1n2.com
-  port: 443
-  type: vless
-  uuid: a94d8907-6bbb-4570-80d3-dfdc314c1e7a
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: awc2TGvraH8xMqfsAnNQ7JMQ_uUF8gW5auvU2gQfjR0
-    short-id: b31de5bead2ebf3c
-  servername: lt.t1n2.com
-  client-fingerprint: edge
-  network: tcp
+- name: 🇩🇪 德国 | DEU 8
+  server: 23.165.200.150
+  port: 52080
+  type: vmess
+  uuid: 672cdade-bb05-4c86-b578-e5d09b79524a
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /QQqun-737805443
+    headers:
+      Host:
+      - down-cdn.dingtalk.com
   udp: true
 - name: 🇮🇹 意大利 | ITA 5
   server: 202.50.253.27
@@ -299,13 +254,6 @@ proxies:
     headers:
       Host: falmero.store
   udp: true
-- name: 🇰🇷 韩国 | KOR
-  server: 3.39.252.190
-  port: 8443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  udp: true
 - type: ss
   name: ❓未知丨yoyapai.com (13)
   server: 202.50.253.36
@@ -315,38 +263,6 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: false
-- name: 🇳🇱 荷兰 | NLD 2
-  server: 201.51.11.65
-  port: 443
-  type: vless
-  uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: GiDgVRVYrTkv1mZJeFVWkr736Iey2kqLM6L0eUbffV8
-  servername: absolute-disaster.org
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: 🇩🇪 德国 | DEU 9
-  server: www.hyby.ir
-  port: 2087
-  type: vless
-  uuid: b6da1396-cfa7-421c-92b6-8bc947f0d308
-  tls: true
-  alpn:
-  - h3
-  - h2
-  - http/1.1
-  encryption: mlkem768x25519plus.native.0rtt.Fy1WuRvH1VNIEda4AC61jAhcBFLzuYHcwbUO7mNjxwY
-  servername: www.hyby.ir
-  client-fingerprint: chrome
-  network: xhttp
-  xhttp-opts:
-    path: /
-    host: www.hyby.ir
-    mode: auto
-  udp: true
 - name: 🇪🇸 西班牙 | ESP 2
   server: api.ferrin.uk
   port: 443
@@ -361,6 +277,39 @@ proxies:
     host: api.ferrin.uk
     mode: stream-one
   udp: true
+- type: vless
+  name: ❓未知丨yoyapai.com (21)
+  server: dey.lnmarketplace.net
+  port: 443
+  uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+  udp: true
+  tls: true
+  servername: dey.lnmarketplace.net
+  sni: dey.lnmarketplace.net
+  skip-cert-verify: false
+  alpn:
+  - h2
+  client-fingerprint: chrome
+  network: xhttp
+  xhttp-opts:
+    path: /kavir
+    host: dey.lnmarketplace.net
+    mode: stream-one
+- name: 🇩🇪 德国 | DEU
+  server: luminexorizon.ink
+  port: 443
+  type: vless
+  uuid: 4b50270b-5caf-4c34-b3da-17b4525604a6
+  tls: true
+  alpn:
+  - h2
+  servername: luminexorizon.ink
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: glush.de3.v1
+  udp: true
 - name: 🇱🇻 拉脱维亚 | LVA
   server: lv3.nexfile.net
   port: 4443
@@ -373,19 +322,6 @@ proxies:
   xhttp-opts:
     path: /api/v1/sync/
     host: lv3.nexfile.net
-    mode: auto
-  udp: true
-- name: 🇳🇱 荷兰 | NLD 3
-  server: 201.34.142.108
-  port: 443
-  type: vless
-  uuid: 4777d90d-265b-4927-a0d1-63f36ed1421c
-  tls: true
-  servername: 201.34.142.108
-  client-fingerprint: firefox
-  network: xhttp
-  xhttp-opts:
-    path: /assets/nlrelay01/
     mode: auto
   udp: true
 - type: vless
@@ -403,6 +339,33 @@ proxies:
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
+- name: 🇬🇪 GE_31
+  server: 194.135.119.82
+  port: 2053
+  type: vless
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  tls: true
+  servername: fs.qicai99.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fs.qicai99.com
+  udp: true
+- name: 🇳🇱 荷兰 | NLD 3
+  server: 201.34.142.108
+  port: 443
+  type: vless
+  uuid: 4777d90d-265b-4927-a0d1-63f36ed1421c
+  tls: true
+  servername: 201.34.142.108
+  client-fingerprint: firefox
+  network: xhttp
+  xhttp-opts:
+    path: /assets/nlrelay01/
+    mode: auto
+  udp: true
 - name: 🇧🇾 BY_18
   server: 79.182.39.131
   port: 443
@@ -418,19 +381,6 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: 204adda7e3da
-  udp: true
-- name: 🇳🇱 荷兰 | NLD 5
-  server: 72.56.38.83
-  port: 443
-  type: vless
-  uuid: Fluffy_VPN-zKZUa4Ie
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: ZzIetLcQtENjIXQ9XZqFo8p3J81p8Emj0wi51Uy07n8
-  servername: absolute-disaster.org
-  client-fingerprint: firefox
-  network: tcp
   udp: true
 - name: 🇮🇹 意大利 | ITA 3
   server: 202.50.253.63
@@ -470,33 +420,29 @@ proxy-groups:
   - 🇺🇸 美国 | USA 2
   - 🇮🇹IT意大利丨yoyapai.com (5)
   - 🇳🇬 尼日利亚 | NGA
-  - 🇩🇪DE德国丨yoyapai.com (37)
   - 🇮🇹 意大利 | ITA 8
-  - 🇩🇪 德国 | DEU 7
   - 🇮🇹 意大利 | ITA 2
+  - 🇩🇪 德国 | DEU 7
+  - 🇮🇹 意大利 | ITA 4
   - 🇷🇺 俄罗斯 | RUS 2
-  - 🇳🇱 荷兰 | NLD
-  - 🇱🇹 立陶宛 | LTU
   - 🇮🇹 意大利 | ITA 6
   - 🇱🇻LV拉脱维亚丨yoyapai.com
   - 🇷🇺 俄罗斯 | RUS
   - 🇩🇪 德国 | DEU 3
-  - 🇩🇪 德国 | DEU 5
   - 🇧🇾 BY_17
   - 🇮🇹 意大利 | ITA
-  - 🇱🇹 立陶宛 | LTU 2
+  - 🇩🇪 德国 | DEU 8
   - 🇮🇹 意大利 | ITA 5
   - 🇩🇪 德国 | DEU 4
-  - 🇰🇷 韩国 | KOR
   - ❓未知丨yoyapai.com (13)
-  - 🇳🇱 荷兰 | NLD 2
-  - 🇩🇪 德国 | DEU 9
   - 🇪🇸 西班牙 | ESP 2
+  - ❓未知丨yoyapai.com (21)
+  - 🇩🇪 德国 | DEU
   - 🇱🇻 拉脱维亚 | LVA
-  - 🇳🇱 荷兰 | NLD 3
   - 🇩🇪DE德国丨yoyapai.com (12)
+  - 🇬🇪 GE_31
+  - 🇳🇱 荷兰 | NLD 3
   - 🇧🇾 BY_18
-  - 🇳🇱 荷兰 | NLD 5
   - 🇮🇹 意大利 | ITA 3
   - 🇮🇹 意大利 | ITA 7
   - 🇪🇸 西班牙 | ESP
@@ -525,13 +471,12 @@ proxy-groups:
 - name: AI-POOL
   type: url-test
   proxies:
-  - 🇮🇹IT意大利丨yoyapai.com (5)
-  - 🇮🇹 意大利 | ITA
-  - 🇮🇹 意大利 | ITA 6
-  - ❓未知丨yoyapai.com (13)
+  - 🇩🇪DE德国丨yoyapai.com (12)
   - 🇮🇹 意大利 | ITA 8
-  - 🇰🇷 韩国 | KOR
-  - 🇮🇹 意大利 | ITA 5
+  - 🇮🇹 意大利 | ITA 7
+  - 🇮🇹 意大利 | ITA 2
+  - 🇮🇹 意大利 | ITA
+  - 🇮🇹 意大利 | ITA 4
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
