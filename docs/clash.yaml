@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-11-19T08:27:53.245396+00:00'
+generated-at: '2026-11-19T17:33:47.728063+00:00'
 proxies:
 - name: 🇭🇰 香港 | HKG
   server: 8.217.1.203
@@ -285,20 +285,6 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: false
-- name: 🇮🇹 意大利 | ITA 3
-  server: 202.50.253.54
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇮🇹 意大利 | ITA 7
-  server: 202.50.253.72
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
 - name: 🇳🇱 荷兰 | NLD 5
   server: 961ec0g.nl17.h1clayd.click
   port: 443
@@ -314,6 +300,20 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: 7d5abcd7d8a1
+  udp: true
+- name: 🇮🇹 意大利 | ITA 3
+  server: 202.50.253.54
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇮🇹 意大利 | ITA 7
+  server: 202.50.253.72
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
 - name: 🇩🇪 德国 | DEU 10
   server: 104.18.139.67
@@ -356,9 +356,9 @@ proxy-groups:
   - ❓未知丨yoyapai.com (6)
   - 🇬🇧 英国 | GBR
   - ❓未知丨yoyapai.com (8)
+  - 🇳🇱 荷兰 | NLD 5
   - 🇮🇹 意大利 | ITA 3
   - 🇮🇹 意大利 | ITA 7
-  - 🇳🇱 荷兰 | NLD 5
   - 🇩🇪 德国 | DEU 10
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -387,11 +387,11 @@ proxy-groups:
 - name: AI-POOL
   type: url-test
   proxies:
-  - 🇮🇹 意大利 | ITA
-  - 🇮🇹 意大利 | ITA 3
-  - ❓未知丨yoyapai.com (8)
-  - ❓未知丨yoyapai.com (9)
-  - 🇩🇪 德国 | DEU 8
+  - 🇭🇰 香港 | HKG
+  - 🇺🇸 美国 | USA 3
+  - 🇳🇱 荷兰 | NLD 7
+  - 🇩🇪 德国 | DEU 7
+  - 🇮🇹 意大利 | ITA 2
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
