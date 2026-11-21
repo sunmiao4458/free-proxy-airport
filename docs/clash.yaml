@@ -7,61 +7,22 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-11-20T22:57:31.816418+00:00'
+generated-at: '2026-11-21T03:48:59.981891+00:00'
 proxies:
 - name: 🇭🇰 香港 | HKG 2
-  server: 8.217.1.203
-  port: 8443
-  type: vless
-  uuid: 8b17beac-b143-447d-aa68-14cbb121a602
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: 74P0QFvaK6B13rHsxR_t0lqRlg4YLuORD4VaHr5Jd38
-    short-id: 0bf55f64
-  servername: www.apple.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
-- name: 🇭🇰 香港 | HKG 3
-  server: 47.242.81.94
-  port: 52080
+  server: 47.244.120.197
+  port: 44867
   type: vmess
-  uuid: e47b9f77-60e4-4738-8d53-772b6002e146
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
   alterId: 0
   cipher: auto
   tls: false
   alpn:
   - ''
   skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /QQqun-737805443
-    headers:
-      Host:
-      - openai.com
-  udp: true
-- name: 🇸🇬 新加坡 | SGP
-  server: 168.138.177.98
-  port: 56927
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: c11JMfCMQ3Y4aGlhMX5LrMpM13uvw+UVbjGfHP+eKkY=
-- name: 🇺🇸 美国 | USA 4
-  server: 192.220.13.168
-  port: 443
-  type: vless
-  uuid: 1a21796e-49d4-4e01-8abf-c0d25a12c492
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: zRg53DF3cybEnltwJQoKzR9AtwfzmbneSImpaJeQS3I
-    short-id: 9873b6a3
-  servername: swdist.apple.com
-  client-fingerprint: chrome
-  network: tcp
+  network: ws
+  ws-opts:
+    path: /arki
   udp: true
 - name: 🇺🇸 美国 | USA 3
   server: 188.114.98.0
@@ -79,7 +40,7 @@ proxies:
     host: norway.xn--nlqaa425dbaab446bbabd698meae.online
     mode: auto
   udp: true
-- name: 🇺🇸 美国 | USA 5
+- name: 🇺🇸 美国 | USA 4
   server: 192.74.236.148
   port: 30004
   type: vmess
@@ -94,21 +55,55 @@ proxies:
     headers:
       Host: www.91334565.xyz
   udp: true
-- name: 🇮🇹 意大利 | ITA 8
-  server: 202.50.253.99
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸 美国 | USA 2
+  server: germanyafterpool.fun
+  port: 443
+  type: hysteria2
+  password: 9a9f167d-b461-466f-be50-f0ffd598a6f8
+  auth: 9a9f167d-b461-466f-be50-f0ffd598a6f8
+  sni: germanyafterpool.fun
+  skip-cert-verify: true
+- name: 🇩🇪 德国 | DEU 18
+  server: 5.42.102.162
+  port: 443
+  type: vless
+  uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
+  tls: true
+  servername: morningfen.merlano.monster
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: glush.de1.v1
   udp: true
-- name: 🇮🇹 意大利 | ITA 2
-  server: 202.50.253.27
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇩🇪 德国 | DEU 2
+  server: 109.106.15.99
+  port: 443
+  type: vless
+  uuid: bc93a03d-13b5-0004-8ee7-d50c11459dab
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
+    short-id: 1c3e8241a8743df9
+  servername: key-master-saver.com
+  client-fingerprint: chrome
+  network: tcp
   udp: true
-- name: 🇷🇺 俄罗斯 | RUS 2
+- name: 🇷🇺 俄罗斯 | RUS 6
+  server: 194.87.131.9
+  port: 443
+  type: vless
+  uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
+  tls: true
+  servername: sunstone.elvano.website
+  client-fingerprint: firefox
+  network: xhttp
+  xhttp-opts:
+    path: /api/de2/sync
+    host: driftwood.elvano.website
+  udp: true
+- name: 🇷🇺 俄罗斯 | RUS 4
   server: 201.51.12.98
   port: 443
   type: vless
@@ -121,21 +116,176 @@ proxies:
     grpc-mode: gun
     grpc-service-name: mobile.api.Event
   udp: true
-- name: 🇮🇹 意大利 | ITA 4
+- name: 🇳🇬 尼日利亚 | NGA
+  server: sclass-b1.catcat321.com
+  port: 20051
+  type: trojan
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  sni: hk.catxstar.com
+  skip-cert-verify: true
+  udp: true
+- name: 🇩🇪 德国 | DEU 7
+  server: 104.18.138.67
+  port: 443
+  type: vless
+  uuid: 0280c276-641b-49af-b699-4931c30ac137
+  tls: true
+  alpn:
+  - h2
+  servername: norway.xn--nlqaa425dbaab446bbabd698meae.online.
+  client-fingerprint: chrome
+  network: xhttp
+  xhttp-opts:
+    path: /api
+    host: norway.xn--nlqaa425dbaab446bbabd698meae.online
+    mode: auto
+  udp: true
+- name: 🇮🇹 意大利 | ITA 10
+  server: 202.50.253.27
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇮🇹 意大利 | ITA 8
   server: 202.50.253.54
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
+- name: 🇮🇹 意大利 | ITA 2
+  server: 202.50.253.72
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇩🇪 德国 | DEU 16
+  server: orchard.elvano.website
+  port: 443
+  type: vless
+  uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
+  tls: true
+  alpn:
+  - h2
+  - http/1.1
+  servername: orchard.elvano.website
+  client-fingerprint: safari
+  network: xhttp
+  xhttp-opts:
+    path: /api/de1/sync
+    host: orchard.elvano.website
+    mode: auto
+  udp: true
+- name: 🇮🇹 意大利 | ITA 4
+  server: 202.50.253.45
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇷🇺 俄罗斯 | RUS 2
+  server: srv-17e124.21freedom.net
+  port: 11592
+  type: hysteria2
+  password: 41edb44c8e
+  auth: 41edb44c8e
+  sni: srv-17e124.21freedom.net
+  skip-cert-verify: true
 - name: 🇳🇱 荷兰 | NLD
-  server: 158.178.157.15
+  server: 196.245.52.183
+  port: 443
+  type: vless
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  tls: true
+  reality-opts:
+    public-key: jIRVNEf9SpuWP2nJrAbHGGIUnfzOmwZZlrNGw-Y-O2Q
+    short-id: 2d2598d60447a967
+  servername: e60833x.nl7.h1clayd.click
+  client-fingerprint: firefox
+  network: xhttp
+  xhttp-opts:
+    path: /d20896a4ce30
+    host: e60833x.nl7.h1clayd.click
+  udp: true
+- name: 🇳🇱 荷兰 | NLD 4
+  server: 141.148.243.126
   port: 45819
   type: ss
   cipher: 2022-blake3-chacha20-poly1305
-  password: Lqb/eLDa4LnfF6j965FkZEXTWkH65B083ivjy0xFpiI=
+  password: 7mxLVm0/qr6Fq1P7IXBvCJ9PUzdNkuUIQkiBWnz8EpA=
   udp: true
 - name: 🇷🇺 俄罗斯 | RUS 3
+  server: 103.88.243.142
+  port: 11592
+  type: hysteria2
+  password: 41edb44c8e
+  auth: 41edb44c8e
+  sni: srv-17e124.21freedom.net
+  skip-cert-verify: true
+- name: 🇮🇹 意大利 | ITA 6
+  server: 202.50.253.99
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇹🇼 🇨🇳 台湾 | TWN
+  server: dp8yk.xiaoyan.io
+  port: 16616
+  type: vmess
+  uuid: 904f0569-8695-466f-97cf-0de2face1b46
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
+  udp: true
+- name: 🇷🇺 俄罗斯 | RUS
+  server: 201.24.116.192
+  port: 443
+  type: vless
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+  tls: true
+  servername: vps3.nemnogogo.com
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: mobile.api.Event
+  udp: true
+- name: 🇩🇪 德国 | DEU 3
+  server: 104.18.141.67
+  port: 443
+  type: vless
+  uuid: 0280c276-641b-49af-b699-4931c30ac137
+  tls: true
+  alpn:
+  - h2
+  servername: norway.xn--nlqaa425dbaab446bbabd698meae.online.
+  client-fingerprint: ios
+  network: xhttp
+  xhttp-opts:
+    path: /api
+    host: norway.xn--nlqaa425dbaab446bbabd698meae.online
+  udp: true
+- name: 🇩🇪 德国 | DEU 5
+  server: 185.125.50.21
+  port: 2053
+  type: vless
+  uuid: fbe22815-0718-4eae-816f-e91c67d15b54
+  tls: true
+  flow: xtls-rprx-vision
+  servername: 185.125.50.21
+  client-fingerprint: firefox
+  network: tcp
+  udp: true
+- name: 🇩🇪 德国 | DEU 19
   server: sunfield.moltex.click
   port: 443
   type: vless
@@ -152,14 +302,44 @@ proxies:
     host: sunfield.moltex.click
     mode: auto
   udp: true
-- name: 🇮🇹 意大利 | ITA 6
-  server: 202.50.253.72
-  port: 19999
+- name: 🇩🇪 德国 | DEU 15
+  server: 47.254.128.109
+  port: 443
   type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   udp: true
-- name: 🇷🇺 俄罗斯 | RUS
+- name: 🇩🇪 德国 | DEU 20
+  server: linen.filnex.baby
+  port: 443
+  type: vless
+  uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
+  tls: true
+  alpn:
+  - http/1.1
+  servername: cinderbrook.elvano.website
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /api/de2/stream
+    headers:
+      Host: linen.filnex.baby
+  udp: true
+- name: 🇩🇪 德国 | DEU 17
+  server: pigment.merlano.monster
+  port: 443
+  type: vless
+  uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
+  tls: true
+  servername: pigment.merlano.monster
+  client-fingerprint: firefox
+  network: xhttp
+  xhttp-opts:
+    path: /api/de2/sync
+    host: pigment.merlano.monster
+    mode: auto
+  udp: true
+- name: 🇩🇪 德国 | DEU 6
   server: 176.98.176.60
   port: 443
   type: vless
@@ -173,16 +353,58 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
-- type: ss
-  name: 🇮🇹IT意大利丨yoyapai.com
-  server: 202.50.253.45
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
 - name: 🇮🇹 意大利 | ITA
+  server: 202.50.253.90
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇩🇪 德国 | DEU 8
+  server: 3.120.145.15
+  port: 41018
+  type: hysteria2
+  password: 5s7qa8f78hznlw8g
+  auth: 5s7qa8f78hznlw8g
+  sni: quotes.ali-khamenei.world
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: v0qq015d7c8zgzu7
+- name: 🇩🇪 德国 | DEU 11
+  server: 201.24.122.189
+  port: 443
+  type: vless
+  uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
+  tls: true
+  servername: wheatfield.elvano.website
+  client-fingerprint: chrome
+  network: xhttp
+  xhttp-opts:
+    path: /api/de1/sync
+    host: orchard.elvano.website
+    mode: auto
+  udp: true
+- name: 🇨🇭 瑞士 | CHE
+  server: 179.43.140.24
+  port: 42831
+  type: vmess
+  uuid: a925a98c-ad7a-40c6-9fdf-130a1de69416
+  alterId: 0
+  cipher: auto
+  tls: false
+  alpn:
+  - ''
+  skip-cert-verify: true
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /3x
+    headers:
+      Host:
+      - down-cdn.dingtalk.com
+  udp: true
+- name: 🇮🇹 意大利 | ITA 5
   server: 202.50.253.18
   port: 19999
   type: ss
@@ -204,25 +426,71 @@ proxies:
     grpc-mode: gun
     grpc-service-name: mobile.api.Event
   udp: true
-- name: 🇮🇹 意大利 | ITA 5
-  server: 202.50.253.63
+- name: 🇩🇪 德国 | DEU 14
+  server: 47.254.167.157
+  port: 443
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  udp: true
+- name: 🇩🇪 德国 | DEU 13
+  server: ledger.filnex.baby
+  port: 443
+  type: vless
+  uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
+  tls: true
+  alpn:
+  - h2
+  servername: copperdell.merlano.monster
+  client-fingerprint: edge
+  network: grpc
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: glush.de2.v1
+  udp: true
+- name: 🇮🇹 意大利 | ITA 9
+  server: 202.50.253.36
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
+- name: 🇸🇪 瑞典 | SWE
+  server: 150.241.74.160
+  port: 30443
+  type: hysteria2
+  password: 917f4b0a-8b3b-404c-aa60-b47e83a33e8f
+  auth: 917f4b0a-8b3b-404c-aa60-b47e83a33e8f
+  sni: tll.nikomy.uk
+  skip-cert-verify: true
 - name: 🇩🇪 德国 | DEU 4
-  server: 193.160.208.240
+  server: willow.filnex.baby
   port: 443
   type: vless
-  uuid: 4777d90d-265b-4927-a0d1-63f36ed1421c
+  uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
   tls: true
-  servername: 193.160.208.240
+  alpn:
+  - http/1.1
+  servername: willowcroft.moltex.click
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /api/de1/stream
+    headers:
+      Host: willow.filnex.baby
+  udp: true
+- name: 🇧🇾 BY_23
+  server: 136.234.9.19
+  port: 443
+  type: vless
+  uuid: d92038b6-b470-4267-9c69-2c649bf3f4a4
+  tls: true
+  reality-opts:
+    public-key: 43bHrvqzL5Sw8lvtDSE3LAlp_0WbixVc7nYcAf17bhg
+    short-id: 16b6715de8577aaa
+  servername: 8ba6c3t.nl2.h1clayd.click
   client-fingerprint: firefox
-  network: xhttp
-  xhttp-opts:
-    path: /assets/twru01/
-    mode: auto
+  network: tcp
   udp: true
 - name: 🇳🇱 荷兰 | NLD 6
   server: 201.34.142.108
@@ -236,125 +504,240 @@ proxies:
     path: /assets/nlrelay01/
     mode: auto
   udp: true
+- name: 🇩🇪 德国 | DEU 9
+  server: 104.18.140.67
+  port: 443
+  type: vless
+  uuid: 0280c276-641b-49af-b699-4931c30ac137
+  tls: true
+  alpn:
+  - h2
+  servername: norway.xn--nlqaa425dbaab446bbabd698meae.online.
+  client-fingerprint: edge
+  network: xhttp
+  xhttp-opts:
+    path: /api
+    host: norway.xn--nlqaa425dbaab446bbabd698meae.online
+  udp: true
+- name: 🇳🇱 荷兰 | NLD 2
+  server: 196.196.148.63
+  port: 443
+  type: vless
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  tls: true
+  reality-opts:
+    public-key: PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU
+    short-id: d3bd772514c87d28
+  servername: 717252g.nl8.h1clayd.click
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: 204adda7e3da
+  udp: true
 - name: 🇩🇪 德国 | DEU
-  server: static.28.210.29.2.clients.your-server.de
-  port: 25565
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: C8ZJ7R4p_HHJ32cst7ilT-0Zi2F22hAc
+  server: 193.160.208.240
+  port: 443
+  type: vless
+  uuid: 4777d90d-265b-4927-a0d1-63f36ed1421c
+  tls: true
+  servername: 193.160.208.240
+  client-fingerprint: firefox
+  network: xhttp
+  xhttp-opts:
+    path: /assets/twru01/
+    mode: auto
   udp: true
-- type: ss
-  name: ❓未知丨yoyapai.com (7)
-  server: 202.50.253.81
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
+- name: 🇱🇻 拉脱维亚 | LVA
+  server: 185.220.223.78
+  port: 443
+  type: vless
+  uuid: 70f1696c-8b82-4614-9c1e-8ec21201684d
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: wEJIqlLqor9Z_LMHvcsXh5FSoKMz3NbbcORwPDBgbhw
+    short-id: 5a8e1a04f3d92b67
+  servername: lv.meltun.org
+  client-fingerprint: safari
+  network: tcp
   udp: true
-  tls: false
-  skip-cert-verify: false
 - name: 🇳🇱 荷兰 | NLD 3
-  server: 84.235.170.154
-  port: 45819
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: hZ3VbN592JZsuzZ9ou+pGOBFMSRGBiSVczJFghcRaEY=
+  server: 45.43.153.33
+  port: 443
+  type: vless
+  uuid: d6752c6b-80ae-4a91-b446-bb330f7f8177
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: _0fpFqEEuCso3B8K7AAcMjctwG_xfCxO2PdKzGd_-hg
+    short-id: 88a13cf2655c
+  servername: www.foxsports.com
+  client-fingerprint: firefox
+  network: tcp
+  udp: true
+- name: 🇬🇧 英国 | GBR
+  server: 136.148.83.69
+  port: 443
+  type: vless
+  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
+  tls: true
+  servername: szqbx-ru-77dc.my-fade.cloud
+  client-fingerprint: qq
+  network: tcp
+  udp: true
+- name: 🇩🇪 德国 | DEU 12
+  server: vellum.merlano.monster
+  port: 443
+  type: vless
+  uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
+  tls: true
+  alpn:
+  - http/1.1
+  servername: sequoia.merlano.monster
+  client-fingerprint: android
+  network: ws
+  ws-opts:
+    path: /api/de1/stream
+    headers:
+      Host: vellum.merlano.monster
   udp: true
 - name: 🇮🇹 意大利 | ITA 3
-  server: 202.50.253.36
+  server: 202.50.253.81
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
 - name: 🇮🇹 意大利 | ITA 7
-  server: 202.50.253.90
+  server: 202.50.253.63
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
 - name: 🇳🇱 荷兰 | NLD 5
-  server: 185.14.29.29
+  server: 104.171.135.229
   port: 443
   type: vless
-  uuid: 6b1607f1-3a08-4681-8abd-83663a8155e7
+  uuid: Fluffy_VPN-Oth8rOq3
   tls: true
+  flow: xtls-rprx-vision
   reality-opts:
-    public-key: bPxKgZHO13GJGKjbHz0BVnsw8UIcOjz2yz8VCgGv5BI
-    short-id: 6fce2d08
-  servername: static.gcore.pro
+    public-key: mpo4BIcoWiMXAQGt5a8IJ4MFkPJQyLC50dO_bXzC7z0
+  servername: absolute-disaster.org
   client-fingerprint: chrome
-  network: xhttp
-  xhttp-opts:
-    path: /js/libs
-    host: static.gcore.pro
-    mode: auto
+  network: tcp
+  udp: true
+- name: 🇩🇪 德国 | DEU 10
+  server: 129.101.109.129
+  port: 443
+  type: vless
+  uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
+  tls: true
+  servername: copperdell.merlano.monster
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: glush.de2.v1
   udp: true
 proxy-groups:
 - name: AUTO-FAST
   type: url-test
   proxies:
   - 🇭🇰 香港 | HKG 2
-  - 🇭🇰 香港 | HKG 3
-  - 🇸🇬 新加坡 | SGP
-  - 🇺🇸 美国 | USA 4
   - 🇺🇸 美国 | USA 3
-  - 🇺🇸 美国 | USA 5
+  - 🇺🇸 美国 | USA 4
+  - 🇺🇸 美国 | USA 2
+  - 🇩🇪 德国 | DEU 18
+  - 🇩🇪 德国 | DEU 2
+  - 🇷🇺 俄罗斯 | RUS 6
+  - 🇷🇺 俄罗斯 | RUS 4
+  - 🇳🇬 尼日利亚 | NGA
+  - 🇩🇪 德国 | DEU 7
+  - 🇮🇹 意大利 | ITA 10
   - 🇮🇹 意大利 | ITA 8
   - 🇮🇹 意大利 | ITA 2
-  - 🇷🇺 俄罗斯 | RUS 2
+  - 🇩🇪 德国 | DEU 16
   - 🇮🇹 意大利 | ITA 4
+  - 🇷🇺 俄罗斯 | RUS 2
   - 🇳🇱 荷兰 | NLD
+  - 🇳🇱 荷兰 | NLD 4
   - 🇷🇺 俄罗斯 | RUS 3
   - 🇮🇹 意大利 | ITA 6
+  - 🇹🇼 🇨🇳 台湾 | TWN
   - 🇷🇺 俄罗斯 | RUS
-  - 🇮🇹IT意大利丨yoyapai.com
+  - 🇩🇪 德国 | DEU 3
+  - 🇩🇪 德国 | DEU 5
+  - 🇩🇪 德国 | DEU 19
+  - 🇩🇪 德国 | DEU 15
+  - 🇩🇪 德国 | DEU 20
+  - 🇩🇪 德国 | DEU 17
+  - 🇩🇪 德国 | DEU 6
   - 🇮🇹 意大利 | ITA
-  - 🇷🇺 俄罗斯 | RUS 5
+  - 🇩🇪 德国 | DEU 8
+  - 🇩🇪 德国 | DEU 11
+  - 🇨🇭 瑞士 | CHE
   - 🇮🇹 意大利 | ITA 5
+  - 🇷🇺 俄罗斯 | RUS 5
+  - 🇩🇪 德国 | DEU 14
+  - 🇩🇪 德国 | DEU 13
+  - 🇮🇹 意大利 | ITA 9
+  - 🇸🇪 瑞典 | SWE
   - 🇩🇪 德国 | DEU 4
+  - 🇧🇾 BY_23
   - 🇳🇱 荷兰 | NLD 6
+  - 🇩🇪 德国 | DEU 9
+  - 🇳🇱 荷兰 | NLD 2
   - 🇩🇪 德国 | DEU
-  - ❓未知丨yoyapai.com (7)
+  - 🇱🇻 拉脱维亚 | LVA
   - 🇳🇱 荷兰 | NLD 3
+  - 🇬🇧 英国 | GBR
+  - 🇩🇪 德国 | DEU 12
   - 🇮🇹 意大利 | ITA 3
   - 🇮🇹 意大利 | ITA 7
   - 🇳🇱 荷兰 | NLD 5
+  - 🇩🇪 德国 | DEU 10
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: HK-POOL
   type: url-test
   proxies:
   - 🇭🇰 香港 | HKG 2
-  - 🇭🇰 香港 | HKG 3
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: JP-POOL
   type: url-test
   proxies:
   - 🇭🇰 香港 | HKG 2
-  - 🇭🇰 香港 | HKG 3
-  - 🇸🇬 新加坡 | SGP
-  - 🇺🇸 美国 | USA 4
   - 🇺🇸 美国 | USA 3
+  - 🇺🇸 美国 | USA 4
+  - 🇺🇸 美国 | USA 2
+  - 🇩🇪 德国 | DEU 18
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: US-POOL
   type: url-test
   proxies:
-  - 🇺🇸 美国 | USA 4
   - 🇺🇸 美国 | USA 3
-  - 🇺🇸 美国 | USA 5
+  - 🇺🇸 美国 | USA 4
+  - 🇺🇸 美国 | USA 2
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: AI-POOL
   type: url-test
   proxies:
-  - 🇺🇸 美国 | USA 4
-  - 🇺🇸 美国 | USA 5
-  - 🇭🇰 香港 | HKG 3
+  - 🇩🇪 德国 | DEU 14
+  - 🇩🇪 德国 | DEU 15
+  - 🇮🇹 意大利 | ITA 7
+  - 🇮🇹 意大利 | ITA 10
+  - 🇮🇹 意大利 | ITA 4
   - 🇮🇹 意大利 | ITA 2
+  - 🇮🇹 意大利 | ITA 6
   - 🇮🇹 意大利 | ITA
+  - 🇮🇹 意大利 | ITA 8
+  - 🇮🇹 意大利 | ITA 9
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
