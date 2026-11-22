@@ -7,8 +7,28 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-11-21T19:38:19.766691+00:00'
+generated-at: '2026-11-22T00:04:26.932588+00:00'
 proxies:
+- name: 🇭🇰 香港 | HKG 2
+  server: 47.242.81.94
+  port: 52080
+  type: vmess
+  uuid: e47b9f77-60e4-4738-8d53-772b6002e146
+  alterId: 0
+  cipher: auto
+  tls: false
+  alpn:
+  - ''
+  skip-cert-verify: true
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /QQqun-737805443
+    headers:
+      Host:
+      - openai.com
+  udp: true
 - name: 🇯🇵 日本 | JPN 2
   server: d1eyz.xiaoyan.io
   port: 16617
@@ -26,6 +46,21 @@ proxies:
     headers:
       Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
   udp: true
+- type: vless
+  name: 🇯🇵JP日本丨yoyapai.com (2)
+  server: 38.47.96.220
+  port: 11424
+  uuid: 1d16c6e0-1bbe-435b-b661-90043fee999c
+  udp: true
+  tls: true
+  servername: notls.lukongtou.eu.org
+  sni: notls.lukongtou.eu.org
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: Telegram-WangCai2🇨🇳
+    headers:
+      Host: notls.lukongtou.eu.org
 - name: 🇭🇰 香港 | HKG
   server: 8.217.1.203
   port: 8443
@@ -43,6 +78,23 @@ proxies:
 - name: 🇯🇵 日本 | JPN
   server: afzuv.xiaoyan.io
   port: 16617
+  type: vmess
+  uuid: 904f0569-8695-466f-97cf-0de2face1b46
+  alterId: 0
+  cipher: auto
+  tls: false
+  alpn:
+  - ''
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
+  udp: true
+- name: 🇺🇸 美国 | USA 11
+  server: afzuv.xiaoyan.io
+  port: 16648
   type: vmess
   uuid: 904f0569-8695-466f-97cf-0de2face1b46
   alterId: 0
@@ -75,38 +127,6 @@ proxies:
       Host:
       - mmsc.vnet.mobi
   udp: true
-- name: 🇺🇸 美国 | USA 11
-  server: afzuv.xiaoyan.io
-  port: 16648
-  type: vmess
-  uuid: 904f0569-8695-466f-97cf-0de2face1b46
-  alterId: 0
-  cipher: auto
-  tls: false
-  alpn:
-  - ''
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
-  udp: true
-- name: 🇺🇸 美国 | USA 7
-  server: 107.174.133.115
-  port: 52080
-  type: vmess
-  uuid: e7fb8bc6-5e0a-4e64-86cc-eb0ddd7ef4dd
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /QQqun-737805443
-  udp: true
 - name: 🇺🇸 美国 | USA 8
   server: 192.204.58.87
   port: 2053
@@ -123,6 +143,21 @@ proxies:
     method: GET
     path:
     - /3x
+  udp: true
+- name: 🇺🇸 美国 | USA 7
+  server: 107.174.133.115
+  port: 52080
+  type: vmess
+  uuid: e7fb8bc6-5e0a-4e64-86cc-eb0ddd7ef4dd
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /QQqun-737805443
   udp: true
 - name: 🇺🇸 美国 | USA 3
   server: 217.69.174.175
@@ -158,21 +193,6 @@ proxies:
   uuid: c657310e-d87c-4358-9cb7-200a0c3f35e8
   tls: false
   network: tcp
-  udp: true
-- name: 🇺🇸 美国 | USA 10
-  server: 192.74.236.148
-  port: 30004
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /path/1733477783705
-    headers:
-      Host: www.91334565.xyz
   udp: true
 - name: 🇺🇸 美国 | USA
   server: 162.35.101.177
@@ -239,6 +259,13 @@ proxies:
   sni: hk.catxstar.com
   skip-cert-verify: true
   udp: true
+- name: 🇮🇹 意大利 | ITA 8
+  server: 202.50.253.90
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
 - name: 🇮🇹 意大利 | ITA 2
   server: 202.50.253.27
   port: 19999
@@ -246,8 +273,8 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇮🇹 意大利 | ITA 8
-  server: 202.50.253.90
+- name: 🇮🇹 意大利 | ITA 4
+  server: 202.50.253.54
   port: 19999
   type: ss
   cipher: aes-256-gcm
@@ -265,13 +292,6 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: mobile.api.Event
-  udp: true
-- name: 🇮🇹 意大利 | ITA 4
-  server: 202.50.253.54
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
 - name: 🇨🇳 CN_39
   server: sclass-01.catcat321.com
@@ -295,6 +315,22 @@ proxies:
   xhttp-opts:
     path: /
     mode: auto
+  udp: true
+- name: 🇳🇱 荷兰 | NLD
+  server: 196.196.148.63
+  port: 443
+  type: vless
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  tls: true
+  reality-opts:
+    public-key: PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU
+    short-id: d3bd772514c87d28
+  servername: 717252g.nl8.h1clayd.click
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: 204adda7e3da
   udp: true
 - name: 🇷🇺 俄罗斯 | RUS 3
   server: 201.51.12.98
@@ -324,6 +360,15 @@ proxies:
   auth: 41edb44c8e
   sni: srv-17e124.21freedom.net
   skip-cert-verify: true
+- type: ss
+  name: 🇮🇹IT意大利丨yoyapai.com
+  server: 202.50.253.45
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
 - name: 🇩🇪 德国 | DEU 3
   server: 193.160.208.240
   port: 443
@@ -337,15 +382,6 @@ proxies:
     path: /assets/twru01/
     mode: auto
   udp: true
-- type: ss
-  name: 🇮🇹IT意大利丨yoyapai.com
-  server: 202.50.253.45
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
 - name: 🇮🇹 意大利 | ITA
   server: 202.50.253.18
   port: 19999
@@ -387,6 +423,20 @@ proxies:
   ws-opts:
     path: /vless-kulo
   udp: true
+- name: 🇳🇱 荷兰 | NLD 2
+  server: 48.102.173.24
+  port: 444
+  type: vless
+  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
+  tls: true
+  servername: neplay603.gangtype.com
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /stream/updates/a66d7902
+    headers:
+      Host: neplay603.gangtype.com
+  udp: true
 - name: 🇮🇩 印尼 | IDN
   server: afzuv.xiaoyan.io
   port: 16616
@@ -403,20 +453,6 @@ proxies:
     path: /
     headers:
       Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
-  udp: true
-- name: 🇳🇱 荷兰 | NLD 2
-  server: 48.102.173.24
-  port: 444
-  type: vless
-  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
-  tls: true
-  servername: neplay603.gangtype.com
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /stream/updates/a66d7902
-    headers:
-      Host: neplay603.gangtype.com
   udp: true
 - name: 🇳🇱 荷兰 | NLD 3
   server: 48.102.205.89
@@ -442,15 +478,15 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇮🇹 意大利 | ITA 7
-  server: 202.50.253.81
+- name: 🇮🇹 意大利 | ITA 3
+  server: 202.50.253.36
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇮🇹 意大利 | ITA 3
-  server: 202.50.253.36
+- name: 🇮🇹 意大利 | ITA 7
+  server: 202.50.253.81
   port: 19999
   type: ss
   cipher: aes-256-gcm
@@ -460,49 +496,52 @@ proxy-groups:
 - name: AUTO-FAST
   type: url-test
   proxies:
+  - 🇭🇰 香港 | HKG 2
   - 🇯🇵 日本 | JPN 2
+  - 🇯🇵JP日本丨yoyapai.com (2)
   - 🇭🇰 香港 | HKG
   - 🇯🇵 日本 | JPN
-  - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA 11
-  - 🇺🇸 美国 | USA 7
+  - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA 8
+  - 🇺🇸 美国 | USA 7
   - 🇺🇸 美国 | USA 3
   - 🇺🇸 美国 | USA 4
   - 🇺🇸 美国 | USA 5
-  - 🇺🇸 美国 | USA 10
   - 🇺🇸 美国 | USA
   - 🇺🇸 美国 | USA 12
   - 🇺🇸 美国 | USA 2
   - 🇩🇪 德国 | DEU 2
   - 🇳🇬 尼日利亚 | NGA
-  - 🇮🇹 意大利 | ITA 2
   - 🇮🇹 意大利 | ITA 8
-  - 🇷🇺 俄罗斯 | RUS 2
+  - 🇮🇹 意大利 | ITA 2
   - 🇮🇹 意大利 | ITA 4
+  - 🇷🇺 俄罗斯 | RUS 2
   - 🇨🇳 CN_39
   - 🇳🇱 荷兰 | NLD 4
+  - 🇳🇱 荷兰 | NLD
   - 🇷🇺 俄罗斯 | RUS 3
   - 🇮🇹 意大利 | ITA 6
   - 🇷🇺 俄罗斯 | RUS
-  - 🇩🇪 德国 | DEU 3
   - 🇮🇹IT意大利丨yoyapai.com
+  - 🇩🇪 德国 | DEU 3
   - 🇮🇹 意大利 | ITA
   - 🇮🇹 意大利 | ITA 5
   - 🇮🇹 意大利 | ITA 9
   - 🇬🇧 英国 | GBR 2
   - 🇫🇷 法国 | FRA
-  - 🇮🇩 印尼 | IDN
   - 🇳🇱 荷兰 | NLD 2
+  - 🇮🇩 印尼 | IDN
   - 🇳🇱 荷兰 | NLD 3
   - 🇬🇧 英国 | GBR
-  - 🇮🇹 意大利 | ITA 7
   - 🇮🇹 意大利 | ITA 3
+  - 🇮🇹 意大利 | ITA 7
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: HK-POOL
   type: url-test
   proxies:
+  - 🇭🇰 香港 | HKG 2
   - 🇭🇰 香港 | HKG
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -510,20 +549,20 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇯🇵 日本 | JPN 2
+  - 🇯🇵JP日本丨yoyapai.com (2)
   - 🇯🇵 日本 | JPN
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: US-POOL
   type: url-test
   proxies:
-  - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA 11
-  - 🇺🇸 美国 | USA 7
+  - 🇺🇸 美国 | USA 9
   - 🇺🇸 美国 | USA 8
+  - 🇺🇸 美国 | USA 7
   - 🇺🇸 美国 | USA 3
   - 🇺🇸 美国 | USA 4
   - 🇺🇸 美国 | USA 5
-  - 🇺🇸 美国 | USA 10
   - 🇺🇸 美国 | USA
   - 🇺🇸 美国 | USA 12
   - 🇺🇸 美国 | USA 2
@@ -534,11 +573,12 @@ proxy-groups:
   proxies:
   - 🇺🇸 美国 | USA 7
   - 🇺🇸 美国 | USA 9
-  - 🇺🇸 美国 | USA 10
   - 🇺🇸 美国 | USA 8
-  - 🇮🇹 意大利 | ITA 7
-  - 🇮🇹 意大利 | ITA 5
-  - 🇺🇸 美国 | USA 5
+  - 🇭🇰 香港 | HKG 2
+  - 🇮🇹 意大利 | ITA 6
+  - 🇮🇹 意大利 | ITA 8
+  - 🇮🇹 意大利 | ITA 2
+  - 🇮🇹 意大利 | ITA 4
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
