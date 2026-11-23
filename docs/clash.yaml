@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-11-22T21:30:44.124254+00:00'
+generated-at: '2026-11-23T01:56:30.827857+00:00'
 proxies:
 - name: 🇸🇬 新加坡 | SGP 5
   server: bgsg2.hikigo.com
@@ -189,15 +189,6 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- type: ss
-  name: 🇮🇹IT意大利丨yoyapai.com (4)
-  server: 202.50.253.54
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
 - name: 🇷🇺 俄罗斯 | RUS
   server: 201.24.116.192
   port: 443
@@ -211,6 +202,15 @@ proxies:
     grpc-mode: gun
     grpc-service-name: mobile.api.Event
   udp: true
+- type: ss
+  name: 🇮🇹IT意大利丨yoyapai.com (4)
+  server: 202.50.253.54
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
 - type: ss
   name: 🇮🇹IT意大利丨yoyapai.com
   server: 202.50.253.45
@@ -242,13 +242,6 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
-- name: 🇮🇹 意大利 | ITA
-  server: 202.50.253.63
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
 - name: 🇩🇪 德国 | DEU 8
   server: a3de.supertoolify.com
   port: 443
@@ -263,6 +256,13 @@ proxies:
   - h3
   obfs: salamander
   obfs-password: ivnbamaxvp0dqblk
+  udp: true
+- name: 🇮🇹 意大利 | ITA
+  server: 202.50.253.63
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
 - name: 🇹🇼 🇨🇳 台湾 | TWN 2
   server: 161.114.15.215
@@ -375,13 +375,13 @@ proxy-groups:
   - 🇮🇹 意大利 | ITA 4
   - 🇳🇱 荷兰 | NLD
   - 🇮🇹 意大利 | ITA 6
-  - 🇮🇹IT意大利丨yoyapai.com (4)
   - 🇷🇺 俄罗斯 | RUS
+  - 🇮🇹IT意大利丨yoyapai.com (4)
   - 🇮🇹IT意大利丨yoyapai.com
   - 🇩🇪 德国 | DEU 5
   - 🇵🇱 波兰 | POL
-  - 🇮🇹 意大利 | ITA
   - 🇩🇪 德国 | DEU 8
+  - 🇮🇹 意大利 | ITA
   - 🇹🇼 🇨🇳 台湾 | TWN 2
   - 🇮🇹 意大利 | ITA 5
   - 🇩🇪 德国 | DEU 14
@@ -421,12 +421,12 @@ proxy-groups:
 - name: AI-POOL
   type: url-test
   proxies:
-  - 🇺🇸 美国 | USA 2
-  - 🇩🇪 德国 | DEU 5
-  - 🇮🇹 意大利 | ITA 6
-  - 🇮🇹IT意大利丨yoyapai.com
-  - 🇮🇹IT意大利丨yoyapai.com (4)
-  - 🇰🇷 韩国 | KOR 2
+  - 🇸🇬 新加坡 | SGP 5
+  - 🇯🇵 日本 | JPN 3
+  - 🇸🇬 新加坡 | SGP 6
+  - 🇯🇵 日本 | JPN
+  - 🇸🇬 新加坡 | SGP 4
+  - 🇺🇸 美国 | USA 4
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
